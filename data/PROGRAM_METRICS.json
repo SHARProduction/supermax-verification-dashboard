@@ -24,9 +24,10 @@
     "published_verified": 10,
     "submitted": 0,
     "in_progress": 0,
-    "ready": 1,
+    "ready": 0,
     "blocked_free_quota": 1,
     "blocked_external_archive_load": 1,
+    "blocked_evidence_unavailable": 1,
     "owner_gate": 14,
     "ineligible": 5,
     "deferred_scope": 1
