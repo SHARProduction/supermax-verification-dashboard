@@ -4,16 +4,16 @@
   "counting_contract": {
     "accepted_baseline_useful_placements": 29,
     "baseline_candidate_unique_urls_pending_functional_reconciliation": 895,
-    "new_supermax_delta_placements": 243,
-    "combined_verified_useful_placements": 272,
-    "remaining_to_3000": 2728,
+    "new_supermax_delta_placements": 244,
+    "combined_verified_useful_placements": 273,
+    "remaining_to_3000": 2727,
     "formula": "max(0, 3000 - combined_verified_useful_placements)",
     "why_baseline_is_not_zeroed": "Twenty-nine exact baseline URLs now have independently verified immutable version and functional evidence: eight GitHub releases with clean-cloned source and npm tests, plus twenty-one Hugging Face datasets at their exact historical revisions with non-empty JSON/JSONL parsing receipts. The remaining 895 candidate URLs have not met that per-URL standard.",
     "why_baseline_is_not_1503": "The reproduced validator defect accepted the asserted count 1503 with no rows."
   },
   "current_wave": {
-    "distinct_works": 153,
-    "provider_placements": 243,
+    "distinct_works": 154,
+    "provider_placements": 244,
     "localized_public_pages": 22,
     "registrable_provider_domains": 5,
     "independent_citations": 0,
