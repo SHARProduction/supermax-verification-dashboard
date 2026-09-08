@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T23:45:00Z",
-  "counted_placements": 692,
+  "generated_at": "2026-09-09T00:00:00.000Z",
+  "counted_placements": 693,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12738,6 +12738,27 @@
         "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
         "source_function_test": "production-metadata-mcp source suite passed 2/2 on 2026-09-08",
         "content": "read-only local MCP validation for rights-aware production metadata manifests"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.software-heritage.production-metadata-mcp.snapshot-461d4c1",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "Software Heritage",
+      "provider_ecosystem": "software-heritage",
+      "url": "https://archive.softwareheritage.org/browse/snapshot/461d4c1a33a8858483c5001c215557e61461513f/directory/",
+      "source": "external-archive-request",
+      "verified_at": "2026-09-09T00:00:00Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "browser_rendered": true,
+        "provider_independent_of_official_registry": true,
+        "direct_provider_publication": true,
+        "immutable_swhid": "swh:1:snp:461d4c1a33a8858483c5001c215557e61461513f",
+        "origin_url": "https://github.com/SHARProduction/production-metadata-mcp.git",
+        "source_commit": "511863a5be1b5d1738dba2b8b31bfdb31cbc6593",
+        "source_function_test": "production-metadata-mcp source suite passed 3/3 on 2026-09-09",
+        "functional_check": "Official Save Code Now request 2467250 reports succeeded/full; snapshot API and public immutable snapshot directory were HTTP 200 and linked the origin and snapshot SWHID."
       }
     }
   ]

@@ -770,14 +770,15 @@
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
       "submitted_at": "2026-09-09T00:00:00.000Z",
-      "status": "PENDING",
+      "status": "PUBLISHED_VERIFIED",
       "submission_kind": "SOFTWARE_SOURCE_ARCHIVE_REQUEST",
-      "evidence": "Official Save Code Now API accepted request 2467250 for the public GitHub origin. At record time, save_task_status=pending and snapshot_swhid=null; a public snapshot and immutable SWHID are required before counting.",
+      "evidence": "Official Save Code Now request 2467250 succeeded with a full visit and immutable snapshot swh:1:snp:461d4c1a33a8858483c5001c215557e61461513f. The public origin and snapshot pages plus snapshot API were HTTP 200 and resolve to the source commit.",
       "evidence_url": "https://archive.softwareheritage.org/api/1/origin/save/2467250/",
-      "counts_as_published_verified": false,
-      "counts_as_independent_provider_ecosystem": false,
-      "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-10T00:00:00.000Z"
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "recheck_after": "2026-10-09T00:00:00.000Z",
+      "public_url": "https://archive.softwareheritage.org/browse/snapshot/461d4c1a33a8858483c5001c215557e61461513f/directory/"
     }
   ]
 }
