@@ -3742,6 +3742,21 @@
         "kind": "live_provider_submission_page",
         "note": "Provider states Registry-listed servers sync automatically and non-registry servers are considered manually. SHAR is already in the Official MCP Registry, so a future appearance is discovery representation only and must not count as independent upstream acceptance."
       }
+    },
+    {
+      "provider": "Agent Skills",
+      "provider_domain": "agentskills.in",
+      "homepage": "https://www.agentskills.in/",
+      "submission_url": "https://www.agentskills.in/",
+      "source_catalog": "live public Agent Skills submission form 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "READY_TO_SUBMIT_PUBLIC_REPO_ONLY",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:37:00Z",
+      "evidence": {
+        "kind": "live_browser_form",
+        "note": "Public form accepts only a GitHub repository URL and states it scans SKILL.md files. Existing public production-metadata-mcp repository contains the factual SHAR Production metadata-validation skill. URL is prefilled; no submission or listing is claimed."
+      }
     }
   ]
 }
