@@ -3131,6 +3131,21 @@
         "kind": "officially-distributed_submission_cli_live_result",
         "note": "mcp-submit detected the versioned SHAR MCP as eligible and then returned `MCPCentral API integration pending`; no API request, receipt, public card, or placement was created."
       }
+    },
+    {
+      "provider": "awesome-mcp-servers (appcypher)",
+      "provider_domain": "github.com",
+      "homepage": "https://github.com/appcypher/awesome-mcp-servers",
+      "submission_url": "https://github.com/appcypher/awesome-mcp-servers",
+      "source_catalog": "mcp-submit CLI candidate plus GitHub API repository metadata live check 2026-09-08",
+      "asset_fit": "INELIGIBLE_ARCHIVED_UPSTREAM",
+      "status": "INELIGIBLE_ARCHIVED_UPSTREAM",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:23:36.062Z",
+      "evidence": {
+        "kind": "GitHub_repository_metadata",
+        "note": "mcp-submit advertised this list as ready, but GitHub API reports archived: true. No PR was created."
+      }
     }
   ]
 }
