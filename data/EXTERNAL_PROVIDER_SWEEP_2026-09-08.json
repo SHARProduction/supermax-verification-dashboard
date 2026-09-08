@@ -2891,6 +2891,21 @@
         "kind": "official_form_client",
         "note": "The free directory accepts a real open-source tool but its official POST /api/v1/submit requires a Turnstile token. No CAPTCHA was bypassed; no submission exists."
       }
+    },
+    {
+      "provider": "DataTrain.AI",
+      "provider_domain": "datatrain.ai",
+      "homepage": "https://www.datatrain.ai/",
+      "submission_url": "https://www.datatrain.ai/submit/",
+      "source_catalog": "live official form, dataset API validation and submission receipt 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:35:00Z",
+      "evidence": {
+        "kind": "official_dataset_submission_form_receipt",
+        "note": "The existing public SHARProduction/rights-labelled-conformance-corpus dataset was first verified as CC-BY 4.0, bilingual and public through the Hugging Face API. The free official form then returned a pending-review success receipt. No DataTrain public listing exists yet."
+      }
     }
   ]
 }

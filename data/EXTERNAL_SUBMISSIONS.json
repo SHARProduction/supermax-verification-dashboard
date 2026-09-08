@@ -547,6 +547,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.datatrain.rights-labelled-conformance-corpus",
+      "provider": "DataTrain.AI",
+      "provider_domain": "datatrain.ai",
+      "asset": "rights-labelled-conformance-corpus",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/rights-labelled-conformance-corpus",
+      "submitted_at": "2026-09-09T00:35:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_DATASET_DIRECTORY_SUBMISSION",
+      "evidence": "Official WordPress form POST returned HTTP 200 and rendered exact receipt: 'Thanks! Your submission is pending review and will appear once approved.' The existing public CC-BY 4.0 bilingual synthetic dataset was submitted. Public listing and independent editorial acceptance are still required before counting.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T00:00:00Z"
     }
   ]
 }
