@@ -54,7 +54,7 @@
     "blocked_external_archive_load": 1,
     "blocked_evidence_unavailable": 1,
     "owner_gate": 14,
-    "ineligible": 7,
+    "ineligible": 8,
     "deferred_scope": 1
   }
 }

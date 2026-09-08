@@ -2402,13 +2402,13 @@
       "homepage": "https://findmcp.dev",
       "submission_url": "https://findmcp.dev/",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "INELIGIBLE_NO_CURRENT_SUBMISSION_ROUTE",
+      "asset_fit": "INELIGIBLE_NO_CURRENT_PUBLISHED_NPM_PYPI_OR_DOCKER_PACKAGE",
+      "status": "INELIGIBLE_CURRENT_PACKAGE_REQUIREMENT",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T20:15:00Z",
+      "checked_at": "2026-09-08T18:49:00Z",
       "evidence": {
-        "kind": "live_provider_rules_and_source_verification",
-        "note": "Live public directory exposes search and references an external MCP finder, but no documented owner submission route for the current stdio asset was found."
+        "kind": "live_official_contributing_rules_and_source_metadata",
+        "note": "MCPFind accepts a GitHub PR route, but its current rules require a public GitHub repo, OSS license, README, callable MCP tool, and a package already published to npm, PyPI, or Docker. The SHAR server satisfies the source/tool requirements and is published to JSR, which is not an accepted package type; no public npm, PyPI, or Docker image was evidenced. Do not submit a PR until a naturally useful accepted package distribution exists."
       }
     },
     {
