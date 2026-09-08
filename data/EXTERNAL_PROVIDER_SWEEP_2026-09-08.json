@@ -3101,6 +3101,21 @@
         "kind": "live_cdx_api_availability",
         "note": "The public CDX endpoint for sharprod.com returned Internet Archive Temporarily Offline. No snapshot request, archive receipt, or public snapshot URL was created; retry only after service availability changes."
       }
+    },
+    {
+      "provider": "VibeCodingList",
+      "provider_domain": "vibecodinglist.com",
+      "homepage": "https://vibecodinglist.com/",
+      "submission_url": "https://vibecodinglist.com/me/developer",
+      "source_catalog": "Agent Reach Exa discovery and official vcl CLI live check 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "OWNER_GATE_FREE_API_KEY",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:19:18.124Z",
+      "evidence": {
+        "kind": "official_cli_live_auth_check",
+        "note": "The official vcl client identifies the service as VibeCodingList and requires a developer API key for submissions. `vcl whoami --json` returned No API key found and directs account creation to /me/developer. No project was submitted or counted."
+      }
     }
   ]
 }
