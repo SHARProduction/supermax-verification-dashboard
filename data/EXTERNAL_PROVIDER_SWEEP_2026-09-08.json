@@ -3832,6 +3832,23 @@
         "kind": "live_official_publish_page",
         "note": "Free registry accepts SKILL.md source/file upload after sign-in and safety review. No account or submission exists."
       }
+    },
+    {
+      "provider": "Agent Skills Hub",
+      "provider_domain": "agentskillshub.top",
+      "homepage": "https://agentskillshub.top/",
+      "submission_url": "https://agentskillshub.top/api/submit-skill",
+      "source_catalog": "Live deployed API revalidation and public upstream source route 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "PROVIDER_DEPLOYMENT_API_NONFUNCTIONAL",
+      "counts_as_placement": false,
+      "http_status": 405,
+      "final_url": "https://agentskillshub.top/api/submit-skill",
+      "checked_at": "2026-09-09T02:15:00Z",
+      "evidence": {
+        "kind": "live_deployed_api_revalidation",
+        "note": "Public upstream source documents POST /api/submit-skill with repo_url. The currently deployed endpoint returned HTTP 405 to the documented POST request for the public SHAR skill repository. No account, submission receipt or listing exists; do not retry or count without changed provider evidence."
+      }
     }
   ]
 }
