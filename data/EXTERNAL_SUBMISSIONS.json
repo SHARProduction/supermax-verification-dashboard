@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T14:16:00Z",
+  "generated_at": "2026-09-08T14:20:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -128,6 +128,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-10-06T14:16:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcprepository.production-metadata-mcp",
+      "provider": "MCPRepository",
+      "provider_domain": "mcprepository.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T14:20:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_VALIDATION_QUEUE",
+      "evidence": "POST https://mcprepository.com/api/index returned HTTP 200 valid true, duplicate false, status queued; expected URL https://mcprepository.com/sharproduction/production-metadata-mcp.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-10T14:20:00Z"
     }
   ]
 }
