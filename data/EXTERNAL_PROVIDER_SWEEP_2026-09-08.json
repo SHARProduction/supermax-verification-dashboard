@@ -2245,7 +2245,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "OWNER_GATE_GOOGLE_AUTH",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://goodaitools.com/submit",
@@ -2255,7 +2255,11 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:50:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_submission_route_screen",
+        "note": "Live submit page is free but requires sign-in through /api/auth/google?redirect=/submit. No account session or submission was created."
+      }
     },
     {
       "provider": "GPT Academy",
@@ -2270,7 +2274,7 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "INELIGIBLE_PAID_ONLY",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.gptacademy.co/submit",
@@ -2280,7 +2284,11 @@
         "login": false,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:50:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_submission_route_screen",
+        "note": "The live form success action redirects to Stripe Checkout https://buy.stripe.com/00g02P1Opadk0qAcMN."
+      }
     },
     {
       "provider": "Gpt Forge",
