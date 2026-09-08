@@ -2337,10 +2337,10 @@
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
       "status": "ACCOUNT_CREATION_READY",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T18:10:00Z",
+      "checked_at": "2026-09-08T18:20:00Z",
       "evidence": {
-        "kind": "web_search_and_live_browser",
-        "note": "Live form offers free human-reviewed submission and Google/email sign-in."
+        "kind": "live_browser",
+        "note": "Free human-reviewed repository submission requires Google or email sign-in."
       }
     },
     {
@@ -2410,12 +2410,12 @@
       "submission_url": "https://bestofai.io/submit/",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
+      "status": "ACCOUNT_CREATION_READY",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T18:10:00Z",
+      "checked_at": "2026-09-08T18:20:00Z",
       "evidence": {
-        "kind": "web_search_and_live_browser",
-        "note": "Discovered by current Exa search; free reviewed listing reported."
+        "kind": "live_browser",
+        "note": "Free reviewed listing requires Google sign-in before form is enabled."
       }
     },
     {
