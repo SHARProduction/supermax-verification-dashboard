@@ -688,6 +688,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-15T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.vpifg.shar-production-studio",
+      "provider": "Virtual Production Indie Film Guide external OSS contribution",
+      "provider_domain": "github.com",
+      "asset": "SHAR Production virtual-production studio page",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://sharprod.com/en/capabilities/",
+      "submitted_at": "2026-09-08T20:37:27Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
+      "evidence": "Public PR https://github.com/JakeGWater/vpifg.com/pull/61 adds one factual SHAR Production studio page to the upstream Virtual Production Indie Film Guide. It limits claims to public virtual-production, LED workflow, CGI/3D, supervision and post-production capabilities and explicitly states that SHAR does not claim an owned LED volume. Maintainer merge, CLA acceptance, upstream build success and public vpifg.com rendering are required before counting.",
+      "evidence_url": "https://github.com/JakeGWater/vpifg.com/pull/61",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T20:37:27Z"
     }
   ]
 }
