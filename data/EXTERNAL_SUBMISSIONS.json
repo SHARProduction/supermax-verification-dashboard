@@ -662,7 +662,7 @@
       "submitted_at": "2026-09-08T19:20:00Z",
       "status": "SUBMITTED",
       "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
-      "evidence": "Public PR https://github.com/opensource-observer/oss-directory/pull/1242 adds one schema-minimal project record with verified MIT source, actual SHAR homepage and public GitHub URL. Maintainer merge and upstream data publication are required before counting.",
+      "evidence": "Public PR https://github.com/opensource-observer/oss-directory/pull/1242 adds one schema-minimal project record with verified MIT source, actual SHAR homepage and public GitHub URL. Maintainer merge and upstream data publication are required before counting. Recheck 2026-09-08: Validate PR is SUCCESS; the separate validate check is ACTION_REQUIRED solely because upstream requires a repo admin to run /validate on the latest commit.",
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
