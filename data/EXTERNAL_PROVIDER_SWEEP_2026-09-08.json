@@ -2447,6 +2447,36 @@
         "kind": "live_browser",
         "note": "Free listing is available but dashboard requires Google or GitHub sign-in; signing in creates account."
       }
+    },
+    {
+      "provider": "MCP Agent Directory",
+      "provider_domain": "mcpagents.ai",
+      "homepage": "https://mcpagents.ai",
+      "submission_url": "https://mcpagents.ai/submit",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "counts_as_placement": true,
+      "status": "PUBLISHED_VERIFIED",
+      "checked_at": "2026-09-08T18:55:00Z",
+      "evidence": {
+        "kind": "direct_provider_api",
+        "note": "Public API listing https://mcpagents.ai/api/agents/1124 returned full published SHAR record."
+      }
+    },
+    {
+      "provider": "MyMCPTools",
+      "provider_domain": "mymcptools.vercel.app",
+      "homepage": "https://mymcptools.vercel.app",
+      "submission_url": "https://mymcptools.vercel.app/submit",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "counts_as_placement": false,
+      "status": "SUBMITTED",
+      "checked_at": "2026-09-08T18:55:00Z",
+      "evidence": {
+        "kind": "direct_provider_api",
+        "note": "Free endpoint POST /api/submit returned {success:true}; review expected in 24-48 hours."
+      }
     }
   ]
 }
