@@ -3849,6 +3849,21 @@
         "kind": "live_deployed_api_revalidation",
         "note": "Public upstream source documents POST /api/submit-skill with repo_url. The currently deployed endpoint returned HTTP 405 to the documented POST request for the public SHAR skill repository. No account, submission receipt or listing exists; do not retry or count without changed provider evidence."
       }
+    },
+    {
+      "provider": "OpenAgentSkill",
+      "provider_domain": "openagentskill.com",
+      "homepage": "https://openagentskill.com/",
+      "submission_url": "https://openagentskill.com/submit",
+      "source_catalog": "Live public submit page via Agent Reach web route 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "READY_FORM_REQUIRES_REPRESENTATIONAL_CONFIRMATION",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T02:25:00Z",
+      "evidence": {
+        "kind": "live_public_submission_page",
+        "note": "Free public form accepts a GitHub repository, subdirectory, or SKILL.md URL; zero-star skills are explicitly accepted and only a valid SKILL.md is required. It saves to a community review queue, and a listing is not public acceptance until reviewed. Existing SHAR SKILL.md fits. No external form submission or receipt exists."
+      }
     }
   ]
 }
