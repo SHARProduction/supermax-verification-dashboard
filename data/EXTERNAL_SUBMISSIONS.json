@@ -564,6 +564,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.opensourcestartups.production-metadata-linter",
+      "provider": "OpenSourceStartups",
+      "provider_domain": "opensourcestartups.com",
+      "asset": "production-metadata-linter",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-linter",
+      "submitted_at": "2026-09-09T00:40:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_OPEN_SOURCE_DIRECTORY_SUBMISSION",
+      "evidence": "Official POST /api/projects returned HTTP 201 with pending project ID cmtt07zuu000drancz84jrcw8. The existing public MIT local CLI was submitted with an accurate Developer Tools description. Public listing and independent editorial acceptance are still required before counting.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T00:00:00Z"
     }
   ]
 }

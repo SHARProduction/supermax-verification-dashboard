@@ -2906,6 +2906,21 @@
         "kind": "official_dataset_submission_form_receipt",
         "note": "The existing public SHARProduction/rights-labelled-conformance-corpus dataset was first verified as CC-BY 4.0, bilingual and public through the Hugging Face API. The free official form then returned a pending-review success receipt. No DataTrain public listing exists yet."
       }
+    },
+    {
+      "provider": "OpenSourceStartups",
+      "provider_domain": "opensourcestartups.com",
+      "homepage": "https://www.opensourcestartups.com/",
+      "submission_url": "https://www.opensourcestartups.com/submit",
+      "source_catalog": "live official form client and API submission receipt 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:40:00Z",
+      "evidence": {
+        "kind": "official_anonymous_submission_api_receipt",
+        "note": "The free official API returned HTTP 201 with a pending project object for the existing public MIT production-metadata-linter CLI. No public listing exists yet."
+      }
     }
   ]
 }
