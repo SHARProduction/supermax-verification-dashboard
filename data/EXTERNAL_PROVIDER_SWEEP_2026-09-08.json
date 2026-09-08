@@ -2717,6 +2717,21 @@
         "kind": "official_provider_docs_and_live_browser_registration",
         "note": "Official n8n guidance routes template-library submissions through Creator Hub. A useful n8n production-metadata release-gate workflow is already public and functionally tested. Live Creator Hub registration is open in tab 98 but current CUA runtime cannot type into browser forms. No account or submission exists yet."
       }
+    },
+    {
+      "provider": "Chocolatey Community Repository",
+      "provider_domain": "community.chocolatey.org",
+      "homepage": "https://community.chocolatey.org/",
+      "submission_url": "https://community.chocolatey.org/account/Register",
+      "source_catalog": "official Chocolatey package and moderation documentation plus live registration check 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "OWNER_GATE_RECAPTCHA_REGISTRATION",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T23:00:00Z",
+      "evidence": {
+        "kind": "official_provider_docs_live_registration_and_versioned_source_package",
+        "note": "A legitimate portable package definition for the existing Windows CLI is publicly committed at GitHub commit 1c747f45248e7738071187426433ca8e5753902c. Local archive/metadata/install-contract verification passed. Community registration is free but its Register action is protected by reCAPTCHA; no account, API key, upload or public package exists."
+      }
     }
   ]
 }
