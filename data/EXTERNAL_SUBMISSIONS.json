@@ -160,11 +160,13 @@
       "submitted_at": "2026-09-08T14:15:58Z",
       "status": "SUBMITTED",
       "submission_kind": "DIRECTORY_MANUAL_REVIEW",
-      "evidence": "POST JSON-RPC tools/call submit_mcp_server to https://allmcps.com/api/mcp returned server ID shar-production-metadata-mcp with status pending (manual review & verification); public URL returned HTTP 200 but exposed pending status.",
+      "evidence": "POST JSON-RPC tools/call submit_mcp_server to https://allmcps.com/api/mcp created server ID shar-production-metadata-mcp. Public listing https://allmcps.com/mcp/shar-production-metadata-mcp is HTTP 200 and links SHAR Production/source, but it generates a false npx shar-production-metadata-mcp install snippet for a package that npm registry returns 404. Correction filed at https://github.com/Jackalope-Dev/allmcps-server/issues/2; retain SUBMITTED and do not count until install metadata is corrected.",
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-10T14:15:58Z"
+      "recheck_after": "2026-09-10T17:30:00Z",
+      "public_candidate_url": "https://allmcps.com/mcp/shar-production-metadata-mcp",
+      "metadata_correction_issue": "https://github.com/Jackalope-Dev/allmcps-server/issues/2"
     },
     {
       "submission_id": "supermax.submission.gitfind.production-metadata-mcp",
