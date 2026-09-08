@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-09-08T13:18:00.000Z",
+  "submissions": [
+    {
+      "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
+      "provider": "MCP.Directory",
+      "provider_domain": "mcp.directory",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T13:18:00.000Z",
+      "status": "SUBMITTED",
+      "evidence": "MCP.Directory confirmation page: Server Submitted! We will review your server and publish it within 24 hours.",
+      "counts_as_published_verified": false,
+      "recheck_after": "2026-09-09T13:18:00.000Z"
+    }
+  ]
+}
