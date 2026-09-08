@@ -3513,7 +3513,7 @@
       "checked_at": "2026-09-09T00:00:00Z",
       "evidence": {
         "kind": "prepared_unsubmitted_registry_entry",
-        "note": "The SHAR source has a public MIT Dockerfile and passes its Node test suite. A pinned Docker Registry entry plus static tools.json were prepared locally. Docker Registry requires Go validation and a Docker build; Go is unavailable and Docker Desktop daemon is stopped. No external PR was created and no registry placement is claimed."
+        "note": "The SHAR source has a public MIT Dockerfile and passes its Node test suite. A pinned Docker Registry entry plus static tools.json were prepared locally. Docker Registry requires Go validation and a Docker build; Go is unavailable and Docker Desktop daemon is stopped. No external PR was created and no registry placement is claimed. Rechecked GitHub Packages API: the available token scopes are gist, read:org, repo, workflow and GitHub returned HTTP 403 requiring read:packages even to inspect the SHARProduction container; therefore it cannot change package visibility or verify a public image."
       }
     },
     {
