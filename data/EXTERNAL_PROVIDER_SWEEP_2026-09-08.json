@@ -2468,13 +2468,13 @@
       "homepage": "https://toolsdk.ai",
       "submission_url": "https://github.com/toolsdk-ai/toolsdk-mcp-registry",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "asset_fit": "CONDITIONAL_PUBLIC_PACKAGE_OR_DOCKER_IMAGE_REQUIRED",
       "status": "OWNER_GATE_PUBLIC_CONTAINER_REQUIRED",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T20:15:00Z",
+      "checked_at": "2026-09-09T00:00:00Z",
       "evidence": {
-        "kind": "live_provider_rules_and_source_verification",
-        "note": "Registry contribution requires a publicly verifiable package or Docker image. Current OCI image exists but GHCR visibility is private; wait for public visibility before preparing a truthful registry PR."
+        "kind": "official_contribution_rule_and_package_scope_check",
+        "note": "Live rules accept one registry JSON PR only for a public package, public Docker image, or public HTTPS remote endpoint. The SHAR MCP is public on JSR but has no public npm package, Docker image, or remote endpoint. GitHub Packages API also returned HTTP 403 because the available token lacks read:packages, so public OCI visibility cannot be verified or changed. No misleading entry or PR was created."
       }
     },
     {
