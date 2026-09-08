@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T22:45:03.598Z",
+  "generated_at": "2026-09-08T23:50:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -964,6 +964,24 @@
       "recheck_after": "2026-09-10T02:15:00Z",
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/"
+    },
+    {
+      "submission_id": "supermax.submission.alltoolsdirectory.production-metadata-mcp",
+      "provider": "AllToolsDirectory",
+      "provider_domain": "alltoolsdirectory.com",
+      "asset": "SHAR Production Metadata MCP v1.0.4",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T23:50:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_MCP_DIRECTORY_PUBLIC_API",
+      "evidence": "POST https://www.alltoolsdirectory.com/api/submit-tool returned HTTP 200 with message Tool submitted successfully. The factual free submission identifies the MIT-licensed local stdio MCP, its public source, SHAR Production attribution and sharprod.com. No account, paid tier, or unverified claim was used.",
+      "evidence_url": "https://www.alltoolsdirectory.com/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-11T23:50:00Z"
     }
   ]
 }
