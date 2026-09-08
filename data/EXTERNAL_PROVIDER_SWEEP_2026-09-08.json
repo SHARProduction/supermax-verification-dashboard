@@ -2642,6 +2642,21 @@
         "kind": "live_provider_html_and_client_code",
         "note": "Current site exposes only a name/email early-access form, not an MCP-server submission route."
       }
+    },
+    {
+      "provider": "MCP Market",
+      "provider_domain": "mcpmarket.com",
+      "homepage": "https://mcpmarket.com/",
+      "submission_url": "https://mcpmarket.com/submit",
+      "source_catalog": "live authenticated-browser verification 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "BROWSER_FORM_INTERACTION_REQUIRED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T21:25:00Z",
+      "evidence": {
+        "kind": "live_browser_form",
+        "note": "The live MCP submission page exposes an explicit Free Queue: $0, standard placement, stated 4-6 week review. Current CUA runtime can open/read browser pages but does not expose type/click methods, so the required GitHub URL/email form has not been submitted. Paid $29 option was not selected."
+      }
     }
   ]
 }
