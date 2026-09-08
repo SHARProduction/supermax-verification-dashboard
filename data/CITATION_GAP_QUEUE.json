@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "purpose": "Evidence-led queue of independent commercial or topical pages where SHAR is not currently mentioned. Queue entries are candidates, not claims of ranking or AI citation.",
-  "updated_at": "2026-09-09T01:05:00Z",
+  "updated_at": "2026-09-09T04:00:00Z",
   "items": [
     {
       "id": "citation-gap.studiolist.best-ai-video-studios-2026",
@@ -37,7 +37,13 @@
         "cases_index": "https://sharprod.com/#cases",
         "evidence": "The public SHAR homepage exposes a 2026 showreel and named cases: WINLAB, KINAESTHETIC, CLICK CITY, ИЛЮХИН ГРОБ and ЛУКОЙЛ; it also states AI/CGI/hybrid production services, client names and awards.",
         "checked_at": "2026-09-09T01:05:00Z"
-      }
+      },
+      "query": "best AI video studios; AI video production studio",
+      "registrable_domain": "studiolist.co",
+      "authority_estimate": "HIGH_RELEVANCE_CURATED_DIRECTORY",
+      "ai_search_relevance": "TOPICALLY_RELEVANT; actual AI citation/ranking not measured",
+      "contact_submission_route": "https://studiolist.co/get-listed/",
+      "commercial_relevance": "HIGH"
     },
     {
       "id": "citation-gap.retainable.best-video-production-agencies-ai-companies-2026",
@@ -74,7 +80,13 @@
         "cases_index": "https://sharprod.com/#cases",
         "evidence": "The public SHAR homepage exposes a 2026 showreel and named cases: WINLAB, KINAESTHETIC, CLICK CITY, ИЛЮХИН ГРОБ and ЛУКОЙЛ; it also states AI/CGI/hybrid production services, client names and awards.",
         "checked_at": "2026-09-09T01:05:00Z"
-      }
+      },
+      "query": "best video production agencies for AI companies",
+      "registrable_domain": "retainable.com",
+      "authority_estimate": "MEDIUM_RELEVANCE_EDITORIAL",
+      "ai_search_relevance": "TOPICALLY_RELEVANT; actual AI citation/ranking not measured",
+      "contact_submission_route": "UNKNOWN_PUBLIC_ROUTE_REQUIRES_REVIEW",
+      "commercial_relevance": "HIGH"
     },
     {
       "id": "citation-gap.awesomic.best-ai-video-production-agencies-2026",
@@ -103,7 +115,13 @@
         "cases_index": "https://sharprod.com/#cases",
         "evidence": "The public SHAR homepage exposes a 2026 showreel and named cases: WINLAB, KINAESTHETIC, CLICK CITY, ИЛЮХИН ГРОБ and ЛУКОЙЛ; it also states AI/CGI/hybrid production services, client names and awards.",
         "checked_at": "2026-09-09T01:05:00Z"
-      }
+      },
+      "query": "best AI video production agencies",
+      "registrable_domain": "awesomic.com",
+      "authority_estimate": "MEDIUM_RELEVANCE_EDITORIAL",
+      "ai_search_relevance": "TOPICALLY_RELEVANT; actual AI citation/ranking not measured",
+      "contact_submission_route": "UNKNOWN_PUBLIC_ROUTE_REQUIRES_REVIEW",
+      "commercial_relevance": "HIGH"
     }
   ]
 }

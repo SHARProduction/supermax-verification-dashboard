@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-09T04:00:00Z",
+  "counting_boundary": "Third-party public authority only. SHAR-controlled properties, submissions, mirrors, search snippets and unverified claims are excluded.",
+  "allowed_types": [
+    "external_editorial_mention",
+    "external_backlink",
+    "external_maintainer_acceptance",
+    "external_research_citation",
+    "external_dataset_citation",
+    "external_youtube_mention",
+    "external_podcast_mention",
+    "external_partner_mention",
+    "external_client_mention",
+    "external_forum_recommendation",
+    "external_listicle_inclusion",
+    "external_case_study",
+    "external_industry_directory_acceptance"
+  ],
+  "metrics": {
+    "known_verified_records": 0,
+    "independent_authority_domains_observed": null,
+    "independent_mentions_observed": null,
+    "independent_backlinks_observed": null,
+    "independent_citations_observed": null,
+    "ai_citations_observed": null,
+    "ai_recommendations_observed": null,
+    "observed_adoption": null,
+    "commercial_referrals": null
+  },
+  "records": []
+}

@@ -60,7 +60,7 @@
     "blocked_provider_org_access": 0,
     "blocked_external_archive_load": 1,
     "blocked_evidence_unavailable": 1,
-    "owner_gate": 23,
+    "owner_gate": 24,
     "ineligible": 14,
     "deferred_scope": 1,
     "pending": 0,
