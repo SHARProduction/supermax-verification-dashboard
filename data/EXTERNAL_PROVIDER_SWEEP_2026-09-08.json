@@ -3075,7 +3075,7 @@
       "checked_at": "2026-09-09T00:00:00Z",
       "evidence": {
         "kind": "native_npm_cli_and_live_web_login",
-        "note": "Rechecked native npm CLI: npm whoami returned ENEEDAUTH. npm view confirms both @sharproduction/production-metadata-mcp and unscoped shar-production-metadata-mcp are absent from the public npm registry. No account session, publish, receipt, or public package exists."
+        "note": "Rechecked native npm CLI: npm whoami returned ENEEDAUTH. npm view confirms both @sharproduction/production-metadata-mcp and unscoped shar-production-metadata-mcp are absent from the public npm registry. A clean detached clone of public commit 511863a5be1b5d1738dba2b8b31bfdb31cbc6593 at v1.0.4 passed npm ci, all 3 functional tests, and npm pack --dry-run with 0 vulnerabilities. Publish is ready immediately after owner npm authentication."
       }
     },
     {
