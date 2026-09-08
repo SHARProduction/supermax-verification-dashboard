@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T00:12:00Z",
+  "as_of": "2026-09-09T00:13:02Z",
   "counting_contract": {
     "accepted_baseline_useful_placements": 537,
     "baseline_candidate_unique_urls_pending_functional_reconciliation": 201,
-    "new_supermax_delta_placements": 696,
-    "combined_verified_useful_placements": 1233,
-    "remaining_to_3000": 1767,
+    "new_supermax_delta_placements": 698,
+    "combined_verified_useful_placements": 1235,
+    "remaining_to_3000": 1765,
     "formula": "max(0, 3000 - combined_verified_useful_placements)",
     "why_baseline_is_not_zeroed": "A 2026-09-08 row-level revalidation accepted 537 exact URLs with evidence-bound HTTP/content, purpose, version/function and controlled-HTML checks. The 29 earlier receipts are included in this audited set.",
     "why_baseline_is_not_1503": "The reproduced validator defect accepted 1503 with no rows. The 2026-09-08 audit found 924 physical unique URLs; 537 pass, 201 remain pending, 185 are broken/revoked, one is ambiguous, and 579 asserted units lack physical row evidence.",
@@ -17,7 +17,7 @@
   },
   "current_wave": {
     "distinct_works": 524,
-    "provider_placements": 696,
+    "provider_placements": 698,
     "localized_public_pages": 846,
     "registrable_provider_domains": 18,
     "independent_citations": 0,
@@ -51,7 +51,7 @@
     ]
   },
   "status_totals": {
-    "published_verified": 33,
+    "published_verified": 35,
     "submitted": 40,
     "in_progress": 0,
     "ready": 2,

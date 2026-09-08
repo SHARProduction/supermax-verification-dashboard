@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_at": "2026-09-09T00:00:00.000Z",
-  "counted_placements": 696,
+  "counted_placements": 698,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12819,6 +12819,46 @@
         "origin_url": "https://github.com/SHARProduction/production-metadata-mcp",
         "browser_evidence": "Public archived page rendered with repository title, public status, README identifying SHAR Production, and homepage https://sharprod.com/.",
         "functional_check": "Source repository is public and the archived snapshot rendered the read-only MCP description and documented install command."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.internet-archive.corpus.snapshot-20260909001239",
+      "work_id": "supermax.work.rights-labelled-conformance-corpus",
+      "provider": "Internet Archive Save Page Now",
+      "provider_ecosystem": "internet-archive",
+      "url": "https://web.archive.org/web/20260908221239/https://github.com/SHARProduction/rights-labelled-conformance-corpus",
+      "source": "external-public-web-archive-request",
+      "verified_at": "2026-09-09T00:12:39Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "browser_rendered": true,
+        "provider_independent_of_official_registry": true,
+        "direct_provider_publication": true,
+        "archive_timestamp": "20260908221239",
+        "origin_url": "https://github.com/SHARProduction/rights-labelled-conformance-corpus",
+        "browser_evidence": "Public archived corpus repository rendered its synthetic-data limitation, CC BY 4.0 corpus license, MIT code/docs, local validation/query functions, SHAR Production attribution and sharprod.com homepage.",
+        "functional_check": "Public source repository archive rendered in the Internet Archive; archival representation is recorded separately from source-hosting and does not claim independent editorial acceptance."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.internet-archive.schema.snapshot-20260909001302",
+      "work_id": "supermax.work.production-delivery-manifest-schema",
+      "provider": "Internet Archive Save Page Now",
+      "provider_ecosystem": "internet-archive",
+      "url": "https://web.archive.org/web/20260908221302/https://github.com/SHARProduction/production-delivery-manifest-schema",
+      "source": "external-public-web-archive-request",
+      "verified_at": "2026-09-09T00:13:02Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "browser_rendered": true,
+        "provider_independent_of_official_registry": true,
+        "direct_provider_publication": true,
+        "archive_timestamp": "20260908221302",
+        "origin_url": "https://github.com/SHARProduction/production-delivery-manifest-schema",
+        "browser_evidence": "Public archived schema repository rendered the factual MIT-licensed JSON Schema description, rights-labelled delivery-manifest purpose, SHAR Production attribution and sharprod.com homepage.",
+        "functional_check": "Public source repository archive rendered in the Internet Archive; archival representation is recorded separately from source-hosting and does not claim independent editorial acceptance."
       }
     }
   ]

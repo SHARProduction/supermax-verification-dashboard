@@ -854,6 +854,44 @@
       "counts_as_new_registrable_domain": true,
       "recheck_after": "2026-10-09T00:00:00Z",
       "public_url": "https://web.archive.org/web/20260908220613/https://github.com/SHARProduction/production-metadata-mcp"
+    },
+    {
+      "submission_id": "supermax.submission.internet-archive.corpus",
+      "provider": "Internet Archive Save Page Now",
+      "provider_domain": "archive.org",
+      "asset": "SHAR Production rights-labelled conformance corpus v0.1.2 source snapshot",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/rights-labelled-conformance-corpus",
+      "submitted_at": "2026-09-09T00:12:39Z",
+      "status": "PUBLISHED_VERIFIED",
+      "submission_kind": "PUBLIC_WEB_ARCHIVE_SNAPSHOT",
+      "evidence": "Save Page Now created a timestamped public snapshot. The URL returned HTTP 200 and rendered the independently versioned source object. Public archived corpus repository rendered its synthetic-data limitation, CC BY 4.0 corpus license, MIT code/docs, local validation/query functions, SHAR Production attribution and sharprod.com homepage.",
+      "evidence_url": "https://web.archive.org/web/20260908221239/https://github.com/SHARProduction/rights-labelled-conformance-corpus",
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-10-09T00:00:00Z",
+      "public_url": "https://web.archive.org/web/20260908221239/https://github.com/SHARProduction/rights-labelled-conformance-corpus"
+    },
+    {
+      "submission_id": "supermax.submission.internet-archive.schema",
+      "provider": "Internet Archive Save Page Now",
+      "provider_domain": "archive.org",
+      "asset": "Production delivery manifest JSON Schema v1.0.0 source snapshot",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-delivery-manifest-schema",
+      "submitted_at": "2026-09-09T00:13:02Z",
+      "status": "PUBLISHED_VERIFIED",
+      "submission_kind": "PUBLIC_WEB_ARCHIVE_SNAPSHOT",
+      "evidence": "Save Page Now created a timestamped public snapshot. The URL returned HTTP 200 and rendered the independently versioned source object. Public archived schema repository rendered the factual MIT-licensed JSON Schema description, rights-labelled delivery-manifest purpose, SHAR Production attribution and sharprod.com homepage.",
+      "evidence_url": "https://web.archive.org/web/20260908221302/https://github.com/SHARProduction/production-delivery-manifest-schema",
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-10-09T00:00:00Z",
+      "public_url": "https://web.archive.org/web/20260908221302/https://github.com/SHARProduction/production-delivery-manifest-schema"
     }
   ]
 }
