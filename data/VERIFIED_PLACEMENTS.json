@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T13:01:48.673Z",
-  "counted_placements": 655,
+  "generated_at": "2026-09-08T13:06:35.320Z",
+  "counted_placements": 680,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12009,6 +12009,506 @@
         "index_follow": true,
         "content": "interactive production QC checklist",
         "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.accessibility-acceptance",
+      "work_id": "supermax.work.verification-workflow.accessibility-acceptance",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/accessibility-acceptance/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/accessibility-acceptance/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/accessibility-acceptance/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.archive-three-copy-verification",
+      "work_id": "supermax.work.verification-workflow.archive-three-copy-verification",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/archive-three-copy-verification/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/archive-three-copy-verification/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/archive-three-copy-verification/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.brief-intake-triage",
+      "work_id": "supermax.work.verification-workflow.brief-intake-triage",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/brief-intake-triage/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/brief-intake-triage/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/brief-intake-triage/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.call-sheet-release",
+      "work_id": "supermax.work.verification-workflow.call-sheet-release",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/call-sheet-release/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/call-sheet-release/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/call-sheet-release/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.camera-to-dit-handoff",
+      "work_id": "supermax.work.verification-workflow.camera-to-dit-handoff",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/camera-to-dit-handoff/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/camera-to-dit-handoff/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/camera-to-dit-handoff/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.campaign-release-evidence",
+      "work_id": "supermax.work.verification-workflow.campaign-release-evidence",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/campaign-release-evidence/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/campaign-release-evidence/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/campaign-release-evidence/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.caption-localization-qc",
+      "work_id": "supermax.work.verification-workflow.caption-localization-qc",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/caption-localization-qc/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/caption-localization-qc/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/caption-localization-qc/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.checksum-transfer-verification",
+      "work_id": "supermax.work.verification-workflow.checksum-transfer-verification",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/checksum-transfer-verification/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/checksum-transfer-verification/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/checksum-transfer-verification/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.client-release-approval",
+      "work_id": "supermax.work.verification-workflow.client-release-approval",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/client-release-approval/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/client-release-approval/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/client-release-approval/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.color-turnover",
+      "work_id": "supermax.work.verification-workflow.color-turnover",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/color-turnover/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/color-turnover/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/color-turnover/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.crew-safety-acknowledgment",
+      "work_id": "supermax.work.verification-workflow.crew-safety-acknowledgment",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/crew-safety-acknowledgment/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/crew-safety-acknowledgment/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/crew-safety-acknowledgment/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.edit-turnover",
+      "work_id": "supermax.work.verification-workflow.edit-turnover",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/edit-turnover/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/edit-turnover/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/edit-turnover/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.incident-followup-closure",
+      "work_id": "supermax.work.verification-workflow.incident-followup-closure",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/incident-followup-closure/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/incident-followup-closure/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/incident-followup-closure/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.location-permit-readiness",
+      "work_id": "supermax.work.verification-workflow.location-permit-readiness",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/location-permit-readiness/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/location-permit-readiness/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/location-permit-readiness/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.mix-turnover",
+      "work_id": "supermax.work.verification-workflow.mix-turnover",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/mix-turnover/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/mix-turnover/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/mix-turnover/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.multi-locale-delivery",
+      "work_id": "supermax.work.verification-workflow.multi-locale-delivery",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/multi-locale-delivery/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/multi-locale-delivery/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/multi-locale-delivery/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.platform-export-acceptance",
+      "work_id": "supermax.work.verification-workflow.platform-export-acceptance",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/platform-export-acceptance/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/platform-export-acceptance/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/platform-export-acceptance/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.proxy-generation-handoff",
+      "work_id": "supermax.work.verification-workflow.proxy-generation-handoff",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/proxy-generation-handoff/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/proxy-generation-handoff/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/proxy-generation-handoff/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.purchase-order-reconciliation",
+      "work_id": "supermax.work.verification-workflow.purchase-order-reconciliation",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/purchase-order-reconciliation/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/purchase-order-reconciliation/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/purchase-order-reconciliation/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.rights-window-preflight",
+      "work_id": "supermax.work.verification-workflow.rights-window-preflight",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/rights-window-preflight/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/rights-window-preflight/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/rights-window-preflight/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.sound-roll-ingest",
+      "work_id": "supermax.work.verification-workflow.sound-roll-ingest",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/sound-roll-ingest/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/sound-roll-ingest/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/sound-roll-ingest/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.stakeholder-approval-routing",
+      "work_id": "supermax.work.verification-workflow.stakeholder-approval-routing",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/stakeholder-approval-routing/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/stakeholder-approval-routing/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/stakeholder-approval-routing/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.supplier-onboarding",
+      "work_id": "supermax.work.verification-workflow.supplier-onboarding",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/supplier-onboarding/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/supplier-onboarding/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/supplier-onboarding/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.talent-consent-reconciliation",
+      "work_id": "supermax.work.verification-workflow.talent-consent-reconciliation",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/talent-consent-reconciliation/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/talent-consent-reconciliation/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/talent-consent-reconciliation/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.verification-workflow.vfx-pull-roundtrip",
+      "work_id": "supermax.work.verification-workflow.vfx-pull-roundtrip",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-verification-workflows/en/vfx-pull-roundtrip/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-verification-workflows/en/vfx-pull-roundtrip/",
+        "ru": "https://sharproduction.github.io/production-verification-workflows/ru/vfx-pull-roundtrip/"
+      },
+      "source": "wave-216",
+      "verified_at": "2026-09-08T13:06:15.886Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive executable verification workflow",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
       }
     }
   ]
