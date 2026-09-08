@@ -2492,6 +2492,21 @@
         "kind": "direct_provider_api",
         "note": "POST /api/submit-skill returned HTTP 405 with allowed methods [GET]; no submission was created."
       }
+    },
+    {
+      "provider": "AgentVerus",
+      "provider_domain": "agentverus.ai",
+      "homepage": "https://agentverus.ai/",
+      "submission_url": "https://agentverus.ai/submit",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "APPLICABLE_PUBLIC_SKILL_SCAN",
+      "status": "PUBLISHED_VERIFIED",
+      "counts_as_placement": true,
+      "checked_at": "2026-09-08T16:58:00Z",
+      "evidence": {
+        "kind": "public_api_and_http",
+        "note": "POST repo scan completed one source SKILL.md; unauthenticated public skill report HTTP 200 at https://agentverus.ai/skill/e0efd687-22c3-4299-a7d5-28c9e922c6fd"
+      }
     }
   ]
 }
