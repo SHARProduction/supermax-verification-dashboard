@@ -2507,6 +2507,21 @@
         "kind": "public_api_and_http",
         "note": "POST repo scan completed one source SKILL.md; unauthenticated public skill report HTTP 200 at https://agentverus.ai/skill/e0efd687-22c3-4299-a7d5-28c9e922c6fd"
       }
+    },
+    {
+      "provider": "GitHub Container Registry",
+      "provider_domain": "ghcr.io",
+      "homepage": "https://ghcr.io/sharproduction/production-metadata-mcp",
+      "submission_url": "https://github.com/orgs/SHARProduction/packages/container/production-metadata-mcp/settings",
+      "source_catalog": "existing source repository packaging workflow",
+      "asset_fit": "APPLICABLE_CONTAINERIZED_STDIO_MCP",
+      "status": "OWNER_GATE_PUBLIC_VISIBILITY",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T17:05:00Z",
+      "evidence": {
+        "kind": "github_authenticated_settings_and_anonymous_registry_check",
+        "note": "GitHub Actions run 34239343581 built, tested, pushed OCI image with SBOM and provenance. Package settings reports private; anonymous ghcr manifest pull returned HTTP 401. Public visibility must be enabled before install verification."
+      }
     }
   ]
 }
