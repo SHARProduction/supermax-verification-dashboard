@@ -3600,6 +3600,29 @@
         "kind": "live_mcp_server_instructions",
         "note": "The public endpoint returned serverInfo Find MCP - Agentage MCP Directory and explicit instructions that it is crawled from the Official MCP Registry. It is a read-only discovery mirror, not an independent upstream submission or acceptance route, so it is not counted."
       }
+    },
+    {
+      "provider": "Internet Archive Save Page Now",
+      "provider_domain": "archive.org",
+      "homepage": "https://web.archive.org/",
+      "submission_url": "https://web.archive.org/save/https://github.com/SHARProduction/production-metadata-mcp",
+      "source_catalog": "Live Save Page Now request and public rendered snapshot checked 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_PUBLIC_VERSIONED_OPEN_SOURCE_ARCHIVE",
+      "status": "PUBLISHED_VERIFIED",
+      "counts_as_placement": true,
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20260908220613/https://github.com/SHARProduction/production-metadata-mcp",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T00:06:33Z",
+      "evidence": {
+        "kind": "public_immutable_web_snapshot",
+        "note": "Save Page Now returned a timestamped snapshot location. The resulting public archive page returned HTTP 200 and rendered the SHAR Production MCP repository title, public state, factual README and homepage link. This is archival representation, not DOI or independent maintainer acceptance."
+      }
     }
   ]
 }

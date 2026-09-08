@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_at": "2026-09-09T00:00:00.000Z",
-  "counted_placements": 695,
+  "counted_placements": 696,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12799,6 +12799,26 @@
         "origin_url": "https://github.com/SHARProduction/production-delivery-manifest-schema.git",
         "source_function_test": "production-delivery-manifest-schema source suite passed 2/2 on 2026-09-09",
         "functional_check": "Official Save Code Now job completed succeeded/full. Public immutable snapshot directory responded HTTP 200 and contained the snapshot identifier."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.internet-archive.production-metadata-mcp.snapshot-20260908220613",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "Internet Archive Save Page Now",
+      "provider_ecosystem": "internet-archive",
+      "url": "https://web.archive.org/web/20260908220613/https://github.com/SHARProduction/production-metadata-mcp",
+      "source": "external-public-web-archive-request",
+      "verified_at": "2026-09-09T00:06:33Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "browser_rendered": true,
+        "provider_independent_of_official_registry": true,
+        "direct_provider_publication": true,
+        "archive_timestamp": "20260908220613",
+        "origin_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "browser_evidence": "Public archived page rendered with repository title, public status, README identifying SHAR Production, and homepage https://sharprod.com/.",
+        "functional_check": "Source repository is public and the archived snapshot rendered the read-only MCP description and documented install command."
       }
     }
   ]

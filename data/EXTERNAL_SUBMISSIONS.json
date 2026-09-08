@@ -835,6 +835,25 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.internet-archive.production-metadata-mcp",
+      "provider": "Internet Archive Save Page Now",
+      "provider_domain": "archive.org",
+      "asset": "SHAR Production Metadata MCP v1.0.4 public source snapshot",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T00:06:33Z",
+      "status": "PUBLISHED_VERIFIED",
+      "submission_kind": "PUBLIC_WEB_ARCHIVE_SNAPSHOT",
+      "evidence": "Save Page Now returned HTTP 302 with public timestamped archive URL. That URL returned HTTP 200 and rendered the public SHAR Production MCP repository, its factual description, and the sharprod.com homepage reference.",
+      "evidence_url": "https://web.archive.org/web/20260908220613/https://github.com/SHARProduction/production-metadata-mcp",
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "recheck_after": "2026-10-09T00:00:00Z",
+      "public_url": "https://web.archive.org/web/20260908220613/https://github.com/SHARProduction/production-metadata-mcp"
     }
   ]
 }
