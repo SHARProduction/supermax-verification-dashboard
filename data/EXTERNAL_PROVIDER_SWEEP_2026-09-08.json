@@ -3864,6 +3864,21 @@
         "kind": "live_public_submission_page",
         "note": "Free public form accepts a GitHub repository, subdirectory, or SKILL.md URL; zero-star skills are explicitly accepted and only a valid SKILL.md is required. It saves to a community review queue, and a listing is not public acceptance until reviewed. Existing SHAR SKILL.md fits. No external form submission or receipt exists."
       }
+    },
+    {
+      "provider": "Kendex",
+      "provider_domain": "kendex.ai",
+      "homepage": "https://kendex.ai/marketplaces",
+      "submission_url": "https://kendex.ai/submit",
+      "source_catalog": "Live public marketplace and submission page 2026-09-09",
+      "asset_fit": "CONDITIONAL_EXISTING_PUBLIC_SKILL_REPOSITORY",
+      "status": "OWNER_GATE_GITHUB_LOGIN_AND_MARKETPLACE_MANIFEST_REVIEW",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T03:50:00Z",
+      "evidence": {
+        "kind": "live_public_marketplace_and_submit_page",
+        "note": "Kendex is an independent agent install ecosystem whose marketplace consumes public GitHub repositories of skills, agents, hooks or commands. Public submit page requires GitHub sign-in and push access to prove source control; authoring guide/manifest compatibility must be reviewed before any submission. No sign-in, account, submission or public SHAR marketplace listing exists."
+      }
     }
   ]
 }
