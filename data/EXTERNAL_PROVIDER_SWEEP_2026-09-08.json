@@ -3231,7 +3231,7 @@
       "asset_fit": "CONFIRMED_FIT_FILM_TV_PRODUCTION_COMPANY_DIRECTORY",
       "status": "OWNER_GATE_TURNSTILE_AND_REQUIRED_OWNER_FIELDS",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T19:58:00.000Z",
+      "checked_at": "2026-09-08T19:58:00Z",
       "evidence": {
         "kind": "official_registration_form",
         "note": "WMM offers a free public company directory placement but its official form requires Cloudflare Turnstile plus required personal contact name, company address, phone and company email fields. No CAPTCHA was bypassed and no personal data was invented."
@@ -3246,7 +3246,7 @@
       "asset_fit": "CONFIRMED_FIT_AUDIOVISUAL_COMPANY_NETWORK",
       "status": "OWNER_GATE_EMAIL_VERIFICATION_AND_IDENTITY",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T19:58:00.000Z",
+      "checked_at": "2026-09-08T19:58:00Z",
       "evidence": {
         "kind": "official_registration_copy",
         "note": "Oward publicly offers free profile creation for audiovisual companies but requires account email verification and personal account identity fields before a company profile can be created and exposed. No account was created."
@@ -3261,10 +3261,25 @@
       "asset_fit": "CONFIRMED_FIT_PRODUCTION_INDUSTRY_PROFILE",
       "status": "OWNER_GATE_EMAIL_VERIFICATION_AND_IDENTITY",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T19:58:00.000Z",
+      "checked_at": "2026-09-08T19:58:00Z",
       "evidence": {
         "kind": "official_registration_form",
         "note": "Production List offers a no-card free account and accepts Other country, but the registration starts with required personal first name, email, role and then a password. No personal identity was invented or account created."
+      }
+    },
+    {
+      "provider": "AI Filmmakers Directory",
+      "provider_domain": "aifilmmakersdirectory.com",
+      "homepage": "https://aifilmmakersdirectory.com/",
+      "submission_url": "https://aifilmmakersdirectory.com/register",
+      "source_catalog": "Official sitemap and live enrollment-route inspection 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_AI_FILMMAKERS_AND_STUDIOS_DIRECTORY",
+      "status": "PROVIDER_ENROLLMENT_ROUTE_BROKEN",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T20:03:00.000Z",
+      "evidence": {
+        "kind": "official_sitemap_plus_live_route",
+        "note": "The official sitemap advertises /register, /free-profiles and /apply-for-your-ai-filmmaker-profile, but the live routes resolve to the site shell containing its client 404 view. No functional account or listing form is currently reachable, so no request was sent."
       }
     }
   ]
