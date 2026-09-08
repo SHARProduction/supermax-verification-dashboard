@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T12:53:26.055Z",
-  "counted_placements": 603,
+  "generated_at": "2026-09-08T12:58:20.102Z",
+  "counted_placements": 605,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -10969,6 +10969,46 @@
         "index_follow": true,
         "content": "executable workflow recipe with pass/fail results",
         "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.calculator.aspect-ratio-safe-area-calculator",
+      "work_id": "supermax.work.calculator.aspect-ratio-safe-area-calculator",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-calculators/aspect-ratio-safe-area-calculator/en/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-calculators/aspect-ratio-safe-area-calculator/en/",
+        "ru": "https://sharproduction.github.io/production-calculators/aspect-ratio-safe-area-calculator/ru/"
+      },
+      "source": "wave-214",
+      "verified_at": "2026-09-08T12:58:06.185Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production calculator",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser examples"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.calculator.storage-transfer-estimator",
+      "work_id": "supermax.work.calculator.storage-transfer-estimator",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-calculators/storage-transfer-estimator/en/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-calculators/storage-transfer-estimator/en/",
+        "ru": "https://sharproduction.github.io/production-calculators/storage-transfer-estimator/ru/"
+      },
+      "source": "wave-214",
+      "verified_at": "2026-09-08T12:58:06.185Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production calculator",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser examples"
       }
     }
   ]
