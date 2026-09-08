@@ -598,6 +598,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.ossdrop.production-metadata-linter",
+      "provider": "OSSDrop external OSS contribution",
+      "provider_domain": "github.com",
+      "asset": "production-metadata-linter",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-linter",
+      "submitted_at": "2026-09-08T18:58:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
+      "evidence": "Public PR https://github.com/OSSDrop/OSSDrop/pull/29 adds one factual MIT-licensed creator-media CLI entry after checking the upstream JSON schema, 140-character description limit, public source status and absence of a duplicate. Maintainer merge and a public catalog listing are required before counting.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T18:58:00Z"
     }
   ]
 }
