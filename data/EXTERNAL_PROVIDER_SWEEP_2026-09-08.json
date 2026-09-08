@@ -3385,8 +3385,8 @@
             "Animation"
           ],
           "public_contact_email": "shar@sharprod.com",
-          "showreel_public_url": "https://sharprod.com/cases/showreel.html",
-          "showreel_constraint": "Provider requests YouTube or Vimeo. No confirmed SHAR YouTube/Vimeo URL is available in current first-party evidence.",
+          "showreel_public_url": "https://vimeo.com/1175145775",
+          "showreel_constraint": "RESOLVED: public Vimeo page identifies SHAR Production, describes AI/CGI/commercial production and links to sharprod.com; independently browser-verifiable provider evidence remains required before counting any Vimeo placement.",
           "owner_confirmation_required": [
             "team size",
             "founded year",
