@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T12:38:24.329Z",
-  "counted_placements": 542,
+  "generated_at": "2026-09-08T12:42:06.880Z",
+  "counted_placements": 589,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -9748,6 +9748,946 @@
         "self_canonical": true,
         "index_follow": true,
         "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.aaf-offline-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.aaf-offline-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/aaf-offline-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/aaf-offline-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/aaf-offline-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.alpha-loss-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.alpha-loss-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/alpha-loss-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/alpha-loss-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/alpha-loss-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.approval-owner-missing-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.approval-owner-missing-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/approval-owner-missing-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/approval-owner-missing-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/approval-owner-missing-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.approval-stale-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.approval-stale-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/approval-stale-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/approval-stale-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/approval-stale-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.aspect-ratio-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.aspect-ratio-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/aspect-ratio-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/aspect-ratio-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/aspect-ratio-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.audio-sample-rate-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.audio-sample-rate-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/audio-sample-rate-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/audio-sample-rate-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/audio-sample-rate-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.backup-gap-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.backup-gap-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/backup-gap-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/backup-gap-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/backup-gap-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.brief-gap-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.brief-gap-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/brief-gap-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/brief-gap-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/brief-gap-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.call-sheet-timezone-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.call-sheet-timezone-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/call-sheet-timezone-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/call-sheet-timezone-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/call-sheet-timezone-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.camera-report-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.camera-report-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/camera-report-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/camera-report-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/camera-report-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.caption-overlap-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.caption-overlap-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/caption-overlap-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/caption-overlap-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/caption-overlap-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.caption-speed-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.caption-speed-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/caption-speed-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/caption-speed-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/caption-speed-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.checksum-mismatch-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.checksum-mismatch-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/checksum-mismatch-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/checksum-mismatch-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/checksum-mismatch-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.clean-plate-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.clean-plate-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/clean-plate-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/clean-plate-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/clean-plate-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.codec-incompatible-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.codec-incompatible-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/codec-incompatible-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/codec-incompatible-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/codec-incompatible-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.color-space-tag-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.color-space-tag-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/color-space-tag-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/color-space-tag-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/color-space-tag-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.conform-version-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.conform-version-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/conform-version-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/conform-version-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/conform-version-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.duplicate-assets-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.duplicate-assets-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/duplicate-assets-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/duplicate-assets-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/duplicate-assets-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.edl-reel-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.edl-reel-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/edl-reel-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/edl-reel-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/edl-reel-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.field-order-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.field-order-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/field-order-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/field-order-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/field-order-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.filename-collision-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.filename-collision-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/filename-collision-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/filename-collision-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/filename-collision-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.font-license-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.font-license-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/font-license-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/font-license-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/font-license-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.forced-narrative-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.forced-narrative-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/forced-narrative-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/forced-narrative-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/forced-narrative-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.frame-rate-mismatch-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.frame-rate-mismatch-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/frame-rate-mismatch-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/frame-rate-mismatch-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/frame-rate-mismatch-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.gamma-shift-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.gamma-shift-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/gamma-shift-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/gamma-shift-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/gamma-shift-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.location-permit-gap-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.location-permit-gap-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/location-permit-gap-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/location-permit-gap-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/location-permit-gap-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.loudness-fail-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.loudness-fail-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/loudness-fail-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/loudness-fail-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/loudness-fail-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.lut-baked-in-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.lut-baked-in-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/lut-baked-in-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/lut-baked-in-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/lut-baked-in-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.manifest-gap-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.manifest-gap-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/manifest-gap-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/manifest-gap-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/manifest-gap-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.metadata-gap-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.metadata-gap-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/metadata-gap-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/metadata-gap-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/metadata-gap-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.proxy-relink-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.proxy-relink-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/proxy-relink-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/proxy-relink-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/proxy-relink-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.qc-severity-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.qc-severity-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/qc-severity-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/qc-severity-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/qc-severity-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.restore-fail-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.restore-fail-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/restore-fail-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/restore-fail-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/restore-fail-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.rights-expiry-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.rights-expiry-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/rights-expiry-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/rights-expiry-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/rights-expiry-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.safe-area-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.safe-area-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/safe-area-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/safe-area-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/safe-area-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.schedule-collision-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.schedule-collision-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/schedule-collision-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/schedule-collision-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/schedule-collision-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.scope-drift-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.scope-drift-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/scope-drift-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/scope-drift-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/scope-drift-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.slate-mismatch-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.slate-mismatch-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/slate-mismatch-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/slate-mismatch-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/slate-mismatch-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.sound-report-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.sound-report-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/sound-report-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/sound-report-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/sound-report-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.talent-release-gap-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.talent-release-gap-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/talent-release-gap-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/talent-release-gap-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/talent-release-gap-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.timecode-drift-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.timecode-drift-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/timecode-drift-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/timecode-drift-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/timecode-drift-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.true-peak-clipping-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.true-peak-clipping-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/true-peak-clipping-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/true-peak-clipping-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/true-peak-clipping-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.upload-incomplete-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.upload-incomplete-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/upload-incomplete-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/upload-incomplete-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/upload-incomplete-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.version-label-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.version-label-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/version-label-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/version-label-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/version-label-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.vfx-handles-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.vfx-handles-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/vfx-handles-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/vfx-handles-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/vfx-handles-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.weather-contingency-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.weather-contingency-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/weather-contingency-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/weather-contingency-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/weather-contingency-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.acceptance-gate.xml-retime-acceptance-gate",
+      "work_id": "supermax.work.acceptance-gate.xml-retime-acceptance-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-acceptance-gates/en/xml-retime-acceptance-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-acceptance-gates/en/xml-retime-acceptance-gate/",
+        "ru": "https://sharproduction.github.io/production-acceptance-gates/ru/xml-retime-acceptance-gate/"
+      },
+      "source": "wave-209",
+      "verified_at": "2026-09-08T12:41:50.945Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive acceptance gate",
         "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
       }
     }
