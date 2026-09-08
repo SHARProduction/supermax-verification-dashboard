@@ -210,3 +210,48 @@ No row is a submission or published placement. Only free routes are retained.
 - Owner action: Authenticate with the provider account and use only the free basic listing path.
 - Current environment can continue after auth: UNKNOWN
 - Status: OWNER_GATE_ACCOUNT
+
+## AI Directory
+
+- Value: TIER_A — AI-company directory relevant to AI video production
+- URL: https://www.aidirectory.org/user-submit
+- Prepared: The official form supports a factual Generative AI company listing with SHAR Production name and website. It requires a real telephone contact and Google reCAPTCHA; no owner field was invented and no CAPTCHA was bypassed.
+- Owner action: Complete the normal provider form with the real authorised telephone contact and CAPTCHA.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_CAPTCHA_AND_REQUIRED_OWNER_FIELDS
+
+## Prodreel
+
+- Value: TIER_A — global production-company directory
+- URL: https://prodreel.com/auth/?register
+- Prepared: The official directory supports a free company listing plus a separate paid Pro upgrade. The free registration route requires account email verification and CAPTCHA; no paid plan was selected and no listing is claimed.
+- Owner action: Create or authenticate the free provider account and complete normal email/CAPTCHA verification.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_CAPTCHA_AND_EMAIL_VERIFICATION
+
+## MCP Scoreboard
+
+- Value: TIER_B — independent MCP discovery directory
+- URL: https://www.mcpscoreboard.com/submit/
+- Prepared: The source form accepted the public SHAR MCP repository and redirects to GitHub OAuth to verify write access. No authorization, receipt, or public SHAR card exists.
+- Owner action: Authorize the provider's normal GitHub OAuth flow.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_GITHUB_OAUTH
+
+## Skills Directory
+
+- Value: TIER_B — independent agent-skill discovery directory
+- URL: https://www.skillsdirectory.com/submit
+- Prepared: The public form explicitly requires GitHub sign-in before a factual existing SHAR skill can be submitted. No authorization, account, receipt, or public card exists.
+- Owner action: Authorize the provider's normal GitHub OAuth flow.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_GITHUB_OAUTH
+
+## mcpservers.org
+
+- Value: TIER_B — independent MCP directory, free queue only
+- URL: https://mcpservers.org/ru/submit
+- Prepared: The live form offers a $0 Free Queue and a separate optional $39 Premium option. The Free Queue requires normal provider details and Cloudflare interaction. Premium was not selected; no submission was sent.
+- Owner action: Use the normal free-provider flow and complete the Cloudflare challenge; do not select Premium.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_CLOUDFLARE_AND_BROWSER_INTERACTION

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-08T23:40:47Z",
+  "as_of": "2026-09-08T23:45:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -209,6 +209,51 @@
       "owner_action": "Authenticate with the provider account and use only the free basic listing path.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT"
+    },
+    {
+      "provider": "AI Directory",
+      "value": "TIER_A — AI-company directory relevant to AI video production",
+      "exact_url": "https://www.aidirectory.org/user-submit",
+      "prepared": "The official form supports a factual Generative AI company listing with SHAR Production name and website. It requires a real telephone contact and Google reCAPTCHA; no owner field was invented and no CAPTCHA was bypassed.",
+      "owner_action": "Complete the normal provider form with the real authorised telephone contact and CAPTCHA.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_CAPTCHA_AND_REQUIRED_OWNER_FIELDS"
+    },
+    {
+      "provider": "Prodreel",
+      "value": "TIER_A — global production-company directory",
+      "exact_url": "https://prodreel.com/auth/?register",
+      "prepared": "The official directory supports a free company listing plus a separate paid Pro upgrade. The free registration route requires account email verification and CAPTCHA; no paid plan was selected and no listing is claimed.",
+      "owner_action": "Create or authenticate the free provider account and complete normal email/CAPTCHA verification.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_CAPTCHA_AND_EMAIL_VERIFICATION"
+    },
+    {
+      "provider": "MCP Scoreboard",
+      "value": "TIER_B — independent MCP discovery directory",
+      "exact_url": "https://www.mcpscoreboard.com/submit/",
+      "prepared": "The source form accepted the public SHAR MCP repository and redirects to GitHub OAuth to verify write access. No authorization, receipt, or public SHAR card exists.",
+      "owner_action": "Authorize the provider's normal GitHub OAuth flow.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_GITHUB_OAUTH"
+    },
+    {
+      "provider": "Skills Directory",
+      "value": "TIER_B — independent agent-skill discovery directory",
+      "exact_url": "https://www.skillsdirectory.com/submit",
+      "prepared": "The public form explicitly requires GitHub sign-in before a factual existing SHAR skill can be submitted. No authorization, account, receipt, or public card exists.",
+      "owner_action": "Authorize the provider's normal GitHub OAuth flow.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_GITHUB_OAUTH"
+    },
+    {
+      "provider": "mcpservers.org",
+      "value": "TIER_B — independent MCP directory, free queue only",
+      "exact_url": "https://mcpservers.org/ru/submit",
+      "prepared": "The live form offers a $0 Free Queue and a separate optional $39 Premium option. The Free Queue requires normal provider details and Cloudflare interaction. Premium was not selected; no submission was sent.",
+      "owner_action": "Use the normal free-provider flow and complete the Cloudflare challenge; do not select Premium.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_CLOUDFLARE_AND_BROWSER_INTERACTION"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
