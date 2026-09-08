@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-08T23:50:00Z",
+  "as_of": "2026-09-08T23:55:00Z",
   "EXTERNAL_NO_AUTH": [],
   "PENDING_RECHECK": {
     "submitted_count": 45,
@@ -8,9 +8,9 @@
     "rule": "Promote only after an exact public provider URL, HTTP/content/canonical evidence and applicable functional/browser verification."
   },
   "HUMAN_AUTH_BATCH": {
-    "count": 28,
+    "count": 29,
     "source": "data/HUMAN_AUTH_BATCH.json",
     "tier_a": 17,
-    "tier_b": 11
+    "tier_b": 12
   }
 }

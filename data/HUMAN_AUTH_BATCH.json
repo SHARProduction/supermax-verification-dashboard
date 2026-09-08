@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-08T23:45:00Z",
+  "as_of": "2026-09-08T23:55:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -254,6 +254,15 @@
       "owner_action": "Use the normal free-provider flow and complete the Cloudflare challenge; do not select Premium.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_CLOUDFLARE_AND_BROWSER_INTERACTION"
+    },
+    {
+      "provider": "SaaSRow",
+      "value": "TIER_B — independent software directory with CLI/API/MCP support",
+      "exact_url": "https://saasrow.com/",
+      "prepared": "The provider publicly offers a free 90-day software listing with a dofollow backlink and supports CLI, REST API and MCP management. Its native flow requires an emailed sign-in code before an API key can create or manage a listing. No card, payment or listing exists.",
+      "owner_action": "Authenticate through the normal emailed-code flow for the authorised account.",
+      "continuation_after_human_auth": "YES",
+      "status": "HUMAN_GATE_EMAIL_CODE"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

@@ -255,3 +255,12 @@ No row is a submission or published placement. Only free routes are retained.
 - Owner action: Use the normal free-provider flow and complete the Cloudflare challenge; do not select Premium.
 - Current environment can continue after auth: UNKNOWN
 - Status: OWNER_GATE_CLOUDFLARE_AND_BROWSER_INTERACTION
+
+## SaaSRow
+
+- Value: TIER_B — independent software directory with CLI/API/MCP support
+- URL: https://saasrow.com/
+- Prepared: The provider publicly offers a free 90-day software listing with a dofollow backlink and supports CLI, REST API and MCP management. Its native flow requires an emailed sign-in code before an API key can create or manage a listing. No card, payment or listing exists.
+- Owner action: Authenticate through the normal emailed-code flow for the authorised account.
+- Current environment can continue after auth: YES
+- Status: HUMAN_GATE_EMAIL_CODE
