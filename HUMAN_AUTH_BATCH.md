@@ -183,3 +183,12 @@ Selection: Tier A/B independent industry, native package/install, MCP, research/
 - Owner action: Complete Vimeo Cloudflare “Verify to continue” in a normal supported browser, then leave the public showreel page reachable.
 - Current environment can continue after auth: NO
 - Status: CAPTCHA_REQUIRED
+
+## AI Filmmaker Index
+
+- Value: TIER_A — curated AI filmmaker, studio and agency directory
+- URL: https://aifilmmakerindex.com/login
+- Prepared: Public listing route is confirmed free; login is a passwordless magic-link flow that creates the listing for a new user.
+- Owner action: Enter the intended account email and use the provider magic link in the supported email/browser flow.
+- Current environment can continue after auth: NO
+- Status: HUMAN_GATE_EMAIL_MAGIC_LINK

@@ -4047,15 +4047,15 @@
       "provider": "AI Filmmaker Index",
       "provider_domain": "aifilmmakerindex.com",
       "homepage": "https://aifilmmakerindex.com/",
-      "submission_url": "https://aifilmmakerindex.com/apply",
+      "submission_url": "https://aifilmmakerindex.com/login",
       "source_catalog": "Live public directory and application-route inspection 2026-09-09",
       "asset_fit": "CONFIRMED_FIT_AI_VIDEO_PRODUCTION_STUDIO_OR_AGENCY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "HUMAN_GATE_EMAIL_MAGIC_LINK",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T01:15:00Z",
+      "checked_at": "2026-09-09T01:55:00Z",
       "evidence": {
-        "kind": "official_public_directory",
-        "note": "Directory states applications are open and listings are free; the current Apply route redirects without a usable public form snapshot. No account, application or public SHAR listing exists."
+        "kind": "live_login_flow",
+        "note": "Public Apply route redirects to a 200 login page. The page states it sends an email link; for new users, that link creates the listing, with no password or separate sign-up. No email was entered, account created, or listing submitted."
       }
     },
     {

@@ -182,12 +182,21 @@
       "owner_action": "Complete Vimeo Cloudflare “Verify to continue” in a normal supported browser, then leave the public showreel page reachable.",
       "continuation_after_human_auth": "NO",
       "status": "CAPTCHA_REQUIRED"
+    },
+    {
+      "provider": "AI Filmmaker Index",
+      "value": "TIER_A — curated AI filmmaker, studio and agency directory",
+      "exact_url": "https://aifilmmakerindex.com/login",
+      "prepared": "Public listing route is confirmed free; login is a passwordless magic-link flow that creates the listing for a new user.",
+      "owner_action": "Enter the intended account email and use the provider magic link in the supported email/browser flow.",
+      "continuation_after_human_auth": "NO",
+      "status": "HUMAN_GATE_EMAIL_MAGIC_LINK"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
   "summary": {
-    "high_quality_routes": 20,
-    "tier_a": 13,
+    "high_quality_routes": 21,
+    "tier_a": 14,
     "tier_b": 7
   }
 }
