@@ -199,6 +199,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-15T15:15:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.devpages.production-metadata-mcp",
+      "provider": "DevPages",
+      "provider_domain": "devpages.io",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T15:22:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_DIRECTORY_STANDARD_REVIEW",
+      "evidence": "POST https://www.devpages.io/api/submissions returned HTTP 200 with id 523bd890-21a1-468c-b43a-29e5521e07ed and status pending_review. The first POST with numeric category was HTTP 400 and created no record; corrected retry used public category slug apis.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T15:22:00Z"
     }
   ]
 }
