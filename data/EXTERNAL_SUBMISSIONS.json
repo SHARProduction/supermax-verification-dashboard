@@ -409,6 +409,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-09T00:30:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.skillsindex.production-metadata-mcp",
+      "provider": "SkillsIndex",
+      "provider_domain": "skillsindex.dev",
+      "asset": "shar-production-metadata-validation",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T17:15:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_DIRECTORY_SUBMISSION",
+      "evidence": "POST https://skillsindex.dev/api/submit-tool returned HTTP 200 {success:true} for the exact public GitHub MCP repository; provider states manual review within 48 hours.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-10T17:15:00Z"
     }
   ]
-}
+}\n
