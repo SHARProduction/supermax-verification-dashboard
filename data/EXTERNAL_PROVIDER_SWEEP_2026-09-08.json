@@ -3581,6 +3581,21 @@
         "kind": "installation_truthfulness_gate",
         "note": "The active registry accepts one YAML server definition through a PR. Its schema requires an accurate runnable installation config. The SHAR MCP is public on JSR, but JSR CLI only supports adding a package to an existing project and has no executable-package run command; npm package and public OCI image are unavailable. No false npx config or PR was created."
       }
+    },
+    {
+      "provider": "Agentage MCP Directory",
+      "provider_domain": "agentage.io",
+      "homepage": "https://catalog.agentage.io/mcp",
+      "submission_url": "https://catalog.agentage.io/mcp",
+      "source_catalog": "Live public Streamable HTTP MCP initialize 2026-09-09",
+      "asset_fit": "AGGREGATOR_DISCOVERY_ONLY",
+      "status": "AGGREGATOR_OFFICIAL_REGISTRY_MIRROR",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_mcp_server_instructions",
+        "note": "The public endpoint returned serverInfo Find MCP - Agentage MCP Directory and explicit instructions that it is crawled from the Official MCP Registry. It is a read-only discovery mirror, not an independent upstream submission or acceptance route, so it is not counted."
+      }
     }
   ]
 }
