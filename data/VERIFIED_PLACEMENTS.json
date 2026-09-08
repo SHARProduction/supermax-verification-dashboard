@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_at": "2026-09-09T00:00:00.000Z",
-  "counted_placements": 693,
+  "counted_placements": 695,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12759,6 +12759,46 @@
         "source_commit": "511863a5be1b5d1738dba2b8b31bfdb31cbc6593",
         "source_function_test": "production-metadata-mcp source suite passed 3/3 on 2026-09-09",
         "functional_check": "Official Save Code Now request 2467250 reports succeeded/full; snapshot API and public immutable snapshot directory were HTTP 200 and linked the origin and snapshot SWHID."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.software-heritage.rights-labelled-conformance-corpus.snapshot-6e2ab7f",
+      "work_id": "supermax.work.rights-labelled-conformance-corpus",
+      "provider": "Software Heritage",
+      "provider_ecosystem": "software-heritage",
+      "url": "https://archive.softwareheritage.org/browse/snapshot/6e2ab7fbddab7ace4b73193f75c5a85baf6602b6/directory/",
+      "source": "external-archive-request",
+      "verified_at": "2026-09-09T00:00:00Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "browser_rendered": true,
+        "provider_independent_of_official_registry": true,
+        "direct_provider_publication": true,
+        "immutable_swhid": "swh:1:snp:6e2ab7fbddab7ace4b73193f75c5a85baf6602b6",
+        "origin_url": "https://github.com/SHARProduction/rights-labelled-conformance-corpus.git",
+        "source_function_test": "rights-labelled-conformance-corpus source suite passed 5/5 on 2026-09-09",
+        "functional_check": "Official Save Code Now job completed succeeded/full. Public immutable snapshot directory responded HTTP 200 and contained the snapshot identifier."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.software-heritage.production-delivery-manifest-schema.snapshot-4e37255",
+      "work_id": "supermax.work.production-delivery-manifest-schema",
+      "provider": "Software Heritage",
+      "provider_ecosystem": "software-heritage",
+      "url": "https://archive.softwareheritage.org/browse/snapshot/4e37255079d2f323ddd52c42032672ae8597fe19/directory/",
+      "source": "external-archive-request",
+      "verified_at": "2026-09-09T00:00:00Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "browser_rendered": true,
+        "provider_independent_of_official_registry": true,
+        "direct_provider_publication": true,
+        "immutable_swhid": "swh:1:snp:4e37255079d2f323ddd52c42032672ae8597fe19",
+        "origin_url": "https://github.com/SHARProduction/production-delivery-manifest-schema.git",
+        "source_function_test": "production-delivery-manifest-schema source suite passed 2/2 on 2026-09-09",
+        "functional_check": "Official Save Code Now job completed succeeded/full. Public immutable snapshot directory responded HTTP 200 and contained the snapshot identifier."
       }
     }
   ]

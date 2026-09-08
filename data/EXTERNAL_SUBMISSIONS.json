@@ -789,14 +789,15 @@
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/rights-labelled-conformance-corpus",
       "submitted_at": "2026-09-09T00:00:00.000Z",
-      "status": "PENDING",
+      "status": "PUBLISHED_VERIFIED",
       "submission_kind": "SOFTWARE_SOURCE_ARCHIVE_REQUEST",
-      "evidence": "Official Save Code Now API accepted request 2467252; save_task_status=pending and snapshot_swhid=null at record time. An immutable public snapshot and SWHID are required before counting.",
+      "evidence": "Official Save Code Now job completed succeeded/full with immutable swh:1:snp:6e2ab7fbddab7ace4b73193f75c5a85baf6602b6. The public snapshot directory was HTTP 200; the source suite passed.",
       "evidence_url": "https://archive.softwareheritage.org/api/1/origin/save/2467252/",
-      "counts_as_published_verified": false,
+      "counts_as_published_verified": true,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-10T00:00:00.000Z"
+      "recheck_after": "2026-10-09T00:00:00.000Z",
+      "public_url": "https://archive.softwareheritage.org/browse/snapshot/6e2ab7fbddab7ace4b73193f75c5a85baf6602b6/directory/"
     },
     {
       "submission_id": "supermax.submission.software-heritage.production-delivery-manifest-schema",
@@ -807,14 +808,15 @@
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-delivery-manifest-schema",
       "submitted_at": "2026-09-09T00:00:00.000Z",
-      "status": "PENDING",
+      "status": "PUBLISHED_VERIFIED",
       "submission_kind": "SOFTWARE_SOURCE_ARCHIVE_REQUEST",
-      "evidence": "Official Save Code Now API accepted request 2467253; save_task_status=pending and snapshot_swhid=null at record time. An immutable public snapshot and SWHID are required before counting.",
+      "evidence": "Official Save Code Now job completed succeeded/full with immutable swh:1:snp:4e37255079d2f323ddd52c42032672ae8597fe19. The public snapshot directory was HTTP 200; the source suite passed.",
       "evidence_url": "https://archive.softwareheritage.org/api/1/origin/save/2467253/",
-      "counts_as_published_verified": false,
+      "counts_as_published_verified": true,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-10T00:00:00.000Z"
+      "recheck_after": "2026-10-09T00:00:00.000Z",
+      "public_url": "https://archive.softwareheritage.org/browse/snapshot/4e37255079d2f323ddd52c42032672ae8597fe19/directory/"
     }
   ]
 }
