@@ -18,7 +18,29 @@
     "registrable_provider_domains": 14,
     "independent_citations": 0,
     "external_spend_rub": 0,
-    "legacy_business_changes": 0
+    "legacy_business_changes": 0,
+    "unique_provider_ecosystems": 19,
+    "unique_provider_ecosystems_basis": [
+      "agent-skill-hub",
+      "agent-skills",
+      "agentverus",
+      "github",
+      "gitlab",
+      "gitmcp",
+      "homebrew",
+      "huggingface",
+      "jsr",
+      "kaggle",
+      "mcpagents",
+      "mcprepository",
+      "mcpvault",
+      "official-mcp-registry",
+      "pypi",
+      "readthedocs",
+      "scoop",
+      "skillstore",
+      "sourceforge"
+    ]
   },
   "status_totals": {
     "published_verified": 27,
