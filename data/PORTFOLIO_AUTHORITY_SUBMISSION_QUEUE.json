@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Saved queue for legitimate future applications to editorial or directory routes that require public SHAR portfolio evidence. These are prospects, not placements or citations.",
+  "updated_at": "2026-09-09T01:05:00Z",
+  "evidence_source": {
+    "homepage": "https://sharprod.com/",
+    "cases_index": "https://sharprod.com/#cases",
+    "evidence": "The public SHAR homepage exposes a 2026 showreel and named cases: WINLAB, KINAESTHETIC, CLICK CITY, ИЛЮХИН ГРОБ and ЛУКОЙЛ; it also states AI/CGI/hybrid production services, client names and awards.",
+    "checked_at": "2026-09-09T01:05:00Z"
+  },
+  "routes": [
+    {
+      "id": "citation-gap.studiolist.best-ai-video-studios-2026",
+      "domain": "studiolist.co",
+      "url": "https://studiolist.co/best-ai-video-studios/",
+      "page_type": "curated_ranked_list",
+      "relevant_commercial_query": "best AI video studios; AI video production studio",
+      "route_type": "directory_submission",
+      "status": "PORTFOLIO_EVIDENCE_READY_REQUIRES_ROUTE_REVIEW",
+      "weighted_priority": 50
+    },
+    {
+      "id": "citation-gap.retainable.best-video-production-agencies-ai-companies-2026",
+      "domain": "retainable.com",
+      "url": "https://www.retainable.com/blog/best-video-production-agencies-for-ai-companies",
+      "page_type": "editorial_comparison_guide",
+      "relevant_commercial_query": "best video production agencies for AI companies",
+      "route_type": "editorial_outreach",
+      "status": "PORTFOLIO_EVIDENCE_READY_REQUIRES_ROUTE_REVIEW",
+      "weighted_priority": 50
+    },
+    {
+      "id": "citation-gap.awesomic.best-ai-video-production-agencies-2026",
+      "domain": "awesomic.com",
+      "url": "https://www.awesomic.com/blog/ai-video-production-agencies",
+      "page_type": "editorial_listicle",
+      "relevant_commercial_query": "best AI video production agencies",
+      "route_type": "editorial_outreach",
+      "status": "PORTFOLIO_EVIDENCE_READY_REQUIRES_ROUTE_REVIEW",
+      "weighted_priority": 25
+    }
+  ],
+  "constraints": [
+    "No paid placements.",
+    "No invented portfolio claims or media.",
+    "No claim of listing, citation, endorsement or ranking until a public provider page is verified.",
+    "Review actual submission requirements before opening any route."
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "purpose": "Evidence-led queue of independent commercial or topical pages where SHAR is not currently mentioned. Queue entries are candidates, not claims of ranking or AI citation.",
-  "updated_at": "2026-09-09T00:41:00Z",
+  "updated_at": "2026-09-09T01:05:00Z",
   "items": [
     {
       "id": "citation-gap.studiolist.best-ai-video-studios-2026",
@@ -21,9 +21,9 @@
       ],
       "relevant_commercial_query": "best AI video studios; AI video production studio",
       "why_shar_matches": "SHAR Production is positioned as an AI-hybrid video production studio with CGI/3D and production-technology supporting capabilities; inclusion must be supported by real portfolio and company evidence.",
-      "legitimate_entry_path": "Do not submit during the technical rollout. Reconsider only after the owner supplies real, independently verifiable production-company portfolio, client and team evidence required by this curated ranking.",
+      "legitimate_entry_path": "Use only the public SHAR portfolio/case evidence. Before any submission, inspect the provider’s actual route, required fields and whether it is unpaid/editorially independent. Never invent credits, results, clients, awards or assets.",
       "route_type": "directory_submission",
-      "status": "DEFERRED_REQUIRES_REAL_PORTFOLIO_AND_OWNER_EVIDENCE",
+      "status": "PORTFOLIO_EVIDENCE_READY_REQUIRES_ROUTE_REVIEW",
       "evidence": {
         "checked_at": "2026-09-09T00:24:00Z",
         "http_200": true,
@@ -31,7 +31,13 @@
         "page_context": "Page states it is a hand-picked 2026 ranking, reviewed for portfolio depth, client work, output quality and transparency. It names ten studios and provides Get Listed and Claim routes.",
         "discovery": "search batch"
       },
-      "weighted_priority": 50
+      "weighted_priority": 50,
+      "portfolio_evidence": {
+        "homepage": "https://sharprod.com/",
+        "cases_index": "https://sharprod.com/#cases",
+        "evidence": "The public SHAR homepage exposes a 2026 showreel and named cases: WINLAB, KINAESTHETIC, CLICK CITY, ИЛЮХИН ГРОБ and ЛУКОЙЛ; it also states AI/CGI/hybrid production services, client names and awards.",
+        "checked_at": "2026-09-09T01:05:00Z"
+      }
     },
     {
       "id": "citation-gap.retainable.best-video-production-agencies-ai-companies-2026",
@@ -52,9 +58,9 @@
       ],
       "relevant_commercial_query": "best video production agencies for AI companies",
       "why_shar_matches": "The guide evaluates technical accuracy for AI-company video production, which overlaps SHAR’s AI-hybrid production positioning. Any inclusion requires a truthful independent editorial decision, not a paid link.",
-      "legitimate_entry_path": "Do not send outreach during the technical rollout. Reconsider only with a real production case and evidence suitable for an independent editorial review.",
+      "legitimate_entry_path": "Use only the public SHAR portfolio/case evidence. Before any submission, inspect the provider’s actual route, required fields and whether it is unpaid/editorially independent. Never invent credits, results, clients, awards or assets.",
       "route_type": "editorial_outreach",
-      "status": "DEFERRED_REQUIRES_EDITORIAL_AND_CASE_EVIDENCE",
+      "status": "PORTFOLIO_EVIDENCE_READY_REQUIRES_ROUTE_REVIEW",
       "evidence": {
         "checked_at": "2026-09-09T00:24:00Z",
         "http_200": true,
@@ -62,7 +68,13 @@
         "page_context": "2026 guide lists ten agencies and describes its methodology as technical accuracy for AI companies; public page exposed no visible listing-submission route.",
         "discovery": "search batch"
       },
-      "weighted_priority": 50
+      "weighted_priority": 50,
+      "portfolio_evidence": {
+        "homepage": "https://sharprod.com/",
+        "cases_index": "https://sharprod.com/#cases",
+        "evidence": "The public SHAR homepage exposes a 2026 showreel and named cases: WINLAB, KINAESTHETIC, CLICK CITY, ИЛЮХИН ГРОБ and ЛУКОЙЛ; it also states AI/CGI/hybrid production services, client names and awards.",
+        "checked_at": "2026-09-09T01:05:00Z"
+      }
     },
     {
       "id": "citation-gap.awesomic.best-ai-video-production-agencies-2026",
@@ -75,9 +87,9 @@
       ],
       "relevant_commercial_query": "best AI video production agencies",
       "why_shar_matches": "The topic is directly adjacent to SHAR’s AI/hybrid commercial production service. Inclusion would require editor-controlled factual review and real evidence.",
-      "legitimate_entry_path": "Do not send outreach during the technical rollout. Reconsider only with a real production case and evidence suitable for an independent editorial review.",
+      "legitimate_entry_path": "Use only the public SHAR portfolio/case evidence. Before any submission, inspect the provider’s actual route, required fields and whether it is unpaid/editorially independent. Never invent credits, results, clients, awards or assets.",
       "route_type": "editorial_outreach",
-      "status": "DEFERRED_REQUIRES_EDITORIAL_AND_CASE_EVIDENCE",
+      "status": "PORTFOLIO_EVIDENCE_READY_REQUIRES_ROUTE_REVIEW",
       "evidence": {
         "checked_at": "2026-09-09T00:24:00Z",
         "http_200": true,
@@ -85,7 +97,13 @@
         "page_context": "2026 article is an external listicle about AI video production agencies; page content included the guide title and direct topic relevance but no public inclusion route was identified.",
         "discovery": "search batch"
       },
-      "weighted_priority": 25
+      "weighted_priority": 25,
+      "portfolio_evidence": {
+        "homepage": "https://sharprod.com/",
+        "cases_index": "https://sharprod.com/#cases",
+        "evidence": "The public SHAR homepage exposes a 2026 showreel and named cases: WINLAB, KINAESTHETIC, CLICK CITY, ИЛЮХИН ГРОБ and ЛУКОЙЛ; it also states AI/CGI/hybrid production services, client names and awards.",
+        "checked_at": "2026-09-09T01:05:00Z"
+      }
     }
   ]
 }
