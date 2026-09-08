@@ -4033,7 +4033,7 @@
         "note": "Free public form accepts a GitHub repository, subdirectory, or SKILL.md URL; zero-star skills are explicitly accepted and only a valid SKILL.md is required. It saves to a community review queue, and a listing is not public acceptance until reviewed. Existing SHAR SKILL.md fits. No external form submission or receipt exists.",
         "submission": {
           "accepted_http_status": 202,
-          "submission_id": "bc476ce2-e530-4b02-9f7f-0cd14d3a7153,",
+          "submission_id": "bc476ce2-e530-4b02-9f7f-0cd14d3a7153",
           "review_status": "reviewed",
           "public_directory_check": "No exact SHAR result after the public directory search; no public URL yet.",
           "private_token_stored": false
