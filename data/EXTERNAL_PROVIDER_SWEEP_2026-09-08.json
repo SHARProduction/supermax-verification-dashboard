@@ -2936,6 +2936,21 @@
         "kind": "official_registry_faq_and_live_submission_ui",
         "note": "Official FAQ states that an open-source MCP can be submitted from its GitHub repository with display name and description, followed by automated quality, security and health checks. Live registry exposes Add Server while showing Sign Up; no account, submission receipt or public Glama card exists."
       }
+    },
+    {
+      "provider": "DevToolset",
+      "provider_domain": "devtoolset.net",
+      "homepage": "https://devtoolset.net/",
+      "submission_url": "https://github.com/iAmCorey/devtoolset/pull/44",
+      "source_catalog": "upstream contribution guide and public PR 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:55:00Z",
+      "evidence": {
+        "kind": "external_oss_pull_request",
+        "note": "The upstream guide requires a development-related tool, direct non-affiliate URL and alphabetical ordering. Public PR #44 satisfies that scope for the existing local MIT CLI. Maintainer merge and rendered listing are still required."
+      }
     }
   ]
 }
