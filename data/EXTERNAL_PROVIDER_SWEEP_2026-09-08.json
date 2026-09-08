@@ -3216,10 +3216,55 @@
       "asset_fit": "CONFIRMED_FIT_PRODUCTION_INDUSTRY_DIRECTORY",
       "status": "INELIGIBLE_PAID_SUBSCRIPTION_AFTER_TRIAL",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T19:52:00.000Z",
+      "checked_at": "2026-09-08T19:52:00Z",
       "evidence": {
         "kind": "official_pricing_and_faq",
         "note": "ProductionHUB is a relevant global production directory, but its Basic profile is only free for the first 30 days and then costs USD 6.99 monthly. Its own FAQ confirms the basic profile is a subscription. Zero incremental spend forbids creating this route."
+      }
+    },
+    {
+      "provider": "World Media Match",
+      "provider_domain": "worldmediamatch.com",
+      "homepage": "https://worldmediamatch.com/",
+      "submission_url": "https://worldmediamatch.com/register-your-company/",
+      "source_catalog": "Official register page and Fluent Forms client configuration inspected 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_FILM_TV_PRODUCTION_COMPANY_DIRECTORY",
+      "status": "OWNER_GATE_TURNSTILE_AND_REQUIRED_OWNER_FIELDS",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:58:00.000Z",
+      "evidence": {
+        "kind": "official_registration_form",
+        "note": "WMM offers a free public company directory placement but its official form requires Cloudflare Turnstile plus required personal contact name, company address, phone and company email fields. No CAPTCHA was bypassed and no personal data was invented."
+      }
+    },
+    {
+      "provider": "Oward",
+      "provider_domain": "oward.co",
+      "homepage": "https://www.oward.co/en",
+      "submission_url": "https://www.oward.co/en/register",
+      "source_catalog": "Official public site registration copy inspected 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_AUDIOVISUAL_COMPANY_NETWORK",
+      "status": "OWNER_GATE_EMAIL_VERIFICATION_AND_IDENTITY",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:58:00.000Z",
+      "evidence": {
+        "kind": "official_registration_copy",
+        "note": "Oward publicly offers free profile creation for audiovisual companies but requires account email verification and personal account identity fields before a company profile can be created and exposed. No account was created."
+      }
+    },
+    {
+      "provider": "Production List",
+      "provider_domain": "productionlist.com",
+      "homepage": "https://www.productionlist.com/",
+      "submission_url": "https://www.productionlist.com/register?plan=free",
+      "source_catalog": "Official public registration form inspected 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_PRODUCTION_INDUSTRY_PROFILE",
+      "status": "OWNER_GATE_EMAIL_VERIFICATION_AND_IDENTITY",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:58:00.000Z",
+      "evidence": {
+        "kind": "official_registration_form",
+        "note": "Production List offers a no-card free account and accepts Other country, but the registration starts with required personal first name, email, role and then a password. No personal identity was invented or account created."
       }
     }
   ]

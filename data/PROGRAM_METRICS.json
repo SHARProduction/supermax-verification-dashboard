@@ -53,7 +53,7 @@
     "blocked_provider_org_access": 0,
     "blocked_external_archive_load": 1,
     "blocked_evidence_unavailable": 1,
-    "owner_gate": 19,
+    "owner_gate": 22,
     "ineligible": 10,
     "deferred_scope": 1
   }
