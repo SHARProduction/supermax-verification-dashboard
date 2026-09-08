@@ -2552,6 +2552,21 @@
         "kind": "live_form_and_direct_provider_api",
         "note": "Live form exposes a free reviewed MCP listing. Payload was derived from form source; POST /api/submissions returned HTTP 429 Too many submissions. No receipt or public listing was obtained, so nothing is counted."
       }
+    },
+    {
+      "provider": "MCP Trove",
+      "provider_domain": "mcptrove.com",
+      "homepage": "https://mcptrove.com/",
+      "submission_url": "https://mcptrove.com/submit",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "PROVIDER_SUBMISSION_DISABLED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T20:25:00Z",
+      "evidence": {
+        "kind": "live_form_prefill_and_direct_provider_api",
+        "note": "Live prefill API correctly read the SHAR GitHub repository and supports stdio with a source install command. POST /api/submit returned HTTP 503: Submissions are disabled in this read-only demo. No submission or placement was created."
+      }
     }
   ]
 }
