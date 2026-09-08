@@ -3156,7 +3156,7 @@
       "asset_fit": "CONFIRMED_FIT",
       "status": "SUBMITTED",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T19:31:38.980Z",
+      "checked_at": "2026-09-08T19:31:38.98Z",
       "evidence": {
         "kind": "public_external_pull_request",
         "note": "PR #1 is a one-entry source-backed MCP submission. It cannot be counted until the independent upstream accepts it and the heyclau.de page is public."
@@ -3175,6 +3175,21 @@
       "evidence": {
         "kind": "official_form_client_and_first_party_source",
         "note": "StudioList is a curated AI video production studio directory. Its Studio form requires Google identity verification before submission, then requires factual studio name, location, team size, website, showreel, specialty, tools, and contact fields. First-party SHAR evidence confirms Moscow, worldwide service coverage, an official Kinescope-hosted showreel page, and the SHAR Production homepage; no form was submitted or fields invented."
+      }
+    },
+    {
+      "provider": "StudioIndex",
+      "provider_domain": "studioindex.ai",
+      "homepage": "https://studioindex.ai/",
+      "submission_url": "https://studioindex.ai/list-your-studio",
+      "source_catalog": "Agent Reach Exa discovery and official client bundle inspection 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_AI_VIDEO_PRODUCTION_DIRECTORY",
+      "status": "PROVIDER_SUBMISSION_FLOW_NONFUNCTIONAL",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:41:00.000Z",
+      "evidence": {
+        "kind": "official_form_client_bundle",
+        "note": "StudioIndex presents a free AI video production studio listing form, but its shipped client handler only calls preventDefault and contains no listing-creation API request. The separate logo upload endpoint is insufficient evidence of a valid submission flow. No data was posted and no placement was claimed."
       }
     }
   ]
