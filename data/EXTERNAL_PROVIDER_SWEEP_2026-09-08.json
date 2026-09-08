@@ -470,8 +470,8 @@
         "auth_type": "google_only",
         "captcha_type": "captcha_unknown"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSeuaZvj-s7KkI5Zp41q9LX0i9suH61c7JR2qe6sBdDtP9r9Sg/viewform?usp=send_form",
@@ -481,7 +481,11 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T00:31:00Z",
+      "evidence": {
+        "kind": "official_google_form_submission_receipt",
+        "note": "No Google account was required to submit. The official form accepted a factual entry for SHAR Production Metadata MCP and returned the public confirmation text that the submission will be reviewed. No public listing URL exists yet, so it is not counted."
+      }
     },
     {
       "provider": "AI Lib",

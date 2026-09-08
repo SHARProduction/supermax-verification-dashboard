@@ -892,6 +892,24 @@
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-10-09T00:00:00Z",
       "public_url": "https://web.archive.org/web/20260908221302/https://github.com/SHARProduction/production-delivery-manifest-schema"
+    },
+    {
+      "submission_id": "supermax.submission.ai-infinity.production-metadata-mcp",
+      "provider": "AI Infinity",
+      "provider_domain": "aiinfinity-meetpatel.notion.site",
+      "asset": "SHAR Production Metadata MCP v1.0.4",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T00:31:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_AI_TOOL_DIRECTORY_FORM",
+      "evidence": "Official Google Form response returned HTTP 200 with confirmation: “Thank you for submitting a new AI tool. We appreciate your contribution to our community and will review your submission shortly.” The factual submission used Developer category, the public MIT source, SHAR Production attribution and https://sharprod.com/.",
+      "evidence_url": "https://docs.google.com/forms/d/e/1FAIpQLSeuaZvj-s7KkI5Zp41q9LX0i9suH61c7JR2qe6sBdDtP9r9Sg/viewform",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T00:00:00Z"
     }
   ]
 }
