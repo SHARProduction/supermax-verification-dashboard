@@ -3772,6 +3772,66 @@
         "kind": "public_provider_issue_receipt",
         "note": "Provider requires New Provider Issue for validation of a public skills source. Issue #127 is open. This is an external maintainer-review submission, not a public provider acceptance or listing."
       }
+    },
+    {
+      "provider": "AgentSkillz Directory",
+      "provider_domain": "agentskillz.directory",
+      "homepage": "https://www.agentskillz.directory/",
+      "submission_url": "https://www.agentskillz.directory/submit",
+      "source_catalog": "live public submit page 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "READY_UPLOAD_REQUIRES_OWNER_CONFIRMATION",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:55:00Z",
+      "evidence": {
+        "kind": "live_public_submission_form",
+        "note": "Free review form requires upload of SKILL.md or skill folder plus optional public source URL; requires valid root SKILL.md, lower-case hyphenated name, concise description and license. Existing SHAR skill meets these source requirements. No upload/submission yet."
+      }
+    },
+    {
+      "provider": "GeminiSkill",
+      "provider_domain": "geminiskill.org",
+      "homepage": "https://geminiskill.org/marketplace",
+      "submission_url": "https://geminiskill.org/submit",
+      "source_catalog": "live public submit page 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "READY_FORM_REQUIRES_CONTACT_TRANSMISSION_CONFIRMATION",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:55:00Z",
+      "evidence": {
+        "kind": "live_public_submission_form",
+        "note": "Free review form requests skill name, GitHub source URL, short description, category, compatibility and review-contact email. Existing SHAR skill fits Testing & QA / Gemini CLI, Claude Code and Cursor compatibility. No form data or submission sent."
+      }
+    },
+    {
+      "provider": "vskill",
+      "provider_domain": "verified-skill.com",
+      "homepage": "https://verified-skill.com/",
+      "submission_url": "https://verified-skill.com/submit",
+      "source_catalog": "live official submitting docs 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "OWNER_GATE_GITHUB_LOGIN",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:55:00Z",
+      "evidence": {
+        "kind": "live_official_submit_page",
+        "note": "Free public GitHub skill source is eligible, but actual submit page requires GitHub sign-in before it scans and publishes. No login or submission is claimed."
+      }
+    },
+    {
+      "provider": "SkillMD",
+      "provider_domain": "skillmd.com",
+      "homepage": "https://skillmd.com/about",
+      "submission_url": "https://skillmd.com/publish",
+      "source_catalog": "live official publish page 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:55:00Z",
+      "evidence": {
+        "kind": "live_official_publish_page",
+        "note": "Free registry accepts SKILL.md source/file upload after sign-in and safety review. No account or submission exists."
+      }
     }
   ]
 }
