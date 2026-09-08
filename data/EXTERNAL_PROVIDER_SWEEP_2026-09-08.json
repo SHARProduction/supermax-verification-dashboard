@@ -1,0 +1,1608 @@
+{
+  "schema_version": "1.0.0",
+  "collected_at": "2026-09-08T16:45:00Z",
+  "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
+  "source": "https://github.com/BraedenBDev/ai-directories",
+  "candidates": [
+    {
+      "provider": "DevHunt",
+      "provider_domain": "devhunt.org",
+      "homepage": "https://devhunt.org",
+      "submission_url": "https://devhunt.org",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "100 AI Apps",
+      "provider_domain": "100apps.org",
+      "homepage": "https://100apps.org",
+      "submission_url": "https://100apps.org",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "1000 Tools",
+      "provider_domain": "1000.tools",
+      "homepage": "https://1000.tools",
+      "submission_url": "https://1000.tools/my/tools/create",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "1000gpt.shop",
+      "provider_domain": "1000gpt.shop",
+      "homepage": "https://1000gpt.shop",
+      "submission_url": "https://buy.stripe.com/dR6eVi1lRgj9bsY4gg",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "paid",
+        "auth_type": "google_only",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "1payment Tools",
+      "provider_domain": "1payment.tools",
+      "homepage": "https://1payment.tools",
+      "submission_url": "https://1payment.tools/cabinet/apps/new",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Advanced Innovation",
+      "provider_domain": "advanced-innovation.io",
+      "homepage": "https://www.advanced-innovation.io",
+      "submission_url": "https://www.advanced-innovation.io/ki-tool-einreichen",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "recaptcha_v2"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Afford Hunt",
+      "provider_domain": "affordhunt.com",
+      "homepage": "https://affordhunt.com",
+      "submission_url": "https://t.co/zZB1Yxgf8s",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Center",
+      "provider_domain": "aicenter.ai",
+      "homepage": "https://aicenter.ai",
+      "submission_url": "https://aicenter.ai/products/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI combined",
+      "provider_domain": "aicombined.com",
+      "homepage": "https://aicombined.com",
+      "submission_url": "https://aicombined.com/add-listing",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Depot",
+      "provider_domain": "aidepot.co",
+      "homepage": "https://aidepot.co",
+      "submission_url": "https://t.co/d7KH891ypL",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "none",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Dir",
+      "provider_domain": "aidir.cc",
+      "homepage": "https://www.aidir.cc",
+      "submission_url": "https://www.aidir.cc/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Directory",
+      "provider_domain": "aidirectory.org",
+      "homepage": "https://www.aidirectory.org",
+      "submission_url": "https://www.aidirectory.org/user-submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "cloudflare_turnstile"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Dude Info",
+      "provider_domain": "aiwizard.ai",
+      "homepage": "https://www.aiwizard.ai",
+      "submission_url": "https://aidude.info/submit-your-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "paid",
+        "auth_type": "google_only",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Explorer",
+      "provider_domain": "aiexplorer.app",
+      "homepage": "https://www.aiexplorer.app",
+      "submission_url": "https://www.aiexplorer.app",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "cloudflare_blocked",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "cloudflare"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Finder",
+      "provider_domain": "ai-finder.net",
+      "homepage": "https://ai-finder.net",
+      "submission_url": "https://ai-finder.net/add",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "error",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Gadget",
+      "provider_domain": "aigadget.io",
+      "homepage": "https://aigadget.io",
+      "submission_url": "https://aigadget.io",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "domain_parked",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Hub",
+      "provider_domain": "aihub.fyi",
+      "homepage": "https://www.aihub.fyi",
+      "submission_url": "https://www.aihub.fyi/form",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "error",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Hunter",
+      "provider_domain": "ai-hunter.io",
+      "homepage": "https://ai-hunter.io",
+      "submission_url": "https://ai-hunter.io/submit-ai-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Infinity",
+      "provider_domain": "aiinfinity-meetpatel.notion.site",
+      "homepage": "https://aiinfinity-meetpatel.notion.site/AI-Infinity-AI-Tools-Directory-0da673c487124ea2b6f8ebe59b75a231",
+      "submission_url": "https://forms.gle/Ze6pdWzmweCfKWnLA",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Lib",
+      "provider_domain": "ailib.ru",
+      "homepage": "https://ailib.ru",
+      "submission_url": "https://ailib.ru",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Library",
+      "provider_domain": "library.phygital.plus",
+      "homepage": "https://library.phygital.plus",
+      "submission_url": "https://library.phygital.plus/tool-submission",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "domain_dead",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Marketing",
+      "provider_domain": "aimarketing.directory",
+      "homepage": "https://aimarketing.directory",
+      "submission_url": "https://aimarketing.directory/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI scout",
+      "provider_domain": "aiscout.net",
+      "homepage": "https://aiscout.net/ref=aidirectori.es",
+      "submission_url": "https://aiscout.net/submit-listing/details/ref=aidirectori.es",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "timeout",
+        "pricing_type": "paid",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Search",
+      "provider_domain": "ai-search.io",
+      "homepage": "https://ai-search.io",
+      "submission_url": "https://ai-search.io/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Spree",
+      "provider_domain": "aispree.com",
+      "homepage": "https://aispree.com",
+      "submission_url": "https://aispree.com",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Startups",
+      "provider_domain": "aistartups.net",
+      "homepage": "https://www.aistartups.net",
+      "submission_url": "https://www.aistartups.net/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Stash",
+      "provider_domain": "aistash.co",
+      "homepage": "https://www.aistash.co",
+      "submission_url": "https://www.aistash.co/submit-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "domain_dead",
+        "pricing_type": "paid",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI To Grow",
+      "provider_domain": "aitogrow.com",
+      "homepage": "https://aitogrow.com",
+      "submission_url": "https://aitogrow.com/#send-your-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tool Board",
+      "provider_domain": "aitoolboard.com",
+      "homepage": "https://aitoolboard.com",
+      "submission_url": "https://aitoolboard.com/submit-ai-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tool guru",
+      "provider_domain": "aitoolguru.com",
+      "homepage": "https://aitoolguru.com",
+      "submission_url": "https://aitoolguru.com/submit-ai-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_and_email",
+        "captcha_type": "recaptcha_v3"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI tool hunt",
+      "provider_domain": "aitoolhunt.com",
+      "homepage": "https://www.aitoolhunt.com",
+      "submission_url": "https://www.aitoolhunt.com/addTool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "timeout",
+        "pricing_type": "paid",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tool NET",
+      "provider_domain": "aitoolnet.com",
+      "homepage": "https://www.aitoolnet.com",
+      "submission_url": "https://www.aitoolnet.com",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tool Tracker",
+      "provider_domain": "aitooltracker.com",
+      "homepage": "https://aitooltracker.com",
+      "submission_url": "https://aitooltracker.com/dashboard/#submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tools Arena",
+      "provider_domain": "aitoolsarena.com",
+      "homepage": "https://aitoolsarena.com",
+      "submission_url": "https://aitoolsarena.com",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tools Directory",
+      "provider_domain": "aitools.directory",
+      "homepage": "https://www.aitools.directory",
+      "submission_url": "https://www.aitools.directory",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "email_password",
+        "captcha_type": "recaptcha_v3"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI tools directory COM",
+      "provider_domain": "aitoolsdirectory.com",
+      "homepage": "https://aitoolsdirectory.com",
+      "submission_url": "https://aitoolsdirectory.com/submit-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tools Directory HCILAB",
+      "provider_domain": "hcilab.org",
+      "homepage": "https://www.hcilab.org/ai-tools-directory",
+      "submission_url": "https://www.hcilab.org/ai-tools-directory",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI tools for Marketing",
+      "provider_domain": "airadar.getinference.com",
+      "homepage": "https://airadar.getinference.com",
+      "submission_url": "https://airadar.getinference.com",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tools Guide",
+      "provider_domain": "aitoolsguide.com",
+      "homepage": "https://aitoolsguide.com",
+      "submission_url": "https://aitoolsguide.com/contact",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "domain_dead",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tools Neil Patel",
+      "provider_domain": "aitools.neilpatel.com",
+      "homepage": "https://aitools.neilpatel.com",
+      "submission_url": "https://aitools.neilpatel.com/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tools Up",
+      "provider_domain": "aitoolsup.com",
+      "homepage": "https://aitoolsup.com",
+      "submission_url": "https://aitoolsup.com/submit-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "email_password",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Tools Wiki",
+      "provider_domain": "aitoolswiki.com",
+      "homepage": "https://aitoolswiki.com",
+      "submission_url": "https://aitoolswiki.com/contact-us",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "email_password",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Top Picks",
+      "provider_domain": "aitoppicks.com",
+      "homepage": "https://www.aitoppicks.com",
+      "submission_url": "https://www.aitoppicks.com",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "domain_dead",
+        "pricing_type": "paid",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI trendz",
+      "provider_domain": "aitrendz.xyz",
+      "homepage": "https://aitrendz.xyz",
+      "submission_url": "https://aitrendz.xyz/submit-ai-link",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "none",
+        "captcha_type": "recaptcha_v3"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AI Valley",
+      "provider_domain": "aivalley.ai",
+      "homepage": "https://aivalley.ai",
+      "submission_url": "https://aivalley.ai/submit-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AIToolKit",
+      "provider_domain": "aitoolkit.org",
+      "homepage": "https://www.aitoolkit.org",
+      "submission_url": "https://www.aitoolkit.org/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AIX Collection",
+      "provider_domain": "aixcollection.com",
+      "homepage": "https://aixcollection.com",
+      "submission_url": "https://aixcollection.com/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Aixploria",
+      "provider_domain": "aixploria.com",
+      "homepage": "https://www.aixploria.com/en",
+      "submission_url": "https://www.aixploria.com/en/add-ai",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "All things AI",
+      "provider_domain": "allthingsai.com",
+      "homepage": "https://allthingsai.com",
+      "submission_url": "https://allthingsai.com/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "domain_dead",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Altern AI",
+      "provider_domain": "altern.ai",
+      "homepage": "https://altern.ai",
+      "submission_url": "https://altern.ai/dash/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Alternative",
+      "provider_domain": "alternative.me",
+      "homepage": "https://alternative.me",
+      "submission_url": "https://alternative.me/how-to/submit-software",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Alternatives.co",
+      "provider_domain": "alternatives.co",
+      "homepage": "https://alternatives.co/software/ai-tools",
+      "submission_url": "https://alternatives.co/software/ai-tools",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "AlterOpen",
+      "provider_domain": "alteropen.com",
+      "homepage": "https://alteropen.com",
+      "submission_url": "https://github.com/alteropen-com/alteropen/tree/main/content/app",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Amaete AI",
+      "provider_domain": "amaete.ai",
+      "homepage": "https://www.amaete.ai",
+      "submission_url": "https://www.amaete.ai",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "domain_dead",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Ankore",
+      "provider_domain": "ankore.io",
+      "homepage": "https://ankore.io",
+      "submission_url": "https://ankore.io/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "error",
+        "pricing_type": "paid",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Anyfp",
+      "provider_domain": "anyfp.com",
+      "homepage": "https://anyfp.com",
+      "submission_url": "https://anyfp.com/contact",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "none",
+        "captcha_type": "recaptcha_v3"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Apps and Websites",
+      "provider_domain": "appsandwebsites.com",
+      "homepage": "https://appsandwebsites.com",
+      "submission_url": "https://landing.mycloudmedia.co.uk/apps-and-websites-submit-ai-or-saas-tool/new-submission.html",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Appscriber",
+      "provider_domain": "appscribed.com",
+      "homepage": "https://appscribed.com",
+      "submission_url": "https://appscribed.com/product-list",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Ben’s Bites News",
+      "provider_domain": "news.bensbites.co",
+      "homepage": "https://news.bensbites.co",
+      "submission_url": "https://news.bensbites.com/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "hcaptcha"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Best AI To",
+      "provider_domain": "bestaito.com",
+      "homepage": "https://bestaito.com",
+      "submission_url": "https://bestaito.com/submit-a-ai-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "google_only",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Best AI Tools",
+      "provider_domain": "startupaitools.com",
+      "homepage": "https://www.startupaitools.com",
+      "submission_url": "https://www.startupaitools.com",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "BizRaw",
+      "provider_domain": "bizraw.com",
+      "homepage": "https://bizraw.com",
+      "submission_url": "https://bizraw.com/whats-new/posts/98",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "domain_dead",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "BroUseAI",
+      "provider_domain": "brouseai.com",
+      "homepage": "https://www.brouseai.com",
+      "submission_url": "https://www.brouseai.com",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Buffer Apps",
+      "provider_domain": "bufferapps.com",
+      "homepage": "https://www.bufferapps.com",
+      "submission_url": "https://www.bufferapps.com/beta-listing/new",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_and_email",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Chat AI Apps",
+      "provider_domain": "chataiapps.com",
+      "homepage": "https://www.chataiapps.com",
+      "submission_url": "https://www.chataiapps.com",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "ChatGate AI",
+      "provider_domain": "explore.chatgate.ai",
+      "homepage": "https://explore.chatgate.ai",
+      "submission_url": "https://explore.chatgate.ai/submit-your-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "domain_dead",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "ChatGPT demo",
+      "provider_domain": "chatgptdemo.com",
+      "homepage": "https://chatgptdemo.com",
+      "submission_url": "https://chatgptdemo.com/submit-a-product",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Creator Supply",
+      "provider_domain": "creator.supply",
+      "homepage": "https://creator.supply",
+      "submission_url": "https://kevinbhagat.lemonsqueezy.com/buy/6747a484-e8ee-4302-a90a-af378cc72678",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Daily tech AI",
+      "provider_domain": "dailytech.ai",
+      "homepage": "https://www.dailytech.ai",
+      "submission_url": "https://www.dailytech.ai/submit-service",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Dang AI",
+      "provider_domain": "dang.ai",
+      "homepage": "https://dang.ai",
+      "submission_url": "https://dang.ai",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "none",
+        "captcha_type": "recaptcha_v2"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "DEV Resources",
+      "provider_domain": "devresourc.es",
+      "homepage": "https://devresourc.es",
+      "submission_url": "https://github.com/marcelscruz/dev-resources",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Digi Pro Tools",
+      "provider_domain": "digiprotoolz.com",
+      "homepage": "https://digiprotoolz.com",
+      "submission_url": "https://digiprotoolz.com/contact-us",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "timeout",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Digital Agency Network",
+      "provider_domain": "digitalagencynetwork.com",
+      "homepage": "https://digitalagencynetwork.com",
+      "submission_url": "https://digitalagencynetwork.com/join-free-listing-tools",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "email_password",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Dokey AI",
+      "provider_domain": "dokeyai.com",
+      "homepage": "https://dokeyai.com",
+      "submission_url": "https://dokeyai.com/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "DoMore",
+      "provider_domain": "domore.ai",
+      "homepage": "https://domore.ai",
+      "submission_url": "https://domore.ai/contact-us",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "timeout",
+        "pricing_type": "paid",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Easy Save AI",
+      "provider_domain": "easysaveai.com",
+      "homepage": "https://easysaveai.com",
+      "submission_url": "https://easysaveai.com/submit-your-ai-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "timeout",
+        "pricing_type": "paid",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Easy with AI",
+      "provider_domain": "easywithai.com",
+      "homepage": "https://easywithai.com",
+      "submission_url": "https://easywithai.com/submit-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "timeout",
+        "pricing_type": "paid",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Educator Tools",
+      "provider_domain": "aieducator.tools",
+      "homepage": "https://aieducator.tools",
+      "submission_url": "https://docs.google.com/forms/d/e/1FAIpQLSdXXbiHAdQTWUSzLvU6xw-asbIoppIiQo0W9PuZLw2DnkhKew/viewform?usp=send_form",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "recaptcha_v2"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Every AI",
+      "provider_domain": "every-ai.com",
+      "homepage": "https://every-ai.com",
+      "submission_url": "https://every-ai.com/submit-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Faind AI",
+      "provider_domain": "faind.ai",
+      "homepage": "https://faind.ai",
+      "submission_url": "https://faind.ai/submit-a-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Favird",
+      "provider_domain": "favird.com",
+      "homepage": "https://favird.com",
+      "submission_url": "https://favird.com",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "error",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Fazier",
+      "provider_domain": "fazier.com",
+      "homepage": "https://fazier.com",
+      "submission_url": "https://fazier.com/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Find Cool Tools",
+      "provider_domain": "findcool.tools",
+      "homepage": "https://findcool.tools",
+      "submission_url": "https://findcool.tools",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Find My AI Tool",
+      "provider_domain": "findmyaitool.com",
+      "homepage": "https://findmyaitool.com",
+      "submission_url": "https://findmyaitool.com/submit-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "google_and_email",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "First 100 users",
+      "provider_domain": "first100users.com",
+      "homepage": "https://www.first100users.com",
+      "submission_url": "https://www.first100users.com/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Flip Bytes",
+      "provider_domain": "flipbytes.com",
+      "homepage": "https://www.flipbytes.com",
+      "submission_url": "https://www.flipbytes.com",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Free AI Apps",
+      "provider_domain": "freeappsai.com",
+      "homepage": "https://freeappsai.com",
+      "submission_url": "https://freeappsai.com/add",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "domain_dead",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Free AI Tools Directory",
+      "provider_domain": "free-ai-tools-directory.com",
+      "homepage": "https://free-ai-tools-directory.com",
+      "submission_url": "https://free-ai-tools-directory.com/submit-request",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "recaptcha_v3"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Future AGI tools",
+      "provider_domain": "futureagitools.com",
+      "homepage": "https://www.futureagitools.com",
+      "submission_url": "https://www.futureagitools.com/submit-a-site",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "error",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Future Tools",
+      "provider_domain": "futuretools.io",
+      "homepage": "https://www.futuretools.io",
+      "submission_url": "https://www.futuretools.io/submit-a-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Futurepedia",
+      "provider_domain": "futurepedia.io",
+      "homepage": "https://www.futurepedia.io",
+      "submission_url": "https://www.futurepedia.io/submit-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "paid",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Gate2AI",
+      "provider_domain": "gate2ai.com",
+      "homepage": "https://www.gate2ai.com",
+      "submission_url": "https://www.gate2ai.com/submit-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "not_found",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Getlatka",
+      "provider_domain": "getlatka.com",
+      "homepage": "https://getlatka.com",
+      "submission_url": "https://getlatka.com/saas-companies",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google+facebook+linkedin+email_password",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Good AI Tools",
+      "provider_domain": "goodaitools.com",
+      "homepage": "https://goodaitools.com",
+      "submission_url": "https://goodaitools.com/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "GPT Academy",
+      "provider_domain": "gptacademy.co",
+      "homepage": "https://www.gptacademy.co",
+      "submission_url": "https://www.gptacademy.co/submit",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid",
+        "auth_type": "google_only",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Gpt Forge",
+      "provider_domain": "gptforge.net",
+      "homepage": "https://gptforge.net",
+      "submission_url": "https://forms.gle/8h1SokDHfcPwkbaZ8",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "captcha_unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "GPT Stack",
+      "provider_domain": "gpt-stack.com",
+      "homepage": "https://www.gpt-stack.com",
+      "submission_url": "https://www.gpt-stack.com/add-resource",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "timeout",
+        "pricing_type": "free",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "GPTE",
+      "provider_domain": "gpte.ai",
+      "homepage": "https://gpte.ai",
+      "submission_url": "https://gpte.ai/submit-a-tool",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "error",
+        "pricing_type": "paid",
+        "auth_type": "unknown",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "GPTs Hunter",
+      "provider_domain": "gptshunter.com",
+      "homepage": "https://www.gptshunter.com",
+      "submission_url": "https://www.gptshunter.com/submit-gpt",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    },
+    {
+      "provider": "Igniter",
+      "provider_domain": "igniter.ai",
+      "homepage": "https://www.igniter.ai",
+      "submission_url": "https://haroonchoudery499974.typeform.com/to/FpdvtLml?typeform-source=www.igniter.ai",
+      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_only",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false
+    }
+  ]
+}
