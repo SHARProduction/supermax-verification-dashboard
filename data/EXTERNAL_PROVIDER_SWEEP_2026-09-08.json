@@ -2951,6 +2951,21 @@
         "kind": "external_oss_pull_request",
         "note": "The upstream guide requires a development-related tool, direct non-affiliate URL and alphabetical ordering. Public PR #44 satisfies that scope for the existing local MIT CLI. Maintainer merge and rendered listing are still required."
       }
+    },
+    {
+      "provider": "FOSSRadar",
+      "provider_domain": "fossradar.dev",
+      "homepage": "https://www.fossradar.dev/",
+      "submission_url": "https://www.fossradar.dev/submit",
+      "source_catalog": "live official submission instructions and upstream validator 2026-09-09",
+      "asset_fit": "INELIGIBLE_BY_CONTRACT",
+      "status": "INELIGIBLE_REQUIRED_REPO_TOPIC",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:05:00Z",
+      "evidence": {
+        "kind": "official_contribution_guide_and_validator_source",
+        "note": "The upstream validator treats the fossradar GitHub topic as required, not optional. Adding that topic solely to meet a directory rule would change the existing production asset for catalog admission, so this route is excluded."
+      }
     }
   ]
 }
