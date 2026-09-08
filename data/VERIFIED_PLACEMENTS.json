@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T00:00:00Z",
-  "counted_placements": 689,
+  "generated_at": "2026-09-08T23:30:00Z",
+  "counted_placements": 690,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12678,6 +12678,26 @@
         "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
         "scan_api_evidence": "POST https://agentverus.ai/api/v1/repo/scan returned scanned=1 errors=0 skillId=e0efd687-22c3-4299-a7d5-28c9e922c6fd",
         "functional_check": "Unauthenticated GET public report returned HTTP 200 and contained skill, source repository, and score."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.homebrew-tap.production-metadata-linter-v1-2",
+      "work_id": "supermax.production.production-metadata-linter",
+      "provider": "Homebrew official SHAR Production tap",
+      "provider_ecosystem": "homebrew",
+      "url": "https://github.com/SHARProduction/homebrew-tap",
+      "source": "external-provider-sweep",
+      "verified_at": "2026-09-08T23:30:00Z",
+      "verification": {
+        "public_repository": true,
+        "formula_raw_url": "https://raw.githubusercontent.com/SHARProduction/homebrew-tap/main/Formula/shar-production-metadata-linter.rb",
+        "install": "brew tap SHARProduction/tap; brew install shar-production-metadata-linter",
+        "github_actions_run": "https://github.com/SHARProduction/homebrew-tap/actions/runs/34260071199",
+        "platform": "macOS arm64",
+        "formula_install": "PASS: Homebrew installed sharproduction/tap/shar-production-metadata-linter 1.2.0",
+        "functional_check": "PASS: brew test executed the installed production-metadata-linter against a valid manifest",
+        "source_release_sha256": "EA65C96C2169B65F7384F424C179F7B2E604E5BE4EE254A258744E9BBE2050B5",
+        "purpose": "supported macOS installation channel for the existing MIT Node CLI"
       }
     }
   ]

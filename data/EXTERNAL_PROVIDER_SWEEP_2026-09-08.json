@@ -2762,6 +2762,22 @@
         "kind": "public_form_client_and_live_submission_api",
         "note": "The public form advertises URL-based skill submission and its client calls POST /api/submit, but the live endpoint returned HTTP 401 for the public SHAR skill URL. No submission or listing exists."
       }
+    },
+    {
+      "provider": "Homebrew official SHAR Production tap",
+      "provider_domain": "github.com",
+      "provider_ecosystem": "homebrew",
+      "homepage": "https://github.com/SHARProduction/homebrew-tap",
+      "submission_url": "https://github.com/SHARProduction/homebrew-tap",
+      "source_catalog": "official Homebrew tap distribution created and verified 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "PUBLISHED_VERIFIED",
+      "counts_as_placement": true,
+      "checked_at": "2026-09-08T23:30:00Z",
+      "evidence": {
+        "kind": "public_tap_formula_and_macos_homebrew_ci",
+        "note": "The public tap contains the versioned formula. GitHub Actions run 34260071199 tapped it, installed the formula on macOS arm64, and passed brew test. The formula is hosted on github.com, so this adds the Homebrew ecosystem but no new registrable provider domain."
+      }
     }
   ]
 }
