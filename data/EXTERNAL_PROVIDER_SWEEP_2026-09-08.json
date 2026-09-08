@@ -1073,8 +1073,8 @@
         "auth_type": "google_only",
         "captcha_type": "captcha_unknown"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_MCP_TOOL",
+      "status": "PROVIDER_SUBMISSION_ERROR",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aivalley.ai/submit-tool/",
@@ -1084,7 +1084,11 @@
         "login": true,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_public_contact_form_7_submission",
+        "note": "The live public form accepts SHAR Production, shar@sharprod.com, a factual source URL and a concise safety-bounded MCP description. Its Contact Form 7 feedback endpoint returned HTTP 200 status=mail_failed, with no receipt, email confirmation, draft or public listing. No placement is claimed; do not retry without new provider evidence."
+      }
     },
     {
       "provider": "AIToolKit",
