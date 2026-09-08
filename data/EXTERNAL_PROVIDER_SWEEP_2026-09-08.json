@@ -501,8 +501,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://library.phygital.plus/tool-submission",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Marketing",
@@ -517,8 +526,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.aimarketing.directory/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI scout",
@@ -533,8 +551,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError: This operation was aborted",
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Search",
@@ -549,8 +569,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 429,
+      "final_url": "https://ai-search.io/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Spree",
@@ -565,8 +594,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.grandname.com/name/AIspree.com",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Startups",
@@ -581,8 +619,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "http://ww547.aistartups.net/?tkn=19vnMT3S",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Stash",
@@ -597,8 +644,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError: This operation was aborted",
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI To Grow",
@@ -613,8 +662,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aitogrow.com/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tool Board",
@@ -629,8 +687,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aitoolboard.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tool guru",
@@ -645,8 +712,10 @@
         "captcha_type": "recaptcha_v3"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError: This operation was aborted",
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI tool hunt",
@@ -661,8 +730,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError: This operation was aborted",
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tool NET",
@@ -677,8 +748,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 403,
+      "final_url": "https://www.aitoolnet.com/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tool Tracker",
@@ -693,8 +773,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://aitooltracker.com/dashboard/",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tools Arena",
@@ -709,8 +798,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aitoolsarena.com/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tools Directory",
@@ -725,8 +823,10 @@
         "captcha_type": "recaptcha_v3"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "TypeError: fetch failed",
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI tools directory COM",
@@ -741,8 +841,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aitoolsdirectory.com/submit-tool",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tools Directory HCILAB",
@@ -757,8 +866,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.hcilab.org/ai-tools-directory/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI tools for Marketing",
@@ -773,8 +891,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://bubble.io/domain_not_supported?domain=airadar.getinference.com",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tools Guide",
@@ -789,8 +916,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aitoolsguide.com/contact",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tools Neil Patel",
@@ -805,8 +941,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://app.neilpatel.com/en/apps-integrations",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tools Up",
@@ -821,8 +966,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aitoolsup.com/submit-tool/",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Tools Wiki",
@@ -837,8 +991,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aitoolswiki.com/contact-us",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Top Picks",
@@ -853,8 +1016,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.aitoppicks.com/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI trendz",
@@ -869,8 +1041,17 @@
         "captcha_type": "recaptcha_v3"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aitrendz.xyz/submit-ai-link/",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AI Valley",
@@ -885,8 +1066,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aivalley.ai/submit-tool/",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AIToolKit",
@@ -901,8 +1091,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://www.aitoolkit.org/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AIX Collection",
@@ -917,8 +1116,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aixcollection.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Aixploria",
@@ -933,8 +1141,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.aixploria.com/en/featured-on-aixploria/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "All things AI",
@@ -949,8 +1166,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "TypeError: fetch failed",
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Altern AI",
@@ -965,8 +1184,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://altern.ai/dash/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Alternative",
@@ -981,8 +1209,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://alternative.me/how-to/submit-software",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Alternatives.co",
@@ -997,8 +1234,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "TypeError: fetch failed",
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "AlterOpen",
@@ -1013,8 +1252,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://github.com/alteropen-com/alteropen/tree/main/content/app",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Amaete AI",
@@ -1029,8 +1277,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "TypeError: fetch failed",
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Ankore",
@@ -1045,8 +1295,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://ankivo.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Anyfp",
@@ -1061,8 +1320,17 @@
         "captcha_type": "recaptcha_v3"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://anyfp.com/contact",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Apps and Websites",
@@ -1077,8 +1345,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://landing.mycloudmedia.co.uk/apps-and-websites-submit-ai-or-saas-tool/new-submission.html",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Appscriber",
@@ -1093,8 +1370,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://appscribed.com/submit-ai-tool/",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Ben’s Bites News",
@@ -1109,8 +1395,17 @@
         "captcha_type": "hcaptcha"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.bensbites.com/",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Best AI To",
@@ -1125,8 +1420,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://bestaito.com/submit-a-ai-tool/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:05:00Z"
     },
     {
       "provider": "Best AI Tools",
