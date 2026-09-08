@@ -2657,6 +2657,21 @@
         "kind": "live_browser_form",
         "note": "The live MCP submission page exposes an explicit Free Queue: $0, standard placement, stated 4-6 week review. Current CUA runtime can open/read browser pages but does not expose type/click methods, so the required GitHub URL/email form has not been submitted. Paid $29 option was not selected."
       }
+    },
+    {
+      "provider": "Windows Package Manager",
+      "provider_domain": "winget.run",
+      "homepage": "https://winget.run/",
+      "submission_url": "https://github.com/microsoft/winget-pkgs/pull/431460",
+      "source_catalog": "existing standalone CLI release and current Windows Package Manager validation",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T21:45:00Z",
+      "evidence": {
+        "kind": "local_winget_validation_release_hash_functional_check_and_public_pr",
+        "note": "Existing x64 portable executable v1.2.0 has a public release. Its SHA-256 matches the manifest and direct functional test passed. The official winget-pkgs PR is pending maintainer merge; no public catalog placement is counted."
+      }
     }
   ]
 }
