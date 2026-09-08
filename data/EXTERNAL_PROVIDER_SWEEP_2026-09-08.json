@@ -3413,6 +3413,21 @@
         "kind": "live_creator_platform_and_submission_route",
         "note": "FOOH publicly presents a CGI, VFX, mixed-reality and AI-video talent directory. It states that creating a portfolio and submitting work is free, and that approved work appears on a public portfolio and Explore. A submission must use a real SHAR work with rights and factual credits; no invented portfolio item, account, submission, receipt or public SHAR profile exists, so nothing is counted."
       }
+    },
+    {
+      "provider": "Zenodo",
+      "provider_domain": "zenodo.org",
+      "homepage": "https://zenodo.org/",
+      "submission_url": "https://zenodo.org/deposit/new",
+      "source_catalog": "Official Zenodo deposit and DOI documentation inspected 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_VERSIONED_SYNTHETIC_RIGHTS_LABELLED_DATASET",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T22:35:00Z",
+      "evidence": {
+        "kind": "official_deposit_docs_and_prepared_release",
+        "note": "Zenodo officially accepts versioned datasets and software, requires an account to create an upload, and registers a DOI only when a record is published. The prepared SHAR synthetic rights-labelled conformance corpus has a public v0.1.1 release, archive checksum, CITATION.cff, CodeMeta and Data Package metadata. No Zenodo account, draft, DOI, record or public landing page exists, so nothing is counted."
+      }
     }
   ]
 }
