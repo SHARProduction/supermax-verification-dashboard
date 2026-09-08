@@ -3161,6 +3161,21 @@
         "kind": "public_external_pull_request",
         "note": "PR #1 is a one-entry source-backed MCP submission. It cannot be counted until the independent upstream accepts it and the heyclau.de page is public."
       }
+    },
+    {
+      "provider": "StudioList",
+      "provider_domain": "studiolist.co",
+      "homepage": "https://studiolist.co/",
+      "submission_url": "https://studiolist.co/get-listed/",
+      "source_catalog": "Agent Reach Exa discovery, official form-client inspection, and SHAR first-party source verification 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_AI_HYBRID_VIDEO_PRODUCTION_STUDIO",
+      "status": "OWNER_GATE_GOOGLE_SIGN_IN",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:35:40.863Z",
+      "evidence": {
+        "kind": "official_form_client_and_first_party_source",
+        "note": "StudioList is a curated AI video production studio directory. Its Studio form requires Google identity verification before submission, then requires factual studio name, location, team size, website, showreel, specialty, tools, and contact fields. First-party SHAR evidence confirms Moscow, worldwide service coverage, an official Kinescope-hosted showreel page, and the SHAR Production homepage; no form was submitted or fields invented."
+      }
     }
   ]
 }
