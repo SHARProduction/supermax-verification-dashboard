@@ -372,6 +372,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-09T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.zskills.production-metadata-validation",
+      "provider": "ZSkills external OSS registry contribution",
+      "provider_domain": "github.com",
+      "asset": "shar-production-metadata-validation",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T00:00:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
+      "evidence": "Public PR https://github.com/manu14357/zskills/pull/2 adds a focused source-linked skill with actual installation, trigger conditions, validation behavior, safety boundary, SHAR Production homepage and JSON Schema. Maintainer merge required.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T00:00:00Z"
     }
   ]
 }
