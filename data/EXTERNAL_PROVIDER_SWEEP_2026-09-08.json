@@ -1678,8 +1678,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://github.com/marcelscruz/dev-resources",
+      "signals": {
+        "form": false,
+        "captcha": true,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:40:00Z"
     },
     {
       "provider": "Digi Pro Tools",
@@ -1694,8 +1703,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "TypeError",
+      "checked_at": "2026-09-08T17:40:00Z"
     },
     {
       "provider": "Digital Agency Network",
@@ -1710,8 +1721,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://digitalagencynetwork.com/join-free-listing-tools/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:40:00Z"
     },
     {
       "provider": "Dokey AI",
@@ -1726,8 +1746,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://dokeyai.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:40:00Z"
     },
     {
       "provider": "DoMore",
@@ -1742,8 +1771,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://domore.ai/contact-us",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:40:00Z"
     },
     {
       "provider": "Easy Save AI",
@@ -1758,8 +1796,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://easysaveai.com/submit-your-ai-tool",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:40:00Z"
     },
     {
       "provider": "Easy with AI",
@@ -1774,8 +1821,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 403,
+      "final_url": "https://easywithai.com/submit-tool",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:40:00Z"
     },
     {
       "provider": "Educator Tools",
@@ -1790,8 +1846,17 @@
         "captcha_type": "recaptcha_v2"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSdXXbiHAdQTWUSzLvU6xw-asbIoppIiQo0W9PuZLw2DnkhKew/viewform?usp=send_form",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:40:00Z"
     },
     {
       "provider": "Every AI",
@@ -1806,8 +1871,10 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:40:00Z"
     },
     {
       "provider": "Faind AI",
@@ -1822,8 +1889,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:40:00Z"
     },
     {
       "provider": "Favird",
