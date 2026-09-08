@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T13:06:35.32Z",
-  "counted_placements": 682,
+  "generated_at": "2026-09-08T15:03:00Z",
+  "counted_placements": 683,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12546,6 +12546,25 @@
         "api_evidence": "POST https://mcpvault.io/api/mcp-submit returned HTTP 201; public page returned HTTP 200.",
         "public_fields": "SHAR Production, sharprod.com, read-only rights-aware production metadata, GitHub source, MIT",
         "content": "read-only rights-aware production metadata MCP"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.mcprepository.production-metadata-mcp",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "MCPRepository",
+      "provider_ecosystem": "mcprepository",
+      "url": "https://mcprepository.com/sharproduction/production-metadata-mcp",
+      "source": "external-provider-sweep",
+      "verified_at": "2026-09-08T15:03:00Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "provider_independent_of_official_registry": true,
+        "direct_provider_submission": true,
+        "canonical": "https://mcprepository.com/sharproduction/production-metadata-mcp",
+        "public_fields": "SHAR Production, sharprod.com, GitHub source, MIT license, read-only rights-aware production metadata validation",
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "content": "read-only local stdio MCP for rights-aware production metadata manifests"
       }
     }
   ]

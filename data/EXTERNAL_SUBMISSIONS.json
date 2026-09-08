@@ -138,13 +138,16 @@
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
       "submitted_at": "2026-09-08T14:20:00Z",
-      "status": "SUBMITTED",
+      "status": "PUBLISHED_VERIFIED",
       "submission_kind": "DIRECTORY_VALIDATION_QUEUE",
       "evidence": "POST https://mcprepository.com/api/index returned HTTP 200 valid true, duplicate false, status queued; expected URL https://mcprepository.com/sharproduction/production-metadata-mcp.",
-      "counts_as_published_verified": false,
-      "counts_as_independent_provider_ecosystem": false,
-      "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-10T14:20:00Z"
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "recheck_after": "2026-09-10T14:20:00Z",
+      "published_at": "2026-09-08T15:03:00Z",
+      "public_url": "https://mcprepository.com/sharproduction/production-metadata-mcp",
+      "public_evidence": "2026-09-08 GET HTTP 200: canonical public listing includes SHAR Production, sharprod.com, and source repository."
     },
     {
       "submission_id": "supermax.submission.allmcps.production-metadata-mcp",
