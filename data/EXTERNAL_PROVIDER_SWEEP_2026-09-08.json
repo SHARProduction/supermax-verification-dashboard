@@ -3542,6 +3542,21 @@
         "kind": "upstream_validation_blocker",
         "note": "CONTRIBUTING.md allows a factual PR for active MCP servers. The SHAR entry passed local schema design and had no duplicate. However upstream main commit 62ca6279dd2ca7b1a81094edc08afd622fcc2c79 contains unresolved YAML conflict markers <<<<<<< HEAD, =======, >>>>>>> pr38 at catalog lines about 432; official validate and pytest fail before reviewing any contribution. No PR was sent."
       }
+    },
+    {
+      "provider": "ravitemer MCP Registry",
+      "provider_domain": "ravitemer.github.io",
+      "homepage": "https://ravitemer.github.io/mcp-registry/",
+      "submission_url": "https://github.com/ravitemer/mcp-registry",
+      "source_catalog": "Live upstream README, YAML samples and JSR CLI inspected 2026-09-09",
+      "asset_fit": "CONDITIONAL_ONE_COMMAND_INSTALL_REQUIRED",
+      "status": "OWNER_GATE_PUBLIC_NPM_OR_CONTAINER_REQUIRED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "installation_truthfulness_gate",
+        "note": "The active registry accepts one YAML server definition through a PR. Its schema requires an accurate runnable installation config. The SHAR MCP is public on JSR, but JSR CLI only supports adding a package to an existing project and has no executable-package run command; npm package and public OCI image are unavailable. No false npx config or PR was created."
+      }
     }
   ]
 }
