@@ -3116,6 +3116,21 @@
         "kind": "official_cli_live_auth_check",
         "note": "The official vcl client identifies the service as VibeCodingList and requires a developer API key for submissions. `vcl whoami --json` returned No API key found and directs account creation to /me/developer. No project was submitted or counted."
       }
+    },
+    {
+      "provider": "MCPCentral",
+      "provider_domain": "mcpcentral.io",
+      "homepage": "https://mcpcentral.io/",
+      "submission_url": "https://mcpcentral.io/",
+      "source_catalog": "mcp-submit current CLI live submission check 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "PROVIDER_INTEGRATION_PENDING",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:20:58.049Z",
+      "evidence": {
+        "kind": "officially-distributed_submission_cli_live_result",
+        "note": "mcp-submit detected the versioned SHAR MCP as eligible and then returned `MCPCentral API integration pending`; no API request, receipt, public card, or placement was created."
+      }
     }
   ]
 }
