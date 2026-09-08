@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T13:06:35.320Z",
-  "counted_placements": 680,
+  "generated_at": "2026-09-08T13:06:35.32Z",
+  "counted_placements": 681,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -9262,7 +9262,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/archive-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9282,7 +9282,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/audio-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9302,7 +9302,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/brief-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9322,7 +9322,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/budget-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9342,7 +9342,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/camera-data-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9362,7 +9362,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/caption-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9382,7 +9382,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/color-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9402,7 +9402,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/crew-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9422,7 +9422,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/delivery-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9442,7 +9442,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/edit-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9462,7 +9462,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/equipment-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9482,7 +9482,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/lighting-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9502,7 +9502,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/localization-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9522,7 +9522,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/location-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9542,7 +9542,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/media-backup-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9562,7 +9562,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/mix-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9582,7 +9582,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/proxy-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9602,7 +9602,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/qc-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9622,7 +9622,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/release-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9642,7 +9642,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/rights-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9662,7 +9662,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/schedule-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9682,7 +9682,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/security-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9702,7 +9702,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/talent-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9722,7 +9722,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/vfx-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -9742,7 +9742,7 @@
         "ru": "https://sharproduction.github.io/production-risk-simulators/ru/weather-risk/"
       },
       "source": "wave-208",
-      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verified_at": "2026-09-08T12:38:07.2Z",
       "verification": {
         "http_200": true,
         "self_canonical": true,
@@ -12509,6 +12509,25 @@
         "index_follow": true,
         "content": "interactive executable verification workflow",
         "desktop_mobile_functional_samples": "covered by EN/RU browser run matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.mcp-agent-directory.production-metadata-mcp",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "MCP Agent Directory",
+      "provider_ecosystem": "mcpagents",
+      "url": "https://mcpagents.ai/agents/1123",
+      "source": "external-provider-sweep",
+      "verified_at": "2026-09-08T13:52:05.119Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "direct_provider_submission": true,
+        "provider_independent_of_official_registry": true,
+        "public_fields": "SHAR Production, sharprod.com, GitHub source, install command, usage example",
+        "api_evidence_url": "https://mcpagents.ai/api/agents/1123",
+        "api_record_id": 1123,
+        "content": "read-only rights-aware production metadata MCP"
       }
     }
   ]
