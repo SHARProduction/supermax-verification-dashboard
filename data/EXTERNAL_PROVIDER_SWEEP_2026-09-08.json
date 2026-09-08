@@ -4092,6 +4092,23 @@
           "result": "NO_MATCH_FOR_SHAR_PRODUCTION_OR_SHARPRODUCTION_PRODUCTION_METADATA_MCP"
         }
       }
+    },
+    {
+      "provider": "Vimeo SHAR Showreel",
+      "provider_domain": "vimeo.com",
+      "homepage": "https://vimeo.com/1175145775",
+      "submission_url": "https://vimeo.com/1175145775",
+      "source_catalog": "Live Vimeo oEmbed, HTTP/canonical/mobile metadata and browser check 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SHAR_SHOWREEL",
+      "status": "CAPTCHA_REQUIRED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:48:00Z",
+      "evidence": {
+        "kind": "public_video_metadata_with_browser_security_gate",
+        "note": "HTTP 200, canonical URL, Vimeo oEmbed and browser DOM metadata identify SHAR Production, AI/CGI/commercial production and sharprod.com/en. Mobile layout had no overflow. Visual browser render stopped at Vimeo Cloudflare “Verify to continue”, so browser-content verification is incomplete and no placement is counted.",
+        "oembed_url": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1175145775",
+        "local_screenshot": "C:/Users/user/Desktop/SHAR-MCP/evidence/vimeo-showreel-20260909.png"
+      }
     }
   ]
 }

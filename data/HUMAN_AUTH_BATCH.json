@@ -173,12 +173,21 @@
       "owner_action": "Authenticate with the provider account.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT"
+    },
+    {
+      "provider": "Vimeo SHAR Showreel",
+      "value": "TIER_A — independent video-hosting domain with a SHAR showreel and homepage link",
+      "exact_url": "https://vimeo.com/1175145775",
+      "prepared": "HTTP 200, canonical, oEmbed, author/title/description and mobile metadata passed. Public page has not passed visual browser rendering because Vimeo showed Cloudflare verification.",
+      "owner_action": "Complete Vimeo Cloudflare “Verify to continue” in a normal supported browser, then leave the public showreel page reachable.",
+      "continuation_after_human_auth": "NO",
+      "status": "CAPTCHA_REQUIRED"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
   "summary": {
-    "high_quality_routes": 19,
-    "tier_a": 12,
+    "high_quality_routes": 20,
+    "tier_a": 13,
     "tier_b": 7
   }
 }

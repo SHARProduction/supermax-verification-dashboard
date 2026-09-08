@@ -2,7 +2,7 @@
 
 Local browser boundary: headless persistent state works; a visible persistent session and importing normal-browser auth do not. No row is a submission or published placement.
 
-Selection: Tier A/B independent industry, native package/install, MCP, and research/archive routes only.
+Selection: Tier A/B independent industry, native package/install, MCP, research/archive and independently hosted SHAR work routes only.
 
 ## DevHunt
 
@@ -174,3 +174,12 @@ Selection: Tier A/B independent industry, native package/install, MCP, and resea
 - Owner action: Authenticate with the provider account.
 - Current environment can continue after auth: UNKNOWN
 - Status: OWNER_GATE_ACCOUNT
+
+## Vimeo SHAR Showreel
+
+- Value: TIER_A — independent video-hosting domain with a SHAR showreel and homepage link
+- URL: https://vimeo.com/1175145775
+- Prepared: HTTP 200, canonical, oEmbed, author/title/description and mobile metadata passed. Public page has not passed visual browser rendering because Vimeo showed Cloudflare verification.
+- Owner action: Complete Vimeo Cloudflare “Verify to continue” in a normal supported browser, then leave the public showreel page reachable.
+- Current environment can continue after auth: NO
+- Status: CAPTCHA_REQUIRED
