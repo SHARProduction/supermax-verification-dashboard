@@ -303,7 +303,7 @@
       "submitted_at": "2026-09-08T00:00:00Z",
       "status": "PUBLISHED_VERIFIED",
       "submission_kind": "FREE_SKILL_MARKETPLACE_REVIEW",
-      "evidence": "POST https://skillstore.io/api/submit returned HTTP 200 submission_id f577c08f-4dd4-4eed-a058-ab25f1873acd, status pending, estimated_skills 1; anonymous standard route used with no paid option. Workflow 34245127211 completed success and created review PR https://github.com/aiskillstore/marketplace/pull/3360; status in_review, no published skill slug.",
+      "evidence": "Anonymous free submission returned HTTP 200 with receipt f577c08f-4dd4-4eed-a058-ab25f1873acd. Skillstore workflow created upstream review PR #3360, which merged at 2026-09-08T16:02:13Z. The canonical public skill card then returned HTTP 200 and exposes SHAR Production plus exact GitHub source.",
       "evidence_url": "https://github.com/aiskillstore/marketplace/pull/3360",
       "counts_as_published_verified": true,
       "counts_as_independent_provider_ecosystem": true,
