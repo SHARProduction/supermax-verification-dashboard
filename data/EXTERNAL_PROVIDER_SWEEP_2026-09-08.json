@@ -2996,6 +2996,21 @@
         "kind": "live_official_form_and_submission_api",
         "note": "The public free form accepts a real open-source tool, requires no account, and documents POST /api/submit-tool. A factual production-metadata-linter payload returned HTTP 500 Failed to save submission before a receipt or listing was created. Do not retry without new provider evidence."
       }
+    },
+    {
+      "provider": "OLUD.ai",
+      "provider_domain": "olud.ai",
+      "homepage": "https://olud.ai/",
+      "submission_url": "https://olud.ai/submit.html",
+      "source_catalog": "Agent Reach Exa discovery and live official browser verification 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T18:47:00Z",
+      "evidence": {
+        "kind": "live_provider_submission_ui",
+        "note": "The public free submission route accepts suitable open-source AI tooling but the live browser shows Sign in / create account and a free-account panel before fields are available. No account, submission, receipt, or listing exists."
+      }
     }
   ]
 }
