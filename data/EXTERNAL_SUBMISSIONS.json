@@ -355,6 +355,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-09T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.skills-re.production-metadata-validation",
+      "provider": "skills.re",
+      "provider_domain": "skills.re",
+      "asset": "shar-production-metadata-validation",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp/tree/main/skills/shar-production-metadata-validation",
+      "submitted_at": "2026-09-08T00:00:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_IMMUTABLE_SKILL_REGISTRY_QUEUE",
+      "evidence": "POST https://api.skills.re/rpc/skills/submitGithubPreparedPublic returned HTTP 200, status submitted, skillsCount 1, workflowId skills-upload-OnnCno1dD8XMZuS-YEP65. Public card not yet verified.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-09T00:00:00Z"
     }
   ]
 }
