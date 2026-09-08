@@ -323,12 +323,13 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-09T00:00:00Z",
+      "recheck_after": "2026-09-16T00:00:00Z",
       "submission_id": "supermax.submission.skillsmd.production-metadata-validation",
       "provider": "SkillsMD",
       "provider_domain": "skillsmd.dev",
       "submission_kind": "FREE_SKILL_REVIEW_QUEUE",
-      "evidence": "POST https://skillsmd.dev/api/submit returned HTTP 201 success true, id 142355da-72a1-43c1-9888-2ede0a8a9e83, message Submission received. It will be reviewed shortly."
+      "evidence": "POST https://skillsmd.dev/api/submit returned HTTP 201 success true, id 142355da-72a1-43c1-9888-2ede0a8a9e83, message Submission received. It will be reviewed shortly. Recheck 2026-09-09: GET https://skillsmd.dev/api/skills returned HTTP 200 and the complete returned catalog contained no SHARProduction, shar-production-metadata, or SHAR Production match. Status remains SUBMITTED; absence from this current API response is not a rejection.",
+      "last_rechecked_at": "2026-09-09T03:15:00Z"
     },
     {
       "asset": "shar-production-metadata-validation",
