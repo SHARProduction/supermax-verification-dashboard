@@ -2816,6 +2816,21 @@
         "kind": "live_browser_submission_form",
         "note": "Live provider form states “Sign in with GitHub to submit your skill to the directory” and exposes a GitHub OAuth action. No authorization, account or submission has been created."
       }
+    },
+    {
+      "provider": "MCP.Pub",
+      "provider_domain": "mcp.pub",
+      "homepage": "https://mcp.pub/",
+      "submission_url": "https://mcp.pub/submit/",
+      "source_catalog": "live official submission form and confirmation 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T23:55:00Z",
+      "evidence": {
+        "kind": "official_provider_form_submission_receipt",
+        "note": "Free form accepted the existing public repository and SHAR Production contact. Provider rendered exact receipt: “Thanks. The repository has been queued for editorial review.” No public listing exists yet."
+      }
     }
   ]
 }

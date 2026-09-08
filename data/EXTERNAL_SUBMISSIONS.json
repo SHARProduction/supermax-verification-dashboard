@@ -496,6 +496,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-15T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcp-pub.production-metadata-mcp",
+      "provider": "MCP.Pub",
+      "provider_domain": "mcp.pub",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T23:55:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_DIRECTORY_SUBMISSION",
+      "evidence": "Provider confirmation after direct official WPForms submission: “Thanks. The repository has been queued for editorial review.” Repository URL and shar@sharprod.com contact were submitted. Public listing and independent editorial acceptance are still required before counting.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-11T00:00:00Z"
     }
   ]
 }
