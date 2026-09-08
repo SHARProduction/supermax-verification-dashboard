@@ -2582,6 +2582,21 @@
         "kind": "live_submission_api_and_public_search_api",
         "note": "POST /api/index accepted the source repository as valid but returned duplicate:true. Public /api/search?q=SHARProduction returned an empty result set. No public card or new receipt was obtained, so no placement or new submission is counted."
       }
+    },
+    {
+      "provider": "MCP Scoreboard",
+      "provider_domain": "mcpscoreboard.com",
+      "homepage": "https://www.mcpscoreboard.com/",
+      "submission_url": "https://www.mcpscoreboard.com/submit/",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "OWNER_GATE_GITHUB_OAUTH",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T20:55:00Z",
+      "evidence": {
+        "kind": "live_provider_form_and_oauth_redirect",
+        "note": "GitHub-source form accepted the SHAR repository and redirected to /accounts/github/login/?next=/submit/callback/ to verify write access. The exact OAuth continuation is open in the authenticated browser as tab 95. No submission receipt or public listing exists yet."
+      }
     }
   ]
 }
