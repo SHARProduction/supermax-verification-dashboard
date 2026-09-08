@@ -406,7 +406,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "PROVIDER_TEMPORARILY_UNAVAILABLE",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aigadget.io/",
@@ -416,7 +416,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "batch_live_submission_screen",
+        "note": "Live submit target returned HTTP 436 and no usable public submission route was available."
+      }
     },
     {
       "provider": "AI Hub",
@@ -639,7 +643,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "INELIGIBLE_DOMAIN_PARKED",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "http://ww547.aistartups.net/?tkn=19vnMT3S",
@@ -649,7 +653,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "batch_live_submission_screen",
+        "note": "The prior submit URL now redirects to a ww547 parked-domain endpoint, not a working directory."
+      }
     },
     {
       "provider": "AI Stash",
@@ -1036,7 +1044,7 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "INELIGIBLE_DOMAIN_FOR_SALE",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.aitoppicks.com/",
@@ -1046,7 +1054,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "batch_live_submission_screen",
+        "note": "The live domain is a sale page rather than an operating AI-tool directory."
+      }
     },
     {
       "provider": "AI trendz",
@@ -1061,7 +1073,7 @@
         "captcha_type": "recaptcha_v3"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "PROVIDER_TEMPORARILY_UNAVAILABLE",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aitrendz.xyz/submit-ai-link/",
@@ -1071,7 +1083,11 @@
         "login": true,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "batch_live_submission_screen",
+        "note": "Live submission target returned HTTP 466; no functioning public route was available."
+      }
     },
     {
       "provider": "AI Valley",
