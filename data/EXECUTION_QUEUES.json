@@ -21,7 +21,9 @@
     "rule": "Promote only after an exact public provider URL, HTTP/content/canonical evidence and applicable functional/browser verification."
   },
   "HUMAN_AUTH_BATCH": {
-    "count": 32,
-    "source": "data/HUMAN_AUTH_BATCH.json"
+    "count": 19,
+    "source": "data/HUMAN_AUTH_BATCH.json",
+    "tier_a": 12,
+    "tier_b": 7
   }
 }
