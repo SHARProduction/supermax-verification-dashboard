@@ -479,6 +479,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-09T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.conda-forge.production-manifest-gate",
+      "provider": "conda-forge staged-recipes external OSS contribution",
+      "provider_domain": "github.com",
+      "asset": "shar-production-manifest-gate",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-manifest-gate-py",
+      "submitted_at": "2026-09-08T22:05:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
+      "evidence": "Public PR https://github.com/conda-forge/staged-recipes/pull/34769 adds a v1 noarch Python recipe for the existing MIT-licensed PyPI sdist shar-production-manifest-gate 1.0.0. Public PyPI SHA-256 is pinned. A clean PyPI install and CLI releasable-manifest check passed before submission. Maintainer merge, feedstock build and public conda-forge package availability are required before counting.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T00:00:00Z"
     }
   ]
 }

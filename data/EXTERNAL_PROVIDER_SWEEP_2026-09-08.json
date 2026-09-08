@@ -2672,6 +2672,21 @@
         "kind": "local_winget_validation_release_hash_functional_check_and_public_pr",
         "note": "Existing x64 portable executable v1.2.0 has a public release. Its SHA-256 matches the manifest and direct functional test passed. The official winget-pkgs PR is pending maintainer merge; no public catalog placement is counted."
       }
+    },
+    {
+      "provider": "conda-forge",
+      "provider_domain": "conda-forge.org",
+      "homepage": "https://conda-forge.org/",
+      "submission_url": "https://github.com/conda-forge/staged-recipes/pull/34769",
+      "source_catalog": "existing PyPI package and current conda-forge staged-recipes rules",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T22:05:00Z",
+      "evidence": {
+        "kind": "public_pypi_metadata_clean_install_functional_cli_check_and_public_pr",
+        "note": "Existing MIT Python package is compatible with conda-forge noarch distribution. v1 recipe pins the public PyPI sdist SHA-256; the external review/build route is pending. No placement is counted until feedstock publication and public package verification."
+      }
     }
   ]
 }
