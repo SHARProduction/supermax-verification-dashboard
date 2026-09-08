@@ -42,7 +42,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "ACCOUNT_CREATION_READY",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://100apps.org/",
@@ -52,7 +52,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-08T16:55:00Z",
+      "evidence": {
+        "kind": "live_http_and_browser",
+        "note": "Free account registration form is currently reachable; source asset fit still needs submit-route validation."
+      }
     },
     {
       "provider": "1000 Tools",
@@ -117,7 +121,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "INELIGIBLE_PRICING_MODEL_MISMATCH",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://1payment.tools/login",
@@ -127,7 +131,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-08T16:55:00Z",
+      "evidence": {
+        "kind": "live_http_and_browser",
+        "note": "Directory is for paid lifetime-deal products; source MCP is not an appropriate asset."
+      }
     },
     {
       "provider": "Advanced Innovation",
@@ -260,7 +268,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "INELIGIBLE_REDIRECT_UNRELATED",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.aidir.cc/submit",
@@ -270,7 +278,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-08T16:55:00Z",
+      "evidence": {
+        "kind": "live_http_and_browser",
+        "note": "Submit URL redirects to unrelated Spotify destination."
+      }
     },
     {
       "provider": "AI Directory",
