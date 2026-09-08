@@ -2597,6 +2597,51 @@
         "kind": "live_provider_form_and_oauth_redirect",
         "note": "GitHub-source form accepted the SHAR repository and redirected to /accounts/github/login/?next=/submit/callback/ to verify write access. The exact OAuth continuation is open in the authenticated browser as tab 95. No submission receipt or public listing exists yet."
       }
+    },
+    {
+      "provider": "MCPera",
+      "provider_domain": "mcpera.com",
+      "homepage": "https://mcpera.com/",
+      "submission_url": "https://mcpera.com/submit.html",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "INELIGIBLE_DEMO_FORM",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T21:10:00Z",
+      "evidence": {
+        "kind": "live_provider_html_and_client_code",
+        "note": "Live form is a front-end demo: its shipped submit.js explicitly states that a real implementation would send data to a server, then only displays a local success alert. No receipt or provider submission exists."
+      }
+    },
+    {
+      "provider": "MCPServe",
+      "provider_domain": "mcpserve.com",
+      "homepage": "https://mcpserve.com/",
+      "submission_url": "https://mcpserve.com/submit",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NO_CURRENT_PUBLIC_SUBMISSION_ROUTE",
+      "status": "INELIGIBLE_STALE_REDIRECT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T21:10:00Z",
+      "evidence": {
+        "kind": "live_provider_html_and_client_code",
+        "note": "Current submit HTML only redirects to /lander and exposes no directory form or submission API."
+      }
+    },
+    {
+      "provider": "MCP.net",
+      "provider_domain": "mcp-net.org",
+      "homepage": "https://mcp-net.org/",
+      "submission_url": "https://mcp-net.org/",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NO_CURRENT_PUBLIC_SUBMISSION_ROUTE",
+      "status": "INELIGIBLE_WAITLIST_ONLY",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T21:10:00Z",
+      "evidence": {
+        "kind": "live_provider_html_and_client_code",
+        "note": "Current site exposes only a name/email early-access form, not an MCP-server submission route."
+      }
     }
   ]
 }
