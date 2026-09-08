@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T04:00:00Z",
+  "updated_at": "2026-09-09T04:15:00Z",
   "counting_boundary": "Third-party public authority only. SHAR-controlled properties, submissions, mirrors, search snippets and unverified claims are excluded.",
   "allowed_types": [
     "external_editorial_mention",
@@ -18,8 +18,8 @@
     "external_industry_directory_acceptance"
   ],
   "metrics": {
-    "known_verified_records": 0,
-    "independent_authority_domains_observed": null,
+    "known_verified_records": 1,
+    "independent_authority_domains_observed": 1,
     "independent_mentions_observed": null,
     "independent_backlinks_observed": null,
     "independent_citations_observed": null,
@@ -28,5 +28,30 @@
     "observed_adoption": null,
     "commercial_referrals": null
   },
-  "records": []
+  "records": [
+    {
+      "id": "authority.skills-re.shar-production-metadata-validation",
+      "type": "external_industry_directory_acceptance",
+      "url": "https://skills.re/skills/SHARProduction/production-metadata-mcp/shar-production-metadata-validation",
+      "registrable_domain": "skills.re",
+      "publisher": "skills.re",
+      "relationship_to_SHAR": "independent public agent-skill registry; source is SHAR-controlled GitHub repository",
+      "SHAR_CONTROLLED": false,
+      "context": "Public v1.0.0 skill card renders SHAR Production, sharprod.com, MIT license, source repository, install command and full SKILL.md. Provider reports audit score 100/100, views 0 and downloads 0 at verification time.",
+      "link": "https://sharprod.com/",
+      "topic": "rights-aware AI-hybrid video-production metadata validation",
+      "commercial_query_relation": "indirect technical relevance to AI-hybrid production workflows",
+      "review_mechanism": "automated public registry indexing and provider static audit; no human editorial endorsement claimed",
+      "evidence": {
+        "http_200": true,
+        "canonical": "https://skills.re/skills/SHARProduction/production-metadata-mcp/shar-production-metadata-validation",
+        "browser_rendered": true,
+        "verified_at": "2026-09-09T03:35:00Z"
+      },
+      "verified_at": "2026-09-09T03:35:00Z",
+      "counts_as_independent_citation": false,
+      "counts_as_editorial_mention": false,
+      "counts_as_external_acceptance": true
+    }
+  ]
 }
