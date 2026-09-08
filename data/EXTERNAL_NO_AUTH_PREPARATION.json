@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-09T01:40:00Z",
+  "rules": [
+    "All fields are sourced from public first-party or provider documentation.",
+    "No final external submission has been made.",
+    "Do not send or publish without immediate representational confirmation."
+  ],
+  "routes": [
+    {
+      "provider": "StudioIndex",
+      "provider_url": "https://studioindex.ai/list-your-studio",
+      "status": "READY_PENDING_FACTUAL_FIELD_CONFIRMATION_AND_FINAL_SUBMISSION_CONFIRMATION",
+      "provider_requirements": [
+        "studio name",
+        "website",
+        "email",
+        "description",
+        "location",
+        "team size",
+        "founded year",
+        "budget range",
+        "actual AI tools",
+        "portfolio link"
+      ],
+      "prepared_payload": {
+        "studio_name": "SHAR Production",
+        "website": "https://sharprod.com/",
+        "email": "shar@sharprod.com",
+        "description": "AI-hybrid video production for brands: AI video, CGI/3D, filming and post-production.",
+        "location": "Moscow, Russia; works with international projects",
+        "portfolio_link": "https://vimeo.com/1175145775",
+        "supporting_case_link": "https://sharprod.com/cases/winlab-wine-product-videos.html"
+      },
+      "owner_factual_confirmation_required": [
+        "team size",
+        "founded year",
+        "budget range",
+        "actual AI tools used"
+      ],
+      "final_action": "Submit Your Studio",
+      "public_acceptance_check": "A public StudioIndex profile with SHAR, sharprod.com and factual material must render before counting."
+    },
+    {
+      "provider": "mcp.film",
+      "provider_url": "https://mcp.film/submit/",
+      "status": "READY_PENDING_FINAL_SUBMISSION_CONFIRMATION",
+      "provider_requirements": [
+        "name",
+        "link",
+        "category",
+        "vendor",
+        "official",
+        "why"
+      ],
+      "prepared_issue": {
+        "title": "Submit: SHAR Production Metadata MCP",
+        "repository": "c47-inc/mcp-film",
+        "label": "submit",
+        "body": "name: SHAR Production Metadata MCP\nlink: https://github.com/SHARProduction/production-metadata-mcp\ncategory: production-ops\nvendor: SHAR Production\nofficial: true\nwhy: A local, read-only MCP tool that deterministically validates rights-aware production metadata manifests before delivery or release, without publishing data or using network access."
+      },
+      "dedup_check": {
+        "url": "https://mcp.film/api/registry.json",
+        "result": "No match for SHAR Production or SHARProduction/production-metadata-mcp on 2026-09-09."
+      },
+      "final_action": "Create the GitHub submission issue or use the provider submit_listing route.",
+      "public_acceptance_check": "mcp.film public catalog and registry.json must contain the exact SHAR record before counting."
+    }
+  ]
+}

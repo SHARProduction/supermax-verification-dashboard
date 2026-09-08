@@ -3411,7 +3411,18 @@
       "checked_at": "2026-09-08T19:41:00Z",
       "evidence": {
         "kind": "official_form_client_bundle",
-        "note": "StudioIndex presents a free AI video production studio listing form, but its shipped client handler only calls preventDefault and contains no listing-creation API request. The separate logo upload endpoint is insufficient evidence of a valid submission flow. No data was posted and no placement was claimed."
+        "note": "Free editorial form inspected. Verified StudioIndex form fields are recorded; SHAR homepage and public Vimeo showreel are prepared. Team size, founded year, budget range and actual tools still require owner factual confirmation. No form submission exists."
+      },
+      "prepared_payload": {
+        "website": "https://sharprod.com/",
+        "email": "shar@sharprod.com",
+        "showreel": "https://vimeo.com/1175145775",
+        "missing_owner_factual_fields": [
+          "team size",
+          "founded year",
+          "budget range",
+          "actual AI tools used"
+        ]
       }
     },
     {
