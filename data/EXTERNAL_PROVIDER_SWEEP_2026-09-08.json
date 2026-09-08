@@ -3186,10 +3186,25 @@
       "asset_fit": "CONFIRMED_FIT_AI_VIDEO_PRODUCTION_DIRECTORY",
       "status": "PROVIDER_SUBMISSION_FLOW_NONFUNCTIONAL",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T19:41:00.000Z",
+      "checked_at": "2026-09-08T19:41:00Z",
       "evidence": {
         "kind": "official_form_client_bundle",
         "note": "StudioIndex presents a free AI video production studio listing form, but its shipped client handler only calls preventDefault and contains no listing-creation API request. The separate logo upload endpoint is insufficient evidence of a valid submission flow. No data was posted and no placement was claimed."
+      }
+    },
+    {
+      "provider": "StudioRank",
+      "provider_domain": "studiorank.ai",
+      "homepage": "https://studiorank.ai/ai-native-creative-studio",
+      "submission_url": "https://studiorank.ai/submit",
+      "source_catalog": "Agent Reach Exa discovery plus official public submit form and client bundle inspection 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_AI_HYBRID_VIDEO_PRODUCTION_STUDIO",
+      "status": "READY_PUBLIC_FORM",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:47:00.000Z",
+      "evidence": {
+        "kind": "official_public_submit_form",
+        "note": "StudioRank offers a free independently reviewed listing for AI-native studios, including Motion/Video. The public form needs only studio name, website, contact email and a factual service category; its client server action accepts optional description and tool fields. SHAR can be described factually without prices, rankings, or unverified tool claims. External submission has not been sent and no placement is claimed."
       }
     }
   ]
