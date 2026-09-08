@@ -742,6 +742,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcpm.production-metadata-mcp",
+      "provider": "MCPM Registry",
+      "provider_domain": "github.com",
+      "asset": "SHAR Production Metadata MCP v1.0.4",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T00:00:00.000Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_MCP_REGISTRY_PULL_REQUEST",
+      "evidence": "Public PR #398 adds one source-backed MCPM registry manifest. It declares the public MIT source, only the actual validate_production_manifest tool, and a clone/npm-ci/node server.js path rather than an unpublished npm package. The upstream validator marks this entry valid; its overall run also reports two pre-existing cp1251 decode failures in unrelated files. Maintainer merge and visible registry ingestion are required before counting.",
+      "evidence_url": "https://github.com/pathintegral-institute/mcpm.sh/pull/398",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T00:00:00.000Z"
     }
   ]
 }
