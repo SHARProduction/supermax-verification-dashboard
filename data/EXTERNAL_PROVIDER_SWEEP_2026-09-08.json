@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-08T16:45:00Z",
+  "collected_at": "2026-09-09T00:00:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -3427,6 +3427,36 @@
       "evidence": {
         "kind": "official_deposit_docs_and_prepared_release",
         "note": "Zenodo officially accepts versioned datasets and software, requires an account to create an upload, and registers a DOI only when a record is published. The prepared SHAR synthetic rights-labelled conformance corpus has a public v0.1.2 release, archive checksum, CITATION.cff, CodeMeta and Data Package metadata. No Zenodo account, draft, DOI, record or public landing page exists, so nothing is counted."
+      }
+    },
+    {
+      "provider": "MCPFind.org",
+      "provider_domain": "mcpfind.org",
+      "homepage": "https://mcpfind.org/",
+      "submission_url": "https://mcpfind.org/submit",
+      "source_catalog": "Live official directory and submit form inspected 2026-09-09",
+      "asset_fit": "INELIGIBLE_NO_CURRENT_PUBLIC_NPM_PYPI_OR_DOCKER_PACKAGE",
+      "status": "INELIGIBLE_CURRENT_PACKAGE_REQUIREMENT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_official_form_and_provider_requirements",
+        "note": "Live MCPFind.org directory has a public submit form and confirms GitHub-editor PR workflow, but its required package field is expressly limited to npm package name, PyPI name, or Docker image. The current SHAR MCP is published to JSR and its GHCR image exists only as a private package; no misleading PR was created. Re-evaluate after public Docker visibility and anonymous pull verification."
+      }
+    },
+    {
+      "provider": "MCPServerse Directory",
+      "provider_domain": "mcpserverse.directory",
+      "homepage": "https://www.mcpserverse.directory/",
+      "submission_url": "https://www.mcpserverse.directory/submit",
+      "source_catalog": "Web discovery followed by live browser navigation 2026-09-09",
+      "asset_fit": "UNVERIFIABLE_PROVIDER_TLS_FAILURE",
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_browser_transport_failure",
+        "note": "The advertised submit route could not be opened because the provider certificate is currently invalid (net::ERR_CERT_DATE_INVALID). No form, account, submission or listing was accessed; do not retry without a corrected provider certificate."
       }
     }
   ]
