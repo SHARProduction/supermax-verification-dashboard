@@ -2702,6 +2702,21 @@
         "kind": "current_provider_criteria",
         "note": "Existing standalone CLI is technically portable, but the Main bucket requires a reasonably well-known, widely used developer tool; published guidance gives approximately 500 GitHub stars and 150 forks as an indicator. Current SHAR CLI does not meet that adoption threshold. A public SHAR Scoop bucket already provides the appropriate supported install route."
       }
+    },
+    {
+      "provider": "n8n Creator Hub",
+      "provider_domain": "creators.n8n.io",
+      "homepage": "https://creators.n8n.io/",
+      "submission_url": "https://creators.n8n.io/register",
+      "source_catalog": "current official n8n template publication route",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "BROWSER_ACCOUNT_CREATION_REQUIRED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T22:35:00Z",
+      "evidence": {
+        "kind": "official_provider_docs_and_live_browser_registration",
+        "note": "Official n8n guidance routes template-library submissions through Creator Hub. A useful n8n production-metadata release-gate workflow is already public and functionally tested. Live Creator Hub registration is open in tab 98 but current CUA runtime cannot type into browser forms. No account or submission exists yet."
+      }
     }
   ]
 }
