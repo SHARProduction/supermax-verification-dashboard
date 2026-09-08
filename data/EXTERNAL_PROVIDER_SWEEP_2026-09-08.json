@@ -3466,6 +3466,21 @@
         "kind": "live_browser_transport_failure",
         "note": "The advertised submit route could not be opened because the provider certificate is currently invalid (net::ERR_CERT_DATE_INVALID). No form, account, submission or listing was accessed; do not retry without a corrected provider certificate."
       }
+    },
+    {
+      "provider": "Bro Find AI",
+      "provider_domain": "brofindai.com",
+      "homepage": "https://brofindai.com/",
+      "submission_url": "https://brofindai.com/submit",
+      "source_catalog": "Live official submission page and client bundle inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_MCP_TOOL",
+      "status": "OWNER_GATE_AUTHENTICATED_ACCOUNT_REQUIRED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_public_submission_flow_and_client_bundle",
+        "note": "The first listing is stated free and the provider promises an immediate dedicated tool page. The MCP submission endpoint requires a Firebase idToken; no listing can be submitted or claimed without an authenticated account. The form was opened in the in-app browser for the owner session."
+      }
     }
   ]
 }
