@@ -650,6 +650,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-10T19:10:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.oss-observer.production-metadata-linter",
+      "provider": "Open Source Observer external OSS contribution",
+      "provider_domain": "github.com",
+      "asset": "production-metadata-linter",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-linter",
+      "submitted_at": "2026-09-08T19:20:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
+      "evidence": "Public PR https://github.com/opensource-observer/oss-directory/pull/1242 adds one schema-minimal project record with verified MIT source, actual SHAR homepage and public GitHub URL. Maintainer merge and upstream data publication are required before counting.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T19:20:00Z"
     }
   ]
 }
