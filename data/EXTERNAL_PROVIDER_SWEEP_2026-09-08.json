@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-08T23:40:47Z",
+  "collected_at": "2026-09-08T23:55:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4185,6 +4185,35 @@
       "evidence": {
         "kind": "official_submit_page",
         "note": "Free basic reviewed listing is explicitly offered; a separate $2.99 Pro option exists and was not selected. Sign-in is required before the free submission form."
+      }
+    },
+    {
+      "provider": "SaaSRow",
+      "provider_domain": "saasrow.com",
+      "homepage": "https://saasrow.com/",
+      "submission_url": "https://saasrow.com/",
+      "source_catalog": "Official SaaSRow homepage inspected 2026-09-08",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_90_day_listing_no_card",
+        "auth_type": "email_code_then_api_key",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_MCP_TOOL",
+      "status": "HUMAN_GATE_EMAIL_CODE",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://saasrow.com/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T23:55:00Z",
+      "evidence": {
+        "kind": "official_homepage",
+        "note": "Provider advertises a free 90-day listing, no credit card, and CLI/API/MCP listing management. Native login requires an email code before API-key creation. Time-limited free status means any later public listing must be rechecked before continuing to count it."
       }
     }
   ]
