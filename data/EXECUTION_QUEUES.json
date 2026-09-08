@@ -3,10 +3,6 @@
   "as_of": "2026-09-09T01:30:00Z",
   "EXTERNAL_NO_AUTH": [
     {
-      "provider": "StudioIndex",
-      "status": "READY_FORM_REQUIRES_FACTUAL_FIELD_COMPLETION_AND_REPRESENTATIONAL_CONFIRMATION"
-    },
-    {
       "provider": "OpenAgentSkill",
       "status": "READY_FORM_REQUIRES_REPRESENTATIONAL_CONFIRMATION"
     }

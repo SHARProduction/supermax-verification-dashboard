@@ -3408,10 +3408,15 @@
       "asset_fit": "CONFIRMED_FIT_AI_VIDEO_PRODUCTION_DIRECTORY",
       "status": "PROVIDER_SUBMISSION_FLOW_NONFUNCTIONAL",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T19:41:00Z",
+      "checked_at": "2026-09-09T02:10:00Z",
       "evidence": {
         "kind": "official_form_client_bundle",
-        "note": "Free editorial form inspected. Verified StudioIndex form fields are recorded; SHAR homepage and public Vimeo showreel are prepared. Team size, founded year, budget range and actual tools still require owner factual confirmation. No form submission exists."
+        "note": "Free editorial form inspected. Verified StudioIndex form fields are recorded; SHAR homepage and public Vimeo showreel are prepared. Team size, founded year, budget range and actual tools still require owner factual confirmation. No form submission exists.",
+        "submission_test": {
+          "method": "Headless browser with valid required inputs (SHAR Production, shar@sharprod.com, AI-Augmented)",
+          "result": "No POST request, navigation, receipt, toast, client error or invalid field after clicking Submit Your Studio.",
+          "conclusion": "Provider form is nonfunctional from current live client; no submission exists."
+        }
       },
       "prepared_payload": {
         "website": "https://sharprod.com/",

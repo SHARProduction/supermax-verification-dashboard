@@ -10,7 +10,7 @@
     {
       "provider": "StudioIndex",
       "provider_url": "https://studioindex.ai/list-your-studio",
-      "status": "READY_PENDING_FACTUAL_FIELD_CONFIRMATION_AND_FINAL_SUBMISSION_CONFIRMATION",
+      "status": "PROVIDER_SUBMISSION_FLOW_NONFUNCTIONAL",
       "provider_requirements": [
         "studio name",
         "website",
@@ -39,7 +39,12 @@
         "actual AI tools used"
       ],
       "final_action": "Submit Your Studio",
-      "public_acceptance_check": "A public StudioIndex profile with SHAR, sharprod.com and factual material must render before counting."
+      "public_acceptance_check": "A public StudioIndex profile with SHAR, sharprod.com and factual material must render before counting.",
+      "submission_test": {
+        "method": "Headless browser with valid required inputs (SHAR Production, shar@sharprod.com, AI-Augmented)",
+        "result": "No POST request, navigation, receipt, toast, client error or invalid field after clicking Submit Your Studio.",
+        "conclusion": "Provider form is nonfunctional from current live client; no submission exists."
+      }
     },
     {
       "provider": "mcp.film",
