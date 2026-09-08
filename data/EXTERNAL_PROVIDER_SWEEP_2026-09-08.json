@@ -3750,12 +3750,12 @@
       "submission_url": "https://www.agentskills.in/",
       "source_catalog": "live public Agent Skills submission form 2026-09-09",
       "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
-      "status": "READY_TO_SUBMIT_PUBLIC_REPO_ONLY",
+      "status": "PROVIDER_SUBMISSION_REJECTED_GITHUB_API_403",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T01:37:00Z",
+      "checked_at": "2026-09-09T01:41:00Z",
       "evidence": {
-        "kind": "live_browser_form",
-        "note": "Public form accepts only a GitHub repository URL and states it scans SKILL.md files. Existing public production-metadata-mcp repository contains the factual SHAR Production metadata-validation skill. URL is prefilled; no submission or listing is claimed."
+        "kind": "live_browser_submission_and_public_github_api_crosscheck",
+        "note": "Submitted the public repository URL through the provider’s no-account form. Provider displayed exact result: “Could not fetch repository: GitHub API error: 403 — repo SHARProduction/production-metadata-mcp not found”. Independently, GitHub API returns HTTP 200, public repository. No provider submission receipt or listing exists; do not count."
       }
     }
   ]
