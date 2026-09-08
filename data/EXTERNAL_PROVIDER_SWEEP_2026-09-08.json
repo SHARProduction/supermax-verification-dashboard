@@ -3341,6 +3341,21 @@
         "kind": "official_publish_docs_and_live_auth_ui",
         "note": "Smithery officially accepts pre-built MCPB bundles for local stdio servers. SHAR has a public v1.0.1 MCPB release asset verified HTTP 200. The live new-server route redirects to account sign-in, and the documented upload API requires a bearer token. No account, API key, submission, receipt, or public listing exists."
       }
+    },
+    {
+      "provider": "AllMCPs",
+      "provider_domain": "allmcps.com",
+      "homepage": "https://allmcps.com/",
+      "submission_url": "https://allmcps.com/mcp/production-metadata-mcp",
+      "source_catalog": "Direct public card recheck 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED_PUBLIC_URL_NOT_YET_RESOLVING",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T21:42:00Z",
+      "evidence": {
+        "kind": "exact_public_url_and_rendered_metadata",
+        "note": "The exact prospective SHAR route returns a rendered Next.js Not Found page, has robots noindex,nofollow and contains no SHAR or source-repository listing fields. The URL is a submission trace only and remains uncounted until an actual public card resolves."
+      }
     }
   ]
 }
