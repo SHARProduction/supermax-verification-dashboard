@@ -341,12 +341,13 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-09T00:00:00Z",
+      "recheck_after": "2026-09-16T00:00:00Z",
       "submission_id": "supermax.submission.skillz-directory.production-metadata-validation",
       "provider": "Skillz Directory",
       "provider_domain": "skillz.directory",
       "submission_kind": "FREE_SKILL_DIRECTORY_REVIEW",
-      "evidence": "POST https://www.skillz.directory/api/submit returned HTTP 200 success true for factual first-party GitHub source, category testing, and free route."
+      "evidence": "POST https://www.skillz.directory/api/submit returned HTTP 200 success true for factual first-party GitHub source, category testing, and free route. Recheck 2026-09-09: live browser search of the public Skillz Directory for exact `shar-production-metadata` produced an empty Search Results section. No public SHAR card is observed. Status remains SUBMITTED; this is not a rejection.",
+      "last_rechecked_at": "2026-09-09T03:25:00Z"
     },
     {
       "submission_id": "supermax.submission.bogen-ai.production-metadata-validation",
