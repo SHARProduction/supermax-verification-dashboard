@@ -443,6 +443,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-10T18:50:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.w3id.shar-production-metadata-mcp",
+      "provider": "W3ID permanent identifier external OSS contribution",
+      "provider_domain": "github.com",
+      "asset": "shar-production-metadata-validation",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T19:10:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
+      "evidence": "Public PR https://github.com/perma-id/w3id.org/pull/6668 adds only a documented 302 W3ID redirect for the real public MCP source. Maintainer merge required before w3id.org resolution is counted.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T00:00:00Z"
     }
   ]
 }
