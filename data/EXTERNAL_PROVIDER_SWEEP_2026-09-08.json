@@ -959,8 +959,8 @@
         "auth_type": "unknown",
         "captcha_type": "unknown"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONFIRMED_FIT_BUT_NONFUNCTIONAL_SUBMIT_FLOW",
+      "status": "PROVIDER_SUBMISSION_FLOW_NONFUNCTIONAL",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aitoolsguide.com/contact",
@@ -970,7 +970,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T00:38:00Z",
+      "evidence": {
+        "kind": "live_form_implementation_review",
+        "note": "The public Submit a tool page shows a client-side form but its HTML has no action, input names or server-action reference. Its rendered Next.js flight payload likewise contains no submit handler/API route. A post cannot be evidenced as received, so no false submission was made."
+      }
     },
     {
       "provider": "AI Tools Neil Patel",
