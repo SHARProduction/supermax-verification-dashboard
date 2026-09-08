@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T14:08:00Z",
+  "generated_at": "2026-09-08T14:12:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -94,6 +94,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-10T14:08:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcp-agents-market.production-metadata-mcp",
+      "provider": "MCP Agents Market",
+      "provider_domain": "mcpagentsmarket.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T14:12:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW",
+      "evidence": "POST https://api.mcpagentsmarket.com/api/submit returned HTTP 200 with id 2606, slug shar-production-metadata-mcp, status pending.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-10T14:12:00Z"
     }
   ]
 }
