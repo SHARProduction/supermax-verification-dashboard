@@ -415,11 +415,12 @@
       "submitted_at": "2026-09-08T16:30:00Z",
       "status": "SUBMITTED",
       "submission_kind": "FREE_GITHUB_ARTIFACT_INDEXING",
-      "evidence": "POST https://oneskill.dev/api/submit with exact public GitHub repository returned HTTP 200 {success:true}; provider documents publication within 6 hours.",
+      "evidence": "POST https://oneskill.dev/api/submit with exact public GitHub repository returned HTTP 200 {success:true}; provider documents publication within 6 hours. Recheck 2026-09-09: live browser opened OneSkill Explore and exact filter `shar-production-metadata`; the public catalog rendered 0 results. No public SHAR card is observed. Status remains SUBMITTED; this is not a rejection.",
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-09T00:30:00Z"
+      "recheck_after": "2026-09-16T00:00:00Z",
+      "last_rechecked_at": "2026-09-09T03:40:00Z"
     },
     {
       "submission_id": "supermax.submission.skillsindex.production-metadata-mcp",
