@@ -2409,13 +2409,13 @@
       "homepage": "https://bestofai.io",
       "submission_url": "https://bestofai.io/submit/",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "ACCOUNT_CREATION_READY",
+      "asset_fit": "INELIGIBLE_CURRENT_SHAR_ASSET_LANDING_PAGE_MISMATCH",
+      "status": "INELIGIBLE_ASSET_LANDING_PAGE_MISMATCH",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T18:20:00Z",
+      "checked_at": "2026-09-08T17:55:00Z",
       "evidence": {
-        "kind": "live_browser",
-        "note": "Free reviewed listing requires Google sign-in before form is enabled."
+        "kind": "live_authenticated_browser",
+        "note": "Authenticated submission form offers a free reviewed plan but requires a public AI product site whose feature can be checked; sharprod.com is a production-company homepage and the actual stdio MCP is documented on GitHub, so a Best of AI product listing would be misleading."
       }
     },
     {
