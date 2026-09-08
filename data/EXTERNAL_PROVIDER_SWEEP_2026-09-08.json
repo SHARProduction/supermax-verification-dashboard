@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-08T23:58:00Z",
+  "collected_at": "2026-09-09T00:05:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4272,6 +4272,35 @@
       "evidence": {
         "kind": "official_provider_docs_and_submit_route",
         "note": "Tulimoa states that its human-reviewed, free directory lists SaaS products with MCP status. Current SHAR asset is a local stdio MCP and SHAR Production is a production company, not a SaaS; no misleading submission was created."
+      }
+    },
+    {
+      "provider": "Vitrina",
+      "provider_domain": "vitrina.ai",
+      "homepage": "https://vitrina.ai/",
+      "submission_url": "https://app.vitrina.ai/auth/sign-up",
+      "source_catalog": "Official Vitrina company-listing and signup pages inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_company_listing_claimed_no_card",
+        "auth_type": "email_or_google",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_PRODUCTION_COMPANY_AND_POST_PRODUCTION_SERVICES",
+      "status": "HUMAN_GATE_EMAIL_OR_GOOGLE_AUTH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://app.vitrina.ai/auth/sign-up",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T00:05:00Z",
+      "evidence": {
+        "kind": "official_company_listing_material_and_signup_page",
+        "note": "Vitrina publicly advertises free company listings for production houses, company profiles examined by industry buyers, and no-card sign-up. The provider is relevant to factual SHAR production and post-production services; no account, profile or listing exists yet."
       }
     }
   ]

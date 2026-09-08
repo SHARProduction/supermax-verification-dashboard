@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-08T23:55:00Z",
+  "as_of": "2026-09-09T00:05:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -263,6 +263,15 @@
       "owner_action": "Authenticate through the normal emailed-code flow for the authorised account.",
       "continuation_after_human_auth": "YES",
       "status": "HUMAN_GATE_EMAIL_CODE"
+    },
+    {
+      "provider": "Vitrina",
+      "value": "TIER_A — global film, TV and M&E intelligence and company-profile network",
+      "exact_url": "https://app.vitrina.ai/auth/sign-up",
+      "prepared": "Official Vitrina materials state that production companies can list free and be found by international producers, studios, broadcasters and service buyers. The signup page offers email or Google and advertises 100 signup credits; no card is requested on the public flow. Any SHAR listing must use factual production-company services, actual case credits and existing public website links only.",
+      "owner_action": "Create or authenticate the authorised free Vitrina account through the normal email or Google flow; do not purchase a membership.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "HUMAN_GATE_EMAIL_OR_GOOGLE_AUTH"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

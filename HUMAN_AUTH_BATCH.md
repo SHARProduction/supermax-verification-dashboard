@@ -264,3 +264,12 @@ No row is a submission or published placement. Only free routes are retained.
 - Owner action: Authenticate through the normal emailed-code flow for the authorised account.
 - Current environment can continue after auth: YES
 - Status: HUMAN_GATE_EMAIL_CODE
+
+## Vitrina
+
+- Value: TIER_A — global film, TV and M&E intelligence and company-profile network
+- URL: https://app.vitrina.ai/auth/sign-up
+- Prepared: Official Vitrina materials state that production companies can list free and be found by international producers, studios, broadcasters and service buyers. The signup page offers email or Google and advertises 100 signup credits; no card is requested on the public flow. Any SHAR listing must use factual production-company services, actual case credits and existing public website links only.
+- Owner action: Create or authenticate the authorised free Vitrina account through the normal email or Google flow; do not purchase a membership.
+- Current environment can continue after auth: UNKNOWN
+- Status: HUMAN_GATE_EMAIL_OR_GOOGLE_AUTH
