@@ -2365,12 +2365,12 @@
       "submission_url": "https://www.stork.ai/mcp/submit",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
+      "status": "INELIGIBLE_CURRENT_REMOTE_HANDSHAKE_REQUIRED",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T18:10:00Z",
+      "checked_at": "2026-09-08T20:15:00Z",
       "evidence": {
-        "kind": "web_search_and_live_browser",
-        "note": "Discovered by current Exa search; form requires sign-in and real MCP handshake."
+        "kind": "live_provider_rules_and_source_verification",
+        "note": "Current stdio MCP has no public remote endpoint; Stork submission requires a live MCP endpoint handshake. No production-MCP architecture change is permitted solely for a directory listing."
       }
     },
     {
@@ -2380,12 +2380,12 @@
       "submission_url": "https://wmcp.sh/directory/submit",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
+      "status": "INELIGIBLE_CURRENT_PUBLIC_TOOLS_REQUIRED",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T18:10:00Z",
+      "checked_at": "2026-09-08T20:15:00Z",
       "evidence": {
-        "kind": "web_search_and_live_browser",
-        "note": "Discovered by current Exa search; free listing requires extractable public tools."
+        "kind": "live_provider_rules_and_source_verification",
+        "note": "Free route auto-extracts public tools from a site or OpenAPI URL. Current asset is a local stdio MCP with no public adapter endpoint; submitting sharprod.com would misrepresent the asset."
       }
     },
     {
@@ -2395,12 +2395,12 @@
       "submission_url": "https://findmcp.dev/",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
+      "status": "INELIGIBLE_NO_CURRENT_SUBMISSION_ROUTE",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T18:10:00Z",
+      "checked_at": "2026-09-08T20:15:00Z",
       "evidence": {
-        "kind": "web_search_and_live_browser",
-        "note": "Discovered by current Exa search; claims free listing."
+        "kind": "live_provider_rules_and_source_verification",
+        "note": "Live public directory exposes search and references an external MCP finder, but no documented owner submission route for the current stdio asset was found."
       }
     },
     {
@@ -2425,12 +2425,12 @@
       "submission_url": "https://github.com/toolsdk-ai/toolsdk-mcp-registry",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
+      "status": "OWNER_GATE_PUBLIC_CONTAINER_REQUIRED",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T18:10:00Z",
+      "checked_at": "2026-09-08T20:15:00Z",
       "evidence": {
-        "kind": "web_search_and_live_browser",
-        "note": "Discovered by current Exa search; source-contribution route."
+        "kind": "live_provider_rules_and_source_verification",
+        "note": "Registry contribution requires a publicly verifiable package or Docker image. Current OCI image exists but GHCR visibility is private; wait for public visibility before preparing a truthful registry PR."
       }
     },
     {
