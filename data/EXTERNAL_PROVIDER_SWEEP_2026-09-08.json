@@ -2586,14 +2586,14 @@
       "provider_domain": "mcptrove.com",
       "homepage": "https://mcptrove.com/",
       "submission_url": "https://mcptrove.com/submit",
-      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
-      "asset_fit": "CONFIRMED_FIT",
-      "status": "PROVIDER_SUBMISSION_DISABLED",
+      "source_catalog": "Live official submission form and submission endpoint inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_MCP_TOOL",
+      "status": "PROVIDER_SUBMISSION_ERROR",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T20:25:00Z",
+      "checked_at": "2026-09-09T00:00:00Z",
       "evidence": {
-        "kind": "live_form_prefill_and_direct_provider_api",
-        "note": "Live prefill API correctly read the SHAR GitHub repository and supports stdio with a source install command. POST /api/submit returned HTTP 503: Submissions are disabled in this read-only demo. No submission or placement was created."
+        "kind": "live_public_form_prefill_and_submission_attempt",
+        "note": "The live form accepts a public GitHub repo and has no login or CAPTCHA. Its official prefill endpoint returned the SHAR source metadata. A single factual submission with a truthful Git clone/npm-ci/node launch path returned HTTP 503: \"Submissions are disabled in this read-only demo. Connect a database (DATABASE_URL) to enable them.\" No receipt, draft, or public listing exists; do not retry without provider evidence."
       }
     },
     {
