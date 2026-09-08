@@ -31,6 +31,12 @@
       "evidence": {
         "kind": "official_live_submission_route",
         "note": "DevHunt is an active developer-tool directory with Open Source and AI categories. Its explicit Submit your Dev Tool route redirects to login. No account, submission receipt or public SHAR card exists."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -60,6 +66,12 @@
       "evidence": {
         "kind": "live_http_and_browser",
         "note": "Free account registration form is currently reachable; source asset fit still needs submit-route validation."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -2473,6 +2485,12 @@
       "evidence": {
         "kind": "live_browser",
         "note": "Free human-reviewed repository submission requires Google or email sign-in."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -2578,6 +2596,12 @@
       "evidence": {
         "kind": "live_browser",
         "note": "Free listing is available but dashboard requires Google or GitHub sign-in; signing in creates account."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -2788,6 +2812,12 @@
       "evidence": {
         "kind": "official_free_queue_form_and_http_boundary",
         "note": "Live form explicitly offers a $0 Free Queue with standard placement and a separate $29 one-time option. No paid option was selected. The non-browser HTTP request to the same submit route returned Forbidden, while the browser session renders the form. This CUA runtime exposes no click/type/submit method, so no browser session was repurposed and no submission was sent."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -2848,6 +2878,12 @@
       "evidence": {
         "kind": "official_provider_docs_and_live_browser_registration",
         "note": "Official n8n guidance routes template-library submissions through Creator Hub. A useful n8n production-metadata release-gate workflow is already public and functionally tested. Live Creator Hub registration is open in tab 98 but current CUA runtime cannot type into browser forms. No account or submission exists yet."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -3059,6 +3095,12 @@
       "evidence": {
         "kind": "official_registry_faq_and_live_submission_ui",
         "note": "Official FAQ states that an open-source MCP can be submitted from its GitHub repository with display name and description, followed by automated quality, security and health checks. Live registry exposes Add Server while showing Sign Up; no account, submission receipt or public Glama card exists."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -3134,6 +3176,12 @@
       "evidence": {
         "kind": "live_provider_submission_ui",
         "note": "The public free submission route accepts suitable open-source AI tooling but the live browser shows Sign in / create account and a free-account panel before fields are available. No account, submission, receipt, or listing exists."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -3164,6 +3212,12 @@
       "evidence": {
         "kind": "native_npm_cli_and_live_web_login",
         "note": "Rechecked native npm CLI: npm whoami returned ENEEDAUTH. npm view confirms both @sharproduction/production-metadata-mcp and unscoped shar-production-metadata-mcp are absent from the public npm registry. A clean detached clone of public commit 511863a5be1b5d1738dba2b8b31bfdb31cbc6593 at v1.0.4 passed npm ci, all 3 functional tests, and npm pack --dry-run with 0 vulnerabilities. Publish is ready immediately after owner npm authentication."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -3299,6 +3353,12 @@
       "evidence": {
         "kind": "official_form_client_and_first_party_source",
         "note": "StudioList is a curated AI video production studio directory. Its Studio form requires Google identity verification before submission, then requires factual studio name, location, team size, website, showreel, specialty, tools, and contact fields. First-party SHAR evidence confirms Moscow, worldwide service coverage, an official Kinescope-hosted showreel page, and the SHAR Production homepage; no form was submitted or fields invented."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -3374,6 +3434,12 @@
       "evidence": {
         "kind": "official_registration_copy",
         "note": "Oward publicly offers free profile creation for audiovisual companies but requires account email verification and personal account identity fields before a company profile can be created and exposed. No account was created."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "IDENTITY_REQUIRED",
+        "reason": "A real person’s identifying registration details are required; do not invent them."
       }
     },
     {
@@ -3389,6 +3455,12 @@
       "evidence": {
         "kind": "official_registration_form",
         "note": "Production List offers a no-card free account and accepts Other country, but the registration starts with required personal first name, email, role and then a password. No personal identity was invented or account created."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "IDENTITY_REQUIRED",
+        "reason": "A real person’s identifying registration details are required; do not invent them."
       }
     },
     {
@@ -3464,6 +3536,12 @@
       "evidence": {
         "kind": "official_publish_docs_and_live_auth_ui",
         "note": "Smithery officially accepts pre-built MCPB bundles for local stdio servers. SHAR has a public v1.0.1 MCPB release asset verified HTTP 200. The live new-server route redirects to account sign-in, and the documented upload API requires a bearer token. No account, API key, submission, receipt, or public listing exists."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -3494,6 +3572,12 @@
       "evidence": {
         "kind": "prepared_release_and_live_auth_ui",
         "note": "The SHAR rights-labelled conformance corpus is a self-contained synthetic dataset with a public v0.1.2 GitHub release with verified HTTP-200 ZIP and SHA-256 asset, SHA-256 archive, CITATION.cff, CodeMeta and Data Package metadata. The Figshare new-item route redirects to its account sign-in screen. No Figshare record, DOI or public landing page exists yet, so nothing is counted."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -3509,6 +3593,12 @@
       "evidence": {
         "kind": "official_free_listing_policy_and_live_route",
         "note": "3DVF states that studios may add a profile to its CG Map for free after creating an account; premium visibility is optional and was not selected. Its published scope covers animation, VFX and digital-creation studios. No account, submitted profile, receipt or public SHAR page exists, so nothing is counted."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -3524,6 +3614,12 @@
       "evidence": {
         "kind": "live_creator_platform_and_submission_route",
         "note": "FOOH publicly presents a CGI, VFX, mixed-reality and AI-video talent directory. It states that creating a portfolio and submitting work is free, and that approved work appears on a public portfolio and Explore. A submission must use a real SHAR work with rights and factual credits; no invented portfolio item, account, submission, receipt or public SHAR profile exists, so nothing is counted."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "TRUE_HUMAN_GATE",
+        "reason": "A real SHAR work, rights and factual credits must be selected and confirmed before submission."
       }
     },
     {
@@ -3539,6 +3635,12 @@
       "evidence": {
         "kind": "official_deposit_docs_and_prepared_release",
         "note": "Zenodo officially accepts versioned datasets and software, requires an account to create an upload, and registers a DOI only when a record is published. The prepared SHAR synthetic rights-labelled conformance corpus has a public v0.1.2 release, archive checksum, CITATION.cff, CodeMeta and Data Package metadata. No Zenodo account, draft, DOI, record or public landing page exists, so nothing is counted."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -3726,6 +3828,12 @@
       "evidence": {
         "kind": "live_public_form_and_auth_redirect",
         "note": "Public form collects MCP name, description, category, source URL and documentation URL, but dashboard publishing redirects to email/password authentication. No account, submission or listing is claimed."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {
@@ -3831,6 +3939,12 @@
       "evidence": {
         "kind": "live_official_publish_page",
         "note": "Free registry accepts SKILL.md source/file upload after sign-in and safety review. No account or submission exists."
+      },
+      "persistent_browser_execution": {
+        "checked_at": "2026-09-09T00:55:00Z",
+        "runtime": "Playwright persistent Chrome profile",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
+        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
       }
     },
     {

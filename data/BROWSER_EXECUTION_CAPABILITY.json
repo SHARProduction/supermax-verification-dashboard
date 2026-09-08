@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-09T00:55:00Z",
+  "persistent_browser": "AVAILABLE",
+  "runtime": "Playwright 1.63.0 with local persistent Chrome profiles",
+  "persistence_test": {
+    "status": "PASS",
+    "method": "Two independent persistent-context launches retained a harmless first-party localStorage probe."
+  },
+  "storage_boundary": "Profiles and auth state remain local only; never commit, publish, or copy to evidence.",
+  "reassessed_routes": [
+    {
+      "provider": "DevHunt",
+      "source_status": "OWNER_GATE_ACCOUNT",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "100 AI Apps",
+      "source_status": "ACCOUNT_CREATION_READY",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "ToolScout",
+      "source_status": "ACCOUNT_CREATION_READY",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "CuratedMCP",
+      "source_status": "ACCOUNT_CREATION_READY",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "MCP Market",
+      "source_status": "OWNER_GATE_BROWSER_SESSION_AND_INTERACTION",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "n8n Creator Hub",
+      "source_status": "BROWSER_ACCOUNT_CREATION_REQUIRED",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "Glama MCP Registry",
+      "source_status": "OWNER_GATE_ACCOUNT",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "OLUD.ai",
+      "source_status": "OWNER_GATE_ACCOUNT",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "npm Registry",
+      "source_status": "OWNER_GATE_NPM_ACCOUNT_AUTH",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "StudioList",
+      "source_status": "OWNER_GATE_GOOGLE_SIGN_IN",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "Oward",
+      "source_status": "OWNER_GATE_EMAIL_VERIFICATION_AND_IDENTITY",
+      "classification": "IDENTITY_REQUIRED"
+    },
+    {
+      "provider": "Production List",
+      "source_status": "OWNER_GATE_EMAIL_VERIFICATION_AND_IDENTITY",
+      "classification": "IDENTITY_REQUIRED"
+    },
+    {
+      "provider": "Smithery",
+      "source_status": "OWNER_GATE_ACCOUNT_AND_API_KEY",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "Figshare",
+      "source_status": "OWNER_GATE_ACCOUNT",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "3DVF CG Map",
+      "source_status": "OWNER_GATE_ACCOUNT",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "FOOH",
+      "source_status": "OWNER_GATE_ACCOUNT_AND_REAL_WORK_SELECTION",
+      "classification": "TRUE_HUMAN_GATE"
+    },
+    {
+      "provider": "Zenodo",
+      "source_status": "OWNER_GATE_ACCOUNT",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "AgentForge",
+      "source_status": "OWNER_GATE_ACCOUNT_AUTHENTICATION_REQUIRED",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    },
+    {
+      "provider": "SkillMD",
+      "source_status": "OWNER_GATE_ACCOUNT",
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+    }
+  ],
+  "summary": {
+    "can_automate_with_persistent_browser": 16,
+    "true_human_gate": 1,
+    "identity_required": 2,
+    "captcha_required": 0,
+    "no_available_auth": 0
+  }
+}
