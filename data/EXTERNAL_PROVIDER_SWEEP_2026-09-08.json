@@ -3993,6 +3993,51 @@
         "kind": "live_public_marketplace_and_submit_page",
         "note": "Kendex is an independent agent install ecosystem whose marketplace consumes public GitHub repositories of skills, agents, hooks or commands. Public submit page requires GitHub sign-in and push access to prove source control; authoring guide/manifest compatibility must be reviewed before any submission. No sign-in, account, submission or public SHAR marketplace listing exists."
       }
+    },
+    {
+      "provider": "AI Filmmaker Index",
+      "provider_domain": "aifilmmakerindex.com",
+      "homepage": "https://aifilmmakerindex.com/",
+      "submission_url": "https://aifilmmakerindex.com/apply",
+      "source_catalog": "Live public directory and application-route inspection 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_AI_VIDEO_PRODUCTION_STUDIO_OR_AGENCY",
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:15:00Z",
+      "evidence": {
+        "kind": "official_public_directory",
+        "note": "Directory states applications are open and listings are free; the current Apply route redirects without a usable public form snapshot. No account, application or public SHAR listing exists."
+      }
+    },
+    {
+      "provider": "Cinema Marketplace",
+      "provider_domain": "cinemamarketplace.com",
+      "homepage": "https://www.cinemamarketplace.com/",
+      "submission_url": "mailto:submissions@cinemamarketplace.com",
+      "source_catalog": "Live official submission policy 2026-09-09",
+      "asset_fit": "CONDITIONAL_REAL_AI_ASSISTED_FILM_ONLY",
+      "status": "TRUE_HUMAN_GATE",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:15:00Z",
+      "evidence": {
+        "kind": "official_editorial_submission_policy",
+        "note": "Free editorial consideration is available by email for a finished AI-generated or AI-assisted film with public/authorized viewing link, credits, AI tool disclosure, poster and rights confirmation. A specific real SHAR work and rights confirmation must be selected; no email was sent."
+      }
+    },
+    {
+      "provider": "mcp.film",
+      "provider_domain": "mcp.film",
+      "homepage": "https://mcp.film/",
+      "submission_url": "https://mcp.film/submit/",
+      "source_catalog": "Live official submit policy 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_READ_ONLY_PRODUCTION_METADATA_MCP",
+      "status": "READY_GITHUB_ISSUE_REQUIRES_REPRESENTATIONAL_CONFIRMATION",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:15:00Z",
+      "evidence": {
+        "kind": "official_curated_MCP_submission_policy",
+        "note": "Curated AI-filmmaking MCP directory accepts GitHub form, issue, or its own submit_listing tool and states maintainers verify each listing against primary sources. SHAR read-only production metadata MCP has confirmed relevance to production operations. No issue or submission exists."
+      }
     }
   ]
 }
