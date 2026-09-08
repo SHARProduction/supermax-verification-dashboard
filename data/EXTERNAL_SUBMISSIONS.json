@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T13:18:00.000Z",
+  "generated_at": "2026-09-08T14:15:00.000Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -8,11 +8,13 @@
       "provider_domain": "mcp.directory",
       "asset": "io.github.SHARProduction/production-metadata-mcp",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
-      "submitted_at": "2026-09-08T13:18:00.000Z",
+      "submitted_at": "2026-09-08T13:18:00Z",
       "status": "SUBMITTED",
       "evidence": "MCP.Directory confirmation page: Server Submitted! We will review your server and publish it within 24 hours.",
       "counts_as_published_verified": false,
-      "recheck_after": "2026-09-09T13:18:00.000Z"
+      "recheck_after": "2026-09-09T13:18:00Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/"
     },
     {
       "submission_id": "supermax.submission.mcp-so.production-metadata-mcp",
@@ -20,11 +22,13 @@
       "provider_domain": "mcp.so",
       "asset": "io.github.SHARProduction/production-metadata-mcp",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
-      "submitted_at": "2026-09-08T13:27:00.000Z",
+      "submitted_at": "2026-09-08T13:27:00Z",
       "status": "SUBMITTED",
       "evidence_url": "https://github.com/chatmcp/mcpso/issues/4003",
       "counts_as_published_verified": false,
-      "recheck_after": "2026-09-15T13:27:00.000Z"
+      "recheck_after": "2026-09-15T13:27:00Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/"
     },
     {
       "submission_id": "supermax.submission.protodex.production-metadata-mcp",
@@ -32,11 +36,13 @@
       "provider_domain": "protodex.io",
       "asset": "io.github.SHARProduction/production-metadata-mcp",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
-      "submitted_at": "2026-09-08T13:31:00.000Z",
+      "submitted_at": "2026-09-08T13:31:00Z",
       "status": "SUBMITTED",
       "evidence_url": "https://github.com/LuciferForge/mcp-directory/issues/61",
       "counts_as_published_verified": false,
-      "recheck_after": "2026-09-15T13:31:00.000Z"
+      "recheck_after": "2026-09-15T13:31:00Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/"
     }
   ]
 }
