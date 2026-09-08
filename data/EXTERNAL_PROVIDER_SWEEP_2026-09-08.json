@@ -17,8 +17,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://devhunt.org/",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "100 AI Apps",
@@ -33,8 +42,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://100apps.org/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "1000 Tools",
@@ -49,8 +67,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://1000.tools/signup",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "1000gpt.shop",
@@ -65,8 +92,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://buy.stripe.com/dR6eVi1lRgj9bsY4gg",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "1payment Tools",
@@ -81,8 +117,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://1payment.tools/login",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "Advanced Innovation",
@@ -97,8 +142,17 @@
         "captcha_type": "recaptcha_v2"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 429,
+      "final_url": "https://www.ki-suche.io/einreichen",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "Afford Hunt",
@@ -113,8 +167,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://affordhunt.com/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Center",
@@ -129,8 +192,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://aicenter.ai/tools/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI combined",
@@ -145,8 +217,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_error": "TimeoutError",
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Depot",
@@ -161,8 +235,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://buy.stripe.com/cN25l8fjY6J43EQ3cd",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Dir",
@@ -177,8 +260,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.aidir.cc/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Directory",
@@ -193,8 +285,17 @@
         "captcha_type": "cloudflare_turnstile"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.aidirectory.org/user-submit/",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Dude Info",
@@ -209,8 +310,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aidude.info/submit-your-tool",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Explorer",
@@ -225,8 +335,17 @@
         "captcha_type": "cloudflare"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 403,
+      "final_url": "https://domains.atom.com/lpd/name/www.aiexplorer.app",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Finder",
@@ -241,8 +360,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_error": "TimeoutError",
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Gadget",
@@ -257,8 +378,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aigadget.io/",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Hub",
@@ -273,8 +403,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_error": "TypeError",
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Hunter",
@@ -289,8 +421,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_error": "TimeoutError",
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Infinity",
@@ -305,8 +439,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSeuaZvj-s7KkI5Zp41q9LX0i9suH61c7JR2qe6sBdDtP9r9Sg/viewform?usp=send_form",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Lib",
@@ -321,8 +464,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://ailib.ru/",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T16:50:00Z"
     },
     {
       "provider": "AI Library",
