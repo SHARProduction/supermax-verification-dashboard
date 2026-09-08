@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T13:56:59Z",
+  "generated_at": "2026-09-08T14:08:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -77,6 +77,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-10T13:56:59Z"
+    },
+    {
+      "submission_id": "supermax.submission.trackmcp.production-metadata-mcp",
+      "provider": "TrackMCP",
+      "provider_domain": "trackmcp.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T14:08:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW",
+      "evidence": "POST TrackMCP repository submission API returned HTTP 200, ok true; featured option false.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-10T14:08:00Z"
     }
   ]
 }
