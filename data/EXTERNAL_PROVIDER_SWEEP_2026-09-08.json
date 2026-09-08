@@ -3311,6 +3311,21 @@
         "kind": "official_how_it_works",
         "note": "AIO Cine describes free early-access company registration but explicitly states profiles are searchable by production houses across India. SHAR is not represented as an India-based company, so no registration was attempted."
       }
+    },
+    {
+      "provider": "Prodreel",
+      "provider_domain": "prodreel.com",
+      "homepage": "https://prodreel.com/",
+      "submission_url": "https://prodreel.com/auth/?register",
+      "source_catalog": "Official directory, Listing plans and registration page inspected 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_GLOBAL_PRODUCTION_COMPANY_DIRECTORY",
+      "status": "OWNER_GATE_CAPTCHA_AND_EMAIL_VERIFICATION",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T20:48:00Z",
+      "evidence": {
+        "kind": "official_free_plan_and_registration_form",
+        "note": "Prodreel describes a free company listing and a paid Pro upgrade. The live registration form opens in the browser, but it requires a CAPTCHA and account-email verification before a company profile can be created. No CAPTCHA was bypassed and no listing is claimed."
+      }
     }
   ]
 }
