@@ -3383,6 +3383,21 @@
         "kind": "prepared_release_and_live_auth_ui",
         "note": "The SHAR rights-labelled conformance corpus is a self-contained synthetic dataset with a public v0.1.1 GitHub release, SHA-256 archive, CITATION.cff, CodeMeta and Data Package metadata. The Figshare new-item route redirects to its account sign-in screen. No Figshare record, DOI or public landing page exists yet, so nothing is counted."
       }
+    },
+    {
+      "provider": "3DVF CG Map",
+      "provider_domain": "3dvf.com",
+      "homepage": "https://3dvf.com/en/cg-map/",
+      "submission_url": "https://3dvf.com/en/register-your-studio/",
+      "source_catalog": "Live official 3DVF CG Map listing article inspected 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_CGI_VFX_AND_DIGITAL_CREATION_STUDIO_DIRECTORY",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T22:06:00Z",
+      "evidence": {
+        "kind": "official_free_listing_policy_and_live_route",
+        "note": "3DVF states that studios may add a profile to its CG Map for free after creating an account; premium visibility is optional and was not selected. Its published scope covers animation, VFX and digital-creation studios. No account, submitted profile, receipt or public SHAR page exists, so nothing is counted."
+      }
     }
   ]
 }
