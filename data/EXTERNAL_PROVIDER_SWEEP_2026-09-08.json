@@ -2921,6 +2921,21 @@
         "kind": "official_anonymous_submission_api_receipt",
         "note": "The free official API returned HTTP 201 with a pending project object for the existing public MIT production-metadata-linter CLI. No public listing exists yet."
       }
+    },
+    {
+      "provider": "Glama MCP Registry",
+      "provider_domain": "glama.ai",
+      "homepage": "https://glama.ai/mcp/servers",
+      "submission_url": "https://glama.ai/mcp/servers",
+      "source_catalog": "live provider FAQ and registry submission UI 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:50:00Z",
+      "evidence": {
+        "kind": "official_registry_faq_and_live_submission_ui",
+        "note": "Official FAQ states that an open-source MCP can be submitted from its GitHub repository with display name and description, followed by automated quality, security and health checks. Live registry exposes Add Server while showing Sign Up; no account, submission receipt or public Glama card exists."
+      }
     }
   ]
 }
