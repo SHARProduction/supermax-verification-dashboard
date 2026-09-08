@@ -426,6 +426,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-10T17:15:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mymcptools.production-metadata-mcp",
+      "provider": "MyMCPTools",
+      "provider_domain": "mymcptools.vercel.app",
+      "asset": "shar-production-metadata-validation",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T18:50:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_DIRECTORY_SUBMISSION",
+      "evidence": "POST https://mymcptools.vercel.app/api/submit returned HTTP 200 {success:true, message: Submission received; review within 24-48 hours}.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-10T18:50:00Z"
     }
   ]
 }
