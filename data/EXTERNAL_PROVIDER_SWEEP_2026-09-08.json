@@ -3146,6 +3146,21 @@
         "kind": "GitHub_repository_metadata",
         "note": "mcp-submit advertised this list as ready, but GitHub API reports archived: true. No PR was created."
       }
+    },
+    {
+      "provider": "HeyClaude",
+      "provider_domain": "heyclau.de",
+      "homepage": "https://heyclau.de/",
+      "submission_url": "https://heyclau.de/submit",
+      "source_catalog": "official HeyClaude CONTRIBUTING and content schema plus focused public PR 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:31:38.980Z",
+      "evidence": {
+        "kind": "public_external_pull_request",
+        "note": "PR #1 is a one-entry source-backed MCP submission. It cannot be counted until the independent upstream accepts it and the heyclau.de page is public."
+      }
     }
   ]
 }

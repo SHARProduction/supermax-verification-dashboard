@@ -667,6 +667,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-15T19:20:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.heyclaude.production-metadata-mcp",
+      "provider": "HeyClaude",
+      "provider_domain": "heyclau.de",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T19:31:38.978Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_CLAUDE_MCP_DIRECTORY_PULL_REQUEST",
+      "evidence": "Focused public PR #1 adds one source-backed MCP entry with official source URLs, local stdio installation, and explicit read-only safety/privacy notes. The HeyClaude content validator passed for the new entry; independent maintainer review, merge, and public heyclau.de entry are required before counting.",
+      "evidence_url": "https://github.com/nyxst4ck/awesome-claude/pull/1",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T00:00:00Z"
     }
   ]
 }
