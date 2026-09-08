@@ -298,12 +298,12 @@
       "submitted_at": "2026-09-08T00:00:00Z",
       "status": "SUBMITTED",
       "submission_kind": "FREE_SKILL_MARKETPLACE_REVIEW",
-      "evidence": "POST https://skillstore.io/api/submit returned HTTP 200 submission_id f577c08f-4dd4-4eed-a058-ab25f1873acd, status pending, estimated_skills 1; anonymous standard route used with no paid option.",
-      "evidence_url": "https://skillstore.io/submissions/f577c08f-4dd4-4eed-a058-ab25f1873acd",
+      "evidence": "POST https://skillstore.io/api/submit returned HTTP 200 submission_id f577c08f-4dd4-4eed-a058-ab25f1873acd, status pending, estimated_skills 1; anonymous standard route used with no paid option. Workflow 34245127211 completed success and created review PR https://github.com/aiskillstore/marketplace/pull/3360; status in_review, no published skill slug.",
+      "evidence_url": "https://github.com/aiskillstore/marketplace/pull/3360",
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-08T00:10:00Z"
+      "recheck_after": "2026-09-15T00:00:00Z"
     },
     {
       "asset": "shar-production-metadata-validation",
