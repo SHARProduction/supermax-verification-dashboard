@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T14:15:00.000Z",
+  "generated_at": "2026-09-08T14:24:00.000Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -43,6 +43,23 @@
       "recheck_after": "2026-09-15T13:31:00Z",
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/"
+    },
+    {
+      "submission_id": "supermax.submission.awesome-mcp-servers.production-metadata-mcp",
+      "provider": "awesome-mcp-servers",
+      "provider_domain": "github.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T14:24:00.000Z",
+      "status": "SUBMITTED",
+      "submission_kind": "CURATED_LIST_PR",
+      "evidence_url": "https://github.com/punkpeye/awesome-mcp-servers/pull/13996",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T14:24:00.000Z"
     }
   ]
 }
