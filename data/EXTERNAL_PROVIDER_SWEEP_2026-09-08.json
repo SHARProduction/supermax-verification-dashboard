@@ -2350,12 +2350,12 @@
       "submission_url": "https://www.claudemarket.ai/submit",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
+      "status": "INELIGIBLE_FALSE_CLAIM_REQUIRED",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T18:10:00Z",
+      "checked_at": "2026-09-08T18:35:00Z",
       "evidence": {
-        "kind": "web_search_and_live_browser",
-        "note": "Discovered by current Exa search; free basic listing reported."
+        "kind": "live_browser",
+        "note": "Free plan requires a verified README or website backlink asserting listing before acceptance; paid alternatives excluded by zero-spend policy."
       }
     },
     {
@@ -2431,6 +2431,21 @@
       "evidence": {
         "kind": "web_search_and_live_browser",
         "note": "Discovered by current Exa search; source-contribution route."
+      }
+    },
+    {
+      "provider": "CuratedMCP",
+      "provider_domain": "curatedmcp.com",
+      "homepage": "https://curatedmcp.com",
+      "submission_url": "https://www.curatedmcp.com/dashboard/servers/new",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "counts_as_placement": false,
+      "status": "ACCOUNT_CREATION_READY",
+      "checked_at": "2026-09-08T18:35:00Z",
+      "evidence": {
+        "kind": "live_browser",
+        "note": "Free listing is available but dashboard requires Google or GitHub sign-in; signing in creates account."
       }
     }
   ]
