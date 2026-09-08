@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_at": "2026-09-08T00:00:00Z",
-  "counted_placements": 687,
+  "counted_placements": 688,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12641,6 +12641,24 @@
         "canonical": "https://skillstore.io/skills/sharproduction-shar-production-metadata-validation",
         "public_fields": "SHAR Production, safety grade, rights-aware AI-hybrid production metadata validation, GitHub source",
         "source_url": "https://github.com/SHARProduction/production-metadata-mcp"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.mcpagents.production-metadata-mcp",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "MCP Agent Directory",
+      "provider_ecosystem": "mcpagents",
+      "url": "https://mcpagents.ai/api/agents/1124",
+      "source": "external-provider-sweep",
+      "verified_at": "2026-09-08T16:35:09.796Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "provider_independent_of_official_registry": true,
+        "source_linked_representation": true,
+        "public_fields": "SHAR Production, homepage, GitHub repository, version, production metadata validation description, categories and compatibility",
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "functional_check": "Public unauthenticated GET https://mcpagents.ai/api/agents/1124 returned the complete published object after POST acceptance."
       }
     }
   ]
