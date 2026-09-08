@@ -87,13 +87,16 @@
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
       "submitted_at": "2026-09-08T14:08:00Z",
-      "status": "SUBMITTED",
+      "status": "PUBLISHED_VERIFIED",
       "submission_kind": "DIRECTORY_REVIEW",
-      "evidence": "POST TrackMCP repository submission API returned HTTP 200, ok true; featured option false.",
-      "counts_as_published_verified": false,
-      "counts_as_independent_provider_ecosystem": false,
-      "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-10T14:08:00Z"
+      "evidence": "Public TrackMCP card renders at the canonical URL with SHAR Production, sharprod.com, the public GitHub source, the read-only rights-aware manifest description, tool name, MIT source statement and category/tags. HTTP returned 200; canonical, browser rendering and source function test were verified. It is a TrackMCP-hosted discovery representation, not an Official MCP Registry mirror.",
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "recheck_after": "2026-09-10T14:08:00Z",
+      "public_url": "https://trackmcp.com/tool/sharproduction--production-metadata-mcp",
+      "evidence_url": "https://trackmcp.com/tool/sharproduction--production-metadata-mcp",
+      "verified_at": "2026-09-08T21:35:00Z"
     },
     {
       "submission_id": "supermax.submission.mcp-agents-market.production-metadata-mcp",
