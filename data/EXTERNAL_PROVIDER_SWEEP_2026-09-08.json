@@ -3026,6 +3026,21 @@
         "kind": "official_cli_help_and_credential_check",
         "note": "Official a2m-submit CLI supports scanning a workspace and submitting a real project, but its own whoami command returned Not logged in; it requires a free A2M API key via a2m-submit login. No credentials, submission, receipt, or listing exists."
       }
+    },
+    {
+      "provider": "npm Registry",
+      "provider_domain": "npmjs.com",
+      "homepage": "https://www.npmjs.com/",
+      "submission_url": "https://www.npmjs.com/login",
+      "source_catalog": "native npm CLI credential verification 2026-09-08",
+      "asset_fit": "APPLICABLE_EXISTING_NODE_MCP_PACKAGE",
+      "status": "OWNER_GATE_NPM_ACCOUNT_AUTH",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:06:00Z",
+      "evidence": {
+        "kind": "native_npm_cli_and_live_web_login",
+        "note": "The existing public Node MCP package declares a package name and binary. npm whoami returned ENEEDAUTH; npm login launched the official CLI authorization URL, and the live npm page showed Sign In with no saved npm session. No npm account session, publish, receipt, or public package exists."
+      }
     }
   ]
 }
