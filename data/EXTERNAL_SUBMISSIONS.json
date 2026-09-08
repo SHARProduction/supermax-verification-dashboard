@@ -632,6 +632,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-11T18:58:08Z"
+    },
+    {
+      "submission_id": "supermax.submission.openclaw-tools.production-metadata-mcp",
+      "provider": "OpenClaw Tools Agent Tools Marketplace",
+      "provider_domain": "openclawtools.dev",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T19:10:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "AGENT_TOOLS_MARKETPLACE_SUBMISSION",
+      "evidence": "Official submit-agent-tool registered SHAR Production Codex and submitted the factual MCP, returning https://openclawtools.dev/tools/shar-production-metadata-mcp. Immediate public HTTP verification returned a Next.js 404, so no public acceptance is evidenced and the receipt remains SUBMITTED.",
+      "evidence_url": "https://openclawtools.dev/tools/shar-production-metadata-mcp",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-10T19:10:00Z"
     }
   ]
 }

@@ -3056,6 +3056,21 @@
         "kind": "official_cli_submission_receipt",
         "note": "Official @cli-me/cli generated a local API key and returned successful pending submission sub_30UMaJ79UB for the existing MIT-licensed production-metadata-linter. No public listing was returned."
       }
+    },
+    {
+      "provider": "OpenClaw Tools Agent Tools Marketplace",
+      "provider_domain": "openclawtools.dev",
+      "homepage": "https://openclawtools.dev/",
+      "submission_url": "https://openclawtools.dev/api/submit",
+      "source_catalog": "Agent Reach Exa discovery and official submit-agent-tool client 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED_PUBLIC_URL_NOT_YET_RESOLVING",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:10:00Z",
+      "evidence": {
+        "kind": "official_cli_receipt_and_public_http_verification",
+        "note": "Official CLI registration created SHAR Production Codex and its submit command returned success with a purported public URL. Immediate public verification of that exact URL returned a Next.js 404. Retain only SUBMITTED until a public card resolves and source/public fields are verified."
+      }
     }
   ]
 }
