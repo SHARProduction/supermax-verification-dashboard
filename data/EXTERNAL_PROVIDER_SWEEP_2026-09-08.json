@@ -2656,14 +2656,14 @@
       "provider_domain": "mcpmarket.com",
       "homepage": "https://mcpmarket.com/",
       "submission_url": "https://mcpmarket.com/submit",
-      "source_catalog": "live authenticated-browser verification 2026-09-08",
+      "source_catalog": "Live official CUA form and direct unauthenticated HTTP check 2026-09-08",
       "asset_fit": "CONFIRMED_FIT",
-      "status": "BROWSER_FORM_INTERACTION_REQUIRED",
+      "status": "OWNER_GATE_BROWSER_SESSION_AND_INTERACTION",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T21:25:00Z",
+      "checked_at": "2026-09-08T21:22:00Z",
       "evidence": {
-        "kind": "live_browser_form",
-        "note": "The live MCP submission page exposes an explicit Free Queue: $0, standard placement, stated 4-6 week review. Current CUA runtime can open/read browser pages but does not expose type/click methods, so the required GitHub URL/email form has not been submitted. Paid $29 option was not selected."
+        "kind": "official_free_queue_form_and_http_boundary",
+        "note": "Live form explicitly offers a $0 Free Queue with standard placement and a separate $29 one-time option. No paid option was selected. The non-browser HTTP request to the same submit route returned Forbidden, while the browser session renders the form. This CUA runtime exposes no click/type/submit method, so no browser session was repurposed and no submission was sent."
       }
     },
     {
