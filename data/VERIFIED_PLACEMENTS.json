@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T12:58:20.102Z",
-  "counted_placements": 605,
+  "generated_at": "2026-09-08T13:01:48.673Z",
+  "counted_placements": 655,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -11009,6 +11009,1006 @@
         "index_follow": true,
         "content": "interactive production calculator",
         "desktop_mobile_functional_samples": "covered by EN/RU browser examples"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.aaf-offline-checklist",
+      "work_id": "supermax.work.qc-checklist.aaf-offline-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/aaf-offline-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/aaf-offline-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/aaf-offline-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.accessibility-track-checklist",
+      "work_id": "supermax.work.qc-checklist.accessibility-track-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/accessibility-track-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/accessibility-track-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/accessibility-track-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.alpha-loss-checklist",
+      "work_id": "supermax.work.qc-checklist.alpha-loss-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/alpha-loss-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/alpha-loss-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/alpha-loss-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.approval-owner-missing-checklist",
+      "work_id": "supermax.work.qc-checklist.approval-owner-missing-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/approval-owner-missing-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/approval-owner-missing-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/approval-owner-missing-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.approval-stale-checklist",
+      "work_id": "supermax.work.qc-checklist.approval-stale-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/approval-stale-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/approval-stale-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/approval-stale-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.aspect-ratio-checklist",
+      "work_id": "supermax.work.qc-checklist.aspect-ratio-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/aspect-ratio-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/aspect-ratio-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/aspect-ratio-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.audio-sample-rate-checklist",
+      "work_id": "supermax.work.qc-checklist.audio-sample-rate-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/audio-sample-rate-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/audio-sample-rate-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/audio-sample-rate-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.backup-gap-checklist",
+      "work_id": "supermax.work.qc-checklist.backup-gap-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/backup-gap-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/backup-gap-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/backup-gap-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.brief-gap-checklist",
+      "work_id": "supermax.work.qc-checklist.brief-gap-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/brief-gap-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/brief-gap-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/brief-gap-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.call-sheet-timezone-checklist",
+      "work_id": "supermax.work.qc-checklist.call-sheet-timezone-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/call-sheet-timezone-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/call-sheet-timezone-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/call-sheet-timezone-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.camera-report-checklist",
+      "work_id": "supermax.work.qc-checklist.camera-report-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/camera-report-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/camera-report-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/camera-report-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.caption-overlap-checklist",
+      "work_id": "supermax.work.qc-checklist.caption-overlap-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/caption-overlap-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/caption-overlap-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/caption-overlap-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.caption-speed-checklist",
+      "work_id": "supermax.work.qc-checklist.caption-speed-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/caption-speed-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/caption-speed-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/caption-speed-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.checksum-mismatch-checklist",
+      "work_id": "supermax.work.qc-checklist.checksum-mismatch-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/checksum-mismatch-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/checksum-mismatch-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/checksum-mismatch-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.clean-plate-checklist",
+      "work_id": "supermax.work.qc-checklist.clean-plate-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/clean-plate-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/clean-plate-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/clean-plate-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.codec-incompatible-checklist",
+      "work_id": "supermax.work.qc-checklist.codec-incompatible-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/codec-incompatible-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/codec-incompatible-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/codec-incompatible-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.color-space-tag-checklist",
+      "work_id": "supermax.work.qc-checklist.color-space-tag-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/color-space-tag-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/color-space-tag-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/color-space-tag-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.conform-version-checklist",
+      "work_id": "supermax.work.qc-checklist.conform-version-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/conform-version-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/conform-version-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/conform-version-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.duplicate-assets-checklist",
+      "work_id": "supermax.work.qc-checklist.duplicate-assets-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/duplicate-assets-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/duplicate-assets-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/duplicate-assets-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.edl-reel-checklist",
+      "work_id": "supermax.work.qc-checklist.edl-reel-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/edl-reel-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/edl-reel-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/edl-reel-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.field-order-checklist",
+      "work_id": "supermax.work.qc-checklist.field-order-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/field-order-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/field-order-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/field-order-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.filename-collision-checklist",
+      "work_id": "supermax.work.qc-checklist.filename-collision-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/filename-collision-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/filename-collision-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/filename-collision-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.font-license-checklist",
+      "work_id": "supermax.work.qc-checklist.font-license-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/font-license-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/font-license-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/font-license-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.forced-narrative-checklist",
+      "work_id": "supermax.work.qc-checklist.forced-narrative-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/forced-narrative-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/forced-narrative-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/forced-narrative-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.frame-rate-mismatch-checklist",
+      "work_id": "supermax.work.qc-checklist.frame-rate-mismatch-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/frame-rate-mismatch-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/frame-rate-mismatch-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/frame-rate-mismatch-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.gamma-shift-checklist",
+      "work_id": "supermax.work.qc-checklist.gamma-shift-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/gamma-shift-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/gamma-shift-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/gamma-shift-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.localization-source-change-checklist",
+      "work_id": "supermax.work.qc-checklist.localization-source-change-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/localization-source-change-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/localization-source-change-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/localization-source-change-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.location-permit-gap-checklist",
+      "work_id": "supermax.work.qc-checklist.location-permit-gap-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/location-permit-gap-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/location-permit-gap-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/location-permit-gap-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.loudness-fail-checklist",
+      "work_id": "supermax.work.qc-checklist.loudness-fail-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/loudness-fail-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/loudness-fail-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/loudness-fail-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.lut-baked-in-checklist",
+      "work_id": "supermax.work.qc-checklist.lut-baked-in-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/lut-baked-in-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/lut-baked-in-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/lut-baked-in-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.manifest-gap-checklist",
+      "work_id": "supermax.work.qc-checklist.manifest-gap-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/manifest-gap-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/manifest-gap-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/manifest-gap-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.master-corruption-checklist",
+      "work_id": "supermax.work.qc-checklist.master-corruption-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/master-corruption-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/master-corruption-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/master-corruption-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.metadata-gap-checklist",
+      "work_id": "supermax.work.qc-checklist.metadata-gap-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/metadata-gap-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/metadata-gap-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/metadata-gap-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.proxy-relink-checklist",
+      "work_id": "supermax.work.qc-checklist.proxy-relink-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/proxy-relink-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/proxy-relink-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/proxy-relink-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.qc-severity-checklist",
+      "work_id": "supermax.work.qc-checklist.qc-severity-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/qc-severity-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/qc-severity-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/qc-severity-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.restore-fail-checklist",
+      "work_id": "supermax.work.qc-checklist.restore-fail-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/restore-fail-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/restore-fail-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/restore-fail-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.rights-expiry-checklist",
+      "work_id": "supermax.work.qc-checklist.rights-expiry-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/rights-expiry-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/rights-expiry-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/rights-expiry-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.safe-area-checklist",
+      "work_id": "supermax.work.qc-checklist.safe-area-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/safe-area-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/safe-area-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/safe-area-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.schedule-collision-checklist",
+      "work_id": "supermax.work.qc-checklist.schedule-collision-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/schedule-collision-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/schedule-collision-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/schedule-collision-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.scope-drift-checklist",
+      "work_id": "supermax.work.qc-checklist.scope-drift-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/scope-drift-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/scope-drift-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/scope-drift-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.slate-mismatch-checklist",
+      "work_id": "supermax.work.qc-checklist.slate-mismatch-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/slate-mismatch-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/slate-mismatch-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/slate-mismatch-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.sound-report-checklist",
+      "work_id": "supermax.work.qc-checklist.sound-report-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/sound-report-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/sound-report-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/sound-report-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.talent-release-gap-checklist",
+      "work_id": "supermax.work.qc-checklist.talent-release-gap-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/talent-release-gap-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/talent-release-gap-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/talent-release-gap-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.timecode-drift-checklist",
+      "work_id": "supermax.work.qc-checklist.timecode-drift-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/timecode-drift-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/timecode-drift-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/timecode-drift-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.true-peak-clipping-checklist",
+      "work_id": "supermax.work.qc-checklist.true-peak-clipping-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/true-peak-clipping-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/true-peak-clipping-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/true-peak-clipping-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.upload-incomplete-checklist",
+      "work_id": "supermax.work.qc-checklist.upload-incomplete-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/upload-incomplete-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/upload-incomplete-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/upload-incomplete-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.version-label-checklist",
+      "work_id": "supermax.work.qc-checklist.version-label-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/version-label-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/version-label-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/version-label-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.vfx-handles-checklist",
+      "work_id": "supermax.work.qc-checklist.vfx-handles-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/vfx-handles-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/vfx-handles-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/vfx-handles-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.weather-contingency-checklist",
+      "work_id": "supermax.work.qc-checklist.weather-contingency-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/weather-contingency-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/weather-contingency-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/weather-contingency-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.qc-checklist.xml-retime-checklist",
+      "work_id": "supermax.work.qc-checklist.xml-retime-checklist",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-qc-checklists/en/xml-retime-checklist/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-qc-checklists/en/xml-retime-checklist/",
+        "ru": "https://sharproduction.github.io/production-qc-checklists/ru/xml-retime-checklist/"
+      },
+      "source": "wave-215",
+      "verified_at": "2026-09-08T13:01:33.957Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive production QC checklist",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser matrix"
       }
     }
   ]
