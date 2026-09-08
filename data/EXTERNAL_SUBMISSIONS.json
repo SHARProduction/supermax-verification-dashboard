@@ -233,6 +233,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-15T15:27:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.agent-skill-exchange.production-metadata-validation",
+      "provider": "Agent Skill Exchange external OSS contribution",
+      "provider_domain": "github.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T15:34:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
+      "evidence": "Public PR https://github.com/agentskillexchange/skills/pull/73 adds one installable SKILL.md backed by the actual public MIT-licensed MCP. It documents a local stdio workflow and explicit validation boundary; maintainer merge required.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T15:34:00Z"
     }
   ]
 }
