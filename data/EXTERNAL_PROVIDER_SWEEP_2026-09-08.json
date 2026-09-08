@@ -3500,6 +3500,21 @@
         "kind": "live_directory_llms_and_login_required_submission",
         "note": "The provider documents public MCP-specific pages with SoftwareApplication schema and human review; its llms.txt states that listings are reviewed and not ranked by payment. Submission redirects to an authenticated account flow. No submission or placement is claimed; the sign-in page is open in the in-app browser."
       }
+    },
+    {
+      "provider": "Docker MCP Registry",
+      "provider_domain": "docker.com",
+      "homepage": "https://hub.docker.com/mcp",
+      "submission_url": "https://github.com/docker/mcp-registry",
+      "source_catalog": "Official Docker MCP Registry CONTRIBUTING and source entry preparation inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_CONTAINERIZED_STDIO_MCP",
+      "status": "READY_LOCAL_VALIDATION_ENVIRONMENT_BLOCKED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "prepared_unsubmitted_registry_entry",
+        "note": "The SHAR source has a public MIT Dockerfile and passes its Node test suite. A pinned Docker Registry entry plus static tools.json were prepared locally. Docker Registry requires Go validation and a Docker build; Go is unavailable and Docker Desktop daemon is stopped. No external PR was created and no registry placement is claimed."
+      }
     }
   ]
 }
