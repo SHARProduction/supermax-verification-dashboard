@@ -1907,8 +1907,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "TypeError",
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Fazier",
@@ -1923,8 +1925,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://fazier.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Find Cool Tools",
@@ -1939,8 +1950,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://findcool.tools/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Find My AI Tool",
@@ -1955,8 +1975,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://findmyaitool.com/submit-tool",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "First 100 users",
@@ -1971,8 +2000,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.first100users.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Flip Bytes",
@@ -1987,8 +2025,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.flipbytes.com/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Free AI Apps",
@@ -2003,8 +2050,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Free AI Tools Directory",
@@ -2019,8 +2068,10 @@
         "captcha_type": "recaptcha_v3"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Future AGI tools",
@@ -2035,8 +2086,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://www.futureagitools.com/submit-a-site",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Future Tools",
@@ -2051,8 +2111,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Futurepedia",
@@ -2067,8 +2129,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.futurepedia.io/submit-tool",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Gate2AI",
@@ -2083,8 +2154,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Getlatka",
@@ -2099,8 +2172,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://getlatka.com/saas-companies",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Good AI Tools",
@@ -2115,8 +2197,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://goodaitools.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "GPT Academy",
@@ -2131,8 +2222,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.gptacademy.co/submit",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Gpt Forge",
@@ -2147,8 +2247,10 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "GPT Stack",
@@ -2163,8 +2265,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "GPTE",
@@ -2179,8 +2283,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "GPTs Hunter",
@@ -2195,8 +2301,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:50:00Z"
     },
     {
       "provider": "Igniter",
@@ -2211,8 +2319,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:50:00Z"
     }
   ]
 }
