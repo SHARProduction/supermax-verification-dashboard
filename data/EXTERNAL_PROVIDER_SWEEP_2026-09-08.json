@@ -2537,6 +2537,21 @@
         "kind": "live_browser",
         "note": "Public homepage exposes browse, skills, create, packages, community and dashboard routes but no server submission route or documented public API for adding an existing MCP."
       }
+    },
+    {
+      "provider": "AgenticSkills",
+      "provider_domain": "agenticskills.io",
+      "homepage": "https://agenticskills.io/",
+      "submission_url": "https://agenticskills.io/submit?type=mcp",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "PROVIDER_RATE_LIMITED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T20:05:00Z",
+      "evidence": {
+        "kind": "live_form_and_direct_provider_api",
+        "note": "Live form exposes a free reviewed MCP listing. Payload was derived from form source; POST /api/submissions returned HTTP 429 Too many submissions. No receipt or public listing was obtained, so nothing is counted."
+      }
     }
   ]
 }
