@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T02:00:00Z",
+  "as_of": "2026-09-09T02:18:00Z",
   "counting_contract": {
     "accepted_baseline_useful_placements": 537,
     "baseline_candidate_unique_urls_pending_functional_reconciliation": 201,
@@ -52,7 +52,7 @@
   },
   "status_totals": {
     "published_verified": 36,
-    "submitted": 43,
+    "submitted": 44,
     "in_progress": 0,
     "ready": 2,
     "blocked_free_quota": 0,

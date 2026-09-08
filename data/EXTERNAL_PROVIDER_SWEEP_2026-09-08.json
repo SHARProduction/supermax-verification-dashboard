@@ -4025,12 +4025,19 @@
       "submission_url": "https://openagentskill.com/submit",
       "source_catalog": "Live public submit page via Agent Reach web route 2026-09-09",
       "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
-      "status": "READY_FORM_REQUIRES_REPRESENTATIONAL_CONFIRMATION",
+      "status": "REVIEWED_NO_PUBLIC_LISTING_YET",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T02:25:00Z",
+      "checked_at": "2026-09-09T02:18:00Z",
       "evidence": {
         "kind": "live_public_submission_page",
-        "note": "Free public form accepts a GitHub repository, subdirectory, or SKILL.md URL; zero-star skills are explicitly accepted and only a valid SKILL.md is required. It saves to a community review queue, and a listing is not public acceptance until reviewed. Existing SHAR SKILL.md fits. No external form submission or receipt exists."
+        "note": "Free public form accepts a GitHub repository, subdirectory, or SKILL.md URL; zero-star skills are explicitly accepted and only a valid SKILL.md is required. It saves to a community review queue, and a listing is not public acceptance until reviewed. Existing SHAR SKILL.md fits. No external form submission or receipt exists.",
+        "submission": {
+          "accepted_http_status": 202,
+          "submission_id": "bc476ce2-e530-4b02-9f7f-0cd14d3a7153,",
+          "review_status": "reviewed",
+          "public_directory_check": "No exact SHAR result after the public directory search; no public URL yet.",
+          "private_token_stored": false
+        }
       }
     },
     {

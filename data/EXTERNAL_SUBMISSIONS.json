@@ -950,6 +950,20 @@
       "recheck_after": "2026-09-16T00:00:00Z",
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/"
+    },
+    {
+      "submission_id": "supermax.submission.openagentskill.production-metadata-validation",
+      "provider": "OpenAgentSkill",
+      "provider_domain": "openagentskill.com",
+      "asset": "shar-production-metadata-validation",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp/tree/main/skills/shar-production-metadata-validation",
+      "submitted_at": "2026-09-09T02:15:00Z",
+      "status": "SUBMITTED",
+      "evidence": "Official API returned 202 accepted and a submission id; local status check reached reviewed. Public directory search did not yet produce a SHAR public card URL. Private status token is deliberately excluded from all ledgers.",
+      "counts_as_published_verified": false,
+      "recheck_after": "2026-09-10T02:15:00Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/"
     }
   ]
 }
