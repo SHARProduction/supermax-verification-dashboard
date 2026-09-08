@@ -2477,6 +2477,21 @@
         "kind": "direct_provider_api",
         "note": "Free endpoint POST /api/submit returned {success:true}; review expected in 24-48 hours."
       }
+    },
+    {
+      "provider": "MarketNow security audit directory",
+      "provider_domain": "marketnow.site",
+      "homepage": "https://marketnow.site",
+      "submission_url": "https://marketnow.site/api/submit-skill",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "counts_as_placement": false,
+      "status": "INELIGIBLE_STALE_SUBMISSION_API",
+      "checked_at": "2026-09-08T19:25:00Z",
+      "evidence": {
+        "kind": "direct_provider_api",
+        "note": "POST /api/submit-skill returned HTTP 405 with allowed methods [GET]; no submission was created."
+      }
     }
   ]
 }
