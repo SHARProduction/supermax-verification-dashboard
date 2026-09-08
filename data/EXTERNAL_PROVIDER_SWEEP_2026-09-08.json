@@ -3201,10 +3201,25 @@
       "asset_fit": "CONFIRMED_FIT_AI_HYBRID_VIDEO_PRODUCTION_STUDIO",
       "status": "READY_PUBLIC_FORM",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T19:47:00.000Z",
+      "checked_at": "2026-09-08T19:47:00Z",
       "evidence": {
         "kind": "official_public_submit_form",
         "note": "StudioRank offers a free independently reviewed listing for AI-native studios, including Motion/Video. The public form needs only studio name, website, contact email and a factual service category; its client server action accepts optional description and tool fields. SHAR can be described factually without prices, rankings, or unverified tool claims. External submission has not been sent and no placement is claimed."
+      }
+    },
+    {
+      "provider": "ProductionHUB",
+      "provider_domain": "productionhub.com",
+      "homepage": "https://www.productionhub.com/get-listed",
+      "submission_url": "https://www.productionhub.com/account/register",
+      "source_catalog": "Official get-listed, user agreement, and FAQ pages via Agent Reach Exa verification 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_PRODUCTION_INDUSTRY_DIRECTORY",
+      "status": "INELIGIBLE_PAID_SUBSCRIPTION_AFTER_TRIAL",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:52:00.000Z",
+      "evidence": {
+        "kind": "official_pricing_and_faq",
+        "note": "ProductionHUB is a relevant global production directory, but its Basic profile is only free for the first 30 days and then costs USD 6.99 monthly. Its own FAQ confirms the basic profile is a subscription. Zero incremental spend forbids creating this route."
       }
     }
   ]
