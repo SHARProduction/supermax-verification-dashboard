@@ -3757,6 +3757,21 @@
         "kind": "live_browser_submission_and_public_github_api_crosscheck",
         "note": "Submitted the public repository URL through the provider’s no-account form. Provider displayed exact result: “Could not fetch repository: GitHub API error: 403 — repo SHARProduction/production-metadata-mcp not found”. Independently, GitHub API returns HTTP 200, public repository. No provider submission receipt or listing exists; do not count."
       }
+    },
+    {
+      "provider": "Agent Skills Directory",
+      "provider_domain": "dmgrok.github.io",
+      "homepage": "https://dmgrok.github.io/agent-plugins/",
+      "submission_url": "https://github.com/dmgrok/agent-plugins/issues/127",
+      "source_catalog": "provider README and public issue submission 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T22:45:03.598Z",
+      "evidence": {
+        "kind": "public_provider_issue_receipt",
+        "note": "Provider requires New Provider Issue for validation of a public skills source. Issue #127 is open. This is an external maintainer-review submission, not a public provider acceptance or listing."
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T00:00:00.000Z",
+  "generated_at": "2026-09-08T22:45:03.598Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -906,6 +906,24 @@
       "submission_kind": "FREE_AI_TOOL_DIRECTORY_FORM",
       "evidence": "Official Google Form response returned HTTP 200 with confirmation: “Thank you for submitting a new AI tool. We appreciate your contribution to our community and will review your submission shortly.” The factual submission used Developer category, the public MIT source, SHAR Production attribution and https://sharprod.com/.",
       "evidence_url": "https://docs.google.com/forms/d/e/1FAIpQLSeuaZvj-s7KkI5Zp41q9LX0i9suH61c7JR2qe6sBdDtP9r9Sg/viewform",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.agent-skills-directory.shar-production-metadata",
+      "provider": "Agent Skills Directory",
+      "provider_domain": "dmgrok.github.io",
+      "asset": "SHAR Production Metadata Validation skill",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T22:45:03.598Z",
+      "status": "SUBMITTED",
+      "submission_kind": "PUBLIC_GITHUB_PROVIDER_ISSUE_AUTOMATED_VALIDATION",
+      "evidence": "Public provider issue #127 was created using the provider’s documented New Provider template. It gives the public MIT repository, skills/ location, branch main, factual read-only rights-aware production metadata validation purpose, and required quality confirmations. Provider describes automated format, secret, injection and quality validation and auto-PR on pass. Acceptance/listing remains unverified.",
+      "evidence_url": "https://github.com/dmgrok/agent-plugins/issues/127",
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
