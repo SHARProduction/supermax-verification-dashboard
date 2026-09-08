@@ -3071,6 +3071,21 @@
         "kind": "official_cli_receipt_and_public_http_verification",
         "note": "Official CLI registration created SHAR Production Codex and its submit command returned success with a purported public URL. Immediate public verification of that exact URL returned a Next.js 404. Retain only SUBMITTED until a public card resolves and source/public fields are verified."
       }
+    },
+    {
+      "provider": "OpenCLI Hub",
+      "provider_domain": "openclihub.com",
+      "homepage": "https://www.openclihub.com/",
+      "submission_url": "https://www.openclihub.com/submit",
+      "source_catalog": "Agent Reach Exa discovery and live official submit form 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "OWNER_GATE_API_KEY",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:27:00Z",
+      "evidence": {
+        "kind": "live_official_submission_form",
+        "note": "The public form and documented API accept a real CLI tool, but both require an OpenCLI Hub API key. The provider exposes no self-service signup or key issuance route on its submission surface; no key, submission, receipt, or listing exists."
+      }
     }
   ]
 }
