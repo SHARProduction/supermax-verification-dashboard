@@ -300,8 +300,8 @@
         "auth_type": "none",
         "captcha_type": "cloudflare_turnstile"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONFIRMED_FIT_AI_VIDEO_PRODUCTION_COMPANY",
+      "status": "OWNER_GATE_CAPTCHA_AND_REQUIRED_OWNER_FIELDS",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.aidirectory.org/user-submit/",
@@ -311,7 +311,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_official_wordpress_submission_form",
+        "note": "The public form supports a factual AI company submission with Generative AI category, company name and website, but additionally requires telephone contact and g-recaptcha-response. No personal phone number was invented and no CAPTCHA was bypassed; no post, receipt or listing exists."
+      }
     },
     {
       "provider": "AI Dude Info",
