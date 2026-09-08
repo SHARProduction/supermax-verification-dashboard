@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Preparation queue for original reproducible SHAR Production research. No item may be labelled published, benchmarked, cited or statistically conclusive until its dataset, methodology, source code and verification evidence exist.",
+  "updated_at": "2026-09-09T00:25:00Z",
+  "assets": [
+    {
+      "id": "research.ai-video-production-benchmark-2026",
+      "title": "AI Video Production Benchmark 2026",
+      "status": "PREPARATION_ONLY",
+      "claim_boundary": "No performance ranking or market statistic until a disclosed reproducible test corpus, model/version matrix, scoring rubric and raw results exist.",
+      "planned_method": "Versioned task corpus, pre-registered scoring rubric and run logs. Synthetic fixtures must be explicitly labelled.",
+      "potential_inputs": [
+        "rights-labelled-conformance-corpus"
+      ],
+      "planned_outputs": [
+        "methodology",
+        "CSV/JSON raw results",
+        "charts",
+        "citation instructions"
+      ],
+      "distribution_candidates": [
+        "GitHub",
+        "Hugging Face",
+        "Kaggle",
+        "Internet Archive",
+        "Zenodo if owner account authorizes and deposition is eligible"
+      ]
+    },
+    {
+      "id": "research.ai-cgi-hybrid-cost-time-benchmark",
+      "title": "AI vs CGI vs Hybrid Production Cost/Time Benchmark",
+      "status": "PREPARATION_ONLY",
+      "claim_boundary": "No cost or time claims without disclosed estimation model or non-confidential aggregate first-party data with sampling rules.",
+      "planned_method": "Scenario definitions and transparent unit-cost/time assumptions; separate observed measures from estimates.",
+      "potential_inputs": [],
+      "planned_outputs": [
+        "methodology",
+        "scenario table",
+        "CSV/JSON assumptions",
+        "charts",
+        "citation instructions"
+      ],
+      "distribution_candidates": [
+        "GitHub",
+        "Hugging Face",
+        "Kaggle",
+        "Zenodo if eligible"
+      ]
+    },
+    {
+      "id": "research.ai-video-consistency-failure-taxonomy",
+      "title": "AI Video Consistency Failure Taxonomy",
+      "status": "PREPARATION_ONLY",
+      "claim_boundary": "No frequency rates or model comparisons until labelled example corpus and independent reproducibility checks exist.",
+      "planned_method": "Taxonomy of observable failure classes with synthetic or licensed examples, annotation protocol and adjudication record.",
+      "potential_inputs": [
+        "rights-labelled-conformance-corpus"
+      ],
+      "planned_outputs": [
+        "taxonomy schema",
+        "labelled JSON/CSV fixtures",
+        "methodology",
+        "charts",
+        "citation instructions"
+      ],
+      "distribution_candidates": [
+        "GitHub",
+        "Hugging Face",
+        "Kaggle",
+        "Internet Archive"
+      ]
+    },
+    {
+      "id": "research.commercial-ai-video-rights-readiness-benchmark",
+      "title": "Commercial AI Video Rights & Readiness Benchmark",
+      "status": "PREPARATION_ONLY",
+      "claim_boundary": "Not legal advice and no rights-clearance claims; the output assesses disclosed metadata completeness against a published rubric.",
+      "planned_method": "Run rights-labelled synthetic manifests through documented structural and policy checks; label all fixtures synthetic.",
+      "potential_inputs": [
+        "production-metadata-mcp",
+        "production-delivery-manifest-schema",
+        "rights-labelled-conformance-corpus"
+      ],
+      "planned_outputs": [
+        "reproducible test runner",
+        "JSON/CSV results",
+        "methodology",
+        "citation instructions"
+      ],
+      "distribution_candidates": [
+        "GitHub",
+        "Hugging Face",
+        "Kaggle",
+        "Zenodo if eligible"
+      ]
+    },
+    {
+      "id": "research.ai-cgi-production-workflow-reliability-benchmark",
+      "title": "AI/CGI Production Workflow Reliability Benchmark",
+      "status": "PREPARATION_ONLY",
+      "claim_boundary": "No production reliability or commercial performance claims without disclosed workflow fixtures, pass/fail criteria and rerunnable test logs.",
+      "planned_method": "Define staged delivery-manifest scenarios and measure deterministic validation/release-gate outcomes; distinguish tooling validation from finished-film quality.",
+      "potential_inputs": [
+        "production-delivery-manifest-schema",
+        "production-metadata-mcp"
+      ],
+      "planned_outputs": [
+        "workflow fixtures",
+        "test logs",
+        "JSON/CSV results",
+        "methodology",
+        "citation instructions"
+      ],
+      "distribution_candidates": [
+        "GitHub",
+        "Hugging Face",
+        "Kaggle",
+        "Internet Archive"
+      ]
+    }
+  ]
+}

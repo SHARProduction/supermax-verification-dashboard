@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0.0",
+  "counting_boundary": "Only third-party public mentions/links or external maintainer/editorial acceptances. SHAR-controlled properties, submissions, mirrors and unverified search snippets are excluded.",
+  "counted_mentions": 0,
+  "mentions": []
+}

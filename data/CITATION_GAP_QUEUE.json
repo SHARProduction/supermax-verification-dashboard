@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Evidence-led queue of independent commercial or topical pages where SHAR is not currently mentioned. Queue entries are candidates, not claims of ranking or AI citation.",
+  "updated_at": "2026-09-09T00:25:00Z",
+  "items": [
+    {
+      "id": "citation-gap.studiolist.best-ai-video-studios-2026",
+      "domain": "studiolist.co",
+      "url": "https://studiolist.co/best-ai-video-studios/",
+      "page_type": "curated_ranked_list",
+      "competitors_mentioned": [
+        "The Dor Brothers",
+        "351 Studio",
+        "Lemonlight",
+        "Private Island",
+        "Billy Boman",
+        "Phantom X",
+        "Genre.ai",
+        "NextonNow",
+        "Promise"
+      ],
+      "relevant_commercial_query": "best AI video studios; AI video production studio",
+      "why_shar_matches": "SHAR Production is positioned as an AI-hybrid video production studio with CGI/3D and production-technology supporting capabilities; inclusion must be supported by real portfolio and company evidence.",
+      "legitimate_entry_path": "Provider’s public Get Listed route; free eligibility, owner authentication and review must be verified before any submission.",
+      "route_type": "directory_submission",
+      "status": "OWNER_GATE_GOOGLE_SIGN_IN",
+      "evidence": {
+        "checked_at": "2026-09-09T00:24:00Z",
+        "http_200": true,
+        "shar_absent": true,
+        "page_context": "Page states it is a hand-picked 2026 ranking, reviewed for portfolio depth, client work, output quality and transparency. It names ten studios and provides Get Listed and Claim routes.",
+        "discovery": "search batch"
+      },
+      "weighted_priority": 50
+    },
+    {
+      "id": "citation-gap.retainable.best-video-production-agencies-ai-companies-2026",
+      "domain": "retainable.com",
+      "url": "https://www.retainable.com/blog/best-video-production-agencies-for-ai-companies",
+      "page_type": "editorial_comparison_guide",
+      "competitors_mentioned": [
+        "Advids",
+        "Apollo Studio",
+        "Explainify",
+        "Content Beta",
+        "Vidico",
+        "MotionGility",
+        "Demo Duck",
+        "Superside",
+        "Broadcast2World",
+        "Blue Carrot"
+      ],
+      "relevant_commercial_query": "best video production agencies for AI companies",
+      "why_shar_matches": "The guide evaluates technical accuracy for AI-company video production, which overlaps SHAR’s AI-hybrid production positioning. Any inclusion requires a truthful independent editorial decision, not a paid link.",
+      "legitimate_entry_path": "Prepare factual editorial briefing and identify a declared correction/editorial contact; no outreach has been sent.",
+      "route_type": "editorial_outreach",
+      "status": "REQUIRES_CONTACT_DISCOVERY",
+      "evidence": {
+        "checked_at": "2026-09-09T00:24:00Z",
+        "http_200": true,
+        "shar_absent": true,
+        "page_context": "2026 guide lists ten agencies and describes its methodology as technical accuracy for AI companies; public page exposed no visible listing-submission route.",
+        "discovery": "search batch"
+      },
+      "weighted_priority": 50
+    },
+    {
+      "id": "citation-gap.awesomic.best-ai-video-production-agencies-2026",
+      "domain": "awesomic.com",
+      "url": "https://www.awesomic.com/blog/ai-video-production-agencies",
+      "page_type": "editorial_listicle",
+      "competitors_mentioned": [
+        "Tiger House Films",
+        "other agencies listed in the article require exact extraction before any outreach"
+      ],
+      "relevant_commercial_query": "best AI video production agencies",
+      "why_shar_matches": "The topic is directly adjacent to SHAR’s AI/hybrid commercial production service. Inclusion would require editor-controlled factual review and real evidence.",
+      "legitimate_entry_path": "Identify declared editorial-contact route and prepare a factual briefing only; do not ask for ranking or paid placement.",
+      "route_type": "editorial_outreach",
+      "status": "REQUIRES_CONTACT_DISCOVERY",
+      "evidence": {
+        "checked_at": "2026-09-09T00:24:00Z",
+        "http_200": true,
+        "shar_absent": true,
+        "page_context": "2026 article is an external listicle about AI video production agencies; page content included the guide title and direct topic relevance but no public inclusion route was identified.",
+        "discovery": "search batch"
+      },
+      "weighted_priority": 25
+    }
+  ]
+}

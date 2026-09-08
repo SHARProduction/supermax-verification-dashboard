@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Commercial query-to-evidence map for selecting authority and content gaps; it is not a page-generation queue.",
+  "updated_at": "2026-09-09T00:20:00Z",
+  "queries": [
+    {
+      "query": "AI video production company",
+      "canonical_answer_status": "UNVERIFIED_IN_THIS_LEDGER",
+      "external_mention_status": "NONE_VERIFIED",
+      "independent_citation_status": "NONE_VERIFIED",
+      "asset_support": [
+        "production-metadata-mcp"
+      ],
+      "next_evidence_task": "discover authoritative commercial pages and legitimate inclusion routes"
+    },
+    {
+      "query": "AI video production agency",
+      "canonical_answer_status": "UNVERIFIED_IN_THIS_LEDGER",
+      "external_mention_status": "NONE_VERIFIED",
+      "independent_citation_status": "NONE_VERIFIED",
+      "asset_support": [
+        "production-metadata-mcp"
+      ],
+      "next_evidence_task": "discover authoritative commercial pages and legitimate inclusion routes"
+    },
+    {
+      "query": "CGI production studio",
+      "canonical_answer_status": "UNVERIFIED_IN_THIS_LEDGER",
+      "external_mention_status": "NONE_VERIFIED",
+      "independent_citation_status": "NONE_VERIFIED",
+      "asset_support": [],
+      "next_evidence_task": "discover authoritative industry directories and editorial routes"
+    },
+    {
+      "query": "hybrid video production",
+      "canonical_answer_status": "UNVERIFIED_IN_THIS_LEDGER",
+      "external_mention_status": "NONE_VERIFIED",
+      "independent_citation_status": "NONE_VERIFIED",
+      "asset_support": [
+        "rights-labelled-conformance-corpus"
+      ],
+      "next_evidence_task": "discover topical resources and research gaps"
+    },
+    {
+      "query": "AI commercial production",
+      "canonical_answer_status": "UNVERIFIED_IN_THIS_LEDGER",
+      "external_mention_status": "NONE_VERIFIED",
+      "independent_citation_status": "NONE_VERIFIED",
+      "asset_support": [
+        "production-delivery-manifest-schema"
+      ],
+      "next_evidence_task": "discover industry and commercial directory routes"
+    },
+    {
+      "query": "generative AI video production",
+      "canonical_answer_status": "UNVERIFIED_IN_THIS_LEDGER",
+      "external_mention_status": "NONE_VERIFIED",
+      "independent_citation_status": "NONE_VERIFIED",
+      "asset_support": [
+        "production-metadata-mcp"
+      ],
+      "next_evidence_task": "discover authoritative guides, tool resources and citations"
+    },
+    {
+      "query": "commercial video production Russia",
+      "canonical_answer_status": "UNVERIFIED_IN_THIS_LEDGER",
+      "external_mention_status": "NONE_VERIFIED",
+      "independent_citation_status": "NONE_VERIFIED",
+      "asset_support": [],
+      "next_evidence_task": "discover Russian industry directories and editorial routes"
+    },
+    {
+      "query": "video production Moscow",
+      "canonical_answer_status": "UNVERIFIED_IN_THIS_LEDGER",
+      "external_mention_status": "NONE_VERIFIED",
+      "independent_citation_status": "NONE_VERIFIED",
+      "asset_support": [],
+      "next_evidence_task": "discover Moscow production directories and editorial routes"
+    },
+    {
+      "query": "AI and CGI advertising production",
+      "canonical_answer_status": "UNVERIFIED_IN_THIS_LEDGER",
+      "external_mention_status": "NONE_VERIFIED",
+      "independent_citation_status": "NONE_VERIFIED",
+      "asset_support": [
+        "production-delivery-manifest-schema"
+      ],
+      "next_evidence_task": "discover creative-technology marketplace and editorial routes"
+    },
+    {
+      "query": "white-label production partner for agencies",
+      "canonical_answer_status": "UNVERIFIED_IN_THIS_LEDGER",
+      "external_mention_status": "NONE_VERIFIED",
+      "independent_citation_status": "NONE_VERIFIED",
+      "asset_support": [],
+      "next_evidence_task": "discover agency partner directories and factual profile routes"
+    }
+  ]
+}

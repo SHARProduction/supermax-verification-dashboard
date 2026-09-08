@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-09T00:25:00Z",
+  "counting_boundary": "Impact metrics are separate from placements. No causal attribution is claimed without first-party analytics or independently verifiable evidence.",
+  "metrics": {
+    "public_placements": 1235,
+    "independent_registrable_domains": 18,
+    "provider_ecosystems": 23,
+    "independent_mentions": 0,
+    "independent_backlinks": 0,
+    "external_acceptances": null,
+    "independent_citations": 0,
+    "ai_answer_citations_observed": 0,
+    "indexed_urls_observed": null,
+    "package_installs_or_downloads": null,
+    "repository_stars": null,
+    "repository_forks": null,
+    "referral_sessions_to_sharprod": null,
+    "commercial_leads_attributable_to_external_placements": null,
+    "external_acceptances_note": "Not backfilled: PUBLISHED_VERIFIED placements include archives and registries, which are not automatically independent maintainer/editorial acceptances."
+  },
+  "evidence": {
+    "public_placements_ledger": "VERIFIED_PLACEMENTS.json",
+    "program_metrics": "PROGRAM_METRICS.json",
+    "independent_mentions_ledger": "INDEPENDENT_MENTIONS_LEDGER.json"
+  }
+}
