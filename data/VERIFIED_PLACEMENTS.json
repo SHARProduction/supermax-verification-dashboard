@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T12:46:16.554Z",
-  "counted_placements": 591,
+  "generated_at": "2026-09-08T12:49:26.649Z",
+  "counted_placements": 593,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -10728,6 +10728,46 @@
         "self_canonical": true,
         "index_follow": true,
         "content": "interactive scheduling tool",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser fixtures"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.budgeting.scope-change-impact-matrix",
+      "work_id": "supermax.work.budgeting.scope-change-impact-matrix",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-budgeting-tools/scope-change-impact-matrix/en/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-budgeting-tools/scope-change-impact-matrix/en/",
+        "ru": "https://sharproduction.github.io/production-budgeting-tools/scope-change-impact-matrix/ru/"
+      },
+      "source": "wave-211",
+      "verified_at": "2026-09-08T12:49:12.329Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive budgeting tool",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser fixtures"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.budgeting.estimate-assumption-register",
+      "work_id": "supermax.work.budgeting.estimate-assumption-register",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-budgeting-tools/estimate-assumption-register/en/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-budgeting-tools/estimate-assumption-register/en/",
+        "ru": "https://sharproduction.github.io/production-budgeting-tools/estimate-assumption-register/ru/"
+      },
+      "source": "wave-211",
+      "verified_at": "2026-09-08T12:49:12.329Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive budgeting tool",
         "desktop_mobile_functional_samples": "covered by EN/RU browser fixtures"
       }
     }
