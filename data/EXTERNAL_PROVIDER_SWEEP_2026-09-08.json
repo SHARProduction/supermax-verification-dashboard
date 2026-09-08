@@ -3398,6 +3398,21 @@
         "kind": "official_free_listing_policy_and_live_route",
         "note": "3DVF states that studios may add a profile to its CG Map for free after creating an account; premium visibility is optional and was not selected. Its published scope covers animation, VFX and digital-creation studios. No account, submitted profile, receipt or public SHAR page exists, so nothing is counted."
       }
+    },
+    {
+      "provider": "FOOH",
+      "provider_domain": "fooh.com",
+      "homepage": "https://fooh.com/",
+      "submission_url": "https://fooh.com/account/work",
+      "source_catalog": "Live FOOH creator and work-submission UI inspected 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_REAL_CGI_VFX_AI_VIDEO_PRODUCTION_WORK_ONLY",
+      "status": "OWNER_GATE_ACCOUNT_AND_REAL_WORK_SELECTION",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T22:15:00Z",
+      "evidence": {
+        "kind": "live_creator_platform_and_submission_route",
+        "note": "FOOH publicly presents a CGI, VFX, mixed-reality and AI-video talent directory. It states that creating a portfolio and submitting work is free, and that approved work appears on a public portfolio and Explore. A submission must use a real SHAR work with rights and factual credits; no invented portfolio item, account, submission, receipt or public SHAR profile exists, so nothing is counted."
+      }
     }
   ]
 }
