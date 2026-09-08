@@ -3481,6 +3481,21 @@
         "kind": "live_public_submission_flow_and_client_bundle",
         "note": "The first listing is stated free and the provider promises an immediate dedicated tool page. The MCP submission endpoint requires a Firebase idToken; no listing can be submitted or claimed without an authenticated account. The form was opened in the in-app browser for the owner session."
       }
+    },
+    {
+      "provider": "AI Agents Listing",
+      "provider_domain": "aiagentslisting.com",
+      "homepage": "https://aiagentslisting.com/",
+      "submission_url": "https://aiagentslisting.com/submit",
+      "source_catalog": "Live official homepage, llms.txt and authenticated submission flow inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_MCP_TOOL",
+      "status": "OWNER_GATE_AUTHENTICATED_ACCOUNT_REQUIRED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_directory_llms_and_login_required_submission",
+        "note": "The provider documents public MCP-specific pages with SoftwareApplication schema and human review; its llms.txt states that listings are reviewed and not ranked by payment. Submission redirects to an authenticated account flow. No submission or placement is claimed; the sign-in page is open in the in-app browser."
+      }
     }
   ]
 }
