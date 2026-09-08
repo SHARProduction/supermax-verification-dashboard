@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T12:29:47.426Z",
-  "counted_placements": 517,
+  "generated_at": "2026-09-08T12:38:24.329Z",
+  "counted_placements": 542,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -9249,6 +9249,506 @@
         "index_follow": true,
         "content": "interactive option matrix",
         "desktop_mobile_functional_samples": "covered by EN/RU matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.archive-risk",
+      "work_id": "supermax.work.risk-simulator.archive-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/archive-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/archive-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/archive-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.audio-risk",
+      "work_id": "supermax.work.risk-simulator.audio-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/audio-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/audio-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/audio-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.brief-risk",
+      "work_id": "supermax.work.risk-simulator.brief-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/brief-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/brief-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/brief-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.budget-risk",
+      "work_id": "supermax.work.risk-simulator.budget-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/budget-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/budget-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/budget-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.camera-data-risk",
+      "work_id": "supermax.work.risk-simulator.camera-data-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/camera-data-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/camera-data-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/camera-data-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.caption-risk",
+      "work_id": "supermax.work.risk-simulator.caption-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/caption-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/caption-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/caption-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.color-risk",
+      "work_id": "supermax.work.risk-simulator.color-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/color-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/color-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/color-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.crew-risk",
+      "work_id": "supermax.work.risk-simulator.crew-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/crew-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/crew-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/crew-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.delivery-risk",
+      "work_id": "supermax.work.risk-simulator.delivery-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/delivery-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/delivery-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/delivery-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.edit-risk",
+      "work_id": "supermax.work.risk-simulator.edit-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/edit-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/edit-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/edit-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.equipment-risk",
+      "work_id": "supermax.work.risk-simulator.equipment-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/equipment-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/equipment-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/equipment-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.lighting-risk",
+      "work_id": "supermax.work.risk-simulator.lighting-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/lighting-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/lighting-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/lighting-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.localization-risk",
+      "work_id": "supermax.work.risk-simulator.localization-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/localization-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/localization-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/localization-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.location-risk",
+      "work_id": "supermax.work.risk-simulator.location-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/location-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/location-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/location-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.media-backup-risk",
+      "work_id": "supermax.work.risk-simulator.media-backup-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/media-backup-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/media-backup-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/media-backup-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.mix-risk",
+      "work_id": "supermax.work.risk-simulator.mix-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/mix-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/mix-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/mix-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.proxy-risk",
+      "work_id": "supermax.work.risk-simulator.proxy-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/proxy-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/proxy-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/proxy-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.qc-risk",
+      "work_id": "supermax.work.risk-simulator.qc-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/qc-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/qc-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/qc-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.release-risk",
+      "work_id": "supermax.work.risk-simulator.release-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/release-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/release-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/release-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.rights-risk",
+      "work_id": "supermax.work.risk-simulator.rights-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/rights-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/rights-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/rights-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.schedule-risk",
+      "work_id": "supermax.work.risk-simulator.schedule-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/schedule-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/schedule-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/schedule-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.security-risk",
+      "work_id": "supermax.work.risk-simulator.security-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/security-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/security-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/security-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.talent-risk",
+      "work_id": "supermax.work.risk-simulator.talent-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/talent-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/talent-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/talent-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.vfx-risk",
+      "work_id": "supermax.work.risk-simulator.vfx-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/vfx-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/vfx-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/vfx-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.risk-simulator.weather-risk",
+      "work_id": "supermax.work.risk-simulator.weather-risk",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-risk-simulators/en/weather-risk/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-risk-simulators/en/weather-risk/",
+        "ru": "https://sharproduction.github.io/production-risk-simulators/ru/weather-risk/"
+      },
+      "source": "wave-208",
+      "verified_at": "2026-09-08T12:38:07.200Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive risk simulator",
+        "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
       }
     }
   ]
