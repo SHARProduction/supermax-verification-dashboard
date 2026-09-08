@@ -2537,10 +2537,10 @@
       "asset_fit": "APPLICABLE_CONTAINERIZED_STDIO_MCP",
       "status": "OWNER_GATE_PUBLIC_VISIBILITY",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T17:05:00Z",
+      "checked_at": "2026-09-09T00:00:00Z",
       "evidence": {
         "kind": "github_authenticated_settings_and_anonymous_registry_check",
-        "note": "GitHub Actions run 34239343581 built, tested, pushed OCI image with SBOM and provenance. Package settings reports private; anonymous ghcr manifest pull returned HTTP 401. Public visibility must be enabled before install verification."
+        "note": "GitHub Actions run 34278819275 successfully tested, built and pushed the v1.0.4 OCI image with SBOM and provenance. Package settings reports private; anonymous ghcr manifest pull for v1.0.4 returned HTTP 401. JSR v1.0.4 is public HTTP 200, but public container visibility must be enabled before Docker install verification or container-dependent directory submission."
       }
     },
     {
