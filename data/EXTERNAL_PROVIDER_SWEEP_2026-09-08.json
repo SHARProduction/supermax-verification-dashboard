@@ -3276,10 +3276,40 @@
       "asset_fit": "CONFIRMED_FIT_AI_FILMMAKERS_AND_STUDIOS_DIRECTORY",
       "status": "PROVIDER_ENROLLMENT_ROUTE_BROKEN",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T20:03:00.000Z",
+      "checked_at": "2026-09-08T20:03:00Z",
       "evidence": {
         "kind": "official_sitemap_plus_live_route",
         "note": "The official sitemap advertises /register, /free-profiles and /apply-for-your-ai-filmmaker-profile, but the live routes resolve to the site shell containing its client 404 view. No functional account or listing form is currently reachable, so no request was sent."
+      }
+    },
+    {
+      "provider": "Screen Global Production",
+      "provider_domain": "screenglobalproduction.com",
+      "homepage": "https://www.screenglobalproduction.com/",
+      "submission_url": "https://www.screenglobalproduction.com/register/form/basic",
+      "source_catalog": "Official Basic plan and registration form inspected 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_GLOBAL_PRODUCTION_COMPANY_DIRECTORY",
+      "status": "OWNER_GATE_REQUIRED_IDENTITY_AND_CONTACT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T20:10:00.000Z",
+      "evidence": {
+        "kind": "official_free_plan_and_form",
+        "note": "Screen Global Production offers a Basic plan with no listed price, three categories and a public basic profile. Its registration requires personal first and last name, job role, email, telephone and company contact data. No personal identity or contact fields were invented."
+      }
+    },
+    {
+      "provider": "AIO Cine",
+      "provider_domain": "aiocine.com",
+      "homepage": "https://aiocine.com/",
+      "submission_url": "https://aiocine.com/register",
+      "source_catalog": "Official how-it-works page inspected 2026-09-08",
+      "asset_fit": "INELIGIBLE_INDIA_ONLY_PRODUCTION_NETWORK",
+      "status": "INELIGIBLE_REGIONAL_SCOPE",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T20:10:00.000Z",
+      "evidence": {
+        "kind": "official_how_it_works",
+        "note": "AIO Cine describes free early-access company registration but explicitly states profiles are searchable by production houses across India. SHAR is not represented as an India-based company, so no registration was attempted."
       }
     }
   ]
