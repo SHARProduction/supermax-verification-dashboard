@@ -145,6 +145,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-10T14:20:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.allmcps.production-metadata-mcp",
+      "provider": "AllMCPs",
+      "provider_domain": "allmcps.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T14:15:58Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_MANUAL_REVIEW",
+      "evidence": "POST JSON-RPC tools/call submit_mcp_server to https://allmcps.com/api/mcp returned server ID shar-production-metadata-mcp with status pending (manual review & verification); public URL returned HTTP 200 but exposed pending status.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-10T14:15:58Z"
     }
   ]
 }
