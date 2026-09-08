@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T22:15:00Z",
+  "generated_at": "2026-09-09T00:00:00.000Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -724,6 +724,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-15T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.openmodelsrun.production-metadata-mcp",
+      "provider": "OpenModels MCP Server Registry",
+      "provider_domain": "openmodels.run",
+      "asset": "SHAR Production Metadata MCP v1.0.4",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T00:00:00.000Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_MCP_REGISTRY_PULL_REQUEST",
+      "evidence": "Public PR #33 adds one source-backed YAML definition to the OpenModels MCP registry. It accurately declares the public MIT source, stdio transport, npx install, and the only tool validate_production_manifest with its read-only/local/network/publication boundaries. The upstream validator passed locally for 218 files. Independent maintainer merge and a public openmodels.run/mcp card are required before counting.",
+      "evidence_url": "https://github.com/openmodelsrun/mcp/pull/33",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T00:00:00.000Z"
     }
   ]
 }
