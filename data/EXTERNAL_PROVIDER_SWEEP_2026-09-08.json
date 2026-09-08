@@ -34,9 +34,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -69,9 +69,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -2488,9 +2488,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -2599,9 +2599,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -2815,9 +2815,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -2881,9 +2881,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -3098,9 +3098,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -3179,9 +3179,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -3215,9 +3215,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -3356,9 +3356,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -3437,7 +3437,7 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
         "classification": "IDENTITY_REQUIRED",
         "reason": "A real person’s identifying registration details are required; do not invent them."
       }
@@ -3458,7 +3458,7 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
         "classification": "IDENTITY_REQUIRED",
         "reason": "A real person’s identifying registration details are required; do not invent them."
       }
@@ -3539,9 +3539,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -3575,9 +3575,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -3596,9 +3596,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -3617,7 +3617,7 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
         "classification": "TRUE_HUMAN_GATE",
         "reason": "A real SHAR work, rights and factual credits must be selected and confirmed before submission."
       }
@@ -3638,9 +3638,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -3831,9 +3831,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {
@@ -3942,9 +3942,9 @@
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER",
-        "reason": "Persistent Chromium profile and Playwright state-persistence probe passed; retain this provider workflow in one named local session."
+        "runtime": "Playwright persistent Chrome profile (headless on this host)",
+        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
+        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
       }
     },
     {

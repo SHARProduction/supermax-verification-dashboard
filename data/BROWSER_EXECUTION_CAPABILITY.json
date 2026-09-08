@@ -1,63 +1,64 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T00:55:00Z",
-  "persistent_browser": "AVAILABLE",
-  "runtime": "Playwright 1.63.0 with local persistent Chrome profiles",
+  "as_of": "2026-09-09T01:05:00Z",
+  "persistent_browser": "AVAILABLE_HEADLESS_ONLY",
+  "runtime": "Playwright 1.63.0 with local persistent Chrome profiles; headed persistent launch is unavailable on this host desktop session.",
   "persistence_test": {
-    "status": "PASS",
-    "method": "Two independent persistent-context launches retained a harmless first-party localStorage probe."
+    "status": "PASS_HEADLESS",
+    "method": "Two independent persistent-context launches retained a harmless first-party localStorage probe.",
+    "headed_interactive_test": "FAIL: Chrome process exited before page load; no headed persistent session is claimed."
   },
   "storage_boundary": "Profiles and auth state remain local only; never commit, publish, or copy to evidence.",
   "reassessed_routes": [
     {
       "provider": "DevHunt",
       "source_status": "OWNER_GATE_ACCOUNT",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "100 AI Apps",
       "source_status": "ACCOUNT_CREATION_READY",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "ToolScout",
       "source_status": "ACCOUNT_CREATION_READY",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "CuratedMCP",
       "source_status": "ACCOUNT_CREATION_READY",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "MCP Market",
       "source_status": "OWNER_GATE_BROWSER_SESSION_AND_INTERACTION",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "n8n Creator Hub",
       "source_status": "BROWSER_ACCOUNT_CREATION_REQUIRED",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "Glama MCP Registry",
       "source_status": "OWNER_GATE_ACCOUNT",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "OLUD.ai",
       "source_status": "OWNER_GATE_ACCOUNT",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "npm Registry",
       "source_status": "OWNER_GATE_NPM_ACCOUNT_AUTH",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "StudioList",
       "source_status": "OWNER_GATE_GOOGLE_SIGN_IN",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "Oward",
@@ -72,17 +73,17 @@
     {
       "provider": "Smithery",
       "source_status": "OWNER_GATE_ACCOUNT_AND_API_KEY",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "Figshare",
       "source_status": "OWNER_GATE_ACCOUNT",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "3DVF CG Map",
       "source_status": "OWNER_GATE_ACCOUNT",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "FOOH",
@@ -92,24 +93,24 @@
     {
       "provider": "Zenodo",
       "source_status": "OWNER_GATE_ACCOUNT",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "AgentForge",
       "source_status": "OWNER_GATE_ACCOUNT_AUTHENTICATION_REQUIRED",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     },
     {
       "provider": "SkillMD",
       "source_status": "OWNER_GATE_ACCOUNT",
-      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER"
+      "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS"
     }
   ],
   "summary": {
-    "can_automate_with_persistent_browser": 16,
     "true_human_gate": 1,
     "identity_required": 2,
     "captcha_required": 0,
-    "no_available_auth": 0
+    "no_available_auth": 0,
+    "can_automate_with_persistent_browser_headless": 16
   }
 }
