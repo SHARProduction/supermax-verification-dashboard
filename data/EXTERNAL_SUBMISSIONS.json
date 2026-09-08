@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T23:50:00Z",
+  "generated_at": "2026-09-08T23:52:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -982,6 +982,25 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-11T23:50:00Z"
+    },
+    {
+      "submission_id": "supermax.public-index.walnut-world.production-metadata-mcp",
+      "provider": "Walnut World",
+      "provider_domain": "walnut.world",
+      "asset": "SHAR Production Metadata MCP v1.0.4",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T23:52:00Z",
+      "status": "PUBLIC_INDEXED_AUTO_NOT_COUNTED",
+      "submission_kind": "AUTOMATED_SOURCE_INDEX",
+      "public_url": "https://walnut.world/w/production-metadata-mcp",
+      "evidence_url": "https://walnut.world/w/production-metadata-mcp",
+      "evidence": "Public page was created after a no-account source submission. HTTP 200 browser and HTTP verification show SHAR Production, https://sharprod.com/, the public GitHub source and MIT license. Walnut labels the page Indexed from GitHub and Ownership not claimed; it is an automated source index, not independent maintainer/editorial acceptance.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-10-08T23:52:00Z"
     }
   ]
 }

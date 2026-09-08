@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-08T23:55:00Z",
+  "collected_at": "2026-09-08T23:52:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4214,6 +4214,35 @@
       "evidence": {
         "kind": "official_homepage",
         "note": "Provider advertises a free 90-day listing, no credit card, and CLI/API/MCP listing management. Native login requires an email code before API-key creation. Time-limited free status means any later public listing must be rechecked before continuing to count it."
+      }
+    },
+    {
+      "provider": "Walnut World",
+      "provider_domain": "walnut.world",
+      "homepage": "https://walnut.world/",
+      "submission_url": "https://walnut.world/",
+      "source_catalog": "Official Walnut World source-index page inspected 2026-09-08",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_PUBLIC_MCP_SOURCE",
+      "status": "PUBLIC_INDEXED_AUTO_NOT_COUNTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://walnut.world/w/production-metadata-mcp",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T23:52:00Z",
+      "evidence": {
+        "kind": "public_source_index_page",
+        "note": "A public card was automatically created from the SHAR MCP GitHub source. It accurately names SHAR Production, sharprod.com, source and MIT license, but explicitly describes itself as Indexed from GitHub and Ownership not claimed. Record it as a public discovery representation only; it is not a verified placement, external acceptance, citation or authority signal."
       }
     }
   ]
