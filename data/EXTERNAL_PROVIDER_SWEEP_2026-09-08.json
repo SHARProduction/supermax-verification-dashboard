@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T00:00:00Z",
+  "collected_at": "2026-09-08T23:40:47Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4127,6 +4127,64 @@
         "note": "HTTP 200, canonical URL, Vimeo oEmbed and browser DOM metadata identify SHAR Production, AI/CGI/commercial production and sharprod.com/en. Mobile layout had no overflow. Visual browser render stopped at Vimeo Cloudflare “Verify to continue”, so browser-content verification is incomplete and no placement is counted.",
         "oembed_url": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1175145775",
         "local_screenshot": "C:/Users/user/Desktop/SHAR-MCP/evidence/vimeo-showreel-20260909.png"
+      }
+    },
+    {
+      "provider": "TarsHub",
+      "provider_domain": "tarshub.com",
+      "homepage": "https://tarshub.com/about",
+      "submission_url": "https://tarshub.com/publish",
+      "source_catalog": "Official TarsHub publish documentation inspected 2026-09-08",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_AGENT_CONTEXT_SUBDIRECTORY",
+      "status": "PROVIDER_TECHNICAL_UNAVAILABLE_SSL",
+      "counts_as_placement": false,
+      "http_status": null,
+      "final_url": "https://tarshub.com/publish",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T23:40:47Z",
+      "evidence": {
+        "kind": "official_docs_and_local_transport_check",
+        "note": "Official documentation allows a public GitHub subdirectory containing agent context files with no account. SHAR has a public skill subdirectory suitable for factual agent-context indexing. This host's browser, PowerShell and curl all failed the provider TLS handshake before a form could load, so no submission was sent or claimed."
+      }
+    },
+    {
+      "provider": "IndexOf.AI",
+      "provider_domain": "indexof.ai",
+      "homepage": "https://indexof.ai/",
+      "submission_url": "https://indexof.ai/submit",
+      "source_catalog": "Official IndexOf.AI submit page inspected 2026-09-08",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_basic_with_optional_paid_upgrade",
+        "auth_type": "account_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_AI_DEVELOPER_TOOL",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://indexof.ai/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T23:40:47Z",
+      "evidence": {
+        "kind": "official_submit_page",
+        "note": "Free basic reviewed listing is explicitly offered; a separate $2.99 Pro option exists and was not selected. Sign-in is required before the free submission form."
       }
     }
   ]

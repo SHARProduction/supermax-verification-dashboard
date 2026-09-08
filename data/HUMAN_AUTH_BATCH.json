@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T01:30:00Z",
+  "as_of": "2026-09-08T23:40:47Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -191,6 +191,24 @@
       "owner_action": "Enter the intended account email and use the provider magic link in the supported email/browser flow.",
       "continuation_after_human_auth": "NO",
       "status": "HUMAN_GATE_EMAIL_MAGIC_LINK"
+    },
+    {
+      "provider": "GitHub Container Registry",
+      "value": "TIER_A — native OCI install ecosystem and prerequisite for Docker-dependent MCP directories",
+      "exact_url": "https://github.com/orgs/SHARProduction/packages/container/production-metadata-mcp/settings",
+      "prepared": "The v1.0.4 OCI image was built and pushed by GitHub Actions with SBOM and provenance. Current package visibility is private; anonymous GHCR manifest verification returned HTTP 401. No public container placement or dependent directory submission is claimed.",
+      "owner_action": "Set the SHARProduction production-metadata-mcp container package visibility to Public in GitHub package settings.",
+      "continuation_after_human_auth": "YES",
+      "status": "OWNER_GATE_PUBLIC_VISIBILITY"
+    },
+    {
+      "provider": "IndexOf.AI",
+      "value": "TIER_B — independent AI-tool directory with a free reviewed listing",
+      "exact_url": "https://indexof.ai/submit",
+      "prepared": "The public submit page confirms a free basic reviewed listing and a separate optional paid Pro listing. No paid option is applicable. The free route redirects to provider sign-in; no account, receipt, or public SHAR card exists.",
+      "owner_action": "Authenticate with the provider account and use only the free basic listing path.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

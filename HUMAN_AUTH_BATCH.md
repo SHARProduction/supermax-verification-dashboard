@@ -1,8 +1,8 @@
 # SHAR SUPERMAX — HUMAN AUTH BATCH
 
-Local browser boundary: headless persistent state works; a visible persistent session and importing normal-browser auth do not. No row is a submission or published placement.
+Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.
 
-Selection: Tier A/B independent industry, native package/install, MCP, research/archive and independently hosted SHAR work routes only.
+No row is a submission or published placement. Only free routes are retained.
 
 ## DevHunt
 
@@ -192,3 +192,21 @@ Selection: Tier A/B independent industry, native package/install, MCP, research/
 - Owner action: Enter the intended account email and use the provider magic link in the supported email/browser flow.
 - Current environment can continue after auth: NO
 - Status: HUMAN_GATE_EMAIL_MAGIC_LINK
+
+## GitHub Container Registry
+
+- Value: TIER_A — native OCI install ecosystem and prerequisite for Docker-dependent MCP directories
+- URL: https://github.com/orgs/SHARProduction/packages/container/production-metadata-mcp/settings
+- Prepared: The v1.0.4 OCI image was built and pushed by GitHub Actions with SBOM and provenance. Current package visibility is private; anonymous GHCR manifest verification returned HTTP 401. No public container placement or dependent directory submission is claimed.
+- Owner action: Set the SHARProduction production-metadata-mcp container package visibility to Public in GitHub package settings.
+- Current environment can continue after auth: YES
+- Status: OWNER_GATE_PUBLIC_VISIBILITY
+
+## IndexOf.AI
+
+- Value: TIER_B — independent AI-tool directory with a free reviewed listing
+- URL: https://indexof.ai/submit
+- Prepared: The public submit page confirms a free basic reviewed listing and a separate optional paid Pro listing. No paid option is applicable. The free route redirects to provider sign-in; no account, receipt, or public SHAR card exists.
+- Owner action: Authenticate with the provider account and use only the free basic listing path.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_ACCOUNT
