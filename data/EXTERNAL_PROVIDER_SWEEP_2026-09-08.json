@@ -2831,6 +2831,21 @@
         "kind": "official_provider_form_submission_receipt",
         "note": "Free form accepted the existing public repository and SHAR Production contact. Provider rendered exact receipt: “Thanks. The repository has been queued for editorial review.” No public listing exists yet."
       }
+    },
+    {
+      "provider": "OpenSourceProjects.cc",
+      "provider_domain": "opensourceprojects.cc",
+      "homepage": "https://opensourceprojects.cc/",
+      "submission_url": "https://opensourceprojects.cc/submit",
+      "source_catalog": "live official form and API submission receipt 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:20:00Z",
+      "evidence": {
+        "kind": "official_anonymous_submission_api_receipt",
+        "note": "The free official API accepted the public MIT production-metadata-linter repository and returned a manual-review receipt. No public listing exists yet."
+      }
     }
   ]
 }
