@@ -376,13 +376,16 @@
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp/tree/main/skills/shar-production-metadata-validation",
       "submitted_at": "2026-09-08T00:00:00Z",
-      "status": "SUBMITTED",
+      "status": "PUBLISHED_VERIFIED",
       "submission_kind": "FREE_IMMUTABLE_SKILL_REGISTRY_QUEUE",
-      "evidence": "POST https://api.skills.re/rpc/skills/submitGithubPreparedPublic returned HTTP 200, status submitted, skillsCount 1, workflowId skills-upload-OnnCno1dD8XMZuS-YEP65. Public card not yet verified.",
-      "counts_as_published_verified": false,
-      "counts_as_independent_provider_ecosystem": false,
-      "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-09T00:00:00Z"
+      "evidence": "POST https://api.skills.re/rpc/skills/submitGithubPreparedPublic returned HTTP 200, status submitted, skillsCount 1, workflowId skills-upload-OnnCno1dD8XMZuS-YEP65. Public card not yet verified. Recheck 2026-09-09: public search and card verification found the exact SHAR skill. Card returned HTTP 200; canonical, SHAR Production, sharprod.com, MIT, source repository, version v1.0.0, install command and rendered SKILL.md were verified. Promoted to PUBLISHED_VERIFIED.",
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "recheck_after": "2026-09-09T00:00:00Z",
+      "public_url": "https://skills.re/skills/SHARProduction/production-metadata-mcp/shar-production-metadata-validation",
+      "evidence_url": "https://skills.re/skills/SHARProduction/production-metadata-mcp/shar-production-metadata-validation",
+      "last_rechecked_at": "2026-09-09T03:35:00Z"
     },
     {
       "submission_id": "supermax.submission.zskills.production-metadata-validation",

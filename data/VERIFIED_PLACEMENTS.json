@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T00:00:00.000Z",
-  "counted_placements": 698,
+  "generated_at": "2026-09-09T03:35:00Z",
+  "counted_placements": 699,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12859,6 +12859,29 @@
         "origin_url": "https://github.com/SHARProduction/production-delivery-manifest-schema",
         "browser_evidence": "Public archived schema repository rendered the factual MIT-licensed JSON Schema description, rights-labelled delivery-manifest purpose, SHAR Production attribution and sharprod.com homepage.",
         "functional_check": "Public source repository archive rendered in the Internet Archive; archival representation is recorded separately from source-hosting and does not claim independent editorial acceptance."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.skills-re.shar-production-metadata-validation",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "skills.re",
+      "provider_ecosystem": "skills-re",
+      "url": "https://skills.re/skills/SHARProduction/production-metadata-mcp/shar-production-metadata-validation",
+      "source": "external-provider-submission",
+      "verified_at": "2026-09-09T03:35:00Z",
+      "verification": {
+        "http_200": true,
+        "canonical": "https://skills.re/skills/SHARProduction/production-metadata-mcp/shar-production-metadata-validation",
+        "public_listing": true,
+        "browser_rendered": true,
+        "provider_independent_of_official_registry": true,
+        "provider_review_state": "public listing; audit score 100/100",
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "skill_path": "skills/shar-production-metadata-validation/SKILL.md",
+        "license": "MIT License",
+        "brand_and_site": true,
+        "source_function_test": "production-metadata-mcp source suite passed 3/3 on 2026-09-09",
+        "functional_check": "Public card renders the documented install command and read-only MCP usage/safety boundary; no provider install execution is claimed."
       }
     }
   ]
