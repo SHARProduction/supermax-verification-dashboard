@@ -4036,7 +4036,12 @@
       "checked_at": "2026-09-09T01:15:00Z",
       "evidence": {
         "kind": "official_curated_MCP_submission_policy",
-        "note": "Curated AI-filmmaking MCP directory accepts GitHub form, issue, or its own submit_listing tool and states maintainers verify each listing against primary sources. SHAR read-only production metadata MCP has confirmed relevance to production operations. No issue or submission exists."
+        "note": "Curated AI-filmmaking MCP directory accepts GitHub form, issue, or its own submit_listing tool and states maintainers verify each listing against primary sources. SHAR read-only production metadata MCP has confirmed relevance to production operations. No issue or submission exists.",
+        "registry_dedup": {
+          "checked_at": "2026-09-09T01:18:00Z",
+          "url": "https://mcp.film/api/registry.json",
+          "result": "NO_MATCH_FOR_SHAR_PRODUCTION_OR_SHARPRODUCTION_PRODUCTION_METADATA_MCP"
+        }
       }
     }
   ]
