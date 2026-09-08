@@ -360,11 +360,12 @@
       "submitted_at": "2026-09-08T15:36:12Z",
       "status": "SUBMITTED",
       "submission_kind": "FREE_SKILL_REVIEW_QUEUE",
-      "evidence": "POST https://www.bogen.ai/api/skills/submit returned HTTP 201, submission_id 31, message Skill submitted successfully! It will be reviewed and published soon.",
+      "evidence": "POST https://www.bogen.ai/api/skills/submit returned HTTP 201, submission_id 31, message Skill submitted successfully! It will be reviewed and published soon. Recheck 2026-09-09: live browser rendered the current public `/skills` catalog after load. It exposed one published Bogen.ai card and no SHAR Production or shar-production-metadata card. Status remains SUBMITTED; absence is not a rejection.",
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-09T00:00:00Z"
+      "recheck_after": "2026-09-16T00:00:00Z",
+      "last_rechecked_at": "2026-09-09T03:30:00Z"
     },
     {
       "submission_id": "supermax.submission.skills-re.production-metadata-validation",
