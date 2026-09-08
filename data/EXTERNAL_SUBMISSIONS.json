@@ -216,6 +216,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-15T15:22:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.htools.production-metadata-mcp",
+      "provider": "HTools external OSS contribution",
+      "provider_domain": "github.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T15:27:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_OSS_ISSUE_SUBMISSION",
+      "evidence": "Public submission issue https://github.com/shaoyouvip/htools/issues/1 follows the active tool-submission template and contains factual source/install/security data. Maintainer acceptance is required.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T15:27:00Z"
     }
   ]
 }
