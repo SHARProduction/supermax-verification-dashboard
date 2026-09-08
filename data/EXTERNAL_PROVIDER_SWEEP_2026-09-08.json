@@ -3515,6 +3515,21 @@
         "kind": "prepared_unsubmitted_registry_entry",
         "note": "The SHAR source has a public MIT Dockerfile and passes its Node test suite. A pinned Docker Registry entry plus static tools.json were prepared locally. Docker Registry requires Go validation and a Docker build; Go is unavailable and Docker Desktop daemon is stopped. No external PR was created and no registry placement is claimed."
       }
+    },
+    {
+      "provider": "Albertchamberlain Awesome-MCP",
+      "provider_domain": "github.com",
+      "homepage": "https://github.com/Albertchamberlain/Awesome-MCP",
+      "submission_url": "https://github.com/Albertchamberlain/Awesome-MCP/compare",
+      "source_catalog": "Live upstream CONTRIBUTING.md and upstream main inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_MCP_TOOL",
+      "status": "PROVIDER_UPSTREAM_INVALID_CATALOG",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "upstream_validation_blocker",
+        "note": "CONTRIBUTING.md allows a factual PR for active MCP servers. The SHAR entry passed local schema design and had no duplicate. However upstream main commit 62ca6279dd2ca7b1a81094edc08afd622fcc2c79 contains unresolved YAML conflict markers <<<<<<< HEAD, =======, >>>>>>> pr38 at catalog lines about 432; official validate and pytest fail before reviewing any contribution. No PR was sent."
+      }
     }
   ]
 }
