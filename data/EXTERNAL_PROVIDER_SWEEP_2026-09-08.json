@@ -100,7 +100,7 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "INELIGIBLE_PAID_ONLY",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://buy.stripe.com/dR6eVi1lRgj9bsY4gg",
@@ -110,7 +110,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "batch_live_submission_screen",
+        "note": "Live submission URL redirects to Stripe Checkout; no free route exists."
+      }
     },
     {
       "provider": "1payment Tools",
@@ -247,7 +251,7 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "INELIGIBLE_PAID_ONLY",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://buy.stripe.com/cN25l8fjY6J43EQ3cd",
@@ -257,7 +261,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "batch_live_submission_screen",
+        "note": "Live submission URL redirects to Stripe Checkout; no free route exists."
+      }
     },
     {
       "provider": "AI Dir",
@@ -602,7 +610,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "INELIGIBLE_DOMAIN_FOR_SALE",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.grandname.com/name/AIspree.com",
@@ -612,7 +620,11 @@
         "login": true,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "batch_live_submission_screen",
+        "note": "The provider domain now resolves to a GrandName sale page, not a functioning directory."
+      }
     },
     {
       "provider": "AI Startups",
