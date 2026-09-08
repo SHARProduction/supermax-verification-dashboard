@@ -1488,7 +1488,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "OWNER_GATE_CAPTCHA",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.brouseai.com/",
@@ -1498,7 +1498,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:25:00Z"
+      "checked_at": "2026-09-08T17:30:00Z",
+      "evidence": {
+        "kind": "live_form",
+        "note": "Free submission form contains human-verification gate before its disabled Submit AI control; premium license key is optional and not used."
+      }
     },
     {
       "provider": "Buffer Apps",
