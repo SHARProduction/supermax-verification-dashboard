@@ -1445,8 +1445,17 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.startupaitools.com/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:25:00Z"
     },
     {
       "provider": "BizRaw",
@@ -1461,8 +1470,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:25:00Z"
     },
     {
       "provider": "BroUseAI",
@@ -1477,8 +1488,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.brouseai.com/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:25:00Z"
     },
     {
       "provider": "Buffer Apps",
@@ -1493,8 +1513,10 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "TypeError",
+      "checked_at": "2026-09-08T17:25:00Z"
     },
     {
       "provider": "Chat AI Apps",
@@ -1509,8 +1531,17 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.chataiapps.com/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:25:00Z"
     },
     {
       "provider": "ChatGate AI",
@@ -1525,8 +1556,10 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "check_error": "AbortError",
+      "checked_at": "2026-09-08T17:25:00Z"
     },
     {
       "provider": "ChatGPT demo",
@@ -1541,8 +1574,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://chatgptdemo.com/submit-a-product",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:25:00Z"
     },
     {
       "provider": "Creator Supply",
@@ -1557,8 +1599,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://kevinbhagat.lemonsqueezy.com/buy/6747a484-e8ee-4302-a90a-af378cc72678",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:25:00Z"
     },
     {
       "provider": "Daily tech AI",
@@ -1573,8 +1624,17 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECK_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://dailytech.ai/submit-service/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-08T17:25:00Z"
     },
     {
       "provider": "Dang AI",
@@ -1589,8 +1649,17 @@
         "captcha_type": "recaptcha_v2"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "UNVERIFIED_CURRENT",
-      "counts_as_placement": false
+      "status": "CHECKED_NEEDS_REVIEW",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://dang.ai/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": true
+      },
+      "checked_at": "2026-09-08T17:25:00Z"
     },
     {
       "provider": "DEV Resources",
