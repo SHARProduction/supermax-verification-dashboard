@@ -1360,8 +1360,8 @@
         "auth_type": "none",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_MCP_TOOL",
+      "status": "OWNER_GATE_REQUIRED_PHONE",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://landing.mycloudmedia.co.uk/apps-and-websites-submit-ai-or-saas-tool/new-submission.html",
@@ -1371,7 +1371,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_human_review_submission_form",
+        "note": "The provider states it lists AI and SaaS tools after human review. Its free form requires a phone number, in addition to personal name, company and email. No phone was invented and no submission was sent."
+      }
     },
     {
       "provider": "Appscriber",
