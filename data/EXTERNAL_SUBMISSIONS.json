@@ -165,6 +165,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-10T14:15:58Z"
+    },
+    {
+      "submission_id": "supermax.submission.gitfind.production-metadata-mcp",
+      "provider": "GitFind",
+      "provider_domain": "gitfind.ai",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T15:08:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_DIRECTORY_STANDARD_REVIEW",
+      "evidence": "POST https://gitfind.ai/api/submit returned HTTP 201; submission_id c47c5b12-74b6-4f27-bb08-b7b918690b9d, score 0, auto_approved false. No paid listing option used.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T15:08:00Z"
     }
   ]
 }
