@@ -2867,14 +2867,14 @@
       "provider_domain": "mcpservers.org",
       "homepage": "https://mcpservers.org/",
       "submission_url": "https://mcpservers.org/ru/submit",
-      "source_catalog": "live free form and WebMCP tool declaration 2026-09-09",
+      "source_catalog": "Live official CUA form, exposed WebMCP schema and client source inspected 2026-09-08",
       "asset_fit": "CONFIRMED_FIT",
-      "status": "READY_BROWSER_FORM",
+      "status": "OWNER_GATE_CLOUDFLARE_AND_BROWSER_INTERACTION",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T00:16:00Z",
+      "checked_at": "2026-09-08T21:16:00Z",
       "evidence": {
-        "kind": "live_provider_form_and_webmcp_schema",
-        "note": "The free form exposes an official submit_mcp_server WebMCP action with the exact free-plan schema. The direct server-function transport returned HTTP 403 and did not create a submission; no receipt or listing exists. The visible provider form remains the next valid route."
+        "kind": "official_free_form_and_live_browser_runtime",
+        "note": "The live form has an explicit $0 Free Queue and optional $39 Premium checkbox; Premium was not selected. It requires name, category, description, repository/site URL and contact email. The live response includes Cloudflare challenge code. This CUA runtime exposes the rendered form but no click/type/submit API, so no CAPTCHA was bypassed and no submission was sent."
       }
     },
     {
