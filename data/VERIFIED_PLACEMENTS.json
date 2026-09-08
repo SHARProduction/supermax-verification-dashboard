@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_at": "2026-09-08T13:06:35.32Z",
-  "counted_placements": 681,
+  "counted_placements": 682,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12527,6 +12527,24 @@
         "public_fields": "SHAR Production, sharprod.com, GitHub source, install command, usage example",
         "api_evidence_url": "https://mcpagents.ai/api/agents/1123",
         "api_record_id": 1123,
+        "content": "read-only rights-aware production metadata MCP"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.mcpvault.production-metadata-mcp",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "MCPVault",
+      "provider_ecosystem": "mcpvault",
+      "url": "https://mcpvault.io/servers/production-metadata-mcp",
+      "source": "external-provider-sweep",
+      "verified_at": "2026-09-08T14:00:00Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "direct_provider_submission": true,
+        "provider_independent_of_official_registry": true,
+        "api_evidence": "POST https://mcpvault.io/api/mcp-submit returned HTTP 201; public page returned HTTP 200.",
+        "public_fields": "SHAR Production, sharprod.com, read-only rights-aware production metadata, GitHub source, MIT",
         "content": "read-only rights-aware production metadata MCP"
       }
     }
