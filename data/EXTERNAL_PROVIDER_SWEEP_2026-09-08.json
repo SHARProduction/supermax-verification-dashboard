@@ -158,7 +158,7 @@
         "captcha_type": "recaptcha_v2"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_RATE_LIMITED_OR_SECURITY_GATE",
       "counts_as_placement": false,
       "http_status": 429,
       "final_url": "https://www.ki-suche.io/einreichen",
@@ -168,7 +168,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: HTTP 429 Vercel security checkpoint. No submission was attempted."
+      }
     },
     {
       "provider": "Afford Hunt",
@@ -363,7 +367,7 @@
         "captcha_type": "cloudflare"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_UNAVAILABLE_OR_FOR_SALE",
       "counts_as_placement": false,
       "http_status": 403,
       "final_url": "https://domains.atom.com/lpd/name/www.aiexplorer.app",
@@ -373,7 +377,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: Redirected to parked Atom domain; HTTP 403 challenge. No submission was attempted."
+      }
     },
     {
       "provider": "AI Finder",
@@ -453,10 +461,14 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_SERVER_ERROR",
       "counts_as_placement": false,
       "http_error": "TimeoutError",
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: Submission route HTTP 500. No submission was attempted."
+      }
     },
     {
       "provider": "AI Infinity",
@@ -597,7 +609,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_RATE_LIMITED_OR_SECURITY_GATE",
       "counts_as_placement": false,
       "http_status": 429,
       "final_url": "https://ai-search.io/submit",
@@ -607,7 +619,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: HTTP 429 Vercel security checkpoint. No submission was attempted."
+      }
     },
     {
       "provider": "AI Spree",
@@ -788,7 +804,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_SECURITY_GATE",
       "counts_as_placement": false,
       "http_status": 403,
       "final_url": "https://www.aitoolnet.com/",
@@ -798,7 +814,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: HTTP 403 Cloudflare challenge. No submission was attempted."
+      }
     },
     {
       "provider": "AI Tool Tracker",
@@ -813,7 +833,7 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_SUBMISSION_ROUTE_NOT_FOUND",
       "counts_as_placement": false,
       "http_status": 404,
       "final_url": "https://aitooltracker.com/dashboard/",
@@ -823,7 +843,11 @@
         "login": true,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: Dashboard route HTTP 404. No submission was attempted."
+      }
     },
     {
       "provider": "AI Tools Arena",
@@ -935,7 +959,7 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_UNAVAILABLE_OR_INVALID_ROUTE",
       "counts_as_placement": false,
       "http_status": 404,
       "final_url": "https://bubble.io/domain_not_supported?domain=airadar.getinference.com",
@@ -945,7 +969,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: Bubble domain-not-supported route HTTP 404. No submission was attempted."
+      }
     },
     {
       "provider": "AI Tools Guide",
@@ -1151,7 +1179,7 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_SUBMISSION_ROUTE_NOT_FOUND",
       "counts_as_placement": false,
       "http_status": 404,
       "final_url": "https://www.aitoolkit.org/submit",
@@ -1161,7 +1189,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: Submit route HTTP 404. No submission was attempted."
+      }
     },
     {
       "provider": "AIX Collection",
@@ -1248,7 +1280,7 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_SUBMISSION_ROUTE_NOT_FOUND",
       "counts_as_placement": false,
       "http_status": 404,
       "final_url": "https://altern.ai/dash/submit",
@@ -1258,7 +1290,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: Dashboard submit route HTTP 404. No submission was attempted."
+      }
     },
     {
       "provider": "Alternative",
@@ -1273,7 +1309,7 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_SUBMISSION_ROUTE_NOT_FOUND",
       "counts_as_placement": false,
       "http_status": 404,
       "final_url": "https://alternative.me/how-to/submit-software",
@@ -1283,7 +1319,11 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: Documented submission route HTTP 404. No submission was attempted."
+      }
     },
     {
       "provider": "Alternatives.co",
@@ -1316,7 +1356,7 @@
         "captcha_type": "unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_SUBMISSION_ROUTE_NOT_FOUND",
       "counts_as_placement": false,
       "http_status": 404,
       "final_url": "https://github.com/alteropen-com/alteropen/tree/main/content/app",
@@ -1326,7 +1366,11 @@
         "login": true,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T01:20:00Z",
+      "evidence": {
+        "kind": "batch_http_revalidation",
+        "note": "Batch direct HTTP recheck: Documented GitHub content route HTTP 404. No submission was attempted."
+      }
     },
     {
       "provider": "Amaete AI",
