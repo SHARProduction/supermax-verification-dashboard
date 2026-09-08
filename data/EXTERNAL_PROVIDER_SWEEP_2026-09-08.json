@@ -3378,10 +3378,10 @@
       "asset_fit": "CONFIRMED_FIT_VERSIONED_SYNTHETIC_RIGHTS_LABELLED_DATASET",
       "status": "OWNER_GATE_ACCOUNT",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T21:50:00Z",
+      "checked_at": "2026-09-08T20:45:00Z",
       "evidence": {
         "kind": "prepared_release_and_live_auth_ui",
-        "note": "The SHAR rights-labelled conformance corpus is a self-contained synthetic dataset with a public v0.1.1 GitHub release, SHA-256 archive, CITATION.cff, CodeMeta and Data Package metadata. The Figshare new-item route redirects to its account sign-in screen. No Figshare record, DOI or public landing page exists yet, so nothing is counted."
+        "note": "The SHAR rights-labelled conformance corpus is a self-contained synthetic dataset with a public v0.1.2 GitHub release with verified HTTP-200 ZIP and SHA-256 asset, SHA-256 archive, CITATION.cff, CodeMeta and Data Package metadata. The Figshare new-item route redirects to its account sign-in screen. No Figshare record, DOI or public landing page exists yet, so nothing is counted."
       }
     },
     {
@@ -3423,10 +3423,10 @@
       "asset_fit": "CONFIRMED_FIT_VERSIONED_SYNTHETIC_RIGHTS_LABELLED_DATASET",
       "status": "OWNER_GATE_ACCOUNT",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T22:35:00Z",
+      "checked_at": "2026-09-08T20:45:00Z",
       "evidence": {
         "kind": "official_deposit_docs_and_prepared_release",
-        "note": "Zenodo officially accepts versioned datasets and software, requires an account to create an upload, and registers a DOI only when a record is published. The prepared SHAR synthetic rights-labelled conformance corpus has a public v0.1.1 release, archive checksum, CITATION.cff, CodeMeta and Data Package metadata. No Zenodo account, draft, DOI, record or public landing page exists, so nothing is counted."
+        "note": "Zenodo officially accepts versioned datasets and software, requires an account to create an upload, and registers a DOI only when a record is published. The prepared SHAR synthetic rights-labelled conformance corpus has a public v0.1.2 release, archive checksum, CITATION.cff, CodeMeta and Data Package metadata. No Zenodo account, draft, DOI, record or public landing page exists, so nothing is counted."
       }
     }
   ]
