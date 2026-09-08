@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T14:20:00Z",
+  "generated_at": "2026-09-08T22:15:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -706,6 +706,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-15T20:37:27Z"
+    },
+    {
+      "submission_id": "supermax.submission.schemastore.production-delivery-manifest",
+      "provider": "SchemaStore external standards contribution",
+      "provider_domain": "schemastore.org",
+      "asset": "Production delivery manifest JSON Schema v1.0.0",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-delivery-manifest-schema",
+      "submitted_at": "2026-09-08T22:15:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_JSON_SCHEMA_CATALOG_PULL_REQUEST",
+      "evidence": "Public PR #6329 registers one narrow, version-pinned remote schema association for production-delivery-manifest.json. Source schema is MIT, public, immutable at v1.0.0, and passed its local test suite. Independent maintainer merge and public SchemaStore catalog rendering are required before counting.",
+      "evidence_url": "https://github.com/SchemaStore/schemastore/pull/6329",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-15T00:00:00Z"
     }
   ]
 }
