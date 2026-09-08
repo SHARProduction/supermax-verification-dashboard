@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T12:42:06.880Z",
-  "counted_placements": 589,
+  "generated_at": "2026-09-08T12:46:16.554Z",
+  "counted_placements": 591,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -10689,6 +10689,46 @@
         "index_follow": true,
         "content": "interactive acceptance gate",
         "desktop_mobile_functional_samples": "covered by EN/RU representative browser matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.scheduling.dependency-critical-path-checker",
+      "work_id": "supermax.work.scheduling.dependency-critical-path-checker",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-scheduling-tools/dependency-critical-path-checker/en/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-scheduling-tools/dependency-critical-path-checker/en/",
+        "ru": "https://sharproduction.github.io/production-scheduling-tools/dependency-critical-path-checker/ru/"
+      },
+      "source": "wave-210",
+      "verified_at": "2026-09-08T12:46:01.064Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive scheduling tool",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser fixtures"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.scheduling.shoot-day-capacity-planner",
+      "work_id": "supermax.work.scheduling.shoot-day-capacity-planner",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-scheduling-tools/shoot-day-capacity-planner/en/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-scheduling-tools/shoot-day-capacity-planner/en/",
+        "ru": "https://sharproduction.github.io/production-scheduling-tools/shoot-day-capacity-planner/ru/"
+      },
+      "source": "wave-210",
+      "verified_at": "2026-09-08T12:46:01.064Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "interactive scheduling tool",
+        "desktop_mobile_functional_samples": "covered by EN/RU browser fixtures"
       }
     }
   ]
