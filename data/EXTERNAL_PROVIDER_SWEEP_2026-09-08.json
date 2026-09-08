@@ -545,8 +545,8 @@
         "auth_type": "none",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "INELIGIBLE_PAID_LISTING_ONLY",
+      "status": "INELIGIBLE_PAID_ONLY",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.aimarketing.directory/submit",
@@ -556,7 +556,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T00:12:00Z",
+      "evidence": {
+        "kind": "live_submission_route_review",
+        "note": "Live submit page advertises its placement package as a $100 value, newsletter promotion and 48-hour listing; no free submission control or route is exposed."
+      }
     },
     {
       "provider": "AI scout",
@@ -829,8 +833,8 @@
         "auth_type": "none",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "NO_VERIFIED_SUBMISSION_ROUTE",
+      "status": "INELIGIBLE_NO_PUBLIC_DIRECTORY_SUBMISSION_ROUTE",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aitoolsarena.com/",
@@ -840,7 +844,11 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T00:12:00Z",
+      "evidence": {
+        "kind": "live_submission_route_review",
+        "note": "Live site exposes a general Contact Us form only. There is no documented tool-listing submission workflow, price, review process, or factual MCP fit, so the contact form was not misused as a directory submission."
+      }
     },
     {
       "provider": "AI Tools Directory",
@@ -3622,6 +3630,35 @@
       "evidence": {
         "kind": "public_immutable_web_snapshot",
         "note": "Save Page Now returned a timestamped snapshot location. The resulting public archive page returned HTTP 200 and rendered the SHAR Production MCP repository title, public state, factual README and homepage link. This is archival representation, not DOI or independent maintainer acceptance."
+      }
+    },
+    {
+      "provider": "Neil Patel AI Tools",
+      "provider_domain": "neilpatel.com",
+      "homepage": "https://aitools.neilpatel.com/",
+      "submission_url": "https://aitools.neilpatel.com/submit",
+      "source_catalog": "Live URL review 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "unknown",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "INELIGIBLE_NOT_OPEN_SUBMISSION_DIRECTORY",
+      "status": "INELIGIBLE_NO_PUBLIC_DIRECTORY_SUBMISSION_ROUTE",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://neilpatel.com/ubersuggest/partners/apps-and-integrations/",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T00:12:00Z",
+      "evidence": {
+        "kind": "live_redirect_and_page_content",
+        "note": "The proposed submit URL resolves to Ubersuggest Apps and Integrations. It promotes Ubersuggest products, services and partners but provides no public third-party tool listing form for the current SHAR MCP or SHAR Production."
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T00:06:33Z",
+  "as_of": "2026-09-09T00:12:00Z",
   "counting_contract": {
     "accepted_baseline_useful_placements": 537,
     "baseline_candidate_unique_urls_pending_functional_reconciliation": 201,
@@ -61,7 +61,7 @@
     "blocked_external_archive_load": 1,
     "blocked_evidence_unavailable": 1,
     "owner_gate": 23,
-    "ineligible": 11,
+    "ineligible": 14,
     "deferred_scope": 1,
     "pending": 0
   }
