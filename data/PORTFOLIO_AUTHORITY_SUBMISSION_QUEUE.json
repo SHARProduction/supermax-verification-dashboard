@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "purpose": "Saved queue for legitimate future applications to editorial or directory routes that require public SHAR portfolio evidence. These are prospects, not placements or citations.",
-  "updated_at": "2026-09-09T01:05:00Z",
+  "updated_at": "2026-09-09T01:12:00Z",
   "evidence_source": {
     "homepage": "https://sharprod.com/",
     "cases_index": "https://sharprod.com/#cases",
@@ -16,8 +16,10 @@
       "page_type": "curated_ranked_list",
       "relevant_commercial_query": "best AI video studios; AI video production studio",
       "route_type": "directory_submission",
-      "status": "PORTFOLIO_EVIDENCE_READY_REQUIRES_ROUTE_REVIEW",
-      "weighted_priority": 50
+      "status": "PORTFOLIO_EVIDENCE_READY_PROVIDER_ROUTE_CONFIRMED",
+      "weighted_priority": 50,
+      "submission_route_confirmed": "https://studiolist.co/get-listed/",
+      "provider_requirements": "Public route confirms Studio / production-company listing. Ranking inclusion separately requires genuine delivered-work review; exact application fields require direct UI review."
     },
     {
       "id": "citation-gap.retainable.best-video-production-agencies-ai-companies-2026",

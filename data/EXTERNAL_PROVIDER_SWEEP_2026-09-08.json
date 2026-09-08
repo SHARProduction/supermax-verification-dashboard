@@ -3668,6 +3668,36 @@
         "kind": "live_redirect_and_page_content",
         "note": "The proposed submit URL resolves to Ubersuggest Apps and Integrations. It promotes Ubersuggest products, services and partners but provides no public third-party tool listing form for the current SHAR MCP or SHAR Production."
       }
+    },
+    {
+      "provider": "AgentForge",
+      "provider_domain": "agentforge.community",
+      "homepage": "https://agentforge.community/en/submit",
+      "submission_url": "https://agentforge.community/en/dashboard/publish",
+      "source_catalog": "live public submission and publish routes 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_MCP_TOOL",
+      "status": "OWNER_GATE_ACCOUNT_AUTHENTICATION_REQUIRED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:12:00Z",
+      "evidence": {
+        "kind": "live_public_form_and_auth_redirect",
+        "note": "Public form collects MCP name, description, category, source URL and documentation URL, but dashboard publishing redirects to email/password authentication. No account, submission or listing is claimed."
+      }
+    },
+    {
+      "provider": "MCP Index",
+      "provider_domain": "themcpindex.com",
+      "homepage": "https://themcpindex.com/",
+      "submission_url": "https://themcpindex.com/submit",
+      "source_catalog": "live public submission flow 2026-09-09",
+      "asset_fit": "OFFICIAL_REGISTRY_MIRROR_WITH_EDITORIAL_LAYER",
+      "status": "AGGREGATOR_SYNC_NO_INDEPENDENT_ACCEPTANCE",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:12:00Z",
+      "evidence": {
+        "kind": "live_provider_submission_page",
+        "note": "Provider states Registry-listed servers sync automatically and non-registry servers are considered manually. SHAR is already in the Official MCP Registry, so a future appearance is discovery representation only and must not count as independent upstream acceptance."
+      }
     }
   ]
 }
