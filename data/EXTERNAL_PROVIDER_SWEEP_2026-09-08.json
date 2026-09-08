@@ -3368,6 +3368,21 @@
         "kind": "exact_public_url_and_rendered_metadata",
         "note": "The exact prospective SHAR route returns a rendered Next.js Not Found page, has robots noindex,nofollow and contains no SHAR or source-repository listing fields. The URL is a submission trace only and remains uncounted until an actual public card resolves."
       }
+    },
+    {
+      "provider": "Figshare",
+      "provider_domain": "figshare.com",
+      "homepage": "https://figshare.com/",
+      "submission_url": "https://figshare.com/account/articles/new",
+      "source_catalog": "Official Figshare upload route and live account screen inspected 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_VERSIONED_SYNTHETIC_RIGHTS_LABELLED_DATASET",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T21:50:00Z",
+      "evidence": {
+        "kind": "prepared_release_and_live_auth_ui",
+        "note": "The SHAR rights-labelled conformance corpus is a self-contained synthetic dataset with a public v0.1.1 GitHub release, SHA-256 archive, CITATION.cff, CodeMeta and Data Package metadata. The Figshare new-item route redirects to its account sign-in screen. No Figshare record, DOI or public landing page exists yet, so nothing is counted."
+      }
     }
   ]
 }
