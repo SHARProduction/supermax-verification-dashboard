@@ -282,3 +282,12 @@ No row is a submission or published placement. Only free routes are retained.
 - Owner action: Provide the authorised submitter’s real full name for the VFX Engine form; all company data is prepared.
 - Current environment can continue after auth: YES
 - Status: OWNER_GATE_REQUIRED_CONTACT_NAME
+
+## Creative COW
+
+- Value: TIER_A — established film, broadcast, video and VFX professional community
+- URL: https://creativecow.net/register/
+- Prepared: Creative COW’s official Career Center states that listing a company in its free Services Offered registry is free for film, broadcast, video and audio services. SHAR fits through factual AI-hybrid video, CGI/3D and post-production capabilities. No account, profile, service listing or job post exists; no job post will be used as a substitute for a company listing.
+- Owner action: Create or authenticate the authorised Creative COW account through the normal provider registration flow.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_ACCOUNT

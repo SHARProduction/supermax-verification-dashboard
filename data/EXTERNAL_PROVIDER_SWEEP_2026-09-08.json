@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T00:12:00Z",
+  "collected_at": "2026-09-09T00:18:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4330,6 +4330,35 @@
       "evidence": {
         "kind": "live_official_submission_form",
         "note": "The free reviewed studio form accepts a factual SHAR CGI/3D/post-production profile and public website/contact, but it asks for the submitter’s real full name. No identity was fabricated and no submission was sent."
+      }
+    },
+    {
+      "provider": "Creative COW",
+      "provider_domain": "creativecow.net",
+      "homepage": "https://jobs.creativecow.net/",
+      "submission_url": "https://creativecow.net/register/",
+      "source_catalog": "Official Creative COW Career Center and account registration routes inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_services_registry",
+        "auth_type": "account_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_CGI_3D_VIDEO_POST_PRODUCTION_STUDIO",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://creativecow.net/register/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T00:18:00Z",
+      "evidence": {
+        "kind": "live_official_career_center_and_signup_route",
+        "note": "Career Center explicitly states that company listing in Services Offered registry is free for film, broadcast, video and audio. Normal provider account registration is required; no listing has been created."
       }
     }
   ]
