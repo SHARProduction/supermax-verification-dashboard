@@ -2327,6 +2327,111 @@
       "counts_as_placement": false,
       "check_error": "AbortError",
       "checked_at": "2026-09-08T17:50:00Z"
+    },
+    {
+      "provider": "ToolScout",
+      "provider_domain": "toolscout.ai",
+      "homepage": "https://toolscout.ai",
+      "submission_url": "https://toolscout.ai/submit/repo",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "ACCOUNT_CREATION_READY",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T18:10:00Z",
+      "evidence": {
+        "kind": "web_search_and_live_browser",
+        "note": "Live form offers free human-reviewed submission and Google/email sign-in."
+      }
+    },
+    {
+      "provider": "Claude Market",
+      "provider_domain": "claudemarket.ai",
+      "homepage": "https://claudemarket.ai",
+      "submission_url": "https://www.claudemarket.ai/submit",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T18:10:00Z",
+      "evidence": {
+        "kind": "web_search_and_live_browser",
+        "note": "Discovered by current Exa search; free basic listing reported."
+      }
+    },
+    {
+      "provider": "Stork AI",
+      "provider_domain": "stork.ai",
+      "homepage": "https://stork.ai",
+      "submission_url": "https://www.stork.ai/mcp/submit",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T18:10:00Z",
+      "evidence": {
+        "kind": "web_search_and_live_browser",
+        "note": "Discovered by current Exa search; form requires sign-in and real MCP handshake."
+      }
+    },
+    {
+      "provider": "wmcp",
+      "provider_domain": "wmcp.sh",
+      "homepage": "https://wmcp.sh",
+      "submission_url": "https://wmcp.sh/directory/submit",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T18:10:00Z",
+      "evidence": {
+        "kind": "web_search_and_live_browser",
+        "note": "Discovered by current Exa search; free listing requires extractable public tools."
+      }
+    },
+    {
+      "provider": "FindMCP",
+      "provider_domain": "findmcp.dev",
+      "homepage": "https://findmcp.dev",
+      "submission_url": "https://findmcp.dev/",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T18:10:00Z",
+      "evidence": {
+        "kind": "web_search_and_live_browser",
+        "note": "Discovered by current Exa search; claims free listing."
+      }
+    },
+    {
+      "provider": "Best of AI",
+      "provider_domain": "bestofai.io",
+      "homepage": "https://bestofai.io",
+      "submission_url": "https://bestofai.io/submit/",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T18:10:00Z",
+      "evidence": {
+        "kind": "web_search_and_live_browser",
+        "note": "Discovered by current Exa search; free reviewed listing reported."
+      }
+    },
+    {
+      "provider": "ToolSDK MCP Registry",
+      "provider_domain": "toolsdk.ai",
+      "homepage": "https://toolsdk.ai",
+      "submission_url": "https://github.com/toolsdk-ai/toolsdk-mcp-registry",
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "UNVERIFIED_CURRENT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T18:10:00Z",
+      "evidence": {
+        "kind": "web_search_and_live_browser",
+        "note": "Discovered by current Exa search; source-contribution route."
+      }
     }
   ]
 }
