@@ -2387,13 +2387,13 @@
       "homepage": "https://wmcp.sh",
       "submission_url": "https://wmcp.sh/directory/submit",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "INELIGIBLE_CURRENT_PUBLIC_TOOLS_REQUIRED",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "PROVIDER_SUBMISSION_ERROR",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T20:15:00Z",
+      "checked_at": "2026-09-09T00:15:00Z",
       "evidence": {
-        "kind": "live_provider_rules_and_source_verification",
-        "note": "Free route auto-extracts public tools from a site or OpenAPI URL. Current asset is a local stdio MCP with no public adapter endpoint; submitting sharprod.com would misrepresent the asset."
+        "kind": "live_public_tool_extraction_and_submission_api",
+        "note": "The official tool extractor returned HTTP 200 and JSON-LD-derived tools for https://sharprod.com/, so the site is eligible without changing infrastructure. The documented free submission request with that exact site and no managed option returned HTTP 500 before a receipt or listing was created. Do not retry without new provider evidence."
       }
     },
     {
@@ -2860,6 +2860,36 @@
       "evidence": {
         "kind": "official_anonymous_submission_api_receipt",
         "note": "The official free API returned pending submission ID 12 for the public MIT local CLI. No public listing exists yet."
+      }
+    },
+    {
+      "provider": "mcpservers.org",
+      "provider_domain": "mcpservers.org",
+      "homepage": "https://mcpservers.org/",
+      "submission_url": "https://mcpservers.org/ru/submit",
+      "source_catalog": "live free form and WebMCP tool declaration 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "READY_BROWSER_FORM",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:16:00Z",
+      "evidence": {
+        "kind": "live_provider_form_and_webmcp_schema",
+        "note": "The free form exposes an official submit_mcp_server WebMCP action with the exact free-plan schema. The direct server-function transport returned HTTP 403 and did not create a submission; no receipt or listing exists. The visible provider form remains the next valid route."
+      }
+    },
+    {
+      "provider": "TiloBox",
+      "provider_domain": "tilobox.com",
+      "homepage": "https://tilobox.com/",
+      "submission_url": "https://tilobox.com/submit",
+      "source_catalog": "live provider form client 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "OWNER_GATE_TURNSTILE",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:25:00Z",
+      "evidence": {
+        "kind": "official_form_client",
+        "note": "The free directory accepts a real open-source tool but its official POST /api/v1/submit requires a Turnstile token. No CAPTCHA was bypassed; no submission exists."
       }
     }
   ]

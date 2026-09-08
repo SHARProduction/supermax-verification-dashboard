@@ -47,13 +47,13 @@
     "published_verified": 28,
     "submitted": 32,
     "in_progress": 0,
-    "ready": 0,
+    "ready": 1,
     "blocked_free_quota": 0,
     "blocked_provider_anti_bot": 1,
     "blocked_provider_org_access": 0,
     "blocked_external_archive_load": 1,
     "blocked_evidence_unavailable": 1,
-    "owner_gate": 11,
+    "owner_gate": 12,
     "ineligible": 5,
     "deferred_scope": 1
   }
