@@ -690,7 +690,7 @@
         "captcha_type": "captcha_unknown"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "SUBMITTED",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aitogrow.com/",
@@ -700,7 +700,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T00:00:00Z",
+      "evidence": {
+        "kind": "live_free_contact_form_submission",
+        "note": "Official Contact Form 7 endpoint returned HTTP 200 status mail_sent and receipt hash caa09c26dd30a12d946c503e2fde04ee for one factual SHAR Production Metadata MCP submission. No public listing exists yet; do not count until public acceptance."
+      }
     },
     {
       "provider": "AI Tool Board",

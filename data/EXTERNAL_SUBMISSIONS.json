@@ -817,6 +817,24 @@
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-10-09T00:00:00.000Z",
       "public_url": "https://archive.softwareheritage.org/browse/snapshot/4e37255079d2f323ddd52c42032672ae8597fe19/directory/"
+    },
+    {
+      "submission_id": "supermax.submission.ai-to-grow.production-metadata-mcp",
+      "provider": "AI To Grow",
+      "provider_domain": "aitogrow.com",
+      "asset": "SHAR Production Metadata MCP v1.0.4",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T00:00:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_DIRECTORY_CONTACT_FORM",
+      "evidence": "Official Contact Form 7 endpoint /wp-json/contact-form-7/v1/contact-forms/274/feedback returned HTTP 200 status mail_sent with posted_data_hash caa09c26dd30a12d946c503e2fde04ee. The factual submission identified SHAR Production, https://sharprod.com/, public MIT source and the sole read-only local validation tool. No payment, account or CAPTCHA route was used.",
+      "evidence_url": "https://aitogrow.com/",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T00:00:00Z"
     }
   ]
 }
