@@ -9,15 +9,15 @@
       "provider_domain": "devhunt.org",
       "homepage": "https://devhunt.org",
       "submission_url": "https://devhunt.org",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_catalog": "Official DevHunt homepage and submit route inspected 2026-09-08",
       "source_status": {
         "site_status": "active",
         "pricing_type": "free",
         "auth_type": "unknown",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_DEV_TOOL",
+      "status": "OWNER_GATE_ACCOUNT",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://devhunt.org/",
@@ -27,7 +27,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-08T21:55:00Z",
+      "evidence": {
+        "kind": "official_live_submission_route",
+        "note": "DevHunt is an active developer-tool directory with Open Source and AI categories. Its explicit Submit your Dev Tool route redirects to login. No account, submission receipt or public SHAR card exists."
+      }
     },
     {
       "provider": "100 AI Apps",
@@ -1133,15 +1137,15 @@
       "provider_domain": "aixploria.com",
       "homepage": "https://www.aixploria.com/en",
       "submission_url": "https://www.aixploria.com/en/add-ai",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_catalog": "Official submit page inspected 2026-09-08",
       "source_status": {
         "site_status": "active",
         "pricing_type": "free",
         "auth_type": "unknown",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "RELEVANT_AI_TOOL_DIRECTORY",
+      "status": "INELIGIBLE_PAID_ONLY",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.aixploria.com/en/featured-on-aixploria/",
@@ -1151,7 +1155,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-08T21:55:00Z",
+      "evidence": {
+        "kind": "official_pricing_and_faq",
+        "note": "The official page explicitly states it no longer offers free listings and lists paid submission options. Zero incremental spend excludes it."
+      }
     },
     {
       "provider": "All things AI",
@@ -1713,15 +1721,15 @@
       "provider_domain": "digitalagencynetwork.com",
       "homepage": "https://digitalagencynetwork.com",
       "submission_url": "https://digitalagencynetwork.com/join-free-listing-tools",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_catalog": "Official Join DAN page inspected 2026-09-08",
       "source_status": {
         "site_status": "active",
         "pricing_type": "free",
         "auth_type": "email_password",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "RELEVANT_BUT_PAID_AGENCY_MEMBERSHIP",
+      "status": "INELIGIBLE_PAID_MEMBERSHIP",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://digitalagencynetwork.com/join-free-listing-tools/",
@@ -1731,7 +1739,11 @@
         "login": true,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:40:00Z"
+      "checked_at": "2026-09-08T21:55:00Z",
+      "evidence": {
+        "kind": "official_membership_page",
+        "note": "The listing surface is relevant to agency discovery, but its live Join page states it is exclusive for paid members and points to upgrade. Zero incremental spend excludes it."
+      }
     },
     {
       "provider": "Dokey AI",
