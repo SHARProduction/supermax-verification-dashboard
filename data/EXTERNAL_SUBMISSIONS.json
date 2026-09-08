@@ -338,6 +338,23 @@
       "provider_domain": "skillz.directory",
       "submission_kind": "FREE_SKILL_DIRECTORY_REVIEW",
       "evidence": "POST https://www.skillz.directory/api/submit returned HTTP 200 success true for factual first-party GitHub source, category testing, and free route."
+    },
+    {
+      "submission_id": "supermax.submission.bogen-ai.production-metadata-validation",
+      "provider": "Bogen.ai",
+      "provider_domain": "bogen.ai",
+      "asset": "shar-production-metadata-validation",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp/tree/main/skills/shar-production-metadata-validation",
+      "submitted_at": "2026-09-08T15:36:12Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_SKILL_REVIEW_QUEUE",
+      "evidence": "POST https://www.bogen.ai/api/skills/submit returned HTTP 201, submission_id 31, message Skill submitted successfully! It will be reviewed and published soon.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-09T00:00:00Z"
     }
   ]
 }
