@@ -615,6 +615,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-15T18:58:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.clime.production-metadata-linter",
+      "provider": "clime CLI registry",
+      "provider_domain": "clime.sh",
+      "asset": "production-metadata-linter",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-linter",
+      "submitted_at": "2026-09-08T18:58:08Z",
+      "status": "SUBMITTED",
+      "submission_kind": "CLI_REGISTRY_REVIEW",
+      "evidence": "Official @cli-me/cli submit created pending submission sub_30UMaJ79UB with factual public source, SHAR Production publisher and homepage. A public registry listing is required before counting.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-11T18:58:08Z"
     }
   ]
 }

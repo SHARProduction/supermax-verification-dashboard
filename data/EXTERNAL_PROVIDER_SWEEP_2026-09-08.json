@@ -3041,6 +3041,21 @@
         "kind": "native_npm_cli_and_live_web_login",
         "note": "The existing public Node MCP package declares a package name and binary. npm whoami returned ENEEDAUTH; npm login launched the official CLI authorization URL, and the live npm page showed Sign In with no saved npm session. No npm account session, publish, receipt, or public package exists."
       }
+    },
+    {
+      "provider": "clime CLI registry",
+      "provider_domain": "clime.sh",
+      "homepage": "https://clime.sh/",
+      "submission_url": "https://clime.sh/submissions",
+      "source_catalog": "Agent Reach Exa discovery and official CLI submission 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T18:58:08Z",
+      "evidence": {
+        "kind": "official_cli_submission_receipt",
+        "note": "Official @cli-me/cli generated a local API key and returned successful pending submission sub_30UMaJ79UB for the existing MIT-licensed production-metadata-linter. No public listing was returned."
+      }
     }
   ]
 }
