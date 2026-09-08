@@ -2522,6 +2522,21 @@
         "kind": "github_authenticated_settings_and_anonymous_registry_check",
         "note": "GitHub Actions run 34239343581 built, tested, pushed OCI image with SBOM and provenance. Package settings reports private; anonymous ghcr manifest pull returned HTTP 401. Public visibility must be enabled before install verification."
       }
+    },
+    {
+      "provider": "MCP Directory App",
+      "provider_domain": "mcpdirectory.app",
+      "homepage": "https://mcpdirectory.app/",
+      "submission_url": null,
+      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
+      "asset_fit": "NO_CURRENT_PUBLIC_SUBMISSION_ROUTE",
+      "status": "INELIGIBLE_NO_PUBLIC_SUBMISSION_ROUTE",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T17:15:00Z",
+      "evidence": {
+        "kind": "live_browser",
+        "note": "Public homepage exposes browse, skills, create, packages, community and dashboard routes but no server submission route or documented public API for adding an existing MCP."
+      }
     }
   ]
 }
