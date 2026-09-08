@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T00:05:00Z",
+  "collected_at": "2026-09-09T00:12:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4301,6 +4301,35 @@
       "evidence": {
         "kind": "official_company_listing_material_and_signup_page",
         "note": "Vitrina publicly advertises free company listings for production houses, company profiles examined by industry buyers, and no-card sign-up. The provider is relevant to factual SHAR production and post-production services; no account, profile or listing exists yet."
+      }
+    },
+    {
+      "provider": "VFX Engine",
+      "provider_domain": "vfxengine.com",
+      "homepage": "https://www.vfxengine.com/",
+      "submission_url": "https://www.vfxengine.com/jobs/list-studio",
+      "source_catalog": "Official VFX Engine List Your Studio form inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "no_account_required_but_contact_identity_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_CGI_3D_POST_PRODUCTION_STUDIO",
+      "status": "OWNER_GATE_REQUIRED_CONTACT_NAME",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.vfxengine.com/jobs/list-studio",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T00:12:00Z",
+      "evidence": {
+        "kind": "live_official_submission_form",
+        "note": "The free reviewed studio form accepts a factual SHAR CGI/3D/post-production profile and public website/contact, but it asks for the submitter’s real full name. No identity was fabricated and no submission was sent."
       }
     }
   ]

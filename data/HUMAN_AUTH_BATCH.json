@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T00:05:00Z",
+  "as_of": "2026-09-09T00:12:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -272,6 +272,15 @@
       "owner_action": "Create or authenticate the authorised free Vitrina account through the normal email or Google flow; do not purchase a membership.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "HUMAN_GATE_EMAIL_OR_GOOGLE_AUTH"
+    },
+    {
+      "provider": "VFX Engine",
+      "value": "TIER_A — global VFX studio directory and career platform",
+      "exact_url": "https://www.vfxengine.com/jobs/list-studio",
+      "prepared": "The no-account form is publicly inspected. It offers a reviewed global studio listing with SHAR Production name, https://sharprod.com/, Moscow/Russia & international location, factual CGI/3D, AI-hybrid video and post-production description, plus public contact shar@sharprod.com. The form requires a real full name for the submitting contact; no personal identity was invented.",
+      "owner_action": "Provide the authorised submitter’s real full name for the VFX Engine form; all company data is prepared.",
+      "continuation_after_human_auth": "YES",
+      "status": "OWNER_GATE_REQUIRED_CONTACT_NAME"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

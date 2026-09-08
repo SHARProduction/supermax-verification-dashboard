@@ -273,3 +273,12 @@ No row is a submission or published placement. Only free routes are retained.
 - Owner action: Create or authenticate the authorised free Vitrina account through the normal email or Google flow; do not purchase a membership.
 - Current environment can continue after auth: UNKNOWN
 - Status: HUMAN_GATE_EMAIL_OR_GOOGLE_AUTH
+
+## VFX Engine
+
+- Value: TIER_A — global VFX studio directory and career platform
+- URL: https://www.vfxengine.com/jobs/list-studio
+- Prepared: The no-account form is publicly inspected. It offers a reviewed global studio listing with SHAR Production name, https://sharprod.com/, Moscow/Russia & international location, factual CGI/3D, AI-hybrid video and post-production description, plus public contact shar@sharprod.com. The form requires a real full name for the submitting contact; no personal identity was invented.
+- Owner action: Provide the authorised submitter’s real full name for the VFX Engine form; all company data is prepared.
+- Current environment can continue after auth: YES
+- Status: OWNER_GATE_REQUIRED_CONTACT_NAME
