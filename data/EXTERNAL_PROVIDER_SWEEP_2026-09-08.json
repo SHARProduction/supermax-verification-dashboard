@@ -2687,6 +2687,21 @@
         "kind": "public_pypi_metadata_clean_install_functional_cli_check_and_public_pr",
         "note": "Existing MIT Python package is compatible with conda-forge noarch distribution. v1 recipe pins the public PyPI sdist SHA-256; the external review/build route is pending. No placement is counted until feedstock publication and public package verification."
       }
+    },
+    {
+      "provider": "Scoop Main bucket",
+      "provider_domain": "scoop.sh",
+      "homepage": "https://scoop.sh/",
+      "submission_url": "https://github.com/ScoopInstaller/Main",
+      "source_catalog": "current Scoop Main criteria",
+      "asset_fit": "INELIGIBLE_CURRENT_ADOPTION_CRITERIA",
+      "status": "INELIGIBLE_CURRENT_ADOPTION_CRITERIA",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T22:20:00Z",
+      "evidence": {
+        "kind": "current_provider_criteria",
+        "note": "Existing standalone CLI is technically portable, but the Main bucket requires a reasonably well-known, widely used developer tool; published guidance gives approximately 500 GitHub stars and 150 forks as an indicator. Current SHAR CLI does not meet that adoption threshold. A public SHAR Scoop bucket already provides the appropriate supported install route."
+      }
     }
   ]
 }
