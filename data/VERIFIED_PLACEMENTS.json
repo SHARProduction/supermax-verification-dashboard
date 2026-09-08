@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T23:30:00Z",
-  "counted_placements": 690,
+  "generated_at": "2026-09-08T23:45:00Z",
+  "counted_placements": 691,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12698,6 +12698,25 @@
         "functional_check": "PASS: brew test executed the installed production-metadata-linter against a valid manifest",
         "source_release_sha256": "EA65C96C2169B65F7384F424C179F7B2E604E5BE4EE254A258744E9BBE2050B5",
         "purpose": "supported macOS installation channel for the existing MIT Node CLI"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.skillhubz.shar-production-metadata-validation",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "SkillHubz",
+      "provider_ecosystem": "skillhubz",
+      "url": "https://skl.bz/skill/shar-production-metadata-validation",
+      "source": "external-provider-sweep",
+      "verified_at": "2026-09-08T23:45:00Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "provider_independent_of_official_registry": true,
+        "direct_provider_publication": true,
+        "public_fields": "Verified; SHAR Production metadata validation; Ares3333333 GitHub author; full public SKILL.md; exact tags; npx skillhu install command; zero installs/stars at verification",
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "provider_commit": "https://github.com/mediar-ai/skillhubz/commit/11d9aa7b0f1e82292890aa47f0b373d0037a90da",
+        "functional_check": "Live browser card completed loading and exposed the public skill, install command and source-backed safety boundary."
       }
     }
   ]

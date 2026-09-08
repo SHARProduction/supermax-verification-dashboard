@@ -2778,6 +2778,21 @@
         "kind": "public_tap_formula_and_macos_homebrew_ci",
         "note": "The public tap contains the versioned formula. GitHub Actions run 34260071199 tapped it, installed the formula on macOS arm64, and passed brew test. The formula is hosted on github.com, so this adds the Homebrew ecosystem but no new registrable provider domain."
       }
+    },
+    {
+      "provider": "SkillHubz",
+      "provider_domain": "skillhu.bz",
+      "homepage": "https://skillhu.bz/",
+      "submission_url": "https://skl.bz/api/submit",
+      "source_catalog": "public CLI/API route and live listing 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "PUBLISHED_VERIFIED",
+      "counts_as_placement": true,
+      "checked_at": "2026-09-08T23:45:00Z",
+      "evidence": {
+        "kind": "provider_api_public_card_and_source_commit",
+        "note": "Authenticated GitHub identity submitted the existing public SHAR MCP skill. Provider returned success and its live card renders Verified status, full skill content, SHAR positioning, exact tags and npx install command."
+      }
     }
   ]
 }
