@@ -1950,7 +1950,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "INELIGIBLE_PAID_AND_CLOSED",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://findcool.tools/",
@@ -1960,7 +1960,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:50:00Z"
+      "checked_at": "2026-09-08T18:00:00Z",
+      "evidence": {
+        "kind": "live_form",
+        "note": "Submission page offers only paid monthly plan and is currently not accepting new tools."
+      }
     },
     {
       "provider": "Find My AI Tool",
