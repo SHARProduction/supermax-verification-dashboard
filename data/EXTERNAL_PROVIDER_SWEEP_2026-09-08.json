@@ -3326,6 +3326,21 @@
         "kind": "official_free_plan_and_registration_form",
         "note": "Prodreel describes a free company listing and a paid Pro upgrade. The live registration form opens in the browser, but it requires a CAPTCHA and account-email verification before a company profile can be created. No CAPTCHA was bypassed and no listing is claimed."
       }
+    },
+    {
+      "provider": "Smithery",
+      "provider_domain": "smithery.ai",
+      "homepage": "https://smithery.ai/",
+      "submission_url": "https://smithery.ai/new",
+      "source_catalog": "Official publish documentation, API reference and live publishing UI inspected 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_MCPB_STDIO_ASSET",
+      "status": "OWNER_GATE_ACCOUNT_AND_API_KEY",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T21:02:00Z",
+      "evidence": {
+        "kind": "official_publish_docs_and_live_auth_ui",
+        "note": "Smithery officially accepts pre-built MCPB bundles for local stdio servers. SHAR has a public v1.0.1 MCPB release asset verified HTTP 200. The live new-server route redirects to account sign-in, and the documented upload API requires a bearer token. No account, API key, submission, receipt, or public listing exists."
+      }
     }
   ]
 }
