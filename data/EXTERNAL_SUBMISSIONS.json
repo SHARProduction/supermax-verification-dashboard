@@ -760,6 +760,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "submission_id": "supermax.submission.software-heritage.production-metadata-mcp",
+      "provider": "Software Heritage Save Code Now",
+      "provider_domain": "softwareheritage.org",
+      "asset": "SHAR Production Metadata MCP v1.0.4 source archive",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T00:00:00.000Z",
+      "status": "PENDING",
+      "submission_kind": "SOFTWARE_SOURCE_ARCHIVE_REQUEST",
+      "evidence": "Official Save Code Now API accepted request 2467250 for the public GitHub origin. At record time, save_task_status=pending and snapshot_swhid=null; a public snapshot and immutable SWHID are required before counting.",
+      "evidence_url": "https://archive.softwareheritage.org/api/1/origin/save/2467250/",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-10T00:00:00.000Z"
     }
   ]
 }
