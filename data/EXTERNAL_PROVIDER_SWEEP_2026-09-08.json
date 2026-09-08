@@ -2732,6 +2732,36 @@
         "kind": "official_provider_docs_live_registration_and_versioned_source_package",
         "note": "A legitimate portable package definition for the existing Windows CLI is publicly committed at GitHub commit 1c747f45248e7738071187426433ca8e5753902c. Local archive/metadata/install-contract verification passed. Community registration is free but its Register action is protected by reCAPTCHA; no account, API key, upload or public package exists."
       }
+    },
+    {
+      "provider": "Skills Lookup",
+      "provider_domain": "skillslookup.com",
+      "homepage": "https://skillslookup.com/",
+      "submission_url": "https://skillslookup.com/submit-skill",
+      "source_catalog": "live provider submission client inspection 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "PROVIDER_SUBMISSION_AUTH_ERROR",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T23:15:00Z",
+      "evidence": {
+        "kind": "public_form_client_and_live_submission_api",
+        "note": "The public client accepts an existing GitHub MCP skill and exposes an anonymous skill_submissions insert path, but its current public client configuration returned HTTP 401 for the provider-equivalent submission request. No submission exists."
+      }
+    },
+    {
+      "provider": "KillerSkills",
+      "provider_domain": "killerskills.ai",
+      "homepage": "https://killerskills.ai/",
+      "submission_url": "https://killerskills.ai/submit",
+      "source_catalog": "live provider submission client inspection 2026-09-08",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "PROVIDER_SUBMISSION_AUTH_ERROR",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T23:15:00Z",
+      "evidence": {
+        "kind": "public_form_client_and_live_submission_api",
+        "note": "The public form advertises URL-based skill submission and its client calls POST /api/submit, but the live endpoint returned HTTP 401 for the public SHAR skill URL. No submission or listing exists."
+      }
     }
   ]
 }
