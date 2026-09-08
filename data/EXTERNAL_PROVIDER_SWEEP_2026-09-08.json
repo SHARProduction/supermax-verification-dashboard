@@ -3086,6 +3086,21 @@
         "kind": "live_official_submission_form",
         "note": "The public form and documented API accept a real CLI tool, but both require an OpenCLI Hub API key. The provider exposes no self-service signup or key issuance route on its submission surface; no key, submission, receipt, or listing exists."
       }
+    },
+    {
+      "provider": "Internet Archive Wayback Machine",
+      "provider_domain": "archive.org",
+      "homepage": "https://archive.org/",
+      "submission_url": "https://web.archive.org/save/",
+      "source_catalog": "live archive availability check 2026-09-08",
+      "asset_fit": "APPLICABLE_EXISTING_PUBLIC_HOMEPAGE",
+      "status": "PROVIDER_TEMPORARILY_UNAVAILABLE",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-08T19:35:00Z",
+      "evidence": {
+        "kind": "live_cdx_api_availability",
+        "note": "The public CDX endpoint for sharprod.com returned Internet Archive Temporarily Offline. No snapshot request, archive receipt, or public snapshot URL was created; retry only after service availability changes."
+      }
     }
   ]
 }
