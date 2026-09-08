@@ -2,14 +2,18 @@
   "schema_version": "1.0.0",
   "as_of": "2026-09-08",
   "counting_contract": {
-    "accepted_baseline_useful_placements": 29,
-    "baseline_candidate_unique_urls_pending_functional_reconciliation": 895,
+    "accepted_baseline_useful_placements": 537,
+    "baseline_candidate_unique_urls_pending_functional_reconciliation": 201,
     "new_supermax_delta_placements": 692,
-    "combined_verified_useful_placements": 721,
-    "remaining_to_3000": 2279,
+    "combined_verified_useful_placements": 1229,
+    "remaining_to_3000": 1771,
     "formula": "max(0, 3000 - combined_verified_useful_placements)",
-    "why_baseline_is_not_zeroed": "Twenty-nine exact baseline URLs now have independently verified immutable version and functional evidence: eight GitHub releases with clean-cloned source and npm tests, plus twenty-one Hugging Face datasets at their exact historical revisions with non-empty JSON/JSONL parsing receipts. The remaining 895 candidate URLs have not met that per-URL standard.",
-    "why_baseline_is_not_1503": "The reproduced validator defect accepted the asserted count 1503 with no rows."
+    "why_baseline_is_not_zeroed": "A 2026-09-08 row-level revalidation accepted 537 exact URLs with evidence-bound HTTP/content, purpose, version/function and controlled-HTML checks. The 29 earlier receipts are included in this audited set.",
+    "why_baseline_is_not_1503": "The reproduced validator defect accepted 1503 with no rows. The 2026-09-08 audit found 924 physical unique URLs; 537 pass, 201 remain pending, 185 are broken/revoked, one is ambiguous, and 579 asserted units lack physical row evidence.",
+    "baseline_broken_or_revoked": 185,
+    "baseline_ambiguous": 1,
+    "baseline_audit_scope_unique_urls": 924,
+    "baseline_unsubstantiated_aggregate_units_excluded": 579
   },
   "current_wave": {
     "distinct_works": 524,
