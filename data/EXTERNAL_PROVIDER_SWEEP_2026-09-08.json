@@ -2966,6 +2966,21 @@
         "kind": "official_contribution_guide_and_validator_source",
         "note": "The upstream validator treats the fossradar GitHub topic as required, not optional. Adding that topic solely to meet a directory rule would change the existing production asset for catalog admission, so this route is excluded."
       }
+    },
+    {
+      "provider": "zPlatform AI Directory",
+      "provider_domain": "zplatform.ai",
+      "homepage": "https://zplatform.ai/",
+      "submission_url": "https://zplatform.ai/submit-ai-tool/",
+      "source_catalog": "live official submit form client 2026-09-09",
+      "asset_fit": "INELIGIBLE_BY_CONTRACT",
+      "status": "INELIGIBLE_REQUIRED_SITE_BADGE",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:15:00Z",
+      "evidence": {
+        "kind": "official_free_submission_client",
+        "note": "The free submit action POSTs to verify-badge and requires a valid public page displaying the provider badge or link. The paid route is not applicable under zero spend. Altering sharprod.com solely for a directory badge is prohibited, so no submission was made."
+      }
     }
   ]
 }
