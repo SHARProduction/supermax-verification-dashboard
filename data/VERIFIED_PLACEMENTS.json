@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T12:49:26.649Z",
-  "counted_placements": 593,
+  "generated_at": "2026-09-08T12:53:26.055Z",
+  "counted_placements": 603,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -10769,6 +10769,206 @@
         "index_follow": true,
         "content": "interactive budgeting tool",
         "desktop_mobile_functional_samples": "covered by EN/RU browser fixtures"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.workflow-recipe.package-intake-triage",
+      "work_id": "supermax.work.workflow-recipe.package-intake-triage",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-workflow-recipes/en/package-intake-triage/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-workflow-recipes/en/package-intake-triage/",
+        "ru": "https://sharproduction.github.io/production-workflow-recipes/ru/package-intake-triage/"
+      },
+      "source": "wave-212",
+      "verified_at": "2026-09-08T12:53:02.109Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "executable workflow recipe with pass/fail results",
+        "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.workflow-recipe.rights-aware-distribution",
+      "work_id": "supermax.work.workflow-recipe.rights-aware-distribution",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-workflow-recipes/en/rights-aware-distribution/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-workflow-recipes/en/rights-aware-distribution/",
+        "ru": "https://sharproduction.github.io/production-workflow-recipes/ru/rights-aware-distribution/"
+      },
+      "source": "wave-212",
+      "verified_at": "2026-09-08T12:53:02.109Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "executable workflow recipe with pass/fail results",
+        "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.workflow-recipe.localization-readiness",
+      "work_id": "supermax.work.workflow-recipe.localization-readiness",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-workflow-recipes/en/localization-readiness/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-workflow-recipes/en/localization-readiness/",
+        "ru": "https://sharproduction.github.io/production-workflow-recipes/ru/localization-readiness/"
+      },
+      "source": "wave-212",
+      "verified_at": "2026-09-08T12:53:02.109Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "executable workflow recipe with pass/fail results",
+        "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.workflow-recipe.accessibility-delivery-gate",
+      "work_id": "supermax.work.workflow-recipe.accessibility-delivery-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-workflow-recipes/en/accessibility-delivery-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-workflow-recipes/en/accessibility-delivery-gate/",
+        "ru": "https://sharproduction.github.io/production-workflow-recipes/ru/accessibility-delivery-gate/"
+      },
+      "source": "wave-212",
+      "verified_at": "2026-09-08T12:53:02.109Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "executable workflow recipe with pass/fail results",
+        "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.workflow-recipe.approval-chain-audit",
+      "work_id": "supermax.work.workflow-recipe.approval-chain-audit",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-workflow-recipes/en/approval-chain-audit/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-workflow-recipes/en/approval-chain-audit/",
+        "ru": "https://sharproduction.github.io/production-workflow-recipes/ru/approval-chain-audit/"
+      },
+      "source": "wave-212",
+      "verified_at": "2026-09-08T12:53:02.109Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "executable workflow recipe with pass/fail results",
+        "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.workflow-recipe.archive-readiness",
+      "work_id": "supermax.work.workflow-recipe.archive-readiness",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-workflow-recipes/en/archive-readiness/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-workflow-recipes/en/archive-readiness/",
+        "ru": "https://sharproduction.github.io/production-workflow-recipes/ru/archive-readiness/"
+      },
+      "source": "wave-212",
+      "verified_at": "2026-09-08T12:53:02.109Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "executable workflow recipe with pass/fail results",
+        "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.workflow-recipe.vendor-bid-normalizer",
+      "work_id": "supermax.work.workflow-recipe.vendor-bid-normalizer",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-workflow-recipes/en/vendor-bid-normalizer/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-workflow-recipes/en/vendor-bid-normalizer/",
+        "ru": "https://sharproduction.github.io/production-workflow-recipes/ru/vendor-bid-normalizer/"
+      },
+      "source": "wave-212",
+      "verified_at": "2026-09-08T12:53:02.109Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "executable workflow recipe with pass/fail results",
+        "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.workflow-recipe.subtitle-remediation-queue",
+      "work_id": "supermax.work.workflow-recipe.subtitle-remediation-queue",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-workflow-recipes/en/subtitle-remediation-queue/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-workflow-recipes/en/subtitle-remediation-queue/",
+        "ru": "https://sharproduction.github.io/production-workflow-recipes/ru/subtitle-remediation-queue/"
+      },
+      "source": "wave-212",
+      "verified_at": "2026-09-08T12:53:02.109Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "executable workflow recipe with pass/fail results",
+        "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.workflow-recipe.dependency-release-gate",
+      "work_id": "supermax.work.workflow-recipe.dependency-release-gate",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-workflow-recipes/en/dependency-release-gate/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-workflow-recipes/en/dependency-release-gate/",
+        "ru": "https://sharproduction.github.io/production-workflow-recipes/ru/dependency-release-gate/"
+      },
+      "source": "wave-212",
+      "verified_at": "2026-09-08T12:53:02.109Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "executable workflow recipe with pass/fail results",
+        "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.github-pages.workflow-recipe.privacy-safe-handoff",
+      "work_id": "supermax.work.workflow-recipe.privacy-safe-handoff",
+      "provider": "GitHub Pages",
+      "provider_ecosystem": "github-pages",
+      "url": "https://sharproduction.github.io/production-workflow-recipes/en/privacy-safe-handoff/",
+      "localized_urls": {
+        "en": "https://sharproduction.github.io/production-workflow-recipes/en/privacy-safe-handoff/",
+        "ru": "https://sharproduction.github.io/production-workflow-recipes/ru/privacy-safe-handoff/"
+      },
+      "source": "wave-212",
+      "verified_at": "2026-09-08T12:53:02.109Z",
+      "verification": {
+        "http_200": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "content": "executable workflow recipe with pass/fail results",
+        "desktop_mobile_functional_samples": "covered by EN/RU mobile rendering matrix"
       }
     }
   ]
