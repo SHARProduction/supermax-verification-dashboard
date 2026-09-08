@@ -2846,6 +2846,21 @@
         "kind": "official_anonymous_submission_api_receipt",
         "note": "The free official API accepted the public MIT production-metadata-linter repository and returned a manual-review receipt. No public listing exists yet."
       }
+    },
+    {
+      "provider": "TopSelfHost",
+      "provider_domain": "topselfhost.com",
+      "homepage": "https://topselfhost.com/",
+      "submission_url": "https://topselfhost.com/submit",
+      "source_catalog": "live official form and API submission receipt 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T00:23:29Z",
+      "evidence": {
+        "kind": "official_anonymous_submission_api_receipt",
+        "note": "The official free API returned pending submission ID 12 for the public MIT local CLI. No public listing exists yet."
+      }
     }
   ]
 }

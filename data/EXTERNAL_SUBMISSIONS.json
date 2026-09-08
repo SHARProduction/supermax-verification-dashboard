@@ -530,6 +530,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.topselfhost.production-metadata-linter",
+      "provider": "TopSelfHost",
+      "provider_domain": "topselfhost.com",
+      "asset": "production-metadata-linter",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-linter",
+      "submitted_at": "2026-09-09T00:23:29Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_OPEN_SOURCE_DIRECTORY_SUBMISSION",
+      "evidence": "Official POST /api/submissions returned HTTP 200 with {success:true, data:{id:12, status:'pending'}} for the existing public MIT local CLI. Public listing and independent editorial acceptance are still required before counting.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T00:00:00Z"
     }
   ]
 }
