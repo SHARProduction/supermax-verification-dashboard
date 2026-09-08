@@ -4080,9 +4080,9 @@
       "submission_url": "https://mcp.film/submit/",
       "source_catalog": "Live official submit policy 2026-09-09",
       "asset_fit": "CONFIRMED_FIT_EXISTING_READ_ONLY_PRODUCTION_METADATA_MCP",
-      "status": "READY_GITHUB_ISSUE_REQUIRES_REPRESENTATIONAL_CONFIRMATION",
+      "status": "SUBMITTED",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T01:15:00Z",
+      "checked_at": "2026-09-09T02:00:00Z",
       "evidence": {
         "kind": "official_curated_MCP_submission_policy",
         "note": "Curated AI-filmmaking MCP directory accepts GitHub form, issue, or its own submit_listing tool and states maintainers verify each listing against primary sources. SHAR read-only production metadata MCP has confirmed relevance to production operations. No issue or submission exists.",
@@ -4090,6 +4090,13 @@
           "checked_at": "2026-09-09T01:18:00Z",
           "url": "https://mcp.film/api/registry.json",
           "result": "NO_MATCH_FOR_SHAR_PRODUCTION_OR_SHARPRODUCTION_PRODUCTION_METADATA_MCP"
+        },
+        "submission": {
+          "url": "https://github.com/c47-inc/mcp-film/issues/44",
+          "created_at": "2026-09-08T23:32:26Z",
+          "state": "OPEN",
+          "label": "submit not attached: GitHub AddLabelsToLabelable permission denied for submitter",
+          "public_issue_verified": true
         }
       }
     },

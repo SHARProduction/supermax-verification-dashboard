@@ -935,6 +935,21 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T00:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcp-film.production-metadata-mcp",
+      "provider": "mcp.film",
+      "provider_domain": "mcp.film",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-08T23:32:26Z",
+      "status": "SUBMITTED",
+      "evidence_url": "https://github.com/c47-inc/mcp-film/issues/44",
+      "evidence": "Public GitHub issue 44 created with exact production-ops metadata. Provider instruction says a maintainer verifies submissions before listing. submit label exists but current author lacks permission to add it; no provider acceptance is claimed.",
+      "counts_as_published_verified": false,
+      "recheck_after": "2026-09-16T00:00:00Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/"
     }
   ]
 }
