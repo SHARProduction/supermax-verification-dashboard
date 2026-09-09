@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T03:38:00Z",
+  "as_of": "2026-09-09T03:48:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -308,6 +308,15 @@
       "owner_action": "Authenticate or create a normal Contra studio account, then provide only factual portfolio, team and contact details for review.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT_AND_REAL_WORK_SELECTION"
+    },
+    {
+      "provider": "Future Tools",
+      "value": "TIER_B — established AI-tool discovery directory",
+      "exact_url": "https://futuretools.io/submit-a-tool",
+      "prepared": "The live public form accepts tool name, URL, short description, category and Open Source pricing. The existing SHAR Production Metadata MCP can be submitted factually as an open-source production-metadata tool in Other; public source is https://github.com/SHARProduction/production-metadata-mcp and the factual website is https://sharprod.com/. No CAPTCHA was bypassed, submission, receipt or public listing exists.",
+      "owner_action": "Complete the provider CAPTCHA in a normal browser, then leave the factual form payload unchanged.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_CAPTCHA"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

@@ -2207,11 +2207,15 @@
         "auth_type": "none",
         "captcha_type": "recaptcha_v3"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "asset_fit": "LOW_VALUE_GENERAL_DIRECTORY",
+      "status": "OWNER_GATE_CAPTCHA",
       "counts_as_placement": false,
       "check_error": "AbortError",
-      "checked_at": "2026-09-08T17:50:00Z"
+      "checked_at": "2026-09-09T03:48:00Z",
+      "evidence": {
+        "kind": "live_public_submission_form",
+        "note": "Live form accepts a tool name, site URL, description, image and CAPTCHA. It is a broad low-value directory and does not evidence a stronger independent-authority benefit than higher-priority routes. No CAPTCHA bypass or submission was attempted."
+      }
     },
     {
       "provider": "Future AGI tools",
@@ -2250,11 +2254,15 @@
         "auth_type": "none",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_MCP_TOOL",
+      "status": "OWNER_GATE_CAPTCHA",
       "counts_as_placement": false,
       "check_error": "AbortError",
-      "checked_at": "2026-09-08T17:50:00Z"
+      "checked_at": "2026-09-09T03:48:00Z",
+      "evidence": {
+        "kind": "live_public_submission_form",
+        "note": "Future Tools has a live public submission form for AI tools, including an Open Source pricing option and an Other category appropriate for the existing SHAR rights-aware MCP. The form requires CAPTCHA before submission. No CAPTCHA was bypassed and no submission, receipt or listing exists."
+      }
     },
     {
       "provider": "Futurepedia",
@@ -2470,11 +2478,15 @@
         "auth_type": "google_only",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "asset_fit": "INELIGIBLE_CLOSED_SUBMISSION_FORM",
+      "status": "PROVIDER_SUBMISSION_ROUTE_NOT_FOUND",
       "counts_as_placement": false,
       "check_error": "AbortError",
-      "checked_at": "2026-09-08T17:50:00Z"
+      "checked_at": "2026-09-09T03:48:00Z",
+      "evidence": {
+        "kind": "live_typeform_check",
+        "note": "The linked Typeform is private and reports that its creator has not allowed access. No accessible submission route, submission, receipt or listing exists."
+      }
     },
     {
       "provider": "ToolScout",

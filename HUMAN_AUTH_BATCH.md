@@ -309,3 +309,12 @@ No row is a submission or published placement. Only free routes are retained.
 - Owner action: Authenticate or create a normal Contra studio account, then provide only factual portfolio, team and contact details for review.
 - Current environment can continue after auth: UNKNOWN
 - Status: OWNER_GATE_ACCOUNT_AND_REAL_WORK_SELECTION
+
+## Future Tools
+
+- Value: TIER_B — established AI-tool discovery directory
+- URL: https://futuretools.io/submit-a-tool
+- Prepared: The live public form accepts tool name, URL, short description, category and Open Source pricing. The existing SHAR Production Metadata MCP can be submitted factually as an open-source production-metadata tool in Other; public source is https://github.com/SHARProduction/production-metadata-mcp and the factual website is https://sharprod.com/. No CAPTCHA was bypassed, submission, receipt or public listing exists.
+- Owner action: Complete the provider CAPTCHA in a normal browser, then leave the factual form payload unchanged.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_CAPTCHA
