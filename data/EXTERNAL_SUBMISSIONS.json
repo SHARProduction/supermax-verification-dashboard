@@ -1763,7 +1763,27 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T15:20:19Z"
+    },
+    {
+      "submission_id": "supermax.public-candidate.producthunt.shar-production",
+      "provider": "Product Hunt",
+      "provider_domain": "producthunt.com",
+      "asset": "SHAR Production — Hybrid AI, CGI and video production for brands",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://www.producthunt.com/products/shar-production",
+      "submitted_at": null,
+      "status": "PENDING",
+      "submission_kind": "EXISTING_PUBLIC_UPSTREAM_CANDIDATE",
+      "evidence": "Direct Product Hunt URL returned HTTP 200 and contained SHAR Production, sharprod.com and Hybrid AI positioning. Current automation browser was blocked by Product Hunt Cloudflare security verification before rendering the direct page. Independent Hunted.space public dashboard links to this Product Hunt upstream and renders matching SHAR title/positioning, but is API-derived and does not replace direct browser verification. No new Product Hunt submission was made and no acceptance/ranking/recommendation is claimed.",
+      "evidence_url": "https://www.producthunt.com/products/shar-production",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-10T15:44:35Z",
+      "public_candidate_url": "https://www.producthunt.com/products/shar-production",
+      "browser_verification_status": "BLOCKED_CLOUDFLARE"
     }
   ],
-  "as_of": "2026-09-09T15:35:00Z"
+  "as_of": "2026-09-09T15:44:35Z"
 }
