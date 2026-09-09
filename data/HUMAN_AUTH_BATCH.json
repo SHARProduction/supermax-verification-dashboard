@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:18:00Z",
+  "as_of": "2026-09-09T15:22:27Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -636,6 +636,16 @@
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_EMAIL_OTP",
       "last_checked_at": "2026-09-09T15:18:00Z"
+    },
+    {
+      "provider": "DailyFOSS",
+      "value": "TIER_B — community-curated FOSS directory and external OSS contribution",
+      "exact_url": "https://github.com/dailyfoss/dailyfoss.github.io",
+      "prepared": "Official generator produced factual metadata for SHAR Production Metadata MCP: open-source CLI/self-hosted MCP; AI and automation categories; source repository, docs and sharprod.com. Contribution requires adding generated JSON under public/json and a verified publicly licensed SHAR logo under public/icons, then opening a PR.",
+      "owner_action": "Authenticate with GitHub in the official browser session and provide/confirm the intended public SHAR logo source for the directory contribution.",
+      "continuation_after_human_auth": "YES",
+      "status": "OWNER_GATE_GITHUB_PR_AND_ASSET",
+      "last_checked_at": "2026-09-09T15:22:27Z"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

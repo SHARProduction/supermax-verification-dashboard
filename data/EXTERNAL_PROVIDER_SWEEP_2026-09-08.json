@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:20:19Z",
+  "collected_at": "2026-09-09T15:22:27Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6462,6 +6462,35 @@
         "note": "Factual free directory request for SHAR Production Metadata MCP was submitted. Official receipt says the message was received and response will follow within 24 hours. No public listing exists yet."
       },
       "recheck_after": "2026-09-12T15:20:19Z"
+    },
+    {
+      "provider": "DailyFOSS",
+      "provider_domain": "dailyfoss.github.io",
+      "homepage": "https://dailyfoss.github.io/",
+      "submission_url": "https://dailyfoss.github.io/add-app",
+      "source_catalog": "Web discovery plus live JSON-generator and contribution-route verification 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_community_pr",
+        "auth_type": "GitHub_required_for_PR",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_CLI_MCP",
+      "status": "OWNER_GATE_GITHUB_PR_AND_ASSET",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://github.com/dailyfoss/dailyfoss.github.io",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:22:27Z",
+      "evidence": {
+        "kind": "official_json_generator_and_public_repo",
+        "note": "Official generator produced a factual SHAR MCP JSON payload and contribution instructions require adding it to public/json, adding a logo to public/icons, validating, committing and pushing. Current GitHub browser session is logged out. No fork, PR, submission, receipt, or public listing exists."
+      }
     }
   ]
 }
