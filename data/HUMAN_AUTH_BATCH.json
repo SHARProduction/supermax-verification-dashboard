@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T11:20:00Z",
+  "as_of": "2026-09-09T11:50:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -425,6 +425,15 @@
       "owner_action": "Authenticate with the provider account.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT"
+    },
+    {
+      "provider": "Spot Startups",
+      "value": "TIER_C — independent startup/developer-tool discovery domain",
+      "exact_url": "https://www.spotstartups.com/submit.php",
+      "prepared": "Current open-source SHAR tool may fit Dev Tools or AI & Automation. Actual publisher form is behind account login.",
+      "owner_action": "Create or authenticate a provider account and complete its reCAPTCHA.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT_RECAPTCHA"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

@@ -5120,6 +5120,35 @@
         "kind": "live_creator_route_check",
         "note": "Public skills directory exists, but /skills/submit and /submit return 404 and expose no creator submission route. Source/provenance for the displayed aggregated skills is not an independent SHAR acceptance. No submission attempted."
       }
+    },
+    {
+      "provider": "Spot Startups",
+      "provider_domain": "spotstartups.com",
+      "homepage": "https://www.spotstartups.com/",
+      "submission_url": "https://www.spotstartups.com/submit.php",
+      "source_catalog": "Web fallback discovery and live official route inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "account_required",
+        "captcha_type": "recaptcha"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_OPEN_SOURCE_DEVELOPER_TOOL",
+      "status": "OWNER_GATE_ACCOUNT_RECAPTCHA",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.spotstartups.com/login.php?redirect=/submit.php",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T11:50:00Z",
+      "evidence": {
+        "kind": "live_submission_auth_gate",
+        "note": "Public directory shows Dev Tools and AI & Automation categories and advertises free startup submissions. Actual submit route redirects to login with email/password fields and hidden recaptcha token. No account or submission created."
+      }
     }
   ]
 }
