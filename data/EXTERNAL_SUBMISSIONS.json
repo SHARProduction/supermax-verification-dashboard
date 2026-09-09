@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T16:49:30Z",
+  "generated_at": "2026-09-09T16:51:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1193,7 +1193,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-12T16:10:00Z"
+      "recheck_after": "2026-09-12T16:10:00Z",
+      "duplicate_receipt_at": "2026-09-09T16:49:30Z",
+      "duplicate_receipt_note": "A later browser interaction received the same generic acceptance UI, but an earlier recorded anonymous submission already existed. This is not an additional submission, placement, or count."
     },
     {
       "submission_id": "supermax.submission.autropicai.production-metadata-mcp",
@@ -1802,25 +1804,7 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T15:50:00Z"
-    },
-    {
-      "submission_id": "supermax.submission.mcpcatalog.production-metadata-mcp",
-      "provider": "MCP Catalog",
-      "provider_domain": "mcpcatalog.dev",
-      "asset": "io.github.SHARProduction/production-metadata-mcp",
-      "publisher": "SHAR Production",
-      "homepage": "https://sharprod.com/",
-      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
-      "submitted_at": "2026-09-09T16:49:30Z",
-      "status": "SUBMITTED",
-      "submission_kind": "FREE_CURATED_MCP_DIRECTORY_REVIEW",
-      "evidence": "Live anonymous form accepted factual SHAR MCP data. Rendered confirmation: Submission received. Thanks — we will review and get it on the directory if it fits. Usually a few days. No public listing URL exists.",
-      "evidence_url": "https://mcpcatalog.dev/submit",
-      "counts_as_published_verified": false,
-      "counts_as_independent_provider_ecosystem": false,
-      "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-12T16:49:30Z"
     }
   ],
-  "as_of": "2026-09-09T16:49:30Z"
+  "as_of": "2026-09-09T16:51:00Z"
 }
