@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T20:20:00Z",
+  "as_of": "2026-09-09T21:05:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -477,6 +477,15 @@
       "exact_url": "https://www.shoots.video/get-listed/",
       "prepared": "Official Get Listed page states that a company can be added as a video-production resource. Official pricing page states Basic is Free Forever and includes a vendor profile, three locations, unlimited videos/reels, service pages, job posts and blog posts. The first step is an email-account registration. Prepared truthful facts: SHAR Production; https://sharprod.com/; shar@sharprod.com; hybrid commercial video production with AI-assisted video, CGI and 3D. No account, profile, receipt or public listing exists.",
       "owner_action": "Create or authenticate the free Shoots.video account through its normal supported email flow; complete only factual company-profile fields after account creation.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT_EMAIL_VERIFICATION"
+    },
+    {
+      "provider": "MCP ServerList",
+      "value": "TIER_B — public, crawlable MCP directory with free standard review tier",
+      "exact_url": "https://mcpserverlist.net/submit",
+      "prepared": "Official submit page states Free standard listing is reviewed in queue and public/crawlable after approval. It requires a free email account; social sign-in is not configured. Prepared factual submission: SHAR Production Metadata MCP; public endpoint https://mcp.sharprod.com/public; source https://github.com/SHARProduction/production-metadata-mcp; homepage https://sharprod.com/; shar@sharprod.com. No account, submission, receipt, or listing exists.",
+      "owner_action": "Create or authenticate the free MCP ServerList email account through its normal supported flow, then submit only factual SHAR MCP details.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT_EMAIL_VERIFICATION"
     }

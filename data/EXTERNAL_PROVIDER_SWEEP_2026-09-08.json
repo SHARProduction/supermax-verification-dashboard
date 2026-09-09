@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T20:55:00Z",
+  "collected_at": "2026-09-09T21:05:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6124,6 +6124,35 @@
       "evidence": {
         "kind": "official_anonymous_api_attempt",
         "note": "The official form POSTs name, company, description, public MCP URL, pricing, tags and contact email to /api/submit. A single factual SHAR submission attempt returned HTTP 503 {\"error\":\"Database connection error. Please try again later.\"}. No receipt, listing or count exists; retry after the provider recovers."
+      }
+    },
+    {
+      "provider": "MCP ServerList",
+      "provider_domain": "mcpserverlist.net",
+      "homepage": "https://mcpserverlist.net/",
+      "submission_url": "https://mcpserverlist.net/submit",
+      "source_catalog": "Agent Reach discovery plus official Submit page inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_standard_listing_observed;_optional_paid_priority",
+        "auth_type": "email_account_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_PUBLIC_READ_ONLY_MCP_ENDPOINT",
+      "status": "OWNER_GATE_ACCOUNT_EMAIL_VERIFICATION",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpserverlist.net/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T21:05:00Z",
+      "evidence": {
+        "kind": "official_free_standard_listing_route",
+        "note": "Official page says a free standard listing is reviewed in queue and its server page stays public and crawlable after approval. It requires an email account; no account, submission, receipt, or SHAR card has been created."
       }
     }
   ]
