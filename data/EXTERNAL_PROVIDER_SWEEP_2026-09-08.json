@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T14:51:58Z",
+  "collected_at": "2026-09-09T14:55:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -1849,8 +1849,8 @@
         "auth_type": "google_only",
         "captcha_type": "captcha_unknown"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "INELIGIBLE_CURRENT_PRODUCT_HOMEPAGE_REQUIREMENT",
+      "status": "INELIGIBLE_CURRENT_ASSET_CATEGORY_MISMATCH",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://github.com/marcelscruz/dev-resources",
@@ -1860,7 +1860,11 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:40:00Z"
+      "checked_at": "2026-09-09T14:55:00Z",
+      "evidence": {
+        "kind": "live_upstream_contributing_rules_and_duplicate_search",
+        "note": "Upstream is active and has 1.3k stars, but its rules require a main developer product with a custom-domain product homepage; it explicitly excludes internal tools/features of larger products and shared-hosted project links. Current SHAR asset is a production-metadata MCP/skill whose accurate homepage is the SHAR Production studio, not a standalone developer product. Upstream code search found no existing SHAR record. No misleading PR was created."
+      }
     },
     {
       "provider": "Digi Pro Tools",
