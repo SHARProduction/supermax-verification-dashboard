@@ -1929,8 +1929,8 @@
         "auth_type": "google_only",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONFIRMED_FIT_BUT_RECIPROCAL_LINK_REQUIREMENT_UNACCEPTABLE",
+      "status": "INELIGIBLE_REQUIRED_RECIPROCAL_BACKLINK",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://dokeyai.com/submit",
@@ -1940,7 +1940,12 @@
         "login": true,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:40:00Z"
+      "checked_at": "2026-09-09T16:43:31Z",
+      "evidence": {
+        "kind": "live_public_submission_ui",
+        "url": "https://dokeyai.com/submit",
+        "note": "Public browser verification: Free Pack is $0 but explicitly states Add our partner link to your footer. No site change was made, no reciprocal backlink was placed and no submission was sent."
+      }
     },
     {
       "provider": "DoMore",
