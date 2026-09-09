@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T14:34:27Z",
+  "as_of": "2026-09-09T14:35:48Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -52,8 +52,8 @@
       "provider": "npm Registry",
       "value": "TIER_A — native Node package registry",
       "exact_url": "https://www.npmjs.com/login",
-      "prepared": "2026-09-09 recheck: npm whoami returned ENEEDAUTH (no saved native npm session). Current public SHAR Production source at @sharproduction/production-metadata-mcp@1.0.4 passed npm pack --dry-run; tarball has 6 expected files, 2.7 kB package / 6.0 kB unpacked. Functional tests are green. Publish remains ready immediately after owner authenticates the authorised npm account.",
-      "owner_action": "Authenticate the authorised npm account through its native supported flow.",
+      "prepared": "2026-09-09 live recheck: npm whoami returned ENEEDAUTH and npm view @sharproduction/production-metadata-mcp returned E404, so the public npm package does not currently exist. JSR package @sharproduction/production-metadata-mcp@1.0.4 is public, signed, and links SHAR Production, but its rendered README currently includes an npm install command that will fail until npm publication occurs. Current public source passed npm pack --dry-run; tarball has the expected files and functional tests are green. Publishing the already prepared native package is the corrective action after authenticating the authorised npm account.",
+      "owner_action": "Authenticate the authorised npm account through its native supported flow; the runtime can then publish the prepared package and verify that the public npm install command resolves.",
       "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_NPM_ACCOUNT_AUTH"
     },
