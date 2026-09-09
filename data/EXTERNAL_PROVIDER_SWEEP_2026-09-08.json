@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T07:00:00Z",
+  "collected_at": "2026-09-09T07:45:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -745,27 +745,31 @@
     {
       "provider": "AI Tool Board",
       "provider_domain": "aitoolboard.com",
-      "homepage": "https://aitoolboard.com",
-      "submission_url": "https://aitoolboard.com/submit-ai-tool",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "homepage": "https://aitoolboard.com/",
+      "submission_url": "https://aitoolboard.com/submit",
+      "source_catalog": "Live official form inspected 2026-09-09",
       "source_status": {
         "site_status": "active",
-        "pricing_type": "paid",
-        "auth_type": "unknown",
-        "captcha_type": "none"
+        "pricing_type": "free_pending_listing_available",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_MCP_AUTOMATION_UTILITY",
+      "status": "SUBMISSION_ATTEMPT_UNRESOLVED_TIMEOUT",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aitoolboard.com/submit",
       "signals": {
         "form": true,
         "captcha": false,
-        "login": true,
-        "paid": true
+        "login": false,
+        "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T07:45:00Z",
+      "evidence": {
+        "kind": "live_form_and_unresolved_browser_submit",
+        "note": "The live form exposes a free pending listing. A factual payload was prepared with Free pricing, Free Listing, Automation category and public GitHub repository. Browser submit did not return before runtime termination and no receipt, redirect target, acceptance or public card was captured. Do not resubmit blindly; recheck for a public listing after moderation."
+      }
     },
     {
       "provider": "AI Tool guru",
