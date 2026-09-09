@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T13:20:00Z",
+  "generated_at": "2026-09-09T13:45:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1385,7 +1385,24 @@
       "public_url": "https://mcpi.app/servers/shar-public-knowledge-mcp",
       "evidence_url": "https://mcpi.app/servers/shar-public-knowledge-mcp",
       "verified_at": "2026-09-09T13:20:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.gate.shar-public-knowledge-mcp",
+      "provider": "gate",
+      "provider_domain": "gateturbo.com",
+      "asset": "SHAR Public Knowledge MCP",
+      "source_url": "https://mcp.sharprod.com/public",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "submitted_at": "2026-09-09T13:40:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "SECURITY_SCANNED_DIRECTORY_REVIEW",
+      "evidence": "Provider completed reachable Streamable-HTTP scan: connected, 15 of 15 tools scanned, grade A / 100 of 100; browser receipt says Submitted — thank you. Free human review pending.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T13:40:00Z"
     }
   ],
-  "as_of": "2026-09-09T13:20:00Z"
+  "as_of": "2026-09-09T13:45:00Z"
 }
