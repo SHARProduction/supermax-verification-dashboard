@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T16:11:00Z",
+  "updated_at": "2026-09-09T16:14:00Z",
   "purpose": "Prepared high-value owner-only gates. These rows are not accounts, submissions, or placements.",
   "rules": {
     "no_passwords_or_tokens_recorded": true,
@@ -180,14 +180,16 @@
       "tier": "TIER_A",
       "value": "Large independent agent/MCP marketplace with a public installation ecosystem",
       "why_it_matters": "Potential public MCP marketplace card and install route for the existing read-only stdio server",
-      "current_step": "PREPARED_TO_HUMAN_GATE",
-      "exact_human_action": "Sign in to LobeHub and link the authorized GitHub account once through the official CLI/browser flow",
-      "expected_time_complexity": "One LobeHub login plus GitHub link; organization-repository submission may be affected by a current provider issue",
-      "agent_after_human_gate": "Agent runs the official market CLI against the existing public repository, stops on any unsupported deployment metadata, and verifies a public card before counting",
-      "status": "OWNER_GATE_LOBEHUB_LOGIN_AND_GITHUB_LINK",
+      "current_step": "PROVIDER_RULES_CONFIRMED",
+      "exact_human_action": "None while the official marketplace self-service flow rejects organization-owned GitHub repositories",
+      "expected_time_complexity": "External provider fix required; do not create a personal fork or misrepresent ownership",
+      "agent_after_human_gate": "Recheck the official CLI after LobeHub resolves the organization-repository ownership defect; then submit the existing canonical repository and verify a public card",
+      "status": "PROVIDER_BLOCKED_ORGANIZATION_REPOSITORY_CLI",
       "zero_spend": true,
       "public_placement_exists": false,
-      "counts_as_verified": false
+      "counts_as_verified": false,
+      "blocker_evidence_url": "https://github.com/lobehub/lobehub/issues/17416",
+      "blocker_evidence": "The documented CLI requires login and GitHub linking, but the confirmed open issue reports that organization-owned repositories are rejected because the connected individual username cannot equal the organization owner string."
     }
   ]
 }
