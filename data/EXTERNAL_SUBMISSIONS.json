@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:53:00Z",
+  "generated_at": "2026-09-09T14:58:34Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1293,14 +1293,16 @@
       "homepage": "https://sharprod.com/",
       "source_url": "https://mcp.sharprod.com/public",
       "submitted_at": "2026-09-09T20:45:00Z",
-      "status": "SUBMITTED",
+      "status": "PUBLISHED_VERIFIED",
       "submission_kind": "ANONYMOUS_PUBLIC_MCP_RELIABILITY_INDEX",
-      "evidence": "Official POST https://api.rora.carmel.so/api/rora/public/mcp-index/submit returned HTTP 200 success:true, account_created:true, agent_created:true, email_sent:true, protocol_probe_started:true, slug shar-production-metadata-mcp. The provider receipt says it is on the Reliability Index, but the public index query immediately afterward did not return the new row; no public card, completed probe, or score is evidenced yet.",
-      "evidence_url": "https://agentstatus.dev/mcp-index",
-      "counts_as_published_verified": false,
-      "counts_as_independent_provider_ecosystem": false,
-      "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-10T03:00:00Z"
+      "evidence": "Official POST https://api.rora.carmel.so/api/rora/public/mcp-index/submit returned HTTP 200 success:true and started the protocol probe. Public recheck: the independent AgentStatus index returns HTTP 200; rendered browser search shows the SHAR Production Metadata MCP card and its dialog links Homepage to https://sharprod.com/. Static public response contains the exact slug shar-production-metadata-mcp, name, and homepage. Canonical is https://agentstatus.dev/mcp-index. Listing currently says discovery pending / Low sample / Unrated, so no reliability score, ranking, editorial endorsement, or citation is claimed.",
+      "evidence_url": "https://agentstatus.dev/mcp-index?q=shar-production-metadata-mcp",
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "recheck_after": "2026-09-10T03:00:00Z",
+      "public_url": "https://agentstatus.dev/mcp-index?q=shar-production-metadata-mcp",
+      "last_rechecked_at": "2026-09-09T14:58:34Z"
     },
     {
       "submission_id": "supermax.submission.agentguard.mcp-absolute-user-path",
@@ -1723,5 +1725,5 @@
       "last_public_recheck_evidence": null
     }
   ],
-  "as_of": "2026-09-09T14:53:00Z"
+  "as_of": "2026-09-09T14:58:34Z"
 }

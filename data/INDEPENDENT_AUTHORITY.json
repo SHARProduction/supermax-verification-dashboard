@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T15:35:00Z",
+  "updated_at": "2026-09-09T14:58:34Z",
   "counting_boundary": "Third-party public authority only. SHAR-controlled properties, submissions, mirrors, search snippets and unverified claims are excluded.",
   "allowed_types": [
     "external_editorial_mention",
@@ -18,8 +18,8 @@
     "external_industry_directory_acceptance"
   ],
   "metrics": {
-    "known_verified_records": 3,
-    "independent_authority_domains_observed": 3,
+    "known_verified_records": 4,
+    "independent_authority_domains_observed": 4,
     "independent_mentions_observed": null,
     "independent_backlinks_observed": null,
     "independent_citations_observed": null,
@@ -106,6 +106,30 @@
       "counts_as_independent_citation": false,
       "counts_as_editorial_mention": false,
       "counts_as_external_acceptance": false
+    },
+    {
+      "id": "authority.agentstatus.shar-production-metadata-mcp",
+      "type": "external_industry_directory_acceptance",
+      "url": "https://agentstatus.dev/mcp-index?q=shar-production-metadata-mcp",
+      "registrable_domain": "agentstatus.dev",
+      "publisher": "AgentStatus",
+      "relationship_to_SHAR": "independent public MCP reliability index; submission points to SHAR-controlled public MCP endpoint",
+      "SHAR_CONTROLLED": false,
+      "context": "Public search card renders SHAR Production Metadata MCP and links Homepage to https://sharprod.com/. At verification it is discovery pending, Low sample, and Unrated.",
+      "link": "https://sharprod.com/",
+      "topic": "rights-aware AI-hybrid video-production metadata validation",
+      "commercial_query_relation": "indirect technical relevance to AI-hybrid production workflows",
+      "review_mechanism": "automated public protocol indexing; no human editorial endorsement claimed",
+      "evidence": {
+        "http_200": true,
+        "canonical": "https://agentstatus.dev/mcp-index",
+        "browser_rendered": true,
+        "verified_at": "2026-09-09T14:58:34Z"
+      },
+      "verified_at": "2026-09-09T14:58:34Z",
+      "counts_as_independent_citation": false,
+      "counts_as_editorial_mention": false,
+      "counts_as_external_acceptance": true
     }
   ]
-}
+}\n
