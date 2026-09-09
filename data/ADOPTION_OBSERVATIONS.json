@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-09T17:40:00Z",
+  "counting_boundary": "Observations record externally verifiable downstream propagation. Automatic catalog synchronization, mirrors, and a downstream product's aggregate install count do not prove direct SHAR package adoption, independent citation, external acceptance, or a referral.",
+  "observations": [
+    {
+      "id": "adoption-observation.vscode-schemastore.production-delivery-manifest",
+      "type": "automatic_downstream_catalog_propagation",
+      "downstream_provider": "Visual Studio Marketplace",
+      "downstream_artifact": "remcohaszing.schemastore / JSON Schema Store Catalog",
+      "downstream_url": "https://marketplace.visualstudio.com/items?itemName=remcohaszing.schemastore",
+      "source_repository": "https://github.com/remcohaszing/vscode-schemastore",
+      "relationship_to_SHAR": "The independent extension's public package configuration includes the SHAR Production delivery-manifest schema URL and file match through the SchemaStore catalog.",
+      "observed_installs": 19278,
+      "observations_are_not_direct_shar_installs": true,
+      "counts_as_direct_adoption": false,
+      "counts_as_independent_citation": false,
+      "counts_as_external_acceptance": false,
+      "evidence": {
+        "browser_rendered": true,
+        "marketplace_http_200": true,
+        "marketplace_displayed_installs": 19278,
+        "marketplace_last_updated": "2026-09-09T03:51:27Z",
+        "source_config_contains_schema_url": true,
+        "source_config_schema_url": "https://raw.githubusercontent.com/SHARProduction/production-delivery-manifest-schema/v1.0.0/schema.json",
+        "source_config_file_match": "production-delivery-manifest.json",
+        "source_states_daily_catalog_updates": true,
+        "verified_at": "2026-09-09T17:40:00Z"
+      }
+    }
+  ]
+}

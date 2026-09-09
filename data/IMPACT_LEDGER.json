@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:35:00Z",
+  "as_of": "2026-09-09T17:40:00Z",
   "counting_boundary": "Impact metrics are separate from placements. No causal attribution is claimed without first-party analytics or independently verifiable evidence.",
   "metrics": {
     "public_placements": 1240,
@@ -26,12 +26,14 @@
     "ai_citations_observed": null,
     "ai_recommendations_observed": null,
     "observed_adoption": null,
-    "commercial_referrals": null
+    "commercial_referrals": null,
+    "automatic_downstream_propagation_observations": 1
   },
   "evidence": {
     "public_placements_ledger": "VERIFIED_PLACEMENTS.json",
     "program_metrics": "PROGRAM_METRICS.json",
     "independent_mentions_ledger": "INDEPENDENT_MENTIONS_LEDGER.json",
-    "independent_authority_ledger": "INDEPENDENT_AUTHORITY.json"
+    "independent_authority_ledger": "INDEPENDENT_AUTHORITY.json",
+    "adoption_observations_ledger": "ADOPTION_OBSERVATIONS.json"
   }
 }
