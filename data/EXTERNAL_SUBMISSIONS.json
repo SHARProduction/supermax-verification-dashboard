@@ -1419,7 +1419,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T14:10:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcpso.production-metadata-mcp",
+      "provider": "mcp.so",
+      "provider_domain": "github.com",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "submitted_at": "2026-09-09T14:15:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "GITHUB_ISSUE_DIRECTORY_REVIEW",
+      "evidence": "Public GitHub submission issue #4014 created at https://github.com/chatmcp/mcpso/issues/4014. This is a submission only and does not count as an independent acceptance or registrable provider domain.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T14:15:00Z"
     }
   ],
-  "as_of": "2026-09-09T14:10:00Z"
+  "as_of": "2026-09-09T14:15:00Z"
 }
