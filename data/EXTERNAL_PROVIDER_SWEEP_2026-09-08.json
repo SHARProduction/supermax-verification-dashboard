@@ -2596,10 +2596,10 @@
       "asset_fit": "CONFIRMED_FIT",
       "status": "PROVIDER_SUBMISSION_ERROR",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T00:15:00Z",
+      "checked_at": "2026-09-09T10:20:00Z",
       "evidence": {
         "kind": "live_public_tool_extraction_and_submission_api",
-        "note": "The official tool extractor returned HTTP 200 and JSON-LD-derived tools for https://sharprod.com/, so the site is eligible without changing infrastructure. The documented free submission request with that exact site and no managed option returned HTTP 500 before a receipt or listing was created. Do not retry without new provider evidence."
+        "note": "Provider extractor continues to return HTTP 200 and JSON-LD-derived tools for https://sharprod.com/, so the site remains technically eligible without infrastructure changes. A factual free-listing POST to /api/v1/directory/submit was emitted, but this runtime did not receive a receipt, redirect, response body, or public URL before close. Earlier 2026-09-09 attempt received HTTP 500. No claim of submission or listing; do not retry until a public listing, email receipt, or changed provider behavior supplies new evidence."
       }
     },
     {
