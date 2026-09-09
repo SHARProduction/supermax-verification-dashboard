@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T18:00:30Z",
+  "as_of": "2026-09-09T18:04:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -533,12 +533,21 @@
       "owner_action": "No action now. Reconsider beta acknowledgement only after the provider produces a completed, evidence-bearing scan; it currently requires a commitment to provide beta feedback.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "PROVIDER_SCAN_INCOMPLETE_NO_OWNER_ACTION"
+    },
+    {
+      "provider": "Postman API Network",
+      "value": "TIER_A — native public MCP/API discovery ecosystem",
+      "exact_url": "https://www.postman.com/",
+      "prepared": "Postman officially supports public MCP collections and promotes approved collections into its MCP Catalog. Existing remote SHAR Public Knowledge MCP was verified without any server change: POST https://mcp.sharprod.com/public with Content-Type application/json, Accept application/json, text/event-stream, MCP-Protocol-Version 2026-07-28, MCP-Method server/discover and JSON-RPC method server/discover returned HTTP 200 with complete capabilities and serverInfo shar-public-knowledge v0.1.0. A factual public collection can document this existing read-only endpoint, its AI-video/CGI/hybrid-production knowledge scope, the no-credentials boundary, and the server-discovery request. No Postman account, public workspace, collection, email request, catalogue review, or public Postman URL exists yet.",
+      "owner_action": "Authenticate with the authorised free Postman account. Create a public collection that uses the verified remote MCP configuration only; publish it, then send the collection URL to api-network@postman.com for catalog review. Do not add credentials, private briefs, or unsupported capabilities.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_POSTMAN_ACCOUNT_AND_PUBLICATION"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
   "summary": {
-    "high_quality_routes": 55,
-    "tier_a": 31,
+    "high_quality_routes": 56,
+    "tier_a": 32,
     "tier_b": 24
   }
 }
