@@ -5149,6 +5149,35 @@
         "kind": "live_submission_auth_gate",
         "note": "Public directory shows Dev Tools and AI & Automation categories and advertises free startup submissions. Actual submit route redirects to login with email/password fields and hidden recaptcha token. No account or submission created."
       }
+    },
+    {
+      "provider": "MCP Server Finder",
+      "provider_domain": "mcpserverfinder.com",
+      "homepage": "https://www.mcpserverfinder.com/",
+      "submission_url": "mailto:info@mcpserverfinder.com",
+      "source_catalog": "Web fallback discovery and live official route inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "unknown",
+        "auth_type": "email_outreach_required",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "OWNER_GATE_EMAIL_OUTREACH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.mcpserverfinder.com/",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T12:00:00Z",
+      "evidence": {
+        "kind": "live_directory_and_submission_route",
+        "note": "Active catalog lists 1,934 MCP servers and relevant Validation/Video/3D categories. Its only public Submit link is mailto:info@mcpserverfinder.com; /submit returns 404. No email sent without explicit owner authorisation."
+      }
     }
   ]
 }
