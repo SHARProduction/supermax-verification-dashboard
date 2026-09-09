@@ -4421,6 +4421,21 @@
         "kind": "official_live_directory_and_faq",
         "note": "Contra presents a vetted studio directory with Video Production categories. Its public criteria are craft, response time, shipped work and live client feedback; approved profiles are public and commission-free. A normal account plus factual portfolio/team details is required before any application can be made. No account, submission, receipt or public SHAR profile exists."
       }
+    },
+    {
+      "provider": "MCP Hub",
+      "provider_domain": "aimcp.info",
+      "homepage": "https://www.aimcp.info/",
+      "submission_url": "https://www.aimcp.info/en/submit",
+      "source_catalog": "Official live MCP submit form and API receipt inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_MCP_SERVER",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T04:14:12Z",
+      "evidence": {
+        "kind": "provider_api_receipt",
+        "note": "No-auth public MCP form accepted the factual existing SHAR Production Metadata MCP. POST /api/mcps/submit returned HTTP 201 and provider receipt id 1528 with status pending. It is not a public listing or acceptance yet."
+      }
     }
   ]
 }

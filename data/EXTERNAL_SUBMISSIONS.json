@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-08T23:52:00Z",
+  "generated_at": "2026-09-09T04:15:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1001,6 +1001,25 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-10-08T23:52:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcp-hub.production-metadata-mcp",
+      "provider": "MCP Hub",
+      "provider_domain": "aimcp.info",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T00:14:12Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW",
+      "evidence": "Provider API POST /api/mcps/submit returned HTTP 201 with receipt id=1528, status=pending, source repository, SHAR Production author, public homepage, factual description, and no newsletter opt-in.",
+      "evidence_url": "https://www.aimcp.info/en/submit",
+      "provider_receipt_id": "1528",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T00:14:12Z"
     }
   ]
 }
