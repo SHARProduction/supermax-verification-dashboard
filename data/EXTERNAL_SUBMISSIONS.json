@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:29:32Z",
+  "generated_at": "2026-09-09T14:31:43Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1714,7 +1714,27 @@
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": null,
       "last_public_recheck_evidence": null
+    },
+    {
+      "submission_id": "supermax.submission.gate.production-public-knowledge-mcp",
+      "provider": "gate",
+      "provider_domain": "gateturbo.com",
+      "asset": "SHAR Production Public Knowledge MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "endpoint_url": "https://mcp.sharprod.com/public",
+      "submitted_at": "2026-09-09T14:31:43Z",
+      "status": "SUBMITTED",
+      "submission_kind": "SECURITY_SCANNED_DIRECTORY_REVIEW",
+      "evidence": "Provider live scan connected to the existing public Streamable HTTP endpoint, scanned 15 of 15 tools, and returned A / 100 of 100. Browser response after factual free form submission: This server is already waiting for review; provider says it will email the result. This is a pending review, not a public listing or security certification.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T14:31:43Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": null,
+      "last_public_recheck_evidence": null
     }
   ],
-  "as_of": "2026-09-09T14:29:32Z"
+  "as_of": "2026-09-09T14:31:43Z"
 }
