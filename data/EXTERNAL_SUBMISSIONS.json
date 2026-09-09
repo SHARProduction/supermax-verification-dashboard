@@ -1180,6 +1180,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T01:54:34Z"
+    },
+    {
+      "submission_id": "supermax.submission.theskillsdirectory.shar-production-metadata-validation-pr-11",
+      "provider": "The Skills Directory",
+      "provider_domain": "theskills.directory",
+      "asset": "shar-production-metadata-validation",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp/tree/main/skills/shar-production-metadata-validation",
+      "submitted_at": "2026-09-09T02:00:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_MAINTAINER_PR",
+      "evidence": "Public external PR #11: https://github.com/theskillsdirectory/skills/pull/11. The contribution is an MIT-licensed, source-linked skill; it declares Codex as tested based on current-environment functional execution of the underlying MCP test suite. Maintainer acceptance is pending.",
+      "evidence_url": "https://github.com/theskillsdirectory/skills/pull/11",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T02:00:00Z"
     }
   ]
 }

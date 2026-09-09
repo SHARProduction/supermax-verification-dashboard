@@ -5741,6 +5741,21 @@
         "kind": "official_live_submission_route",
         "note": "Public review form accepts GitHub repo, category and description but explicitly requires GitHub login to verify identity and authorship. No authentication, submission, receipt or public SHAR listing was created."
       }
+    },
+    {
+      "provider": "The Skills Directory",
+      "provider_domain": "theskills.directory",
+      "homepage": "https://theskills.directory/",
+      "submission_url": "https://github.com/theskillsdirectory/skills/pull/11",
+      "source_catalog": "upstream contribution repository and contributor guide inspected live",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T02:00:00Z",
+      "evidence": {
+        "kind": "public_external_maintainer_pr",
+        "note": "Opened public PR #11 containing a source-linked, MIT-licensed SHAR Production metadata-validation skill. This is an external maintainer review submission; it does not count as published or accepted until merged and publicly listed."
+      }
     }
   ]
 }
