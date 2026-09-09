@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T08:35:00Z",
+  "collected_at": "2026-09-09T08:55:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -547,27 +547,31 @@
     {
       "provider": "AI Library",
       "provider_domain": "library.phygital.plus",
-      "homepage": "https://library.phygital.plus",
+      "homepage": "https://library.phygital.plus/",
       "submission_url": "https://library.phygital.plus/tool-submission",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_catalog": "Live official submission form inspected 2026-09-09",
       "source_status": {
-        "site_status": "domain_dead",
-        "pricing_type": "free",
-        "auth_type": "unknown",
-        "captcha_type": "unknown"
+        "site_status": "active",
+        "pricing_type": "free_anonymous_form",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "INELIGIBLE_CURRENT_ASSET_CATEGORY_MISMATCH",
+      "status": "INELIGIBLE_CURRENT_ASSET_CATEGORY_MISMATCH",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://library.phygital.plus/tool-submission",
       "signals": {
         "form": true,
-        "captcha": true,
+        "captcha": false,
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T08:55:00Z",
+      "evidence": {
+        "kind": "live_anonymous_form_and_provider_scope",
+        "note": "The live form accepts a link, description and contact without authentication. The provider identifies its catalog as AI tools and colabs for graphics, design and art. The current SHAR asset is a production-metadata validation MCP, not a creative-generation tool, so no submission was made."
+      }
     },
     {
       "provider": "AI Marketing",
