@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T04:40:00Z",
+  "generated_at": "2026-09-09T13:50:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1070,6 +1070,24 @@
       "recheck_after": "2026-09-11T10:45:00Z",
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/"
+    },
+    {
+      "submission_id": "supermax.submission.mcpfinder.production-metadata-mcp",
+      "provider": "MCPfinder",
+      "provider_domain": "mcpfinder.org",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T13:50:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW",
+      "evidence": "Official free form POST rendered: This repository has already been submitted and is under review. No public listing URL was available.",
+      "evidence_url": "https://www.mcpfinder.org/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-11T13:50:00Z"
     }
   ]
 }

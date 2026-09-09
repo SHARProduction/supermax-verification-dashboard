@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T13:35:00Z",
+  "collected_at": "2026-09-09T13:50:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5266,6 +5266,36 @@
       "evidence": {
         "kind": "live_form_post_with_provider_redirect_failure",
         "note": "The anonymous free official form accepted factual SHAR Production Metadata MCP fields and POSTed them to /api/submit. Provider returned HTTP 307 to /submit?success=1, but its redirect method preserved POST and the next response was HTTP 405, so no receipt or success UI was observable. No public listing was found immediately. Do not count or resubmit blindly; recheck public listing after the stated review window."
+      }
+    },
+    {
+      "provider": "MCPfinder",
+      "provider_domain": "mcpfinder.org",
+      "homepage": "https://www.mcpfinder.org/",
+      "submission_url": "https://www.mcpfinder.org/submit",
+      "source_catalog": "Exa discovery plus live official form confirmation 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_review",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.mcpfinder.org/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T13:50:00Z",
+      "recheck_after": "2026-09-11T13:50:00Z",
+      "evidence": {
+        "kind": "live_official_submission_confirmation",
+        "note": "The official free form accepted factual SHAR metadata. The live rendered response after POST stated exactly: This repository has already been submitted and is under review. This proves review-pending state only; no public listing URL was rendered and no verified placement is claimed."
       }
     }
   ]
