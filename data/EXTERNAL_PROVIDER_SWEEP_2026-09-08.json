@@ -573,7 +573,7 @@
         "auth_type": "none",
         "captcha_type": "none"
       },
-      "asset_fit": "INELIGIBLE_PAID_LISTING_ONLY",
+      "asset_fit": "INELIGIBLE_CURRENT_ASSET_NOT_MARKETING_TOOL",
       "status": "INELIGIBLE_PAID_ONLY",
       "counts_as_placement": false,
       "http_status": 200,
@@ -584,10 +584,10 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-09T00:12:00Z",
+      "checked_at": "2026-09-09T03:20:00Z",
       "evidence": {
-        "kind": "live_submission_route_review",
-        "note": "Live submit page advertises its placement package as a $100 value, newsletter promotion and 48-hour listing; no free submission control or route is exposed."
+        "kind": "live_public_submit_route",
+        "note": "Live submit route presents no free form. Its only actionable listing route is a USD 79 one-time fast-track offer, and the directory states that it lists AI tools for entrepreneurs and marketers. The current rights-aware production-metadata MCP is not a factual marketing-tool fit. No submission made."
       }
     },
     {
@@ -873,8 +873,8 @@
         "auth_type": "none",
         "captcha_type": "none"
       },
-      "asset_fit": "NO_VERIFIED_SUBMISSION_ROUTE",
-      "status": "INELIGIBLE_NO_PUBLIC_DIRECTORY_SUBMISSION_ROUTE",
+      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
+      "status": "PROVIDER_SUBMISSION_ROUTE_NOT_FOUND",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aitoolsarena.com/",
@@ -884,10 +884,10 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-09T00:12:00Z",
+      "checked_at": "2026-09-09T03:20:00Z",
       "evidence": {
-        "kind": "live_submission_route_review",
-        "note": "Live site exposes a general Contact Us form only. There is no documented tool-listing submission workflow, price, review process, or factual MCP fit, so the contact form was not misused as a directory submission."
+        "kind": "live_public_site_check",
+        "note": "Homepage is active but exposes a contact form only. The likely /submit-tool path returns 404; no public submission route or terms for adding the existing MCP were found. No contact message sent and no placement claimed."
       }
     },
     {
