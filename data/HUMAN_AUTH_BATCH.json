@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T14:39:53Z",
+  "as_of": "2026-09-09T14:44:16Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -587,6 +587,15 @@
       "owner_action": "Authenticate through Stork normal supported sign-in flow, then leave the populated free submission form for completion.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "HUMAN_GATE_SIGN_IN"
+    },
+    {
+      "provider": "AgenticMarket",
+      "value": "TIER_A — independent MCP distribution directory with documented installation across 13+ IDEs and a free creator listing route.",
+      "exact_url": "https://agenticmarket.dev/dashboard/submit",
+      "prepared": "Live route rechecked 2026-09-09: authenticated dashboard submission is required. Prepared factual asset: SHAR Production Public Knowledge MCP; public source https://github.com/SHARProduction/production-metadata-mcp; endpoint https://mcp.sharprod.com/public; homepage https://sharprod.com/. No payment, submission, receipt, or public listing exists.",
+      "owner_action": "Sign in through the normal supported AgenticMarket GitHub, Google, or email/password flow, then leave the dashboard submission page open.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "HUMAN_GATE_ACCOUNT_AUTHENTICATION_REQUIRED"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
