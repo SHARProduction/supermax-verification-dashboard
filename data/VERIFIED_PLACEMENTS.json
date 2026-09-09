@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T12:15:00Z",
-  "counted_placements": 700,
+  "generated_at": "2026-09-09T13:20:00Z",
+  "counted_placements": 701,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12908,6 +12908,25 @@
         "source_url": "https://github.com/SHARProduction/rights-labelled-conformance-corpus",
         "source_function_test": "rights-labelled-conformance-corpus source suite passed 5/5 on 2026-09-09",
         "functional_check": "Public Zenodo record returned HTTP 200 with canonical URL, rendered title, SHAR Production creator, CC BY 4.0 license, version 0.1.2, and downloadable dataset archive."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.mcpi.shar-public-knowledge-mcp",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "mcpi",
+      "provider_ecosystem": "mcpi",
+      "url": "https://mcpi.app/servers/shar-public-knowledge-mcp",
+      "source": "external-provider-sweep",
+      "verified_at": "2026-09-09T13:20:00Z",
+      "verification": {
+        "http_200": true,
+        "canonical": "https://mcpi.app/servers/shar-public-knowledge-mcp",
+        "browser_rendered": true,
+        "public_listing": true,
+        "brand_and_endpoint": true,
+        "endpoint_initialize_http_200": true,
+        "endpoint_protocol": "2025-11-25",
+        "content": "SHAR Public Knowledge MCP; anonymous read-only source-backed public SHAR Production knowledge"
       }
     }
   ]

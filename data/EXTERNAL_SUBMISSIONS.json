@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T13:12:00Z",
+  "generated_at": "2026-09-09T13:20:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1367,7 +1367,25 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T12:44:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcpi.shar-public-knowledge-mcp",
+      "provider": "mcpi",
+      "provider_domain": "mcpi.app",
+      "asset": "SHAR Public Knowledge MCP",
+      "source_url": "https://mcp.sharprod.com/public",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "status": "PUBLISHED_VERIFIED",
+      "submission_kind": "DIRECTORY_DISCOVERY_AND_OWNER_LISTING",
+      "evidence": "mcpi lookup found an existing public card. Browser and HTTP verification: 200, canonical card URL, SHAR Production public knowledge description and mcp.sharprod.com/public endpoint. Direct MCP initialize recheck returned HTTP 200 with shar-public-knowledge and protocol 2025-11-25.",
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "public_url": "https://mcpi.app/servers/shar-public-knowledge-mcp",
+      "evidence_url": "https://mcpi.app/servers/shar-public-knowledge-mcp",
+      "verified_at": "2026-09-09T13:20:00Z"
     }
   ],
-  "as_of": "2026-09-09T13:12:00Z"
+  "as_of": "2026-09-09T13:20:00Z"
 }
