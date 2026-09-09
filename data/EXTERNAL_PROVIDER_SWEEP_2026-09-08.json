@@ -4975,6 +4975,35 @@
         "kind": "live_official_submission_form",
         "note": "Free reviewed listing with public GitHub repository or working install command is applicable to the existing public SHAR MCP. Form states reCAPTCHA v3 protection. No submission sent and no CAPTCHA automated."
       }
+    },
+    {
+      "provider": "MCP Server Hub",
+      "provider_domain": "mcp-servers-hub.net",
+      "homepage": "https://www.mcp-servers-hub.net/",
+      "submission_url": "https://www.mcp-servers-hub.net/submit",
+      "source_catalog": "Web fallback discovery 2026-09-09; live route inspection",
+      "source_status": {
+        "site_status": "technical_redirect_no_service",
+        "pricing_type": "unknown",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "UNDETERMINED_PROVIDER_UNAVAILABLE",
+      "status": "TECHNICALLY_UNAVAILABLE",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.mcp-servers-hub.net/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T11:10:00Z",
+      "evidence": {
+        "kind": "live_browser_route_check",
+        "note": "Homepage, /submit, and /contact all rendered an empty Redirecting page with no catalog, public listings, links, or submission form. No submission attempted."
+      }
     }
   ]
 }
