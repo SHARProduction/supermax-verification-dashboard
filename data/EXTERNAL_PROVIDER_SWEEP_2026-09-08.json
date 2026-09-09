@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:15:00Z",
+  "collected_at": "2026-09-09T15:35:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5530,6 +5530,33 @@
       "evidence": {
         "kind": "official_crawler_rules_and_live_source_metadata",
         "note": "Official docs state the crawler discovers public repositories with SKILL.md and the ai-skill topic. The SHAR repository is public, MIT-licensed, contains the production skill, and GitHub API confirmed its ai-skill topic at this check. Automatic discovery is not a public listing or independent acceptance; no count until a public card is observed."
+      }
+    },
+    {
+      "provider": "Cline MCP Marketplace",
+      "provider_domain": "github.com",
+      "homepage": "https://github.com/cline/mcp-marketplace",
+      "submission_url": "https://github.com/cline/mcp-marketplace/issues/new?template=mcp-server-submission.yml",
+      "source_catalog": "Official marketplace README and local public-source readiness check 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_maintainer_review",
+        "auth_type": "github_issue_submission",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_AFTER_REQUIRED_CLINE_SETUP_TEST",
+      "status": "READY_REQUIRES_CLINE_TEST_AND_ICON",
+      "counts_as_placement": false,
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:35:00Z",
+      "evidence": {
+        "kind": "official_contribution_requirements_and_prepared_install_guide",
+        "note": "Official Cline Marketplace requires a direct repository URL, 400x400 PNG logo, rationale, and confirmation that Cline successfully installed from README and/or llms-install.md. SHAR source now has a factual llms-install.md and passing local tests, but no real Cline setup test or suitable icon is evidenced. No issue submitted. GitHub merge/acceptance would be external ecosystem value but not a new registrable domain."
       }
     }
   ]
