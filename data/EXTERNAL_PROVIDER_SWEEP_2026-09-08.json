@@ -5062,6 +5062,35 @@
         "kind": "live_provider_auth_requirement",
         "note": "Current submit route renders Sign In Required and no anonymous submission form. No authentication or submission performed."
       }
+    },
+    {
+      "provider": "AInexFinder",
+      "provider_domain": "ainexfinder.com",
+      "homepage": "https://ainexfinder.com/",
+      "submission_url": "https://ainexfinder.com/submit",
+      "source_catalog": "Web fallback discovery and live official form inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "nominally_free_backlink_required",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "INELIGIBLE_CURRENT_ASSET_CATEGORY_AND_BACKLINK_REQUIREMENT",
+      "status": "INELIGIBLE_MANDATORY_BACKLINK_AND_PRODUCT_MISMATCH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://ainexfinder.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T11:30:00Z",
+      "evidence": {
+        "kind": "live_official_submission_form",
+        "note": "Provider requires a Featured on AInexfinder badge/backlink to be placed on the applicant homepage and verified before submission. It also requires a 250-word consumer-AI product listing and logo. Current SHAR metadata MCP is not appropriately represented as a general consumer AI tool, and production-site changes solely for directory compliance are disallowed. No submission attempted."
+      }
     }
   ]
 }
