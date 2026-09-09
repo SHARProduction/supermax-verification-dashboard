@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T14:47:29Z",
+  "as_of": "2026-09-09T15:04:49Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -600,11 +600,12 @@
     {
       "provider": "CuratedMCP",
       "value": "TIER_A — independent curated MCP marketplace with a free public listing, install configs for six agent clients, and human review.",
-      "exact_url": "https://www.curatedmcp.com/dashboard/servers/new",
-      "prepared": "Live free listing offer and submit route rechecked 2026-09-09. Submission requires normal Google or GitHub authentication; no other owner data is currently requested. Prepared factual asset: SHAR Production Public Knowledge MCP; source https://github.com/SHARProduction/production-metadata-mcp; public endpoint https://mcp.sharprod.com/public; homepage https://sharprod.com/. No payment, submission, receipt, or public card exists.",
-      "owner_action": "Complete the normal supported CuratedMCP Google or GitHub sign-in and leave the redirected dashboard page open.",
+      "exact_url": "https://www.curatedmcp.com/login?callbackUrl=https%3A%2F%2Fwww.curatedmcp.com%2Fdashboard%2Fsubmit",
+      "prepared": "Free publish route and factual existing SHAR Production Metadata MCP submission payload are prepared. Live session check on 2026-09-09 redirects from /dashboard/submit to the official sign-in page; no authenticated provider session exists in this runtime.",
+      "owner_action": "Authenticate with the provider using its official Google or GitHub sign-in, then leave the dashboard session available.",
       "continuation_after_human_auth": "UNKNOWN",
-      "status": "HUMAN_GATE_GITHUB_OR_GOOGLE_AUTH"
+      "status": "HUMAN_GATE_GITHUB_OR_GOOGLE_AUTH",
+      "last_checked_at": "2026-09-09T15:04:49Z"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
