@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T03:25:00Z",
+  "as_of": "2026-09-09T15:20:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -484,7 +484,7 @@
       "provider": "MCP ServerList",
       "value": "TIER_B — public, crawlable MCP directory with free standard review tier",
       "exact_url": "https://mcpserverlist.net/submit",
-      "prepared": "Official submit page states Free standard listing is reviewed in queue and public/crawlable after approval. It requires a free email account; social sign-in is not configured. Prepared factual submission: SHAR Production Metadata MCP; public endpoint https://mcp.sharprod.com/public; source https://github.com/SHARProduction/production-metadata-mcp; homepage https://sharprod.com/; shar@sharprod.com. No account, submission, receipt, or listing exists.",
+      "prepared": "Official submit page rechecked 2026-09-09: free standard listing is reviewed in queue and public/crawlable after approval. Social sign-in is not configured; an email account is required. Prepared factual submission: SHAR Production Metadata MCP; public endpoint https://mcp.sharprod.com/public; source https://github.com/SHARProduction/production-metadata-mcp; homepage https://sharprod.com/. The authorised registration email is held outside this public ledger. No account, submission, receipt, or listing exists.",
       "owner_action": "Create or authenticate the free MCP ServerList email account through its normal supported flow, then submit only factual SHAR MCP details.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT_EMAIL_VERIFICATION"

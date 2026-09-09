@@ -3620,7 +3620,7 @@
       "asset_fit": "CONFIRMED_FIT_GLOBAL_PRODUCTION_COMPANY_DIRECTORY",
       "status": "OWNER_GATE_REQUIRED_IDENTITY_AND_CONTACT",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T20:10:00.000Z",
+      "checked_at": "2026-09-08T20:10:00Z",
       "evidence": {
         "kind": "official_free_plan_and_form",
         "note": "Screen Global Production offers a Basic plan with no listed price, three categories and a public basic profile. Its registration requires personal first and last name, job role, email, telephone and company contact data. No personal identity or contact fields were invented."
@@ -3635,7 +3635,7 @@
       "asset_fit": "INELIGIBLE_INDIA_ONLY_PRODUCTION_NETWORK",
       "status": "INELIGIBLE_REGIONAL_SCOPE",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T20:10:00.000Z",
+      "checked_at": "2026-09-08T20:10:00Z",
       "evidence": {
         "kind": "official_how_it_works",
         "note": "AIO Cine describes free early-access company registration but explicitly states profiles are searchable by production houses across India. SHAR is not represented as an India-based company, so no registration was attempted."
@@ -6149,10 +6149,10 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-09T21:05:00Z",
+      "checked_at": "2026-09-09T15:20:00Z",
       "evidence": {
         "kind": "official_free_standard_listing_route",
-        "note": "Official page says a free standard listing is reviewed in queue and its server page stays public and crawlable after approval. It requires an email account; no account, submission, receipt, or SHAR card has been created."
+        "note": "Live recheck: official submit page offers a free standard listing, reviewed in queue, with a public/crawlable server page after approval. Social sign-in is not configured; a free email account is required. Account identity is held outside the public ledger. No account, submission, receipt, or SHAR card exists."
       }
     },
     {
