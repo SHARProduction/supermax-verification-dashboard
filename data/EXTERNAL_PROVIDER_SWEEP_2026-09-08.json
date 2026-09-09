@@ -5816,6 +5816,21 @@
         "kind": "official_live_submission_form",
         "note": "Independent curated MCP directory; form requires only Name, Email, GitHub URL, category and Google reCAPTCHA. Exact prepared values: SHAR Production; shar@sharprod.com; https://github.com/SHARProduction/production-metadata-mcp; Tools. Visible owner tab opened for CAPTCHA. No submission, receipt or listing yet."
       }
+    },
+    {
+      "provider": "MCP House",
+      "provider_domain": "mcp.house",
+      "homepage": "https://mcp.house/",
+      "submission_url": "https://mcp.house/showcase/submit-your-server",
+      "source_catalog": "independent live discovery and official submit guide",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "PROVIDER_SUBMISSION_ROUTE_NOT_FOUND",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T02:18:00Z",
+      "evidence": {
+        "kind": "official_guide_and_live_upstream_check",
+        "note": "Official guide says to submit an MDX entry by PR to https://github.com/QuantGeekDev/mcp-house. The advertised repository returned “Repository not found” to a public clone attempt. No actual contribution route exists at present; no PR or submission was created."
+      }
     }
   ]
 }
