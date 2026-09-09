@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:16:54Z",
+  "collected_at": "2026-09-09T15:18:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6402,6 +6402,35 @@
       "evidence": {
         "kind": "live_form_and_final_auth_gate",
         "note": "The public form accepted only factual SHAR MCP data and exposed a free pricing choice, but final Submit redirected to official sign-in with a provider message requiring sign-in. No account, submission, receipt, or public card exists."
+      }
+    },
+    {
+      "provider": "RepoHunt",
+      "provider_domain": "repohunt.org",
+      "homepage": "https://repohunt.org/",
+      "submission_url": "https://repohunt.org/submit",
+      "source_catalog": "Web discovery and live submission-route verification 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "unknown",
+        "auth_type": "email_otp_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_DEVELOPER_TOOL",
+      "status": "OWNER_GATE_EMAIL_OTP",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://repohunt.org/login",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:18:00Z",
+      "evidence": {
+        "kind": "live_login_gate",
+        "note": "Public Submit a Tool route redirects to the official login form, which requires email and a six-digit verification code. No account, code, submission, receipt, or public SHAR card exists."
       }
     }
   ]

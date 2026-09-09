@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:16:54Z",
+  "as_of": "2026-09-09T15:18:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -626,6 +626,16 @@
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT",
       "last_checked_at": "2026-09-09T15:16:54Z"
+    },
+    {
+      "provider": "RepoHunt",
+      "value": "TIER_B — independent open-source and AI-tool directory",
+      "exact_url": "https://repohunt.org/login",
+      "prepared": "The public project source is https://github.com/SHARProduction/production-metadata-mcp. RepoHunt submission route redirects directly to its email-code login page before the form.",
+      "owner_action": "Authenticate through the provider’s official email verification flow, then open /submit.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_EMAIL_OTP",
+      "last_checked_at": "2026-09-09T15:18:00Z"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
