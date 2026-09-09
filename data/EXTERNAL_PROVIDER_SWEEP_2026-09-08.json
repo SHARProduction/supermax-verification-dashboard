@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:31:00Z",
+  "collected_at": "2026-09-09T15:36:17Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6549,6 +6549,36 @@
         "kind": "live_public_directory_search",
         "note": "SafeMCP advertises a free no-signup directory of MCP servers. Live exact SHAR search returned one unrelated SharePoint result and no SHAR public card; no public source submission or claim route is exposed. Do not count or retry until provider exposes a qualifying route or independent public SHAR card."
       }
+    },
+    {
+      "provider": "TinyLaunchpad",
+      "provider_domain": "tinylaunchpad.com",
+      "homepage": "https://tinylaunchpad.com/",
+      "submission_url": "https://tinylaunchpad.com/projects/submit",
+      "source_catalog": "Live pricing and submission route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_queue_available",
+        "auth_type": "account_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONDITIONAL_FIT_OPEN_SOURCE_DEVELOPER_AI_TOOL",
+      "status": "OWNER_GATE_ACCOUNT_FREE_ROUTE",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://tinylaunchpad.com/sign-in?redirect=/projects/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:36:17Z",
+      "evidence": {
+        "kind": "live_pricing_and_auth_route",
+        "note": "Pricing shows Forever Free $0 launch for hobby and side projects, with no credit card; paid Premium and subscription upsells were not selected. The factual open-source SHAR MCP is conditionally eligible as a developer/AI tool. Submission requires account authentication before project fields are visible. A future accepted public card is required before any count."
+      }
     }
-  ]
+  ],
+  "as_of": "2026-09-09T15:36:17Z"
 }

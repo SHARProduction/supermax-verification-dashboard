@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:33:57Z",
+  "as_of": "2026-09-09T15:36:17Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
-      "provider": "DevHunt",
-      "value": "TIER_B — developer-tool discovery",
-      "exact_url": "https://devhunt.org",
-      "prepared": "DevHunt is an active developer-tool directory with Open Source and AI categories. Its explicit Submit your Dev Tool route redirects to login. No account, submission receipt or public SHAR card exists.",
-      "owner_action": "Authenticate with the provider account.",
-      "continuation_after_human_auth": "UNKNOWN",
+      "provider": "TinyLaunchpad",
+      "value": "TIER_C — independent weekly product discovery platform; free review queue is available for an eligible open-source side project",
+      "exact_url": "https://tinylaunchpad.com/projects/submit",
+      "prepared": "Live pricing confirms a $0 Forever Free launch with no credit card; paid Premium/Launch Pass options were not selected. The factual SHAR Production Metadata MCP project fits the platform as an open-source developer/AI tool, but the submission route redirects to sign-in. No account, project submission, review claim, or public card exists.",
+      "owner_action": "Authenticate through the provider official Google, GitHub, or email flow; select only the $0 Forever Free launch. Leave the authenticated session at the project submission form.",
+      "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_ACCOUNT"
     },
     {
