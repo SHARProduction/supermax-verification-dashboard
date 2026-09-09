@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T03:25:00Z",
+  "updated_at": "2026-09-09T16:11:00Z",
   "purpose": "Prepared high-value owner-only gates. These rows are not accounts, submissions, or placements.",
   "rules": {
     "no_passwords_or_tokens_recorded": true,
@@ -170,6 +170,21 @@
       "expected_time_complexity": "Await runtime form-input capability",
       "agent_after_human_gate": "A runtime with ordinary form input submits the prepared public repository URL and verifies public listing",
       "status": "AUTHENTICATED_SESSION_OBSERVED_UI_SUBMISSION_CAPABILITY_UNAVAILABLE",
+      "zero_spend": true,
+      "public_placement_exists": false,
+      "counts_as_verified": false
+    },
+    {
+      "provider": "LobeHub MCP Marketplace",
+      "registrable_domain": "lobehub.com",
+      "tier": "TIER_A",
+      "value": "Large independent agent/MCP marketplace with a public installation ecosystem",
+      "why_it_matters": "Potential public MCP marketplace card and install route for the existing read-only stdio server",
+      "current_step": "PREPARED_TO_HUMAN_GATE",
+      "exact_human_action": "Sign in to LobeHub and link the authorized GitHub account once through the official CLI/browser flow",
+      "expected_time_complexity": "One LobeHub login plus GitHub link; organization-repository submission may be affected by a current provider issue",
+      "agent_after_human_gate": "Agent runs the official market CLI against the existing public repository, stops on any unsupported deployment metadata, and verifies a public card before counting",
+      "status": "OWNER_GATE_LOBEHUB_LOGIN_AND_GITHUB_LINK",
       "zero_spend": true,
       "public_placement_exists": false,
       "counts_as_verified": false
