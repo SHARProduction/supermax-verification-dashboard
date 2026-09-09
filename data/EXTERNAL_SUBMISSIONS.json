@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:18:34Z",
+  "generated_at": "2026-09-09T14:21:09Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1663,7 +1663,23 @@
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": null,
       "last_public_recheck_evidence": null
+    },
+    {
+      "submission_id": "supermax.submission.mcpexplorer.production-metadata-mcp",
+      "provider": "MCPExplorer",
+      "provider_domain": "mcpexplorer.com",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T14:21:09Z",
+      "status": "SUBMITTED",
+      "evidence": "MCPExplorer receipt: Submitted — pending review. We crawl it once an operator approves. Provider documents subsequent provenance-backed verification and scoring before a public page enters its sitemap.",
+      "counts_as_published_verified": false,
+      "recheck_after": "2026-09-16T14:21:09Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": null,
+      "last_public_recheck_evidence": null
     }
   ],
-  "as_of": "2026-09-09T14:18:34Z"
+  "as_of": "2026-09-09T14:21:09Z"
 }
