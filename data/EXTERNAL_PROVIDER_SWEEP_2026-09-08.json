@@ -5522,21 +5522,21 @@
         "captcha_type": "none"
       },
       "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
-      "status": "PUBLIC_AUTO_DISCOVERY_ELIGIBLE_PENDING",
+      "status": "PROVIDER_REVOKED_HTTP_410",
       "counts_as_placement": false,
-      "http_status": 200,
-      "final_url": "https://agentskillsindex.com/en/docs/publishing",
+      "http_status": 410,
+      "final_url": "https://agentskillsindex.com/",
       "signals": {
         "form": false,
         "captcha": false,
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-09T15:15:00Z",
+      "checked_at": "2026-09-09T16:20:00Z",
       "recheck_after": "2026-09-16T15:15:00Z",
       "evidence": {
         "kind": "official_crawler_rules_and_live_source_metadata",
-        "note": "Official docs state the crawler discovers public repositories with SKILL.md and the ai-skill topic. The SHAR repository is public, MIT-licensed, contains the production skill, and GitHub API confirmed its ai-skill topic at this check. Automatic discovery is not a public listing or independent acceptance; no count until a public card is observed."
+        "note": "Live browser navigation to the provider homepage returned HTTP 410 Gone with nginx response. Earlier publishing documentation is stale; no public listing, submission or acceptance exists."
       }
     },
     {
