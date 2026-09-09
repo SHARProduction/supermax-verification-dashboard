@@ -975,7 +975,8 @@
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": "2026-09-09T15:05:00Z",
-      "last_public_recheck_evidence": "Browser receipt states “This skill is already listed” and exposes public skill URL; direct HTTP verification returned 200 with title “shar-production-metadata-validation: Reusable for AI Agents | OpenAgentSkill”."
+      "last_public_recheck_evidence": "Browser receipt states “This skill is already listed” and exposes public skill URL; direct HTTP verification returned 200 with title “shar-production-metadata-validation: Reusable for AI Agents | OpenAgentSkill”.",
+      "public_url": "https://www.openagentskill.com/skills/sharproduction-production-metadata-mcp-shar-production-metadata-validation"
     },
     {
       "submission_id": "supermax.submission.alltoolsdirectory.production-metadata-mcp",
