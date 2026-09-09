@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T08:15:00Z",
+  "collected_at": "2026-09-09T08:35:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -347,28 +347,32 @@
     },
     {
       "provider": "AI Dude Info",
-      "provider_domain": "aiwizard.ai",
-      "homepage": "https://www.aiwizard.ai",
-      "submission_url": "https://aidude.info/submit-your-tool",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "provider_domain": "aidude.info",
+      "homepage": "https://aidude.info/",
+      "submission_url": "https://submit.aidude.info/",
+      "source_catalog": "Live public info and linked submit route inspected 2026-09-09",
       "source_status": {
-        "site_status": "not_found",
-        "pricing_type": "paid",
-        "auth_type": "google_only",
-        "captcha_type": "none"
+        "site_status": "active",
+        "pricing_type": "unknown",
+        "auth_type": "Google_only_observed",
+        "captcha_type": "Google_browser_security_boundary"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "POTENTIAL_FIT_AI_AGENT_UTILITY",
+      "status": "HUMAN_GATE_GOOGLE_AUTH",
       "counts_as_placement": false,
       "http_status": 200,
-      "final_url": "https://aidude.info/submit-your-tool",
+      "final_url": "https://submit.aidude.info/",
       "signals": {
-        "form": true,
+        "form": false,
         "captcha": false,
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T08:35:00Z",
+      "evidence": {
+        "kind": "linked_live_submission_auth_ui",
+        "note": "The public page links to submit.aidude.info, which exposes Sign in with Google. No account, submission, acceptance or public SHAR card exists."
+      }
     },
     {
       "provider": "AI Explorer",
@@ -1068,27 +1072,31 @@
     {
       "provider": "AI Tools Up",
       "provider_domain": "aitoolsup.com",
-      "homepage": "https://aitoolsup.com",
-      "submission_url": "https://aitoolsup.com/submit-tool",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "homepage": "https://aitoolsup.com/",
+      "submission_url": "https://aitoolsup.com/submit-tool/",
+      "source_catalog": "Live submit route inspected 2026-09-09",
       "source_status": {
         "site_status": "active",
-        "pricing_type": "free",
-        "auth_type": "email_password",
-        "captcha_type": "captcha_unknown"
+        "pricing_type": "free_queue_stated",
+        "auth_type": "account_required",
+        "captcha_type": "reCAPTCHA"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "POTENTIAL_FIT_AI_AGENT_UTILITY",
+      "status": "OWNER_GATE_ACCOUNT_AND_CAPTCHA",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aitoolsup.com/submit-tool/",
       "signals": {
-        "form": true,
+        "form": false,
         "captcha": true,
         "login": true,
-        "paid": true
+        "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T08:35:00Z",
+      "evidence": {
+        "kind": "live_pricing_and_login_ui",
+        "note": "Provider advertises a free queue but submission route exposes WordPress login with reCAPTCHA. No account, submission, acceptance or public SHAR card exists."
+      }
     },
     {
       "provider": "AI Tools Wiki",

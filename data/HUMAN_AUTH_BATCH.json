@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T08:00:00Z",
+  "as_of": "2026-09-09T08:35:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -380,6 +380,24 @@
       "owner_action": "Create or authenticate a normal provider account.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT"
+    },
+    {
+      "provider": "AI Dude",
+      "value": "TIER_C — AI-tool directory; existing MCP utility fit requires factual category review",
+      "exact_url": "https://submit.aidude.info/",
+      "prepared": "The public information page links to the separate submit domain, which exposes Sign in with Google. No account, submission receipt or public SHAR card exists.",
+      "owner_action": "Authenticate with Google in a normal supported browser.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "HUMAN_GATE_GOOGLE_AUTH"
+    },
+    {
+      "provider": "AI Tools Up",
+      "value": "TIER_C — AI-tool directory with free queue",
+      "exact_url": "https://aitoolsup.com/submit-tool/",
+      "prepared": "Provider advertises a free queue but the live route exposes WordPress account login with reCAPTCHA. No account, receipt or public SHAR card exists.",
+      "owner_action": "Create or authenticate a normal account and complete provider CAPTCHA.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT_AND_CAPTCHA"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
