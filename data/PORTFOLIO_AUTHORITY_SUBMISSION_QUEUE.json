@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "purpose": "Saved queue for legitimate future applications to editorial or directory routes that require public SHAR portfolio evidence. These are prospects, not placements or citations.",
-  "updated_at": "2026-09-09T01:12:00Z",
+  "updated_at": "2026-09-09T10:50:00Z",
   "evidence_source": {
     "homepage": "https://sharprod.com/",
     "cases_index": "https://sharprod.com/#cases",
@@ -40,6 +40,18 @@
       "route_type": "editorial_outreach",
       "status": "PORTFOLIO_EVIDENCE_READY_REQUIRES_ROUTE_REVIEW",
       "weighted_priority": 25
+    },
+    {
+      "id": "portfolio.studiorank.ai-hybrid-video-studio",
+      "domain": "studiorank.ai",
+      "url": "https://studiorank.ai/submit",
+      "page_type": "curated_ai_native_creative_studio_directory",
+      "relevant_commercial_query": "AI-native creative studio; motion/video studio using AI",
+      "route_type": "directory_submission",
+      "status": "SUBMITTED_AWAITING_INDEPENDENT_REVIEW",
+      "weighted_priority": 45,
+      "submission_route_confirmed": "https://studiorank.ai/submit",
+      "provider_requirements": "Submitted factual SHAR Production profile with only Motion/Video service and no unverified tools. Provider returned success:true and stated a 48-hour review. Preserve as portfolio/authority route; do not count unless a public provider card is verified."
     }
   ],
   "constraints": [
