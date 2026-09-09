@@ -4496,6 +4496,21 @@
         "kind": "live_public_submission_confirmation",
         "note": "Public factual submission completed; form confirmed Server Submitted and 24–48 hour review. No public SHAR card or acceptance has been verified."
       }
+    },
+    {
+      "provider": "Citation Press",
+      "provider_domain": "citations.press",
+      "homepage": "https://citations.press/",
+      "submission_url": "https://citations.press/submit/",
+      "source_catalog": "Official live submission and email-verification flow inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_SOURCE_BACKED_TECHNICAL_CITATION",
+      "status": "HUMAN_GATE_EMAIL_CODE",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T04:49:00Z",
+      "evidence": {
+        "kind": "live_public_draft_and_verification_gate",
+        "note": "The provider accepted a narrow factual source-backed draft and showed “VERIFY YOUR EMAIL,” stating that a 6-digit code was sent to shar@sharprod.com. Editorial review follows verification. No submission receipt, published citation or acceptance exists yet."
+      }
     }
   ]
 }

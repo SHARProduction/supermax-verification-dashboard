@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T04:30:00Z",
+  "as_of": "2026-09-09T04:50:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -326,6 +326,15 @@
       "owner_action": "Authenticate with GitHub through MCPVault’s normal sign-in flow, then submit the existing public repository only.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_GITHUB_OAUTH"
+    },
+    {
+      "provider": "Citation Press",
+      "value": "TIER_A — editorial, machine-readable structured citation index",
+      "exact_url": "https://citations.press/submit/",
+      "prepared": "A narrow factual draft is prepared: SHAR Production publishes an MIT-licensed, read-only MCP server with one documented validation tool for rights-aware production metadata manifests. The public GitHub repository is the primary source. The provider accepted the factual draft and sent a 6-digit verification code to shar@sharprod.com; only after code verification does it enter editorial review. No published citation, acceptance, permanent URL or AI-citation outcome exists.",
+      "owner_action": "Enter the current 6-digit email verification code sent by citations.press to shar@sharprod.com within 15 minutes.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "HUMAN_GATE_EMAIL_CODE"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

@@ -327,3 +327,12 @@ No row is a submission or published placement. Only free routes are retained.
 - Owner action: Authenticate with GitHub through MCPVault’s normal sign-in flow, then submit the existing public repository only.
 - Current environment can continue after auth: UNKNOWN
 - Status: OWNER_GATE_GITHUB_OAUTH
+
+## Citation Press
+
+- Value: TIER_A — editorial, machine-readable structured citation index
+- URL: https://citations.press/submit/
+- Prepared: A narrow factual draft is prepared: SHAR Production publishes an MIT-licensed, read-only MCP server with one documented validation tool for rights-aware production metadata manifests. The public GitHub repository is the primary source. The provider accepted the factual draft and sent a 6-digit verification code to shar@sharprod.com; only after code verification does it enter editorial review. No published citation, acceptance, permanent URL or AI-citation outcome exists.
+- Owner action: Enter the current 6-digit email verification code sent by citations.press to shar@sharprod.com within 15 minutes.
+- Current environment can continue after auth: UNKNOWN
+- Status: HUMAN_GATE_EMAIL_CODE
