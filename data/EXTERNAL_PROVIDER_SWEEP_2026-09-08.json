@@ -3510,12 +3510,12 @@
       "submission_url": "https://studiorank.ai/submit",
       "source_catalog": "Agent Reach Exa discovery plus official public submit form and client bundle inspection 2026-09-08",
       "asset_fit": "CONFIRMED_FIT_AI_HYBRID_VIDEO_PRODUCTION_STUDIO",
-      "status": "PROVIDER_SUBMISSION_ERROR",
+      "status": "SUBMITTED",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T00:00:00Z",
+      "checked_at": "2026-09-09T10:45:00Z",
       "evidence": {
-        "kind": "live_public_form_and_exact_server_action_submission",
-        "note": "The live free form accepts SHAR Production, https://sharprod.com/, shar@sharprod.com, Motion/Video and a factual AI-hybrid video-production description without tool claims. Its current Next server action returned HTTP 500 with no success payload, receipt, email confirmation, draft or public listing. No placement is claimed; do not retry without new provider evidence."
+        "kind": "official_submission_success_receipt",
+        "note": "Live free form accepted factual SHAR Production profile: homepage https://sharprod.com/, shar@sharprod.com, Motion/Video only, no unverified AI-tool selections, and factual hybrid video-production description. POST https://studiorank.ai/submit returned HTTP 200 with server-action payload success:true; rendered confirmation says Submitted and that the studio is in the review queue with a 48-hour expectation. No public card URL yet, so no placement is counted."
       }
     },
     {
