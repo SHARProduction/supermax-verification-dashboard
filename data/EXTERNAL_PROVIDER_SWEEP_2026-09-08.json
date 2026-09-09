@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T18:05:00Z",
+  "collected_at": "2026-09-09T18:25:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5859,6 +5859,35 @@
       "evidence": {
         "kind": "official_preflight_api_response",
         "note": "Official preflight API returned HTTP 404 {\"error\":\"no_tools_extracted\"} for the existing public SHAR MCP endpoint and advised a client-side extension. The current stdio/public-MCP representation therefore does not satisfy this provider extraction model. No submission was made and no production change was proposed."
+      }
+    },
+    {
+      "provider": "PTC Game & Creative Industry Database",
+      "provider_domain": "ptc.tax",
+      "homepage": "https://www.ptc.tax/database-vfx",
+      "submission_url": null,
+      "source_catalog": "Agent Reach Exa discovery plus live official page and Airtable database inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "unpublished",
+        "auth_type": "public_read_only_database",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "POTENTIAL_FIT_CGI_VFX_VIDEO_PRODUCTION_COMPANY",
+      "status": "PROVIDER_NO_SELF_SERVICE_SUBMISSION_ROUTE",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://airtable.com/appwnf4JyvpkaXe6U/shrg7eWWF6CgLUdcq/tbljW7CUw3kIxn4VK/viwSjx5m24rOjQXwA?blocks=bipr5hLv9kfJe2P3s",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T18:25:00Z",
+      "evidence": {
+        "kind": "live_provider_page_and_public_database",
+        "note": "Official page advertises a worldwide database and says companies may be added. Its only linked database is a public read-only Airtable share: it exposes Sign up and Report abuse but no Add record, request form, contributor control or submission endpoint. No email or other outreach was sent, and no SHAR entry is claimed."
       }
     }
   ]
