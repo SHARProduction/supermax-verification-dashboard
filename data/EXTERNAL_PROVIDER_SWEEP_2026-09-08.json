@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T14:48:39Z",
+  "collected_at": "2026-09-09T14:50:13Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6253,6 +6253,20 @@
       "evidence": {
         "kind": "live_browser_provider_status",
         "note": "Directory lists agent skills and MCP servers, but its live home page states: Submissions open when accounts launch. The preview route is not a current submission intake. No account, submission, receipt, or public placement exists."
+      }
+    },
+    {
+      "provider": "VCSkills",
+      "provider_domain": "vcskills.com",
+      "homepage": "https://www.vcskills.com/",
+      "submission_url": "https://www.vcskills.com/contribute",
+      "counts_as_placement": false,
+      "asset_fit": "INELIGIBLE_CURRENT_ASSET_WORKFLOW_MISMATCH",
+      "status": "INELIGIBLE_CURRENT_ASSET_CATEGORY_MISMATCH",
+      "checked_at": "2026-09-09T14:50:13Z",
+      "evidence": {
+        "kind": "live_browser_provider_guidelines",
+        "note": "The free anonymous form is live, but VCSkills explicitly requires a skill that solves a repeated venture-capital workflow such as sourcing, diligence, LP reporting, or portfolio monitoring. The current SHAR public MCP validates rights-aware production metadata and is not a VC workflow. Submission would misrepresent the asset, so none was sent."
       }
     }
   ]
