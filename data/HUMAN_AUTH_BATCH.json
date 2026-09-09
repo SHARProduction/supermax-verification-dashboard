@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T01:56:00Z",
+  "as_of": "2026-09-09T02:00:38Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -52,7 +52,7 @@
       "provider": "npm Registry",
       "value": "TIER_A — native Node package registry",
       "exact_url": "https://www.npmjs.com/login",
-      "prepared": "Rechecked native npm CLI: npm whoami returned ENEEDAUTH. npm view confirms both @sharproduction/production-metadata-mcp and unscoped shar-production-metadata-mcp are absent from the public npm registry. A clean detached clone of public commit 511863a5be1b5d1738dba2b8b31bfdb31cbc6593 at v1.0.4 passed npm ci, all 3 functional tests, and npm pack --dry-run with 0 vulnerabilities. Publish is ready immediately after owner npm authentication.",
+      "prepared": "2026-09-09 recheck: npm whoami returned ENEEDAUTH (no saved native npm session). Current public SHAR Production source at @sharproduction/production-metadata-mcp@1.0.4 passed npm pack --dry-run; tarball has 6 expected files, 2.7 kB package / 6.0 kB unpacked. Functional tests are green. Publish remains ready immediately after owner authenticates the authorised npm account.",
       "owner_action": "Authenticate the authorised npm account through its native supported flow.",
       "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_NPM_ACCOUNT_AUTH"

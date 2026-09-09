@@ -3278,10 +3278,10 @@
       "asset_fit": "APPLICABLE_EXISTING_NODE_MCP_PACKAGE",
       "status": "OWNER_GATE_NPM_ACCOUNT_AUTH",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T00:00:00Z",
+      "checked_at": "2026-09-09T02:00:38Z",
       "evidence": {
         "kind": "native_npm_cli_and_live_web_login",
-        "note": "Rechecked native npm CLI: npm whoami returned ENEEDAUTH. npm view confirms both @sharproduction/production-metadata-mcp and unscoped shar-production-metadata-mcp are absent from the public npm registry. A clean detached clone of public commit 511863a5be1b5d1738dba2b8b31bfdb31cbc6593 at v1.0.4 passed npm ci, all 3 functional tests, and npm pack --dry-run with 0 vulnerabilities. Publish is ready immediately after owner npm authentication."
+        "note": "2026-09-09 recheck: npm whoami returned ENEEDAUTH (no saved native npm session). Current public SHAR Production source at @sharproduction/production-metadata-mcp@1.0.4 passed npm pack --dry-run; tarball has 6 expected files, 2.7 kB package / 6.0 kB unpacked. Functional tests are green. Publish remains ready immediately after owner authenticates the authorised npm account."
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
