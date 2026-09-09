@@ -247,12 +247,12 @@
         "website_url": "https://sharprod.com/",
         "files_required": "None beyond public repository",
         "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
-        "known_facts_available": "The source form accepted the public SHAR MCP repository and redirects to GitHub OAuth to verify write access. No authorization, receipt, or public SHAR card exists.",
+        "known_facts_available": "The source form accepted the public SHAR MCP repository and redirects to GitHub OAuth to verify write access. No authorization, receipt, or public SHAR card exists. 2026-09-09: after owner-approved GitHub OAuth, provider callback returned HTTP 500 before receipt or account creation; no submission is counted.",
         "missing_owner_facts": "GitHub OAuth authorization",
         "post_login_steps": "Return to form, submit repository, verify receipt and card",
         "expected_public_result": "Public MCP Scoreboard card if accepted",
         "continuation_after_human_auth": "UNKNOWN",
-        "current_status": "OWNER_GATE_GITHUB_OAUTH",
+        "current_status": "PROVIDER_OAUTH_CALLBACK_HTTP_500",
         "zero_spend": true
       }
     ],

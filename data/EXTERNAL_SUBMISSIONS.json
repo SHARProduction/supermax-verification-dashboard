@@ -1275,6 +1275,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T03:04:40.000Z"
+    },
+    {
+      "submission_id": "supermax.submission.glama.production-metadata-mcp",
+      "provider": "Glama MCP Registry",
+      "provider_domain": "glama.ai",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T11:45:13Z",
+      "status": "SUBMITTED",
+      "evidence": "Browser confirmation after form submission: Your server has been submitted for review.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-10T11:45:13Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": null,
+      "last_public_recheck_evidence": "No public card observed at submission time; provider review pending."
     }
   ],
   "as_of": "2026-09-09T20:45:00Z"

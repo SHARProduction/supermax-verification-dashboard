@@ -220,7 +220,13 @@ Test used Wikipedia with no credentials. The dedicated profile cannot silently r
 
 ## Ordinary Chrome handoff status
 
-- **Status:** BLOCKED_EXTENSION_MISSING.
-- **Evidence:** no CDP endpoint at 127.0.0.1:9222; the installed Playwright CLI reported that its official Chrome extension is absent.
-- **Safety boundary:** no cookies were copied, no browser security was bypassed, and no credentials were accessed.
+- **Status:** CONNECTED_SUPPORTED_EXTENSION.
+- **Evidence:** the official Playwright Chrome extension is attached to the ordinary Chrome session; fresh controlled tabs share that normal browser profile.
+- **Safety boundary:** authentication dialogs, CAPTCHA, 2FA, and provider identity checks remain owner actions; no credentials or cookies are copied.
+
+
+
+## MCP Scoreboard — execution result (2026-09-09)
+
+GitHub OAuth was completed by the owner. The provider callback returned HTTP 500; no account, receipt, submission, or public card was created. Status: PROVIDER_OAUTH_CALLBACK_HTTP_500; do not count or retry without a provider fix.
 
