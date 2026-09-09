@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T14:58:34Z",
+  "updated_at": "2026-09-09T15:14:49Z",
   "counting_boundary": "Third-party public authority only. SHAR-controlled properties, submissions, mirrors, search snippets and unverified claims are excluded.",
   "allowed_types": [
     "external_editorial_mention",
@@ -18,8 +18,8 @@
     "external_industry_directory_acceptance"
   ],
   "metrics": {
-    "known_verified_records": 4,
-    "independent_authority_domains_observed": 4,
+    "known_verified_records": 5,
+    "independent_authority_domains_observed": 5,
     "independent_mentions_observed": null,
     "independent_backlinks_observed": null,
     "independent_citations_observed": null,
@@ -127,6 +127,30 @@
         "verified_at": "2026-09-09T14:58:34Z"
       },
       "verified_at": "2026-09-09T14:58:34Z",
+      "counts_as_independent_citation": false,
+      "counts_as_editorial_mention": false,
+      "counts_as_external_acceptance": true
+    },
+    {
+      "id": "authority.libhunt.production-metadata-mcp",
+      "type": "external_industry_directory_acceptance",
+      "url": "https://www.libhunt.com/r/production-metadata-mcp",
+      "registrable_domain": "libhunt.com",
+      "publisher": "LibHunt",
+      "relationship_to_SHAR": "independent open-source project directory; source repository is SHAR-controlled",
+      "SHAR_CONTROLLED": false,
+      "context": "Public automatically accepted card renders SHAR Production Metadata MCP, factual AI-hybrid video-production metadata-validation description, source/docs, and a direct sharprod.com link. It has no measured mentions or reviews at verification time.",
+      "link": "https://sharprod.com/",
+      "topic": "rights-aware AI-hybrid video-production metadata validation",
+      "commercial_query_relation": "indirect technical relevance to AI-hybrid production workflows",
+      "review_mechanism": "automated public directory acceptance; no human editorial endorsement claimed",
+      "evidence": {
+        "http_200": true,
+        "canonical": null,
+        "browser_rendered": true,
+        "verified_at": "2026-09-09T15:14:49Z"
+      },
+      "verified_at": "2026-09-09T15:14:49Z",
       "counts_as_independent_citation": false,
       "counts_as_editorial_mention": false,
       "counts_as_external_acceptance": true

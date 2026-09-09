@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:58:34Z",
+  "generated_at": "2026-09-09T15:14:49Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1723,7 +1723,27 @@
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": null,
       "last_public_recheck_evidence": null
+    },
+    {
+      "submission_id": "supermax.submission.libhunt.production-metadata-mcp",
+      "provider": "LibHunt",
+      "provider_domain": "libhunt.com",
+      "asset": "SHAR Production Metadata MCP",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T15:14:49Z",
+      "status": "PUBLISHED_VERIFIED",
+      "submission_kind": "FREE_OPEN_SOURCE_PROJECT_DIRECTORY",
+      "evidence": "Official anonymous repository-submission flow accepted the factual source repository and rendered the receipt “Thanks for your submission! It is approved automatically.” Public card verification: HTTP 200, browser-rendered exact title and factual description, source repository, docs link, and direct sharprod.com homepage link. Provider did not expose a canonical tag, so the public exact card URL is retained. The listing is an automated directory acceptance; no editorial endorsement, popularity, user review, citation, install, or ranking is claimed.",
+      "evidence_url": "https://www.libhunt.com/r/production-metadata-mcp",
+      "public_url": "https://www.libhunt.com/r/production-metadata-mcp",
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "last_rechecked_at": "2026-09-09T15:14:49Z",
+      "recheck_after": "2026-10-09T15:14:49Z"
     }
   ],
-  "as_of": "2026-09-09T14:58:34Z"
+  "as_of": "2026-09-09T15:14:49Z"
 }

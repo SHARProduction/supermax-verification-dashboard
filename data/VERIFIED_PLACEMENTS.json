@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:58:34Z",
-  "counted_placements": 704,
+  "generated_at": "2026-09-09T15:14:49Z",
+  "counted_placements": 705,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12992,6 +12992,29 @@
         "homepage_link": "https://sharprod.com/",
         "source_function_test": "production-metadata-mcp source suite passed 3/3 on 2026-09-09",
         "functional_check": "Public card renders only the listing and homepage link. No install execution, reliability score, rank, endorsement, citation, or user adoption is claimed."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.libhunt.production-metadata-mcp",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "LibHunt",
+      "provider_ecosystem": "libhunt-open-source-directory",
+      "url": "https://www.libhunt.com/r/production-metadata-mcp",
+      "source": "external-provider-submission",
+      "verified_at": "2026-09-09T15:14:49Z",
+      "verification": {
+        "http_200": true,
+        "canonical": null,
+        "public_listing": true,
+        "browser_rendered": true,
+        "provider_independent_of_official_registry": true,
+        "provider_review_state": "automatic public directory acceptance",
+        "brand_and_site": true,
+        "homepage_link": "https://sharprod.com/",
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "license": "MIT",
+        "source_function_test": "production-metadata-mcp source suite passed 3/3 on 2026-09-09",
+        "functional_check": "Public card renders the project description, source/docs and homepage links. No provider install execution, popularity, recommendation, review, citation or adoption is claimed."
       }
     }
   ]
