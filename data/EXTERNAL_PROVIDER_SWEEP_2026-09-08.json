@@ -7003,6 +7003,36 @@
         "url": "https://mcpserverbench.com/submit",
         "note": "Anonymous form accepted factual SHAR Production Metadata MCP data. It confirms the submission is in the queue and states every submission is reviewed before appearing on the site. No public card exists, so no placement is counted."
       }
+    },
+    {
+      "provider": "MCPpedia",
+      "provider_domain": "mcppedia.org",
+      "homepage": "https://mcppedia.org/",
+      "submission_url": "https://mcppedia.org/submit",
+      "source_catalog": "Agent Reach Exa result; live official form",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "github_oauth_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_OPEN_SOURCE_MCP",
+      "status": "HUMAN_GATE_GITHUB_AUTH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcppedia.org/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T16:51:48Z",
+      "evidence": {
+        "kind": "live_public_submission_ui",
+        "url": "https://mcppedia.org/submit",
+        "note": "Public browser verification: the provider requires Sign in with GitHub before submission. No email/password or anonymous route was offered. No account or submission exists."
+      }
     }
   ],
   "as_of": "2026-09-09T16:39:08Z"

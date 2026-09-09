@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T16:44:06Z",
+  "updated_at": "2026-09-09T16:51:48Z",
   "purpose": "Prepared high-value owner-only gates. These rows are not accounts, submissions, or placements.",
   "rules": {
     "no_passwords_or_tokens_recorded": true,
@@ -223,6 +223,22 @@
       "public_placement_exists": false,
       "counts_as_verified": false,
       "can_continue_after_human_auth": "UNKNOWN"
+    },
+    {
+      "provider": "MCPpedia",
+      "registrable_domain": "mcppedia.org",
+      "tier": "TIER_B",
+      "value": "Independent public MCP directory with source-linked cards, security/maintenance scoring and GitHub review workflow",
+      "why_it_matters": "Potential independent technical discovery domain with public server detail and search surfaces",
+      "current_step": "PREPARED_TO_HUMAN_GATE",
+      "exact_human_action": "Authenticate with GitHub at the already open https://mcppedia.org/submit page",
+      "expected_time_complexity": "One GitHub OAuth approval",
+      "agent_after_human_gate": "Agent verifies the authenticated session, fills factual SHAR MCP details, submits, records the receipt and waits for public listing.",
+      "status": "HUMAN_GATE_GITHUB_AUTH",
+      "zero_spend": true,
+      "public_placement_exists": false,
+      "counts_as_verified": false,
+      "can_continue_after_human_auth": "YES"
     }
   ]
 }
