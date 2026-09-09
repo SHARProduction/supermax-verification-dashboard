@@ -217,3 +217,10 @@ Test used Wikipedia with no credentials. The dedicated profile cannot silently r
 
 **npm Registry:** use normal Chrome at https://www.npmjs.com/login to authenticate the authorised npm publisher account only; do not create or expose tokens. Tell Codex when complete so the next supported publication path can be verified.
 
+
+## Ordinary Chrome handoff status
+
+- **Status:** BLOCKED_EXTENSION_MISSING.
+- **Evidence:** no CDP endpoint at 127.0.0.1:9222; the installed Playwright CLI reported that its official Chrome extension is absent.
+- **Safety boundary:** no cookies were copied, no browser security was bypassed, and no credentials were accessed.
+

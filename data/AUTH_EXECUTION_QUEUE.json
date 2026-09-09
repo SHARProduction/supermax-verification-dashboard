@@ -19,7 +19,9 @@
     "can_save_auth_state": true,
     "session_persistence": "PASS",
     "headed_human_handoff": "PARTIAL",
-    "boundary": "Dedicated Playwright profile persists technically but does not reuse in-app-browser sessions; providers may block automated-browser authentication. Normal Chrome is the human gate for login/OAuth/CAPTCHA. No safe supported attach from Playwright to a normal user Chrome session has been proven."
+    "boundary": "Dedicated Playwright profile persists technically but does not reuse in-app-browser sessions; providers may block automated-browser authentication. Normal Chrome is the human gate for login/OAuth/CAPTCHA. No safe supported attach from Playwright to a normal user Chrome session has been proven.",
+    "normal_chrome_attach_status": "BLOCKED_EXTENSION_MISSING",
+    "normal_chrome_attach_evidence": "2026-09-09: no CDP endpoint at 127.0.0.1:9222; playwright-cli extension attach reported Playwright Extension not found in normal Chrome user data."
   },
   "tiers": {
     "tier_a": [
