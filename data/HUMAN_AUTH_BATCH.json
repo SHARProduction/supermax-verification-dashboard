@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T20:10:00Z",
+  "as_of": "2026-09-09T20:20:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -470,6 +470,15 @@
       "owner_action": "Create or authenticate the free VFX Callsheet account through its normal supported flow, then provide the genuine authorised phone and HQ location required for the studio profile.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT_AND_REQUIRED_OWNER_FIELDS"
+    },
+    {
+      "provider": "Shoots.video",
+      "value": "TIER_A — established video-production vendor directory with a free basic company profile",
+      "exact_url": "https://www.shoots.video/get-listed/",
+      "prepared": "Official Get Listed page states that a company can be added as a video-production resource. Official pricing page states Basic is Free Forever and includes a vendor profile, three locations, unlimited videos/reels, service pages, job posts and blog posts. The first step is an email-account registration. Prepared truthful facts: SHAR Production; https://sharprod.com/; shar@sharprod.com; hybrid commercial video production with AI-assisted video, CGI and 3D. No account, profile, receipt or public listing exists.",
+      "owner_action": "Create or authenticate the free Shoots.video account through its normal supported email flow; complete only factual company-profile fields after account creation.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT_EMAIL_VERIFICATION"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
