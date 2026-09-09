@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:40:48Z",
+  "as_of": "2026-09-09T15:49:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -675,6 +675,15 @@
       "owner_action": "Authenticate through MakerRelay official GitHub or Google flow and accept its normal Terms/Privacy if you agree; leave the dialog/session open for the already prepared submission.",
       "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_GOOGLE_OR_GITHUB_AUTH"
+    },
+    {
+      "provider": "TiloBox",
+      "value": "TIER_C — independent free-first open-source and AI tools directory",
+      "exact_url": "https://www.tilobox.com/submit",
+      "prepared": "Official submission form was loaded and fully filled with the factual SHAR Production Metadata MCP name, GitHub repository, SHAR homepage, and factual read-only/MIT/open-source review note. The form loads Cloudflare Turnstile and keeps Submit for review disabled until a human CAPTCHA completion. No email was supplied, no submission receipt or public card exists.",
+      "owner_action": "Complete the visible Cloudflare Turnstile on the already filled official submission form, then submit for review.",
+      "continuation_after_human_auth": "YES",
+      "status": "OWNER_GATE_TURNSTILE_SUBMISSION"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

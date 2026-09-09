@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:42:46Z",
+  "collected_at": "2026-09-09T15:49:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -3118,16 +3118,30 @@
     {
       "provider": "TiloBox",
       "provider_domain": "tilobox.com",
-      "homepage": "https://tilobox.com/",
-      "submission_url": "https://tilobox.com/submit",
-      "source_catalog": "live provider form client 2026-09-09",
-      "asset_fit": "CONFIRMED_FIT",
-      "status": "OWNER_GATE_TURNSTILE",
+      "homepage": "https://www.tilobox.com/",
+      "submission_url": "https://www.tilobox.com/submit",
+      "source_catalog": "Official TiloBox submission route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "Cloudflare Turnstile"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_DEV_TOOL",
+      "status": "OWNER_GATE_TURNSTILE_SUBMISSION",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T00:25:00Z",
+      "http_status": 200,
+      "final_url": "https://www.tilobox.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:49:00Z",
       "evidence": {
-        "kind": "official_form_client",
-        "note": "The free directory accepts a real open-source tool but its official POST /api/v1/submit requires a Turnstile token. No CAPTCHA was bypassed; no submission exists."
+        "kind": "official_live_submission_route",
+        "note": "Public community submission form accepts credible open-source projects, free products, and AI resources. Factual SHAR MCP payload is already filled. Provider requires human Turnstile completion before submit; no bypass, submission, receipt, or public listing is claimed."
       }
     },
     {
