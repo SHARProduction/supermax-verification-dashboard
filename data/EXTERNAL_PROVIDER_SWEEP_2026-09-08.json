@@ -5178,6 +5178,36 @@
         "kind": "live_directory_and_submission_route",
         "note": "Active catalog lists 1,934 MCP servers and relevant Validation/Video/3D categories. Its only public Submit link is mailto:info@mcpserverfinder.com; /submit returns 404. No email sent without explicit owner authorisation."
       }
+    },
+    {
+      "provider": "IndexMCP",
+      "provider_domain": "indexmcp.co",
+      "homepage": "https://indexmcp.co/",
+      "submission_url": "https://indexmcp.co/submit",
+      "source_catalog": "Web fallback discovery and live official form inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_review",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "SUBMISSION_ATTEMPT_UNRESOLVED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://indexmcp.co/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T12:15:00Z",
+      "recheck_after": "2026-09-11T12:15:00Z",
+      "evidence": {
+        "kind": "live_form_post_without_receipt",
+        "note": "Official form accepted factual MCP name, public GitHub repository, concise description and Data & APIs category. A POST navigation occurred, but the runtime lost the navigated response body before receipt capture. Immediate public directory search showed no result. No claim of submission or listing; do not resubmit blindly."
+      }
     }
   ]
 }
