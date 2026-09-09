@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T03:25:00Z",
+  "collected_at": "2026-09-09T14:37:20Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6182,6 +6182,35 @@
       "evidence": {
         "kind": "official_submit_auth_redirect",
         "note": "Official submit form is publicly reachable in the in-app browser and displays authenticated SHAR Production / Ares3333333 GitHub session. Form requires repository URL. The runtime exposes read/navigation only and no safe fill/submit operation, so no submission, receipt or public card is claimed."
+      }
+    },
+    {
+      "provider": "Better Than HTML MCP Registry",
+      "provider_domain": "betterthanhtml.com",
+      "homepage": "https://betterthanhtml.com/mcp-registry.html",
+      "submission_url": "https://betterthanhtml.com/mcp-registry/submit",
+      "source_catalog": "Official public registry page inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_api_registration_observed",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "PROVIDER_REJECTED_CURRENT_PUBLIC_READ_ONLY_MCP",
+      "status": "PROVIDER_BLOCKED_POLICY_REJECTION",
+      "counts_as_placement": false,
+      "http_status": 422,
+      "final_url": "https://betterthanhtml.com/mcp-registry/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T14:37:20Z",
+      "evidence": {
+        "kind": "official_api_policy_rejection",
+        "note": "POST of the existing public read-only endpoint returned HTTP 422: This server cannot be listed — betterthanhtml.com is family-friendly. No retry was attempted, no placement exists, and wording was not altered to evade the provider policy."
       }
     }
   ]
