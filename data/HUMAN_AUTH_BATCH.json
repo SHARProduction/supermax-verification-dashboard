@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T11:00:00Z",
+  "as_of": "2026-09-09T11:20:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -407,6 +407,24 @@
       "owner_action": "Complete the provider reCAPTCHA in the prepared form.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "HUMAN_GATE_CAPTCHA"
+    },
+    {
+      "provider": "Vettd",
+      "value": "TIER_B — public vendor-neutral skill/MCP trust registry",
+      "exact_url": "https://vettd.agentichighway.ai/dashboard/vettd-scanner",
+      "prepared": "Existing public GitHub skill is eligible for security/structure scan and public registry. Provider states GitHub scope read:user and user:email only by default.",
+      "owner_action": "Authenticate with GitHub on the provider sign-in page.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_GITHUB_OAUTH"
+    },
+    {
+      "provider": "Skills AI",
+      "value": "TIER_B — agent skill discovery directory",
+      "exact_url": "https://skills.strongly.ai/submit",
+      "prepared": "Existing public skill is eligible; submit page currently requires sign-in.",
+      "owner_action": "Authenticate with the provider account.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

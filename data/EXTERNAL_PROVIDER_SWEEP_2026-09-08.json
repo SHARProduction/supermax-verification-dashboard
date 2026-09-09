@@ -5004,6 +5004,64 @@
         "kind": "live_browser_route_check",
         "note": "Homepage, /submit, and /contact all rendered an empty Redirecting page with no catalog, public listings, links, or submission form. No submission attempted."
       }
+    },
+    {
+      "provider": "Vettd",
+      "provider_domain": "agentichighway.ai",
+      "homepage": "https://vettd.agentichighway.ai/",
+      "submission_url": "https://vettd.agentichighway.ai/dashboard/vettd-scanner",
+      "source_catalog": "Web fallback discovery and live provider route inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_individual",
+        "auth_type": "github_oauth",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "OWNER_GATE_GITHUB_OAUTH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://vettd.agentichighway.ai/login?callbackUrl=%2Fdashboard%2Fvettd-scanner",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T11:20:00Z",
+      "evidence": {
+        "kind": "live_provider_auth_requirement",
+        "note": "Current public submission route redirects to GitHub OAuth. Provider states free individual use, public registry and signed evidence bundle. No authentication or submission performed."
+      }
+    },
+    {
+      "provider": "Skills AI",
+      "provider_domain": "strongly.ai",
+      "homepage": "https://skills.strongly.ai/",
+      "submission_url": "https://skills.strongly.ai/submit",
+      "source_catalog": "Web fallback discovery and live provider form inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "account_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://skills.strongly.ai/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T11:20:00Z",
+      "evidence": {
+        "kind": "live_provider_auth_requirement",
+        "note": "Current submit route renders Sign In Required and no anonymous submission form. No authentication or submission performed."
+      }
     }
   ]
 }
