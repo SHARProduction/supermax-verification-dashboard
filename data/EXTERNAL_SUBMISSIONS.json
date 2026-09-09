@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T17:54:43Z",
+  "generated_at": "2026-09-09T14:09:27Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1599,7 +1599,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-11T17:54:43Z"
+    },
+    {
+      "submission_id": "supermax.submission.deepyard.production-metadata-mcp",
+      "provider": "DeepYard",
+      "provider_domain": "deepyard.dev",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T14:08:54Z",
+      "status": "SUBMITTED",
+      "evidence": "DeepYard submission form completed without account; Formspree receipt at https://formspree.io/thanks?language=ru states in Russian: Form successfully sent. DeepYard says submissions are reviewed before listing.",
+      "counts_as_published_verified": false,
+      "recheck_after": "2026-09-16T14:08:54Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": null,
+      "last_public_recheck_evidence": null
     }
   ],
-  "as_of": "2026-09-09T14:50:00Z"
+  "as_of": "2026-09-09T14:09:27Z"
 }
