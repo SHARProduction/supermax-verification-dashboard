@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T13:45:00Z",
+  "generated_at": "2026-09-09T17:54:43Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1582,6 +1582,23 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-11T14:50:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.agentroster.production-metadata-mcp",
+      "provider": "AgentRoster",
+      "provider_domain": "agentroster.co",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "submitted_at": "2026-09-09T17:54:43Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_AGENT_DIRECTORY_REVIEW",
+      "evidence": "Browser receipt after factual free submission: Submitted! We'll review your listing within 48 hours. Submission used SHAR Production, https://sharprod.com/, and the public GitHub source; no email, paid upgrade, rating, or unverifiable claim was supplied.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-11T17:54:43Z"
     }
   ],
   "as_of": "2026-09-09T14:50:00Z"
