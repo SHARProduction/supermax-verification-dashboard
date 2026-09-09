@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T19:35:00Z",
+  "collected_at": "2026-09-09T19:50:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5949,6 +5949,36 @@
       "evidence": {
         "kind": "official_anonymous_api_submission_receipt",
         "note": "Official inline form POSTs name, URL and description to /api/submit-server. Factual SHAR MCP POST returned HTTP 200 code:0 and provider UUID ed14002c-b224-4997-91ad-a75907af16d0. Human review is pending; no public card is claimed."
+      }
+    },
+    {
+      "provider": "Agent Skills Catalog",
+      "provider_domain": "skillscatalog.ai",
+      "homepage": "https://skillscatalog.ai/",
+      "submission_url": "https://skillscatalog.ai/submit",
+      "source_catalog": "Agent Reach Exa discovery plus live official form/client-source/API preflight 2026-09-09",
+      "source_status": {
+        "site_status": "form_active_but_analysis_api_stalled",
+        "pricing_type": "unknown",
+        "auth_type": "contact_info_required_after_analysis",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "PROVIDER_ANALYSIS_API_TIMEOUT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://skillscatalog.ai/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T19:50:00Z",
+      "recheck_after": "2026-09-10T19:50:00Z",
+      "evidence": {
+        "kind": "official_client_api_preflight_timeout",
+        "note": "Official client source documents the no-auth first stage POST /api/github for a public repository before contact data are collected. One factual preflight request to analyze the SHAR source received no response and was aborted after 12 seconds. No analysis result, submission, receipt or public card exists; do not retry before the recorded recheck time."
       }
     }
   ]
