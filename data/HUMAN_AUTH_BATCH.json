@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T03:48:00Z",
+  "as_of": "2026-09-09T04:30:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -317,6 +317,15 @@
       "owner_action": "Complete the provider CAPTCHA in a normal browser, then leave the factual form payload unchanged.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_CAPTCHA"
+    },
+    {
+      "provider": "MCPVault",
+      "value": "TIER_A — independent MCP directory with claim and live-verification path",
+      "exact_url": "https://mcpvault.io/submit",
+      "prepared": "MCPVault publicly states that a submitted public GitHub repository is listed in seconds and can then be claimed; it offers an optional live MCP handshake and recurring verification. The existing SHAR public repository is ready, but the live submit route explicitly requires GitHub sign-in. No account session, submission, listing, claim or verification badge exists.",
+      "owner_action": "Authenticate with GitHub through MCPVault’s normal sign-in flow, then submit the existing public repository only.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_GITHUB_OAUTH"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

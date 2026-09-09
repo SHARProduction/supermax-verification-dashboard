@@ -4451,6 +4451,21 @@
         "kind": "live_form_and_installability_check",
         "note": "FindMCP accepts public repositories but requires a valid Claude Desktop JSON installation snippet. The public npm registry returns 404 for @sharproduction/production-metadata-mcp; the live JSR package exists but exports only validator.js, not the MCP server executable. A local-path config would not be a truthful general installation instruction. No submission was made; reevaluate only after natural public npm or OCI publication with anonymous install verification."
       }
+    },
+    {
+      "provider": "MCPVault",
+      "provider_domain": "mcpvault.io",
+      "homepage": "https://mcpvault.io/",
+      "submission_url": "https://mcpvault.io/submit",
+      "source_catalog": "Official live directory, claim and submit routes inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_MCP_SERVER",
+      "status": "OWNER_GATE_GITHUB_OAUTH",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T04:30:00Z",
+      "evidence": {
+        "kind": "official_live_submit_route",
+        "note": "MCPVault is a public independent MCP directory. It says that a public repository submission produces a listing and supports later claim and optional live MCP verification. Its live submit page explicitly requires GitHub sign-in. No listing, submission, claim, badge or public SHAR card exists."
+      }
     }
   ]
 }

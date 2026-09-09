@@ -318,3 +318,12 @@ No row is a submission or published placement. Only free routes are retained.
 - Owner action: Complete the provider CAPTCHA in a normal browser, then leave the factual form payload unchanged.
 - Current environment can continue after auth: UNKNOWN
 - Status: OWNER_GATE_CAPTCHA
+
+## MCPVault
+
+- Value: TIER_A — independent MCP directory with claim and live-verification path
+- URL: https://mcpvault.io/submit
+- Prepared: MCPVault publicly states that a submitted public GitHub repository is listed in seconds and can then be claimed; it offers an optional live MCP handshake and recurring verification. The existing SHAR public repository is ready, but the live submit route explicitly requires GitHub sign-in. No account session, submission, listing, claim or verification badge exists.
+- Owner action: Authenticate with GitHub through MCPVault’s normal sign-in flow, then submit the existing public repository only.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_GITHUB_OAUTH
