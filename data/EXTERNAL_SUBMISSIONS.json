@@ -484,11 +484,11 @@
       "submitted_at": "2026-09-08T21:45:00Z",
       "status": "SUBMITTED",
       "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
-      "evidence": "Public PR https://github.com/microsoft/winget-pkgs/pull/431460 adds only the validated portable manifest for existing release v1.2.0. Local winget manifest validation passed; public release SHA-256 matched and the standalone executable passed a releasable-manifest check. Recheck 2026-09-09: provider checks 01-10, including installers scan and installation validation, are SUCCESS. The PR remains OPEN; CLA is QUEUED. Maintainer merge and public catalog availability are required before counting.",
+      "evidence": "Public PR https://github.com/microsoft/winget-pkgs/pull/431460 remains OPEN on recheck 2026-09-09. All 10 package validation and installation checks are SUCCESS; license/cla remains QUEUED and mergedAt is null. Maintainer merge and public catalog availability are required before counting.",
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-10T00:00:00Z"
+      "recheck_after": "2026-09-10T12:00:00Z"
     },
     {
       "submission_id": "supermax.submission.conda-forge.production-manifest-gate",
