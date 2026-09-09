@@ -1772,8 +1772,8 @@
       "source": "NEW_PUBLICATIONS.json",
       "verification": {
         "public_http_status": 200,
-        "version_url": "https://jsr.io/@sharproduction/production-metadata-mcp@1.0.4",
-        "github_workflow": "https://github.com/SHARProduction/production-metadata-mcp/actions/runs/34059879115",
+        "version_url": "https://jsr.io/@sharproduction/production-metadata-mcp@1.0.5",
+        "github_workflow": "https://github.com/SHARProduction/production-metadata-mcp/actions/runs/34374052776",
         "github_workflow_status": "SUCCESS",
         "install_command": "npx jsr add @sharproduction/production-metadata-mcp",
         "install_result": "PASS: isolated consumer install completed with 0 vulnerabilities",
@@ -1782,22 +1782,24 @@
         "homepage": "https://sharprod.com/",
         "license": "MIT",
         "purpose": "Installable read-only local MCP metadata validation server and library; it does not mutate the existing public SHAR MCP",
-        "current_version": "1.0.4",
+        "current_version": "1.0.5",
         "current_browser_verification": {
-          "verified_at": "2026-09-09T16:05:00Z",
+          "verified_at": "2026-09-09T16:03:00Z",
           "browser_rendered": true,
           "public_http_status": 200,
-          "latest_version": "1.0.4",
-          "published_display": "2026-09-08",
+          "latest_version": "1.0.5",
+          "jsr_score_percent": 58,
           "signed_on": "GitHub Actions",
-          "sigstore_transparency_log": "https://search.sigstore.dev/?logIndex=2762082756",
+          "sigstore_transparency_log": "https://search.sigstore.dev/?logIndex=2771007931",
           "repository_link_rendered": "https://github.com/SHARProduction/production-metadata-mcp",
           "homepage_link_rendered": "https://sharprod.com/",
-          "install_command_rendered": "deno add jsr:@sharproduction/production-metadata-mcp",
+          "source_install_command_rendered": "git clone https://github.com/SHARProduction/production-metadata-mcp.git && cd production-metadata-mcp && npm ci && node server.js",
+          "jsr_install_command_rendered": "deno add jsr:@sharproduction/production-metadata-mcp",
           "dependents_displayed": 0,
           "counts_as_new_placement": false,
-          "note": "Current package-card evidence refresh only. Version changes do not create an additional JSR placement, acceptance, citation, or adoption claim."
-        }
+          "note": "Public package-quality release with symbol documentation. JSR Score increased from 29% to 58%; this is not an additional placement, acceptance, citation, or adoption claim."
+        },
+        "jsr_score_percent": 58
       }
     },
     {
