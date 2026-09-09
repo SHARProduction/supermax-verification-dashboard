@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T16:51:05Z",
+  "generated_at": "2026-09-09T16:53:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -80,7 +80,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-10T13:56:59Z"
+      "recheck_after": "2026-09-10T13:56:59Z",
+      "duplicate_receipt_at": "2026-09-09T16:46:41Z",
+      "duplicate_receipt_note": "A later browser interaction received the same generic acceptance UI, but an earlier recorded submission already existed. This is not an additional submission, placement, or count."
     },
     {
       "submission_id": "supermax.submission.trackmcp.production-metadata-mcp",
@@ -1824,5 +1826,5 @@
       "recheck_after": "2026-09-12T16:51:05Z"
     }
   ],
-  "as_of": "2026-09-09T16:51:05Z"
+  "as_of": "2026-09-09T16:53:00Z"
 }
