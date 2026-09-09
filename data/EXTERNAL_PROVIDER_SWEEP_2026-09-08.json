@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T18:25:00Z",
+  "collected_at": "2026-09-09T19:10:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5888,6 +5888,36 @@
       "evidence": {
         "kind": "live_provider_page_and_public_database",
         "note": "Official page advertises a worldwide database and says companies may be added. Its only linked database is a public read-only Airtable share: it exposes Sign up and Report abuse but no Add record, request form, contributor control or submission endpoint. No email or other outreach was sent, and no SHAR entry is claimed."
+      }
+    },
+    {
+      "provider": "Influzer.ai MCP Directory",
+      "provider_domain": "influzer.ai",
+      "homepage": "https://www.influzer.ai/mcp",
+      "submission_url": "https://www.influzer.ai/mcp/submit",
+      "source_catalog": "Agent Reach Exa discovery plus live official form/source inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_manual_review",
+        "auth_type": "optional_account_for_post-publication_editing",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_STDIO_MCP",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.influzer.ai/mcp/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T19:10:00Z",
+      "recheck_after": "2026-09-12T19:10:00Z",
+      "evidence": {
+        "kind": "official_anonymous_api_submission_receipt",
+        "note": "The provider form and public JavaScript expose POST /api/mcp/submit without an account requirement. Official POST with factual SHAR stdio MCP fields returned HTTP 200 success:true and reference 1788920865314-shar-production-metadata-mcp. Provider says manual review is pending; no public card is claimed."
       }
     }
   ]

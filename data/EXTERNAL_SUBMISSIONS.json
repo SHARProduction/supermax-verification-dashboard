@@ -1202,6 +1202,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T02:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.influzer.shar-production-metadata-mcp",
+      "provider": "Influzer.ai MCP Directory",
+      "provider_domain": "influzer.ai",
+      "asset": "SHAR Production Metadata MCP",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T19:10:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "ANONYMOUS_EDITORIAL_MCP_DIRECTORY_REVIEW",
+      "evidence": "Official POST https://www.influzer.ai/api/mcp/submit returned HTTP 200 JSON success:true, reference 1788920865314-shar-production-metadata-mcp, and rendered provider receipt that the submission will be reviewed shortly. No account, public card or approval exists.",
+      "evidence_url": "https://www.influzer.ai/mcp/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T19:10:00Z"
     }
   ]
 }
