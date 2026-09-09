@@ -4021,12 +4021,12 @@
       "submission_url": "https://www.agentskillz.directory/submit",
       "source_catalog": "live public submit page 2026-09-09",
       "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
-      "status": "READY_UPLOAD_REQUIRES_OWNER_CONFIRMATION",
+      "status": "SUBMISSION_ATTEMPT_UNRESOLVED_TIMEOUT",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T01:55:00Z",
+      "checked_at": "2026-09-09T18:10:00Z",
       "evidence": {
-        "kind": "live_public_submission_form",
-        "note": "Free review form requires upload of SKILL.md or skill folder plus optional public source URL; requires valid root SKILL.md, lower-case hyphenated name, concise description and license. Existing SHAR skill meets these source requirements. No upload/submission yet."
+        "kind": "live_upload_submission_attempt",
+        "note": "2026-09-09: uploaded the actual 1.3 KB root SKILL.md from the public SHAR Production repository and supplied its GitHub source URL. The submit action produced no receipt, navigation, API completion, or public card within the bounded browser wait. No submission or placement is recorded until a provider receipt or public listing exists."
       }
     },
     {
