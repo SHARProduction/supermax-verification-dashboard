@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:00:00Z",
+  "generated_at": "2026-09-09T14:15:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1106,6 +1106,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-11T14:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.skillme.shar-production-metadata-validation",
+      "provider": "Skill Me",
+      "provider_domain": "skillme.dev",
+      "asset": "shar-production-metadata-validation skill",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp/tree/main/skills/shar-production-metadata-validation",
+      "submitted_at": "2026-09-09T14:15:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "SKILL_DIRECTORY_REVIEW",
+      "evidence": "Official POST /api/submit/url returned HTTP 200. Rendered receipt: Submitted! Your skill is in the review queue. We check for safety and quality, then publish, usually within 1-3 days.",
+      "evidence_url": "https://skillme.dev/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T14:15:00Z"
     }
   ]
 }
