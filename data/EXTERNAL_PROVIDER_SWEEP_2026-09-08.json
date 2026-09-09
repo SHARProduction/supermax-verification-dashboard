@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:52:00Z",
+  "collected_at": "2026-09-09T15:53:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6710,6 +6710,35 @@
       "evidence": {
         "kind": "official_live_submission_route",
         "note": "Provider states free listing, live in minutes, with optional paid board placement starting at $3. GitHub-only sign-in is required. No OAuth action, submission, receipt, or public SHAR card exists."
+      }
+    },
+    {
+      "provider": "CodeTrendy",
+      "provider_domain": "codetrendy.com",
+      "homepage": "https://codetrendy.com/",
+      "submission_url": "https://codetrendy.com/submit",
+      "source_catalog": "Official CodeTrendy submit route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_listing_paid_optional",
+        "auth_type": "account_registration",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_DEV_TOOL",
+      "status": "OWNER_GATE_ACCOUNT_REGISTRATION",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://codetrendy.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:53:00Z",
+      "evidence": {
+        "kind": "official_live_submission_route",
+        "note": "Official page confirms free forever account, manual review and stated free-listing publication in about seven days. Account required; paid instant route excluded. No account, submission, receipt or public SHAR listing exists."
       }
     }
   ],

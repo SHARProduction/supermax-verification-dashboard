@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:52:00Z",
+  "as_of": "2026-09-09T15:53:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -693,6 +693,15 @@
       "owner_action": "Authenticate through RepoRanker’s official GitHub OAuth flow and leave the session on its submission screen; do not buy a placement.",
       "continuation_after_human_auth": "YES",
       "status": "HUMAN_GATE_GITHUB_OAUTH"
+    },
+    {
+      "provider": "CodeTrendy",
+      "value": "TIER_B — independent manually curated developer/site directory with a stated free permanent review route and topical public listing",
+      "exact_url": "https://codetrendy.com/register?callbackUrl=%2Fsubmit",
+      "prepared": "Official submit page confirms Free path included, no credit card, free listings reviewed and published in about seven days; paid instant publication was excluded. SHAR Production Metadata MCP is a genuine open-source developer/AI tool. Account is required before the form unlocks.",
+      "owner_action": "Create or authenticate the free account using bullolaya@gmail.com through the provider’s normal flow, then leave the session on the submit form. Do not select a paid plan.",
+      "continuation_after_human_auth": "YES",
+      "status": "OWNER_GATE_ACCOUNT_REGISTRATION"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
