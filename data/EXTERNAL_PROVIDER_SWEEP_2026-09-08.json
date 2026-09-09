@@ -2622,13 +2622,14 @@
       "homepage": "https://wmcp.sh",
       "submission_url": "https://wmcp.sh/directory/submit",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
-      "asset_fit": "CONFIRMED_FIT",
-      "status": "PROVIDER_SUBMISSION_ERROR",
+      "asset_fit": "CONFIRMED_FIT_BUT_TRANSPORT_INCOMPATIBLE",
+      "status": "INELIGIBLE_CURRENT_STDIO_ASSET_NO_PUBLIC_ADAPTER",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T10:20:00Z",
+      "checked_at": "2026-09-09T17:00:04Z",
       "evidence": {
-        "kind": "live_public_tool_extraction_and_submission_api",
-        "note": "Provider extractor continues to return HTTP 200 and JSON-LD-derived tools for https://sharprod.com/, so the site remains technically eligible without infrastructure changes. A factual free-listing POST to /api/v1/directory/submit was emitted, but this runtime did not receive a receipt, redirect, response body, or public URL before close. Earlier 2026-09-09 attempt received HTTP 500. No claim of submission or listing; do not retry until a public listing, email receipt, or changed provider behavior supplies new evidence."
+        "kind": "live_form_and_adapter_probe",
+        "url": "https://wmcp.sh/directory/submit",
+        "note": "Live form is free but its publication flow requires public web/API tool extraction. The provider documents its extractor as https://wmcp.sh/api/v1/tools?url=<URL>; a direct probe with the public SHAR GitHub source returned HTTP 404. Current read-only stdio MCP has no public web/API adapter URL. No submission was sent and no architecture was altered."
       }
     },
     {
