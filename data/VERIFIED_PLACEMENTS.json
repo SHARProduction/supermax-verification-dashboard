@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_at": "2026-09-09T13:20:00Z",
-  "counted_placements": 701,
+  "counted_placements": 702,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12927,6 +12927,29 @@
         "endpoint_initialize_http_200": true,
         "endpoint_protocol": "2025-11-25",
         "content": "SHAR Public Knowledge MCP; anonymous read-only source-backed public SHAR Production knowledge"
+      }
+    },
+    {
+      "placement_id": "supermax.placement.vettd.shar-production-metadata-validation",
+      "work_id": "supermax.work.production-metadata-mcp",
+      "provider": "Vettd",
+      "provider_ecosystem": "vettd-agentic-highway",
+      "url": "https://vettd.agentichighway.ai/skill/b912b046-529f-4533-beab-cd45c80df21f",
+      "source": "external-provider-scan-public-directory",
+      "verified_at": "2026-09-09T14:20:00Z",
+      "verification": {
+        "http_200": true,
+        "browser_rendered": true,
+        "public_listing": true,
+        "provider_independent_of_official_registry": true,
+        "direct_provider_publication": true,
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "skill_path": "skills/shar-production-metadata-validation/SKILL.md",
+        "publisher": "SHARProduction",
+        "homepage": "https://sharprod.com/",
+        "license": "MIT",
+        "security_verdict": "B; 0 critical, 1 medium, 13 info; scanner states no secrets or unsafe code patterns detected",
+        "functional_check": "Public card rendered the SHARProduction publisher, factual read-only MCP description, GitHub source, MIT license, scan date, and clickable source link. HTTP returned 200; direct source test suite previously passed 3/3."
       }
     }
   ]

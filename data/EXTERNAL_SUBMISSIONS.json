@@ -1436,7 +1436,25 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T14:15:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.vettd.shar-production-metadata-validation",
+      "provider": "Vettd",
+      "provider_domain": "agentichighway.ai",
+      "asset": "shar-production-metadata-validation",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "status": "PUBLISHED_VERIFIED",
+      "submission_kind": "ACCOUNT_AUTHENTICATED_SCAN_AND_PUBLIC_DIRECTORY",
+      "evidence": "Authenticated provider scan generated a public directory card. Browser verification, HTTP 200, publisher attribution, source link, MIT license, current scan date, and tool purpose checked.",
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "public_url": "https://vettd.agentichighway.ai/skill/b912b046-529f-4533-beab-cd45c80df21f",
+      "evidence_url": "https://vettd.agentichighway.ai/skill/b912b046-529f-4533-beab-cd45c80df21f",
+      "verified_at": "2026-09-09T14:20:00Z"
     }
   ],
-  "as_of": "2026-09-09T14:15:00Z"
+  "as_of": "2026-09-09T14:20:00Z"
 }
