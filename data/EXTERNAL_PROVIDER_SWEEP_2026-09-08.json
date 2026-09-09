@@ -1029,7 +1029,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "PROVIDER_SUBMISSION_ROUTE_NOT_FOUND",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://app.neilpatel.com/en/apps-integrations",
@@ -1039,7 +1039,11 @@
         "login": true,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T03:22:00Z",
+      "evidence": {
+        "kind": "live_public_route_check",
+        "note": "The previously catalogued /submit endpoint now redirects to the Ubersuggest Apps & Integrations page. That page offers integrations and a generic Suggest an Integration action, not a public AI-tool listing submission for the existing SHAR MCP. No unsuitable suggestion or placement was created."
+      }
     },
     {
       "provider": "AI Tools Up",
