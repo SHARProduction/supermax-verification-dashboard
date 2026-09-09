@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:20:00Z",
+  "as_of": "2026-09-09T15:50:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -497,6 +497,24 @@
       "owner_action": "None currently: authentication is present. A runtime with ordinary form input/submission capability is required to submit the prepared repository URL.",
       "continuation_after_human_auth": "NO",
       "status": "AUTHENTICATED_SESSION_OBSERVED_UI_SUBMISSION_CAPABILITY_UNAVAILABLE"
+    },
+    {
+      "provider": "GoodFirms existing SHAR profile revalidation",
+      "value": "TIER_A — high-relevance public industry-directory category candidate",
+      "exact_url": "https://www.goodfirms.co/company/shar-production",
+      "prepared": "Search discovery found an existing SHAR Production profile and an apparent inclusion on GoodFirms Moscow video-production category pages. Direct HTTP and automation-browser access both returned Cloudflare 403, so no current-page content, link, ranking, review, acceptance or citation is counted. This is verification-only: do not edit the legacy profile.",
+      "owner_action": "Open the exact public card in a normal supported browser and complete the site security check; do not change profile content.",
+      "continuation_after_human_auth": "YES",
+      "status": "HUMAN_GATE_ANTI_BOT_PUBLIC_REVALIDATION"
+    },
+    {
+      "provider": "Sortlist existing SHAR profile revalidation",
+      "value": "TIER_B — public industry-directory profile candidate",
+      "exact_url": "https://www.sortlist.com/agency/shar-production",
+      "prepared": "Search discovery found an existing public SHAR Production profile. Direct HTTP returned 403, so current-page content, link, category inclusion, review or acceptance is unverified and uncounted. This is verification-only: do not edit the legacy profile.",
+      "owner_action": "Open the exact public card in a normal supported browser and complete any security check; do not change profile content.",
+      "continuation_after_human_auth": "YES",
+      "status": "HUMAN_GATE_ANTI_BOT_PUBLIC_REVALIDATION"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
