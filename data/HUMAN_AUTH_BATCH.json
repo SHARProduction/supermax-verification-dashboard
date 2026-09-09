@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T16:55:00Z",
+  "as_of": "2026-09-09T17:58:30Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -524,12 +524,21 @@
       "owner_action": "Review Microsoft CLA and, only if authorised for the actual legal rights-holder, post the exact agreement reply requested by the Microsoft bot. Do not use a guessed company name.",
       "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_LEGAL_CLA"
+    },
+    {
+      "provider": "M8ven Tool Trust",
+      "value": "TIER_A — independent MCP behavior-verification and trust-index route",
+      "exact_url": "https://m8ven.ai/mt2/waitlist",
+      "prepared": "Existing public SHAR Production Metadata MCP source is ready for factual behavior verification: https://github.com/SHARProduction/production-metadata-mcp. M8ven states that verified MCPs appear in its public trust index and can earn a verification badge. Live beta waitlist is free and requires company/project, developer-use-case and a short factual integration description. The required checkbox includes a commitment to provide beta feedback; no statement was accepted and no waitlist request was submitted.",
+      "owner_action": "Review and, only if willing to make the beta-feedback commitment, accept the beta acknowledgement and submit the free waitlist request.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_BETA_ACKNOWLEDGEMENT"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
   "summary": {
-    "high_quality_routes": 21,
-    "tier_a": 14,
-    "tier_b": 7
+    "high_quality_routes": 55,
+    "tier_a": 31,
+    "tier_b": 24
   }
 }
