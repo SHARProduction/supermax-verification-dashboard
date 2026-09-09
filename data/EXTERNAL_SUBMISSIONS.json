@@ -725,14 +725,18 @@
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-delivery-manifest-schema",
       "submitted_at": "2026-09-08T22:15:00Z",
-      "status": "SUBMITTED",
+      "status": "PUBLISHED_VERIFIED",
       "submission_kind": "EXTERNAL_JSON_SCHEMA_CATALOG_PULL_REQUEST",
       "evidence": "Public PR #6329 registers one narrow, version-pinned remote schema association for production-delivery-manifest.json. Source schema is MIT, public, immutable at v1.0.0, and passed its local test suite. Independent maintainer merge and public SchemaStore catalog rendering are required before counting.",
       "evidence_url": "https://github.com/SchemaStore/schemastore/pull/6329",
-      "counts_as_published_verified": false,
-      "counts_as_independent_provider_ecosystem": false,
-      "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T00:00:00Z"
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "recheck_after": "2026-09-16T18:45:00Z",
+      "published_at": "2026-09-08T23:36:51Z",
+      "public_url": "https://www.schemastore.org/api/json/catalog.json",
+      "public_evidence": "GitHub API confirmed PR #6329 merged at 2026-09-08T23:36:51Z. Official SchemaStore catalog returned HTTP 200 and contains the production-delivery-manifest association with a version-pinned raw schema URL; raw schema returned HTTP 200 and parsed as Draft 2020-12.",
+      "rechecked_at": "2026-09-09T18:45:00Z"
     },
     {
       "submission_id": "supermax.submission.openmodelsrun.production-metadata-mcp",

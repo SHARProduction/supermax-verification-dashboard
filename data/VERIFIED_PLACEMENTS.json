@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T03:35:00Z",
-  "counted_placements": 699,
+  "generated_at": "2026-09-09T18:45:00Z",
+  "counted_placements": 700,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12882,6 +12882,30 @@
         "brand_and_site": true,
         "source_function_test": "production-metadata-mcp source suite passed 3/3 on 2026-09-09",
         "functional_check": "Public card renders the documented install command and read-only MCP usage/safety boundary; no provider install execution is claimed."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.schemastore.production-delivery-manifest-schema",
+      "work_id": "supermax.work.production-delivery-manifest-schema",
+      "provider": "SchemaStore",
+      "provider_ecosystem": "schemastore",
+      "url": "https://www.schemastore.org/api/json/catalog.json",
+      "source": "external-maintainer-accepted-standard-contribution",
+      "verified_at": "2026-09-09T18:45:00Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "provider_independent_of_official_registry": true,
+        "independent_maintainer_acceptance": true,
+        "acceptance_evidence": "https://github.com/SchemaStore/schemastore/pull/6329 merged at 2026-09-08T23:36:51Z",
+        "catalog_entry": {
+          "name": "Production delivery manifest",
+          "description": "Rights-labelled video-production delivery manifest",
+          "file_match": "production-delivery-manifest.json",
+          "schema_url": "https://raw.githubusercontent.com/SHARProduction/production-delivery-manifest-schema/v1.0.0/schema.json"
+        },
+        "source_url": "https://github.com/SHARProduction/production-delivery-manifest-schema",
+        "functional_check": "Public SchemaStore catalog and the version-pinned JSON Schema each returned HTTP 200. Schema parsed as Draft 2020-12 and requires project_id, delivery_id, files, and rights."
       }
     }
   ]

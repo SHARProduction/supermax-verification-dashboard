@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T04:15:00Z",
+  "updated_at": "2026-09-09T18:45:00Z",
   "counting_boundary": "Third-party public authority only. SHAR-controlled properties, submissions, mirrors, search snippets and unverified claims are excluded.",
   "allowed_types": [
     "external_editorial_mention",
@@ -18,8 +18,8 @@
     "external_industry_directory_acceptance"
   ],
   "metrics": {
-    "known_verified_records": 1,
-    "independent_authority_domains_observed": 1,
+    "known_verified_records": 2,
+    "independent_authority_domains_observed": 2,
     "independent_mentions_observed": null,
     "independent_backlinks_observed": null,
     "independent_citations_observed": null,
@@ -49,6 +49,31 @@
         "verified_at": "2026-09-09T03:35:00Z"
       },
       "verified_at": "2026-09-09T03:35:00Z",
+      "counts_as_independent_citation": false,
+      "counts_as_editorial_mention": false,
+      "counts_as_external_acceptance": true
+    },
+    {
+      "id": "authority.schemastore.production-delivery-manifest-schema",
+      "type": "external_maintainer_acceptance",
+      "url": "https://www.schemastore.org/api/json/catalog.json",
+      "registrable_domain": "schemastore.org",
+      "publisher": "SchemaStore",
+      "relationship_to_SHAR": "Independent JSON Schema catalog accepted a narrow, version-pinned SHAR Production delivery-manifest schema association after public maintainer review.",
+      "SHAR_CONTROLLED": false,
+      "context": "The public catalog renders Production delivery manifest, a rights-labelled video-production delivery manifest, and associates production-delivery-manifest.json with the public immutable schema URL. It is technical standards authority; no independent commercial recommendation or direct sharprod.com backlink is claimed.",
+      "link": null,
+      "topic": "rights-labelled video-production delivery manifests",
+      "commercial_query_relation": "indirect technical authority supporting SHAR Production AI-hybrid / production-technology capabilities",
+      "review_mechanism": "external maintainer merge of SchemaStore PR #6329 followed by live catalog publication",
+      "evidence": {
+        "pull_request": "https://github.com/SchemaStore/schemastore/pull/6329",
+        "merged_at": "2026-09-08T23:36:51Z",
+        "catalog_http_200": true,
+        "schema_http_200": true,
+        "verified_at": "2026-09-09T18:45:00Z"
+      },
+      "verified_at": "2026-09-09T18:45:00Z",
       "counts_as_independent_citation": false,
       "counts_as_editorial_mention": false,
       "counts_as_external_acceptance": true
