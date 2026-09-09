@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T14:43:52Z",
+  "collected_at": "2026-09-09T14:46:30Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6225,6 +6225,20 @@
       "evidence": {
         "kind": "live_browser_current_submission_terms",
         "note": "Current public MCP Registry directory exposes a simple GitHub-repository input, but its active call to action is Join the waitlist — /mo when we launch. The provider also advertises a paid Pro tier. No submission was made because the zero-incremental-spend constraint excludes an enrollment that commits to a paid plan."
+      }
+    },
+    {
+      "provider": "MCPub",
+      "provider_domain": "mcpub.dev",
+      "homepage": "https://mcpub.dev/",
+      "submission_url": "https://mcpub.dev/mcp",
+      "counts_as_placement": false,
+      "asset_fit": "INELIGIBLE_NO_REQUIRED_WELL_KNOWN_MANIFEST",
+      "status": "INELIGIBLE_NO_CURRENT_WELL_KNOWN_MCP_MANIFEST",
+      "checked_at": "2026-09-09T14:46:30Z",
+      "evidence": {
+        "kind": "live_endpoint_eligibility_check",
+        "note": "MCPub documents a free no-auth submit API for live remote MCP endpoints but requires /.well-known/mcp.json on the submitted domain. Current GET https://mcp.sharprod.com/.well-known/mcp.json returns 404. The current program forbids changing production infrastructure solely to enter a directory, so no submission was sent."
       }
     }
   ]
