@@ -6973,6 +6973,36 @@
         "url": "https://mcpserver.dev/s/shar-production-metadata-mcp_7q58fc9",
         "note": "Public canonical card was verified with factual SHAR source and homepage. No independent submission receipt or maintainer acceptance is evidenced; the page describes itself as collecting repository/README data. It is retained as discovery only, not a verified placement, ecosystem acceptance, or new domain count."
       }
+    },
+    {
+      "provider": "MCP Server Finder",
+      "provider_domain": "mcpserverbench.com",
+      "homepage": "https://mcpserverbench.com/",
+      "submission_url": "https://mcpserverbench.com/submit",
+      "source_catalog": "Agent Reach Exa result; live official form",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_standard_review",
+        "auth_type": "none_for_submit_form",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_OPEN_SOURCE_MCP",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpserverbench.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T16:51:05Z",
+      "evidence": {
+        "kind": "live_anonymous_submission_receipt",
+        "url": "https://mcpserverbench.com/submit",
+        "note": "Anonymous form accepted factual SHAR Production Metadata MCP data. It confirms the submission is in the queue and states every submission is reviewed before appearing on the site. No public card exists, so no placement is counted."
+      }
     }
   ],
   "as_of": "2026-09-09T16:39:08Z"

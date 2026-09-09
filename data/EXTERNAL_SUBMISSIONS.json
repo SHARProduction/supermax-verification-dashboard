@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T16:51:00Z",
+  "generated_at": "2026-09-09T16:51:05Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1804,7 +1804,25 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T15:50:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcp-server-finder.production-metadata-mcp",
+      "provider": "MCP Server Finder",
+      "provider_domain": "mcpserverbench.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T16:51:05Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_CURATED_MCP_DIRECTORY_REVIEW",
+      "evidence": "Live anonymous form accepted factual SHAR MCP data. Rendered confirmation: Thanks — your submission is in the queue. Provider states it reviews every submission before it appears on the site.",
+      "evidence_url": "https://mcpserverbench.com/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T16:51:05Z"
     }
   ],
-  "as_of": "2026-09-09T16:51:00Z"
+  "as_of": "2026-09-09T16:51:05Z"
 }
