@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:50:00Z",
+  "as_of": "2026-09-09T16:55:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -43,9 +43,9 @@
       "provider": "Glama MCP Registry",
       "value": "TIER_A — independent MCP registry",
       "exact_url": "https://glama.ai/mcp/servers",
-      "prepared": "Official FAQ states that an open-source MCP can be submitted from its GitHub repository with display name and description, followed by automated quality, security and health checks. Live registry exposes Add Server while showing Sign Up; no account, submission receipt or public Glama card exists.",
-      "owner_action": "Authenticate with the provider account.",
-      "continuation_after_human_auth": "UNKNOWN",
+      "prepared": "The public SHAR repository now has Dockerfile, server.json and a successful GitHub Actions container build/publish run 34278819275. The awesome-mcp-servers PR requires a public Glama listing and Glama score badge before merge. No Glama account, receipt or public Glama card is evidenced.",
+      "owner_action": "Authenticate through Glama's supported flow, submit the public SHAR repository for a free listing, and stop at any paid offer or CAPTCHA. Then leave the resulting card or receipt available for verification.",
+      "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_ACCOUNT"
     },
     {
@@ -515,6 +515,15 @@
       "owner_action": "Open the exact public card in a normal supported browser and complete any security check; do not change profile content.",
       "continuation_after_human_auth": "YES",
       "status": "HUMAN_GATE_ANTI_BOT_PUBLIC_REVALIDATION"
+    },
+    {
+      "provider": "Windows Package Manager PR #431460 CLA",
+      "value": "TIER_A — official Windows install ecosystem; all package validation checks passed",
+      "exact_url": "https://github.com/microsoft/winget-pkgs/pull/431460",
+      "prepared": "GitHub recheck: manifest, URL, policy, installer and metadata validations all passed. Microsoft bot blocks merge only on Contributor License Agreement, which grants a perpetual, worldwide, royalty-free and irrevocable copyright/patent license for submissions. No agreement has been made.",
+      "owner_action": "Review Microsoft CLA and, only if authorised for the actual legal rights-holder, post the exact agreement reply requested by the Microsoft bot. Do not use a guessed company name.",
+      "continuation_after_human_auth": "YES",
+      "status": "OWNER_GATE_LEGAL_CLA"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
