@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T16:20:00Z",
+  "collected_at": "2026-09-09T16:35:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5616,6 +5616,35 @@
       "evidence": {
         "kind": "live_official_submission_form",
         "note": "Form accepts public GitHub URL, Local (stdio) transport, vendor/company and contact email, but includes required Cloudflare Turnstile. No CAPTCHA bypass attempted and no submission made."
+      }
+    },
+    {
+      "provider": "TheDailyWorkflow",
+      "provider_domain": "thedailyworkflow.com",
+      "homepage": "https://thedailyworkflow.com/mcp",
+      "submission_url": "https://thedailyworkflow.com/mcp/submit",
+      "source_catalog": "Official about-page submit link plus live route verification 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_claimed",
+        "auth_type": "google_oauth_required",
+        "captcha_type": "google_auth"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "HUMAN_GATE_GOOGLE_AUTH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://accounts.google.com/v3/signin/identifier",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T16:35:00Z",
+      "evidence": {
+        "kind": "live_official_submit_route",
+        "note": "Official About page links MCP submission form to /mcp/submit. That route redirected directly to Google OAuth with redirect_uri https://thedailyworkflow.com/authorize. No authentication attempted and no submission made."
       }
     }
   ]
