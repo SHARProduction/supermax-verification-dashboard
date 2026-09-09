@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T05:15:00Z",
+  "as_of": "2026-09-09T05:50:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -344,6 +344,15 @@
       "owner_action": "Complete the Cloudflare verification in a normal browser, then create the free SHAR Production company profile with factual portfolio and company information.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_CAPTCHA"
+    },
+    {
+      "provider": "MCPHubz",
+      "value": "TIER_B — independent MCP directory with a stated free one-server listing",
+      "exact_url": "https://mcphubz.com/submit",
+      "prepared": "Live submit route redirects to login. Provider states its Free tier includes one server listing; no account, submission receipt or public SHAR card exists.",
+      "owner_action": "Authenticate through the provider’s normal supported account flow, then use only the free one-server listing.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

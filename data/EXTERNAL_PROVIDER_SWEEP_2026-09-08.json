@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T05:35:00Z",
+  "collected_at": "2026-09-09T05:50:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4598,6 +4598,64 @@
       "evidence": {
         "kind": "live_form_and_unresolved_post_redirect",
         "note": "The anonymous form accepted factual fields for SHAR Production Metadata MCP and emitted a POST redirect. The logger failed while reading the redirect response body before preserving its Location header, so success versus error cannot be proven. No submission, acceptance or public listing is claimed; do not resubmit blindly. Recheck for a public card after the provider’s stated 48-hour review window."
+      }
+    },
+    {
+      "provider": "MCPHubz",
+      "provider_domain": "mcphubz.com",
+      "homepage": "https://mcphubz.com/",
+      "submission_url": "https://mcphubz.com/submit",
+      "source_catalog": "Live official submit route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_one_server_listing_stated",
+        "auth_type": "account_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_OPEN_SOURCE_MCP",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcphubz.com/login?callbackUrl=%2Fsubmit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T05:50:00Z",
+      "evidence": {
+        "kind": "live_submit_redirect_and_pricing_page",
+        "note": "Submit route redirects to login; public Free plan states one server listing. No account, receipt or public SHAR card exists."
+      }
+    },
+    {
+      "provider": "MCP Playground Online",
+      "provider_domain": "mcpplaygroundonline.com",
+      "homepage": "https://mcpplaygroundonline.com/mcp-registry",
+      "submission_url": "https://mcpplaygroundonline.com/blog/how-to-publish-your-mcp-server-to-registry",
+      "source_catalog": "Live official site and publishing guide inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "not_applicable",
+        "auth_type": "not_applicable",
+        "captcha_type": "none"
+      },
+      "asset_fit": "NOT_AN_INDEPENDENT_SUBMISSION_ROUTE",
+      "status": "AGGREGATOR_OFFICIAL_REGISTRY_GUIDE_ONLY",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpplaygroundonline.com/blog/how-to-publish-your-mcp-server-to-registry",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T05:50:00Z",
+      "evidence": {
+        "kind": "official_site_publishing_guide",
+        "note": "The registry page exposes no submit control. Its publishing guide directs maintainers to publish to the Official MCP Registry, where SHAR is already published. This is not a new independent acceptance route."
       }
     }
   ]
