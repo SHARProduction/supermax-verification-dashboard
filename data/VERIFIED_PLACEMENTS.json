@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T18:45:00Z",
-  "counted_placements": 700,
+  "generated_at": "2026-09-09T11:58:00Z",
+  "counted_placements": 701,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12906,6 +12906,29 @@
         },
         "source_url": "https://github.com/SHARProduction/production-delivery-manifest-schema",
         "functional_check": "Public SchemaStore catalog and the version-pinned JSON Schema each returned HTTP 200. Schema parsed as Draft 2020-12 and requires project_id, delivery_id, files, and rights."
+      }
+    },
+    {
+      "placement_id": "supermax.placement.zenodo.rights-labelled-conformance-corpus.v0-1-2",
+      "work_id": "supermax.work.rights-labelled-conformance-corpus",
+      "provider": "Zenodo",
+      "provider_ecosystem": "zenodo",
+      "url": "https://zenodo.org/records/22674610",
+      "source": "direct-research-dataset-publication",
+      "verified_at": "2026-09-09T11:58:00Z",
+      "verification": {
+        "http_200": true,
+        "public_listing": true,
+        "browser_rendered": true,
+        "provider_independent_of_official_registry": true,
+        "direct_provider_publication": true,
+        "doi": "10.5281/zenodo.22674610",
+        "canonical_url": "https://zenodo.org/records/22674610",
+        "creator": "SHAR Production",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/SHARProduction/rights-labelled-conformance-corpus",
+        "source_function_test": "rights-labelled-conformance-corpus source suite passed 5/5 on 2026-09-09",
+        "functional_check": "Public Zenodo record returned HTTP 200 with canonical URL, rendered title, SHAR Production creator, CC BY 4.0 license, version 0.1.2, and downloadable dataset archive."
       }
     }
   ]

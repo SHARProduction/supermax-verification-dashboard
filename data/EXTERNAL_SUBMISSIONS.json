@@ -1293,6 +1293,26 @@
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": null,
       "last_public_recheck_evidence": "No public card observed at submission time; provider review pending."
+    },
+    {
+      "submission_id": "supermax.submission.zenodo.rights-labelled-conformance-corpus",
+      "provider": "Zenodo",
+      "provider_domain": "zenodo.org",
+      "asset": "rights-labelled-synthetic-conformance-corpus-0.1.2-dataset",
+      "source_url": "https://github.com/SHARProduction/rights-labelled-conformance-corpus",
+      "submitted_at": "2026-09-09T11:57:53Z",
+      "status": "PUBLISHED_VERIFIED",
+      "submission_kind": "RESEARCH_DATASET_DOI_PUBLICATION",
+      "evidence": "Direct Zenodo publication of the versioned, explicitly synthetic corpus. Public record returned HTTP 200 with canonical URL, title, SHAR Production creator, CC BY 4.0 license, version 0.1.2, citation, and downloadable dataset archive. DOI: 10.5281/zenodo.22674610.",
+      "counts_as_published_verified": true,
+      "counts_as_independent_provider_ecosystem": true,
+      "counts_as_new_registrable_domain": true,
+      "recheck_after": "2026-10-09T11:57:53Z",
+      "public_url": "https://zenodo.org/records/22674610",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": "2026-09-09T11:58:00Z",
+      "last_public_recheck_evidence": "HTTP 200; canonical https://zenodo.org/records/22674610; rendered SHAR Production, CC BY 4.0, version 0.1.2 and archive."
     }
   ],
   "as_of": "2026-09-09T20:45:00Z"
