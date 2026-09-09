@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T05:15:00Z",
+  "collected_at": "2026-09-09T05:35:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4569,6 +4569,35 @@
       "evidence": {
         "kind": "official_directory_and_live_route",
         "note": "Official directory describes free company profiles covering production, post-production and VFX categories. Direct public browser inspection was stopped by Cloudflare before signup, so no submission or placement is claimed."
+      }
+    },
+    {
+      "provider": "AgentNDX",
+      "provider_domain": "agentndx.ai",
+      "homepage": "https://agentndx.ai/",
+      "submission_url": "https://agentndx.ai/submit/",
+      "source_catalog": "Live official submit form inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_standard_review",
+        "auth_type": "none_for_submit_form",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_OPEN_SOURCE_MCP",
+      "status": "SUBMISSION_ATTEMPT_UNRESOLVED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://agentndx.ai/submit/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T05:35:00Z",
+      "evidence": {
+        "kind": "live_form_and_unresolved_post_redirect",
+        "note": "The anonymous form accepted factual fields for SHAR Production Metadata MCP and emitted a POST redirect. The logger failed while reading the redirect response body before preserving its Location header, so success versus error cannot be proven. No submission, acceptance or public listing is claimed; do not resubmit blindly. Recheck for a public card after the provider’s stated 48-hour review window."
       }
     }
   ]
