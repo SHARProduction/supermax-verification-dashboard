@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T02:00:38Z",
+  "as_of": "2026-09-09T02:15:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -452,6 +452,15 @@
       "owner_action": "Authenticate with GitHub in a supported browser.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_GITHUB_AUTH"
+    },
+    {
+      "provider": "allMCPservers.com",
+      "value": "TIER_B — independent curated MCP directory",
+      "exact_url": "https://www.allmcpservers.com/#cta_form-03-473241",
+      "prepared": "Prepared factual values: Name SHAR Production; Email shar@sharprod.com; GitHub URL https://github.com/SHARProduction/production-metadata-mcp; Category Tools. The rendered form is visible in the internal browser.",
+      "owner_action": "Complete the Google reCAPTCHA and submit the form.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "HUMAN_GATE_CAPTCHA"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

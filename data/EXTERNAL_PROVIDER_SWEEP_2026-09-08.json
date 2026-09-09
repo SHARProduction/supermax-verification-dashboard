@@ -5801,6 +5801,21 @@
         "kind": "live_http_submission_route",
         "note": "Official submit URL returned Azure Web App Unavailable: HTTP 403, “This web app is stopped and does not accept any requests.” No form, submission or public catalogue action is possible."
       }
+    },
+    {
+      "provider": "allMCPservers.com",
+      "provider_domain": "allmcpservers.com",
+      "homepage": "https://www.allmcpservers.com/",
+      "submission_url": "https://www.allmcpservers.com/#cta_form-03-473241",
+      "source_catalog": "independent live discovery and provider form inspection",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "HUMAN_GATE_CAPTCHA",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T02:15:00Z",
+      "evidence": {
+        "kind": "official_live_submission_form",
+        "note": "Independent curated MCP directory; form requires only Name, Email, GitHub URL, category and Google reCAPTCHA. Exact prepared values: SHAR Production; shar@sharprod.com; https://github.com/SHARProduction/production-metadata-mcp; Tools. Visible owner tab opened for CAPTCHA. No submission, receipt or listing yet."
+      }
     }
   ]
 }
