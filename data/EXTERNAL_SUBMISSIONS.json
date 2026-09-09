@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T17:05:00Z",
+  "generated_at": "2026-09-09T03:05:00.000Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1257,6 +1257,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-10T03:00:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.agentguard.mcp-absolute-user-path",
+      "provider": "AgentGuard external OSS contribution",
+      "provider_domain": "github.com",
+      "asset": "AG021 MCP absolute user path portability rule",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/Ares3333333/agentguard/tree/codex/mcp-absolute-user-path",
+      "submitted_at": "2026-09-09T03:04:40.000Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
+      "evidence": "Public PR #41 implements issue #34 with an AG021 rule for machine-specific /Users/<name> and C:\\Users\\<name> MCP command/argument paths, realistic Windows/macOS bad fixtures, project-local/package-managed near-miss fixtures, and npm test passing 40 fixtures / 0 problems. Independent maintainer merge is required before counting as an external acceptance.",
+      "evidence_url": "https://github.com/tainguyen091994/agentguard/pull/41",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T03:04:40.000Z"
     }
   ],
   "as_of": "2026-09-09T20:45:00Z"
