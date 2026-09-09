@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T08:55:00Z",
+  "collected_at": "2026-09-09T09:15:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -1570,27 +1570,31 @@
     {
       "provider": "Best AI To",
       "provider_domain": "bestaito.com",
-      "homepage": "https://bestaito.com",
-      "submission_url": "https://bestaito.com/submit-a-ai-tool",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "homepage": "https://bestaito.com/",
+      "submission_url": "https://bestaito.com/submit-a-ai-tool/",
+      "source_catalog": "Live submit page inspected 2026-09-09",
       "source_status": {
         "site_status": "active",
-        "pricing_type": "paid",
-        "auth_type": "google_only",
+        "pricing_type": "paid_only",
+        "auth_type": "not_applicable",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "UNVERIFIED",
+      "status": "INELIGIBLE_PAID_ONLY",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://bestaito.com/submit-a-ai-tool/",
       "signals": {
-        "form": true,
+        "form": false,
         "captcha": false,
-        "login": true,
+        "login": false,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T09:15:00Z",
+      "evidence": {
+        "kind": "live_pricing_page",
+        "note": "Visible listing options begin at $29 one-time. No free listing route was offered."
+      }
     },
     {
       "provider": "Best AI Tools",
@@ -1803,27 +1807,31 @@
     {
       "provider": "Dang AI",
       "provider_domain": "dang.ai",
-      "homepage": "https://dang.ai",
-      "submission_url": "https://dang.ai",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "homepage": "https://dang.ai/",
+      "submission_url": "https://dang.ai/pricing",
+      "source_catalog": "Live directory and submit route inspected 2026-09-09",
       "source_status": {
         "site_status": "active",
-        "pricing_type": "paid",
-        "auth_type": "none",
-        "captcha_type": "recaptcha_v2"
+        "pricing_type": "pricing_login_route",
+        "auth_type": "account_required",
+        "captcha_type": "unknown"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "REJECTED_PROVIDER_QUALITY_TOO_LOW",
+      "status": "INELIGIBLE_LOW_QUALITY_CURRENT_INDEX",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://dang.ai/",
       "signals": {
-        "form": true,
+        "form": false,
         "captcha": false,
         "login": true,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:25:00Z"
+      "checked_at": "2026-09-09T09:15:00Z",
+      "evidence": {
+        "kind": "live_directory_and_submit_links",
+        "note": "Submit links lead to pricing/login. The live catalog prominently includes inappropriate and low-quality entries, so it does not meet the program quality threshold."
+      }
     },
     {
       "provider": "DEV Resources",
@@ -4846,6 +4854,35 @@
       "evidence": {
         "kind": "live_submit_login_ui",
         "note": "The submit route explicitly requests Login with Google or a created account. No account, receipt or public SHAR card exists."
+      }
+    },
+    {
+      "provider": "Appscribed",
+      "provider_domain": "appscribed.com",
+      "homepage": "https://appscribed.com/",
+      "submission_url": "https://appscribed.com/submit-ai-tool/",
+      "source_catalog": "Live submit page inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "paid_only",
+        "auth_type": "not_applicable",
+        "captcha_type": "none"
+      },
+      "asset_fit": "UNVERIFIED",
+      "status": "INELIGIBLE_PAID_ONLY",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://appscribed.com/submit-ai-tool/",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": true
+      },
+      "checked_at": "2026-09-09T09:15:00Z",
+      "evidence": {
+        "kind": "live_pricing_page",
+        "note": "Permanent listing starts at $49. No free submission path was offered."
       }
     }
   ]
