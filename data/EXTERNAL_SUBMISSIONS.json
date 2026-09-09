@@ -1488,7 +1488,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-10-07T14:35:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcp-index.production-metadata-mcp",
+      "provider": "MCP Index",
+      "provider_domain": "themcpindex.com",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "submitted_at": "2026-09-09T14:40:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW_OR_OFFICIAL_REGISTRY_SYNC",
+      "evidence": "Browser receipt: Received; provider says submissions are reviewed within one or two days. Provider documents that Official Registry entries can be synced automatically, so any later mirror is not treated as an independent upstream acceptance.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T14:40:00Z"
     }
   ],
-  "as_of": "2026-09-09T14:35:00Z"
+  "as_of": "2026-09-09T14:40:00Z"
 }
