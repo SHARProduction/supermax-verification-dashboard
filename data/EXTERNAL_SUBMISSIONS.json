@@ -991,9 +991,11 @@
       "evidence_url": "https://github.com/c47-inc/mcp-film/issues/44",
       "evidence": "Public GitHub issue 44 created with exact production-ops metadata. Provider instruction says a maintainer verifies submissions before listing. submit label exists but current author lacks permission to add it; no provider acceptance is claimed.",
       "counts_as_published_verified": false,
-      "recheck_after": "2026-09-16T00:00:00Z",
+      "recheck_after": "2026-09-16T17:25:00Z",
       "publisher": "SHAR Production",
-      "homepage": "https://sharprod.com/"
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": "2026-09-09T17:25:00Z",
+      "last_public_recheck_evidence": "Live provider homepage states registry rebuilt Sep 9, 2026. Direct HTTP 200 fetch of https://mcp.film/api/registry.json contains no exact SHAR Production, SHARProduction or production-metadata-mcp record. Submission remains uncounted."
     },
     {
       "submission_id": "supermax.submission.openagentskill.production-metadata-validation",
