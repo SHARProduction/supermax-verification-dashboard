@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T05:50:00Z",
+  "as_of": "2026-09-09T06:40:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -339,11 +339,11 @@
     {
       "provider": "Creativepool",
       "value": "TIER_A — international creative company directory with production, post-production, VFX and AI agency categories",
-      "exact_url": "https://creativepool.com/companies/company-directory",
-      "prepared": "Official directory states that free company profiles can list company type, portfolio and client work. Public route was inspected on 2026-09-09 and Cloudflare returned Attention Required before any signup/submission control; no account, profile, submission or public SHAR card exists.",
-      "owner_action": "Complete the Cloudflare verification in a normal browser, then create the free SHAR Production company profile with factual portfolio and company information.",
+      "exact_url": "https://creativepool.com/sign-up/",
+      "prepared": "Live visible browser inspection reached the Creativepool company directory without a Cloudflare block and exposes Join now/Login. The directory supports free company profiles in Commercial Production, Film Production, Post Production and VFX categories. No account, profile, submission or SHAR card exists.",
+      "owner_action": "Create or authenticate the normal Creativepool account through Join now.",
       "continuation_after_human_auth": "UNKNOWN",
-      "status": "OWNER_GATE_CAPTCHA"
+      "status": "OWNER_GATE_ACCOUNT"
     },
     {
       "provider": "MCPHubz",

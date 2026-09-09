@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T06:25:00Z",
+  "collected_at": "2026-09-09T06:40:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4561,23 +4561,23 @@
         "site_status": "active",
         "pricing_type": "free_profile_claimed_by_official_directory",
         "auth_type": "account_required",
-        "captcha_type": "Cloudflare"
+        "captcha_type": "none_observed"
       },
       "asset_fit": "CONFIRMED_FIT_CREATIVE_PRODUCTION_COMPANY_DIRECTORY",
-      "status": "OWNER_GATE_CAPTCHA",
+      "status": "OWNER_GATE_ACCOUNT",
       "counts_as_placement": false,
-      "http_status": 403,
+      "http_status": 200,
       "final_url": "https://creativepool.com/companies/company-directory",
       "signals": {
         "form": false,
-        "captcha": true,
-        "login": false,
+        "captcha": false,
+        "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-09T05:15:00Z",
+      "checked_at": "2026-09-09T06:40:00Z",
       "evidence": {
-        "kind": "official_directory_and_live_route",
-        "note": "Official directory describes free company profiles covering production, post-production and VFX categories. Direct public browser inspection was stopped by Cloudflare before signup, so no submission or placement is claimed."
+        "kind": "visible_live_directory_and_signup_ui",
+        "note": "Live visible browser inspection reached the public directory and exposed Join now/Login without a Cloudflare block. Official directory states free company profiles. No account, submission, acceptance or public SHAR card exists."
       }
     },
     {
