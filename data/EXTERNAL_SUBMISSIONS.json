@@ -749,7 +749,7 @@
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
-      "submitted_at": "2026-09-09T00:00:00.000Z",
+      "submitted_at": "2026-09-09T00:00:00Z",
       "status": "SUBMITTED",
       "submission_kind": "EXTERNAL_MCP_REGISTRY_PULL_REQUEST",
       "evidence": "Public PR #33 adds one source-backed YAML definition to the OpenModels MCP registry. It accurately declares the public MIT source, stdio transport, npx install, and the only tool validate_production_manifest with its read-only/local/network/publication boundaries. The upstream validator passed locally for 218 files. Independent maintainer merge and a public openmodels.run/mcp card are required before counting.",
@@ -757,7 +757,7 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T00:00:00.000Z"
+      "recheck_after": "2026-09-16T00:00:00Z"
     },
     {
       "submission_id": "supermax.submission.mcpm.production-metadata-mcp",
@@ -767,7 +767,7 @@
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
-      "submitted_at": "2026-09-09T00:00:00.000Z",
+      "submitted_at": "2026-09-09T00:00:00Z",
       "status": "SUBMITTED",
       "submission_kind": "EXTERNAL_MCP_REGISTRY_PULL_REQUEST",
       "evidence": "Public PR #398 now uses a source-backed, immutable npx Git install at commit 4d15a752948ba841ea565998d870bfae33d2b9d2, documented as requiring Node.js 20+ and Git. Local MCPM source tests passed 26/26; the actual pinned npm-exec command returned a successful JSON-RPC initialize response. Upstream validate-manifests, test, and lint checks passed on commit d8dbd3533c6a643460838246e6c5df59318cd74e. Maintainer merge and visible registry ingestion are still required before counting.",
@@ -775,8 +775,8 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T00:00:00.000Z",
-      "last_rechecked_at": "2026-09-09T02:57:23.000Z"
+      "recheck_after": "2026-09-16T00:00:00Z",
+      "last_rechecked_at": "2026-09-09T02:57:23Z"
     },
     {
       "submission_id": "supermax.submission.software-heritage.production-metadata-mcp",
@@ -786,7 +786,7 @@
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
-      "submitted_at": "2026-09-09T00:00:00.000Z",
+      "submitted_at": "2026-09-09T00:00:00Z",
       "status": "PUBLISHED_VERIFIED",
       "submission_kind": "SOFTWARE_SOURCE_ARCHIVE_REQUEST",
       "evidence": "Official Save Code Now request 2467250 succeeded with a full visit and immutable snapshot swh:1:snp:461d4c1a33a8858483c5001c215557e61461513f. The public origin and snapshot pages plus snapshot API were HTTP 200 and resolve to the source commit.",
@@ -794,7 +794,7 @@
       "counts_as_published_verified": true,
       "counts_as_independent_provider_ecosystem": true,
       "counts_as_new_registrable_domain": true,
-      "recheck_after": "2026-10-09T00:00:00.000Z",
+      "recheck_after": "2026-10-09T00:00:00Z",
       "public_url": "https://archive.softwareheritage.org/browse/snapshot/461d4c1a33a8858483c5001c215557e61461513f/directory/"
     },
     {
@@ -805,7 +805,7 @@
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/rights-labelled-conformance-corpus",
-      "submitted_at": "2026-09-09T00:00:00.000Z",
+      "submitted_at": "2026-09-09T00:00:00Z",
       "status": "PUBLISHED_VERIFIED",
       "submission_kind": "SOFTWARE_SOURCE_ARCHIVE_REQUEST",
       "evidence": "Official Save Code Now job completed succeeded/full with immutable swh:1:snp:6e2ab7fbddab7ace4b73193f75c5a85baf6602b6. The public snapshot directory was HTTP 200; the source suite passed.",
@@ -813,7 +813,7 @@
       "counts_as_published_verified": true,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-10-09T00:00:00.000Z",
+      "recheck_after": "2026-10-09T00:00:00Z",
       "public_url": "https://archive.softwareheritage.org/browse/snapshot/6e2ab7fbddab7ace4b73193f75c5a85baf6602b6/directory/"
     },
     {
@@ -824,7 +824,7 @@
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-delivery-manifest-schema",
-      "submitted_at": "2026-09-09T00:00:00.000Z",
+      "submitted_at": "2026-09-09T00:00:00Z",
       "status": "PUBLISHED_VERIFIED",
       "submission_kind": "SOFTWARE_SOURCE_ARCHIVE_REQUEST",
       "evidence": "Official Save Code Now job completed succeeded/full with immutable swh:1:snp:4e37255079d2f323ddd52c42032672ae8597fe19. The public snapshot directory was HTTP 200; the source suite passed.",
@@ -832,7 +832,7 @@
       "counts_as_published_verified": true,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-10-09T00:00:00.000Z",
+      "recheck_after": "2026-10-09T00:00:00Z",
       "public_url": "https://archive.softwareheritage.org/browse/snapshot/4e37255079d2f323ddd52c42032672ae8597fe19/directory/"
     },
     {
@@ -1269,7 +1269,7 @@
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/Ares3333333/agentguard/tree/codex/mcp-absolute-user-path",
-      "submitted_at": "2026-09-09T03:04:40.000Z",
+      "submitted_at": "2026-09-09T03:04:40Z",
       "status": "SUBMITTED",
       "submission_kind": "EXTERNAL_OSS_PULL_REQUEST",
       "evidence": "Public PR #41 implements issue #34 with an AG021 rule for machine-specific /Users/<name> and C:\\Users\\<name> MCP command/argument paths, realistic Windows/macOS bad fixtures, project-local/package-managed near-miss fixtures, and npm test passing 40 fixtures / 0 problems. Independent maintainer merge is required before counting as an external acceptance.",
@@ -1277,7 +1277,7 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T03:04:40.000Z"
+      "recheck_after": "2026-09-16T03:04:40Z"
     },
     {
       "submission_id": "supermax.submission.glama.production-metadata-mcp",
@@ -1402,7 +1402,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T13:40:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcpserverfinder.production-metadata-mcp",
+      "provider": "MCP Server Finder",
+      "provider_domain": "mcpserverfinder.com",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "submitted_at": "2026-09-09T14:10:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EMAIL_DIRECTORY_REVIEW",
+      "evidence": "Factual listing request sent from the authorized publisher email to the provider route info@mcpserverfinder.com; Gmail compose closed and returned to Inbox immediately after Send.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T14:10:00Z"
     }
   ],
-  "as_of": "2026-09-09T13:45:00Z"
+  "as_of": "2026-09-09T14:10:00Z"
 }
