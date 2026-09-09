@@ -1522,7 +1522,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-11T14:45:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.launchmcp.production-metadata-mcp",
+      "provider": "Launch MCP",
+      "provider_domain": "launchmcp.co",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "submitted_at": "2026-09-09T14:50:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EMAIL_EDITORIAL_DIRECTORY_REVIEW",
+      "evidence": "Factual listing request sent through the authorized publisher Gmail to hello@launchmcp.co. Gmail returned to Inbox immediately after Send. Provider guide states free review, categorisation and typical publication within 48 hours.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-11T14:50:00Z"
     }
   ],
-  "as_of": "2026-09-09T14:45:00Z"
+  "as_of": "2026-09-09T14:50:00Z"
 }
