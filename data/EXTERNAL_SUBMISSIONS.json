@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:36:56Z",
+  "generated_at": "2026-09-09T14:40:33Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1735,7 +1735,27 @@
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": null,
       "last_public_recheck_evidence": null
+    },
+    {
+      "submission_id": "supermax.submission.agenticskills.production-public-knowledge-mcp",
+      "provider": "AgenticSkills",
+      "provider_domain": "agenticskills.io",
+      "asset": "SHAR Production Public Knowledge MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "public_endpoint": "https://mcp.sharprod.com/public",
+      "submitted_at": "2026-09-09T14:40:33Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_CURATED_MCP_DIRECTORY_REVIEW",
+      "evidence": "Browser-confirmed no-auth receipt at agenticskills.io: MCP Server Submitted; review issue created at github.com/Korona7x17/agenticskills/issues/165. Free listings are reviewed before appearing in the directory; no public listing was observed.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T14:40:33Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": null,
+      "last_public_recheck_evidence": null
     }
   ],
-  "as_of": "2026-09-09T14:36:56Z"
+  "as_of": "2026-09-09T14:40:33Z"
 }
