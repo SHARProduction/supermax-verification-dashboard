@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T14:20:01Z",
+  "as_of": "2026-09-09T14:33:04Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -560,12 +560,17 @@
       "owner_action": "Authenticate with the preferred GitHub or Google account, then complete the factual submit form.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "HUMAN_GATE_GITHUB_OR_GOOGLE_AUTH"
+    },
+    {
+      "provider": "MCPInstall",
+      "value": "TIER_B — independent MCP discovery and install directory with a public submit route",
+      "exact_url": "https://www.mcpinstall.com/submit",
+      "prepared": "The public submit route was rechecked. It opens an authentication dialog with only GitHub or Google sign-in before the form renders. Existing factual asset is ready: SHAR Production Public Knowledge MCP; public source https://github.com/SHARProduction/production-metadata-mcp; public endpoint https://mcp.sharprod.com/public; homepage https://sharprod.com/. No account, submission, receipt, or public card exists.",
+      "owner_action": "Authenticate using MCPInstall normal GitHub or Google flow; then leave the completed authenticated form for the runtime to submit factual details.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "HUMAN_GATE_GITHUB_OR_GOOGLE_AUTH"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
-  "summary": {
-    "high_quality_routes": 56,
-    "tier_a": 32,
-    "tier_b": 24
-  }
+  "summary": "External routes requiring human authentication, CAPTCHA, email delivery, or owner identity; none are counted as verified placements."
 }
