@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T04:00:00Z",
+  "updated_at": "2026-09-09T03:15:00Z",
   "purpose": "Prepared high-value owner-only gates. These rows are not accounts, submissions, or placements.",
   "rules": {
     "no_passwords_or_tokens_recorded": true,
@@ -155,6 +155,21 @@
       "expected_time_complexity": "OAuth step",
       "agent_after_human_gate": "Agent validates manifest, submits existing source and verifies marketplace page",
       "status": "OWNER_GATE_GITHUB_LOGIN_AND_MARKETPLACE_MANIFEST_REVIEW",
+      "zero_spend": true,
+      "public_placement_exists": false,
+      "counts_as_verified": false
+    },
+    {
+      "provider": "MCP Hub community directory",
+      "registrable_domain": "mcpdir.dev",
+      "tier": "TIER_B",
+      "value": "Independent community MCP directory with public source aggregation",
+      "why_it_matters": "Adds a distinct independent discovery ecosystem if accepted",
+      "current_step": "PREPARED_TO_HUMAN_GATE",
+      "exact_human_action": "Complete GitHub sign-in on the official MCP Hub page",
+      "expected_time_complexity": "One OAuth step",
+      "agent_after_human_gate": "Agent submits factual SHAR MCP data and verifies any public listing",
+      "status": "HUMAN_GATE_GITHUB_AUTH",
       "zero_spend": true,
       "public_placement_exists": false,
       "counts_as_verified": false

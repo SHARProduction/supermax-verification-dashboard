@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T21:30:00Z",
+  "collected_at": "2026-09-09T03:15:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6153,6 +6153,35 @@
       "evidence": {
         "kind": "official_free_standard_listing_route",
         "note": "Official page says a free standard listing is reviewed in queue and its server page stays public and crawlable after approval. It requires an email account; no account, submission, receipt, or SHAR card has been created."
+      }
+    },
+    {
+      "provider": "MCP Hub community directory",
+      "provider_domain": "mcpdir.dev",
+      "homepage": "https://mcpdir.dev/",
+      "submission_url": "https://mcpdir.dev/submit",
+      "source_catalog": "Official mcpdir.dev submit route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "no_paid_requirement_observed",
+        "auth_type": "GitHub_OAuth_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_PUBLIC_READ_ONLY_MCP_ENDPOINT",
+      "status": "HUMAN_GATE_GITHUB_AUTH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpdir.dev/auth/signin?callbackUrl=https%3A%2F%2Fmcpdir.dev%2Fsubmit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T03:15:00Z",
+      "evidence": {
+        "kind": "official_submit_auth_redirect",
+        "note": "The official /submit route redirects to its own GitHub sign-in screen and says signing in helps validate MCP servers. No SHAR account, submission, receipt or public card exists."
       }
     }
   ]
