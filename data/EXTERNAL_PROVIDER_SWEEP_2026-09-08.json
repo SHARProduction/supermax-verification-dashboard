@@ -4379,6 +4379,21 @@
         "kind": "official_provider_faq",
         "note": "Mendeley Data offers free publication of eligible, new scientific research data/code and assigns a DataCite DOI after publication. The prepared SHAR synthetic rights-labelled conformance corpus could fit only as a new research-data object and must not duplicate a DOI-published work. Sign-in is required; no account, draft, DOI, record or public landing page exists."
       }
+    },
+    {
+      "provider": "partnerpartnerpartner",
+      "provider_domain": "partnerpartnerpartner.com",
+      "homepage": "https://www.partnerpartnerpartner.com/",
+      "submission_url": "https://www.partnerpartnerpartner.com/",
+      "source_catalog": "Live public page and client-side submission handler inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_COMMERCIAL_PRODUCTION_COMPANY_DIRECTORY",
+      "status": "INELIGIBLE_DEMO_FORM",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T03:32:00Z",
+      "evidence": {
+        "kind": "live_client_side_form_inspection",
+        "note": "The active commercial-production index presents a Submit vendor dialog, but its handler only appends the entry to browser localStorage and shows it in a local review queue. It sends no network request to a provider, creates no public submission, receipt or external listing. No entry was saved."
+      }
     }
   ]
 }
