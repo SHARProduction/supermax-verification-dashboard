@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T14:46:30Z",
+  "collected_at": "2026-09-09T14:48:39Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6239,6 +6239,20 @@
       "evidence": {
         "kind": "live_endpoint_eligibility_check",
         "note": "MCPub documents a free no-auth submit API for live remote MCP endpoints but requires /.well-known/mcp.json on the submitted domain. Current GET https://mcp.sharprod.com/.well-known/mcp.json returns 404. The current program forbids changing production infrastructure solely to enter a directory, so no submission was sent."
+      }
+    },
+    {
+      "provider": "Claude Skills Hub",
+      "provider_domain": "claudeskillsgithub.com",
+      "homepage": "https://claudeskillsgithub.com/",
+      "submission_url": "https://claudeskillsgithub.com/submit",
+      "counts_as_placement": false,
+      "asset_fit": "CONFIRMED_FIT_BUT_PROVIDER_NOT_ACCEPTING_SUBMISSIONS",
+      "status": "INELIGIBLE_SUBMISSIONS_NOT_OPEN",
+      "checked_at": "2026-09-09T14:48:39Z",
+      "evidence": {
+        "kind": "live_browser_provider_status",
+        "note": "Directory lists agent skills and MCP servers, but its live home page states: Submissions open when accounts launch. The preview route is not a current submission intake. No account, submission, receipt, or public placement exists."
       }
     }
   ]
