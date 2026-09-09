@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:40:48Z",
+  "collected_at": "2026-09-09T15:42:46Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6609,6 +6609,35 @@
       "evidence": {
         "kind": "live_prefilled_public_form_and_auth_dialog",
         "note": "The unauthenticated public form accepts a SHAR MCP listing and declares it goes live on publish. Factual values were populated, but Publish listing opened required GitHub/Google provider sign-in. No OAuth selection, terms acceptance, submission, receipt, or public listing occurred; do not count until the public card is verified."
+      }
+    },
+    {
+      "provider": "Hunted.Space Product Hunt launch dashboard",
+      "provider_domain": "hunted.space",
+      "homepage": "https://hunted.space/dashboard/shar-production",
+      "submission_url": null,
+      "source_catalog": "Live public SHAR dashboard inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "not_applicable_automatic_dashboard",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "EXTERNAL_DISCOVERY_REPRESENTATION_PRODUCT_HUNT_UPSTREAM",
+      "status": "AUTOMATIC_UPSTREAM_DASHBOARD_NOT_COUNTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://hunted.space/dashboard/shar-production",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:42:46Z",
+      "evidence": {
+        "kind": "rendered_external_dashboard",
+        "note": "Public dashboard renders SHAR Production, the factual Hybrid AI, CGI and video production for brands positioning, Product Hunt topics and two comments. It states Product Hunt has not featured the product, shows 0 upvotes, and derives its material through the Product Hunt API. Treat as an automatic upstream dashboard only: no independent acceptance, citation, authority, recommendation, or count."
       }
     }
   ],
