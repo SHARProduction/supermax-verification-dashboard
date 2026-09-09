@@ -4511,6 +4511,21 @@
         "kind": "live_public_draft_and_verification_gate",
         "note": "The provider accepted a narrow factual source-backed draft and showed “VERIFY YOUR EMAIL,” stating that a 6-digit code was sent to shar@sharprod.com. Editorial review follows verification. No submission receipt, published citation or acceptance exists yet."
       }
+    },
+    {
+      "provider": "MCP Scanner",
+      "provider_domain": "mcpscanner.cloud",
+      "homepage": "https://mcpscanner.cloud/docs",
+      "submission_url": "https://mcpscanner.cloud/api/scan",
+      "source_catalog": "Official API docs and live scan API inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_PUBLIC_MCP_SECURITY_SCAN",
+      "status": "PROVIDER_SUBMISSION_ERROR",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T04:57:00Z",
+      "evidence": {
+        "kind": "live_provider_api_receipt",
+        "note": "POST /api/scan accepted the public SHAR repository and returned scan id af86g598jqg05irf0rj12sad. Polling returned status failed, filesScanned=0 and provider error “Bad credentials - https://docs.github.com/rest”. No scan result, report or public placement exists; do not retry without a new provider-side signal."
+      }
     }
   ]
 }
