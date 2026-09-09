@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T14:37:20Z",
+  "collected_at": "2026-09-09T14:43:52Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6211,6 +6211,20 @@
       "evidence": {
         "kind": "official_api_policy_rejection",
         "note": "POST of the existing public read-only endpoint returned HTTP 422: This server cannot be listed — betterthanhtml.com is family-friendly. No retry was attempted, no placement exists, and wording was not altered to evade the provider policy."
+      }
+    },
+    {
+      "provider": "Kiprio",
+      "provider_domain": "kiprio.com",
+      "homepage": "https://kiprio.com/mcp-registry/",
+      "submission_url": "https://kiprio.com/v1/mcp-registry/submit/",
+      "counts_as_placement": false,
+      "asset_fit": "CONFIRMED_FIT_BUT_ZERO_SPEND_BLOCKED",
+      "status": "INELIGIBLE_PAID_WAITLIST",
+      "checked_at": "2026-09-09T14:43:52Z",
+      "evidence": {
+        "kind": "live_browser_current_submission_terms",
+        "note": "Current public MCP Registry directory exposes a simple GitHub-repository input, but its active call to action is Join the waitlist — /mo when we launch. The provider also advertises a paid Pro tier. No submission was made because the zero-incremental-spend constraint excludes an enrollment that commits to a paid plan."
       }
     }
   ]
