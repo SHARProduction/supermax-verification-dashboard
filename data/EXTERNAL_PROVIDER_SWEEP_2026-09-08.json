@@ -5786,6 +5786,21 @@
         "kind": "official_form_post_rejection",
         "note": "Submitted the factual Video/stdio MCP payload with public MIT source, installation configuration, SHAR Production publisher and homepage. Official POST to wp-admin/admin-ajax.php returned HTTP 200 but the rendered provider result was “Submission rejected.” No reason, receipt, listing, or retriable provider signal was supplied."
       }
+    },
+    {
+      "provider": "MCPHERE",
+      "provider_domain": "mcphereapp.azurewebsites.net",
+      "homepage": "https://mcphereapp.azurewebsites.net/",
+      "submission_url": "https://mcphereapp.azurewebsites.net/submit",
+      "source_catalog": "independent discovery query 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "PROVIDER_TECHNICALLY_UNAVAILABLE",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T02:12:00Z",
+      "evidence": {
+        "kind": "live_http_submission_route",
+        "note": "Official submit URL returned Azure Web App Unavailable: HTTP 403, “This web app is stopped and does not accept any requests.” No form, submission or public catalogue action is possible."
+      }
     }
   ]
 }
