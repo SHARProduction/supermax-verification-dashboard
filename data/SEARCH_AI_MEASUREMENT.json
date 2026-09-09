@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-09T17:03:00Z",
+  "boundary": "A one-time, unauthenticated Bing HTML snapshot. It is not a global rank report, indexing proof, causal impact finding, or AI-answer measurement. Results may vary by location, time, language, personalization, and engine changes.",
+  "observations": [
+    {
+      "engine": "Bing",
+      "queries": [
+        "\"SHAR Production\" \"AI video\"",
+        "\"SHAR Production\" CGI",
+        "\"SHAR Production\" \"hybrid AI\""
+      ],
+      "collection_method": "Unauthenticated HTTP request to Bing search with setlang=en-US; first ten parsed organic result titles per query.",
+      "result": "No SHAR Production, sharprod.com, or a verified SHAR external representation appeared in the first ten parsed organic result titles for any of the three exact-brand queries.",
+      "dominant_ambiguity": "Results were dominated by unrelated Shar fantasy/game/entity pages and other unrelated results.",
+      "actionable_implication": "External exact-name-and-domain references and independent authority signals remain higher priority than additional SHAR-controlled URLs. No public-site change follows from this measurement.",
+      "source_urls": [
+        "https://www.bing.com/search?q=%22SHAR+Production%22+%22AI+video%22&setlang=en-US",
+        "https://www.bing.com/search?q=%22SHAR+Production%22+CGI&setlang=en-US",
+        "https://www.bing.com/search?q=%22SHAR+Production%22+%22hybrid+AI%22&setlang=en-US"
+      ]
+    }
+  ]
+}
