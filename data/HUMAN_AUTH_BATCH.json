@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:53:00Z",
+  "as_of": "2026-09-09T15:55:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -702,6 +702,15 @@
       "owner_action": "Create or authenticate the free account using bullolaya@gmail.com through the provider’s normal flow, then leave the session on the submit form. Do not select a paid plan.",
       "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_ACCOUNT_REGISTRATION"
+    },
+    {
+      "provider": "AI Tool Seekers",
+      "value": "TIER_A — independent hand-reviewed AI tools/agents directory; its free route states permanent public page, editorial review, structured data and a dofollow outgoing link",
+      "exact_url": "https://aitoolseekers.com/submit",
+      "prepared": "Official form was inspected. Asset fit is factual as an AI Agent/MCP: local, read-only production metadata validation server. Free pricing is selected by default; $19 Fast Track was not selected. Required fields include factual product description, category, maker identity, account email/password, Terms/Privacy confirmation and reCAPTCHA. No account, legal acceptance, CAPTCHA completion, submission or public card exists.",
+      "owner_action": "Create/verify the free account with bullolaya@gmail.com in the official form, complete reCAPTCHA and accept terms only if you agree; do not select Fast Track. Leave the resulting authenticated form or receipt available.",
+      "continuation_after_human_auth": "YES",
+      "status": "OWNER_GATE_ACCOUNT_RECAPTCHA_TERMS"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
