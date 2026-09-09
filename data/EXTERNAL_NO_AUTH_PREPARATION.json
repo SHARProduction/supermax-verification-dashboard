@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T01:40:00Z",
+  "as_of": "2026-09-09T16:39:08Z",
   "rules": [
     "All fields are sourced from public first-party or provider documentation.",
-    "No final external submission has been made.",
+    "A route recorded as SUBMITTED must be read from EXTERNAL_SUBMISSIONS.json and never resubmitted without new provider evidence.",
     "Do not send or publish without immediate representational confirmation."
   ],
   "routes": [
@@ -49,7 +49,7 @@
     {
       "provider": "mcp.film",
       "provider_url": "https://mcp.film/submit/",
-      "status": "READY_PENDING_FINAL_SUBMISSION_CONFIRMATION",
+      "status": "SUBMITTED_AWAITING_MAINTAINER_REVIEW",
       "provider_requirements": [
         "name",
         "link",
@@ -68,7 +68,10 @@
         "url": "https://mcp.film/api/registry.json",
         "result": "No match for SHAR Production or SHARProduction/production-metadata-mcp on 2026-09-09."
       },
-      "final_action": "Create the GitHub submission issue or use the provider submit_listing route.",
+      "submission_evidence": "https://github.com/c47-inc/mcp-film/issues/44",
+      "submitted_at": "2026-09-08T23:32:26Z",
+      "current_result": "Public issue #44 remains open. A live 2026-09-09T16:39:08Z provider recheck found no exact SHAR record in https://mcp.film/api/registry.json; the provider says maintainers verify listings. No public acceptance is claimed.",
+      "recheck_after": "2026-09-16T16:39:08Z",
       "public_acceptance_check": "mcp.film public catalog and registry.json must contain the exact SHAR record before counting."
     }
   ]

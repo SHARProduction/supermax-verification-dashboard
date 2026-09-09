@@ -997,8 +997,8 @@
       "recheck_after": "2026-09-16T17:25:00Z",
       "publisher": "SHAR Production",
       "homepage": "https://sharprod.com/",
-      "last_public_recheck_at": "2026-09-09T17:25:00Z",
-      "last_public_recheck_evidence": "Live provider homepage states registry rebuilt Sep 9, 2026. Direct HTTP 200 fetch of https://mcp.film/api/registry.json contains no exact SHAR Production, SHARProduction or production-metadata-mcp record. Submission remains uncounted."
+  "last_public_recheck_at": "2026-09-09T16:39:08Z",
+  "last_public_recheck_evidence": "Live direct HTTP 200 recheck of https://mcp.film/api/registry.json found no exact SHAR Production, SHARProduction or production-metadata-mcp record. Public GitHub issue #44 remains open. Submission remains uncounted."
     },
     {
       "submission_id": "supermax.submission.openagentskill.production-metadata-validation",

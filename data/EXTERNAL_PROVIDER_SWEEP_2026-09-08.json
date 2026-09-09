@@ -4202,12 +4202,12 @@
       "asset_fit": "CONFIRMED_FIT_EXISTING_READ_ONLY_PRODUCTION_METADATA_MCP",
       "status": "SUBMITTED",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T02:00:00Z",
+      "checked_at": "2026-09-09T16:39:08Z",
       "evidence": {
         "kind": "official_curated_MCP_submission_policy",
-        "note": "Curated AI-filmmaking MCP directory accepts GitHub form, issue, or its own submit_listing tool and states maintainers verify each listing against primary sources. SHAR read-only production metadata MCP has confirmed relevance to production operations. No issue or submission exists.",
+        "note": "Curated AI-filmmaking MCP directory accepts GitHub form, issue, or its own submit_listing tool and states maintainers verify each listing against primary sources. SHAR read-only production metadata MCP has confirmed relevance to production operations. Public issue https://github.com/c47-inc/mcp-film/issues/44 was submitted on 2026-09-08; no public provider acceptance exists.",
         "registry_dedup": {
-          "checked_at": "2026-09-09T01:18:00Z",
+          "checked_at": "2026-09-09T16:39:08Z",
           "url": "https://mcp.film/api/registry.json",
           "result": "NO_MATCH_FOR_SHAR_PRODUCTION_OR_SHARPRODUCTION_PRODUCTION_METADATA_MCP"
         },
@@ -6924,5 +6924,5 @@
       }
     }
   ],
-  "as_of": "2026-09-09T16:31:20Z"
+  "as_of": "2026-09-09T16:39:08Z"
 }
