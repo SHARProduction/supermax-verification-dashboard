@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-09T07:20:00Z",
+  "purpose": "Factual source for external company/profile submissions. Does not prove placement or acceptance.",
+  "first_party_source": {
+    "url": "https://sharprod.com/",
+    "http_status": 200,
+    "observed_title": "Видеопродакшн для брендов: AI, CGI и съёмка | SHAR",
+    "observed_meta_description_ru": "SHAR Production — гибридный видеопродакшн для брендов и бизнеса: рекламные ролики, AI-видео, CGI, 3D."
+  },
+  "identity": {
+    "company_name": "SHAR Production",
+    "website": "https://sharprod.com/",
+    "public_contact_email": "shar@sharprod.com"
+  },
+  "approved_copy": {
+    "ru": "SHAR Production — гибридный видеопродакшн для брендов и бизнеса: рекламные ролики, AI-видео, CGI, 3D.",
+    "en": "SHAR Production is a hybrid video-production partner for brands and businesses, covering commercial video, AI-assisted video, CGI and 3D."
+  },
+  "truthful_category_map": [
+    "Commercial Production",
+    "Film Production",
+    "Post Production",
+    "Production Services",
+    "VFX",
+    "CGI / 3D",
+    "AI-Augmented video production"
+  ],
+  "do_not_invent": [
+    "employee count",
+    "founded year",
+    "budget range or hourly rate",
+    "street address or local presence",
+    "client list",
+    "awards",
+    "specific AI tools",
+    "portfolio URLs beyond https://sharprod.com/",
+    "reviews, ratings, rankings or verified status"
+  ],
+  "submission_rule": "Use only fields supported by the first-party source or by provider-specific evidence. Leave optional unsupported fields empty; never select paid upgrades or claim acceptance before a public card is verified."
+}
