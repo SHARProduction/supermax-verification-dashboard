@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T08:00:00Z",
+  "collected_at": "2026-09-09T08:15:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -2125,27 +2125,31 @@
     {
       "provider": "Find My AI Tool",
       "provider_domain": "findmyaitool.com",
-      "homepage": "https://findmyaitool.com",
+      "homepage": "https://findmyaitool.com/",
       "submission_url": "https://findmyaitool.com/submit-tool",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_catalog": "Live official submit page inspected 2026-09-09",
       "source_status": {
         "site_status": "active",
-        "pricing_type": "paid",
-        "auth_type": "google_and_email",
+        "pricing_type": "paid_only",
+        "auth_type": "not_applicable",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "UNVERIFIED",
+      "status": "INELIGIBLE_PAID_ONLY",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://findmyaitool.com/submit-tool",
       "signals": {
-        "form": true,
+        "form": false,
         "captcha": false,
-        "login": true,
+        "login": false,
         "paid": true
       },
-      "checked_at": "2026-09-08T17:50:00Z"
+      "checked_at": "2026-09-09T08:15:00Z",
+      "evidence": {
+        "kind": "live_pricing_and_submission_faq",
+        "note": "The provider requires payment before a tool-detail link is sent. Basic permanent listing starts at $79.99; no free route was offered."
+      }
     },
     {
       "provider": "First 100 users",
