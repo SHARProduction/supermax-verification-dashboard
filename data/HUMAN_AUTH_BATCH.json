@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T04:50:00Z",
+  "as_of": "2026-09-09T05:15:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -335,6 +335,15 @@
       "owner_action": "Enter the current 6-digit email verification code sent by citations.press to shar@sharprod.com within 15 minutes.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "HUMAN_GATE_EMAIL_CODE"
+    },
+    {
+      "provider": "Creativepool",
+      "value": "TIER_A — international creative company directory with production, post-production, VFX and AI agency categories",
+      "exact_url": "https://creativepool.com/companies/company-directory",
+      "prepared": "Official directory states that free company profiles can list company type, portfolio and client work. Public route was inspected on 2026-09-09 and Cloudflare returned Attention Required before any signup/submission control; no account, profile, submission or public SHAR card exists.",
+      "owner_action": "Complete the Cloudflare verification in a normal browser, then create the free SHAR Production company profile with factual portfolio and company information.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_CAPTCHA"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
