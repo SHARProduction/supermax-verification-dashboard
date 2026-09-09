@@ -5091,6 +5091,35 @@
         "kind": "live_official_submission_form",
         "note": "Provider requires a Featured on AInexfinder badge/backlink to be placed on the applicant homepage and verified before submission. It also requires a 250-word consumer-AI product listing and logo. Current SHAR metadata MCP is not appropriately represented as a general consumer AI tool, and production-site changes solely for directory compliance are disallowed. No submission attempted."
       }
+    },
+    {
+      "provider": "OpenClawAI Skills Directory",
+      "provider_domain": "openclawai.io",
+      "homepage": "https://openclawai.io/skills/",
+      "submission_url": "https://openclawai.io/skills/submit",
+      "source_catalog": "Web fallback discovery and live route inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active_aggregator",
+        "pricing_type": "unknown",
+        "auth_type": "unknown",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "NO_INDEPENDENT_CREATOR_SUBMISSION_ROUTE",
+      "status": "AGGREGATOR_NO_INDEPENDENT_SUBMISSION",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://openclawai.io/skills/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T11:40:00Z",
+      "evidence": {
+        "kind": "live_creator_route_check",
+        "note": "Public skills directory exists, but /skills/submit and /submit return 404 and expose no creator submission route. Source/provenance for the displayed aggregated skills is not an independent SHAR acceptance. No submission attempted."
+      }
     }
   ]
 }
