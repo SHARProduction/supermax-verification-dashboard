@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:31:43Z",
+  "generated_at": "2026-09-09T14:36:56Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1716,7 +1716,26 @@
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": null,
       "last_public_recheck_evidence": null
+    },
+    {
+      "submission_id": "supermax.submission.mcpserverhub.production-metadata-mcp",
+      "provider": "MCP Server Hub",
+      "provider_domain": "mcpserverhub.com",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T14:36:56Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_DIRECTORY_REVIEW",
+      "evidence": "Browser-confirmed no-auth Tally submission: Done! Thanks for your submission! We will review and display your MCP Server later. Submission used the public GitHub source and factual MIT read-only manifest-validation description.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T14:36:56Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": null,
+      "last_public_recheck_evidence": null
     }
   ],
-  "as_of": "2026-09-09T14:31:43Z"
+  "as_of": "2026-09-09T14:36:56Z"
 }
