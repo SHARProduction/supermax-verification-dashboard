@@ -523,7 +523,7 @@
       "provider": "AI Lib",
       "provider_domain": "ailib.ru",
       "homepage": "https://ailib.ru",
-      "submission_url": "https://ailib.ru",
+      "submission_url": "https://ailib.ru/add-ai/free/",
       "source_catalog": "BraedenBDev/ai-directories directories.json",
       "source_status": {
         "site_status": "active",
@@ -531,8 +531,8 @@
         "auth_type": "none",
         "captcha_type": "captcha_unknown"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "INELIGIBLE_CURRENT_ASSET_CATEGORY_MISMATCH",
+      "status": "INELIGIBLE_CURRENT_ASSET_CATEGORY_MISMATCH",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://ailib.ru/",
@@ -542,7 +542,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T10:00:00Z",
+      "evidence": {
+        "kind": "live_official_form_inspection",
+        "note": "Free form requires a generative AI tool profile with task and modality selections such as Create video, Create image, or Create 3D object. SHAR Production Metadata MCP is a read-only rights-aware production-metadata validation utility and does not perform any listed generative task. Submission would misrepresent the asset; no submission made."
+      }
     },
     {
       "provider": "AI Library",
