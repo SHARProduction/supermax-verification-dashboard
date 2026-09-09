@@ -1263,8 +1263,8 @@
         "auth_type": "google_only",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_AI_DEV_TOOL",
+      "status": "HUMAN_GATE_GOOGLE_AUTH",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aixcollection.com/submit",
@@ -1274,7 +1274,12 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T16:44:06Z",
+      "evidence": {
+        "kind": "live_public_submission_ui",
+        "url": "https://aixcollection.com/submit",
+        "note": "Public browser verification: submission screen requires Login with Google and offers no email/password route. No account or submission exists."
+      }
     },
     {
       "provider": "Aixploria",

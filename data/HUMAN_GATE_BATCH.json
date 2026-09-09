@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T16:32:28Z",
+  "updated_at": "2026-09-09T16:44:06Z",
   "purpose": "Prepared high-value owner-only gates. These rows are not accounts, submissions, or placements.",
   "rules": {
     "no_passwords_or_tokens_recorded": true,
@@ -207,6 +207,22 @@
       "counts_as_verified": false,
       "blocker_evidence_url": "https://github.com/lobehub/lobehub/issues/17416",
       "blocker_evidence": "The documented CLI requires login and GitHub linking, but the confirmed open issue reports that organization-owned repositories are rejected because the connected individual username cannot equal the organization owner string."
+    },
+    {
+      "provider": "AI X Collection",
+      "registrable_domain": "aixcollection.com",
+      "tier": "TIER_C",
+      "value": "Independent AI tool directory with relevant Dev Tools/API/Automation categories",
+      "why_it_matters": "Potential additional independent technical directory domain",
+      "current_step": "PREPARED_TO_HUMAN_GATE",
+      "exact_human_action": "Authenticate with Google in a normal supported browser at https://aixcollection.com/submit",
+      "expected_time_complexity": "One Google login",
+      "agent_after_human_gate": "Agent verifies the authenticated session, fills factual SHAR Production Metadata MCP details, submits only if the provider shows a free route without reciprocal-link or paid requirement, then verifies any receipt/public card.",
+      "status": "HUMAN_GATE_GOOGLE_AUTH",
+      "zero_spend": true,
+      "public_placement_exists": false,
+      "counts_as_verified": false,
+      "can_continue_after_human_auth": "UNKNOWN"
     }
   ]
 }
