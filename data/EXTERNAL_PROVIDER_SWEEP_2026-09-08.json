@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T09:15:00Z",
+  "collected_at": "2026-09-09T13:10:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5207,6 +5207,35 @@
       "evidence": {
         "kind": "live_form_post_without_receipt",
         "note": "Official form accepted factual MCP name, public GitHub repository, concise description and Data & APIs category. A POST navigation occurred, but the runtime lost the navigated response body before receipt capture. Immediate public directory search showed no result. No claim of submission or listing; do not resubmit blindly."
+      }
+    },
+    {
+      "provider": "Software Heritage",
+      "provider_domain": "softwareheritage.org",
+      "homepage": "https://www.softwareheritage.org/",
+      "submission_url": "https://archive.softwareheritage.org/api/1/origin/save/git/url/https://github.com/SHARProduction/production-metadata-mcp/",
+      "source_catalog": "Official Software Heritage archive API route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none_documented_for_origin_save",
+        "captcha_type": "anti_bot_challenge_on_current_runtime"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SOURCE_REPOSITORY",
+      "status": "PROVIDER_TECHNICAL_GATE_ANTIBOT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/SHARProduction/production-metadata-mcp/get/",
+      "signals": {
+        "form": false,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T13:10:00Z",
+      "evidence": {
+        "kind": "live_api_route_challenged_before_origin_status",
+        "note": "The exact public origin-status API URL returned an Anubis anti-bot challenge page with HTTP 200, rather than origin metadata. No origin-save request was sent and no archive claim is made. Recheck through an ordinary supported browser or official API route only; do not bypass the protection."
       }
     }
   ]
