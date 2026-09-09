@@ -1220,6 +1220,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T19:10:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcpservercc.shar-production-metadata-mcp",
+      "provider": "MCP Server Directory",
+      "provider_domain": "mcpserver.cc",
+      "asset": "SHAR Production Metadata MCP",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T19:25:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "ANONYMOUS_HUMAN_REVIEW_MCP_DIRECTORY",
+      "evidence": "Official POST https://mcpserver.cc/api/submit-server returned HTTP 200 JSON code:0 and message Server submitted successfully with provider UUID ed14002c-b224-4997-91ad-a75907af16d0. Provider states submissions are human-reviewed before publication. No public listing exists yet.",
+      "evidence_url": "https://mcpserver.cc/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T19:25:00Z"
     }
   ]
 }

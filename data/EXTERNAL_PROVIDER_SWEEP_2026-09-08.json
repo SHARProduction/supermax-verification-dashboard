@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T19:10:00Z",
+  "collected_at": "2026-09-09T19:25:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5918,6 +5918,36 @@
       "evidence": {
         "kind": "official_anonymous_api_submission_receipt",
         "note": "The provider form and public JavaScript expose POST /api/mcp/submit without an account requirement. Official POST with factual SHAR stdio MCP fields returned HTTP 200 success:true and reference 1788920865314-shar-production-metadata-mcp. Provider says manual review is pending; no public card is claimed."
+      }
+    },
+    {
+      "provider": "MCP Server Directory",
+      "provider_domain": "mcpserver.cc",
+      "homepage": "https://mcpserver.cc/",
+      "submission_url": "https://mcpserver.cc/submit",
+      "source_catalog": "Agent Reach Exa discovery plus live official form/source inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_human_review",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_STDIO_MCP",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpserver.cc/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T19:25:00Z",
+      "recheck_after": "2026-09-12T19:25:00Z",
+      "evidence": {
+        "kind": "official_anonymous_api_submission_receipt",
+        "note": "Official inline form POSTs name, URL and description to /api/submit-server. Factual SHAR MCP POST returned HTTP 200 code:0 and provider UUID ed14002c-b224-4997-91ad-a75907af16d0. Human review is pending; no public card is claimed."
       }
     }
   ]
