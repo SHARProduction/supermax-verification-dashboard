@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T20:35:00Z",
+  "collected_at": "2026-09-09T20:45:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6066,6 +6066,35 @@
       "evidence": {
         "kind": "live_submission_client_and_upstream_target_check",
         "note": "The public client describes a free skill review route but its scan endpoint POST /api/audit-skill returned HTTP 404. Its final submit action opens a GitHub Issue against edgarfloresguerra2011-a11y/marketnow; GitHub GraphQL reported that repository does not resolve. No submission, listing, or count was created."
+      }
+    },
+    {
+      "provider": "AgentStatus Public MCP Score",
+      "provider_domain": "agentstatus.dev",
+      "homepage": "https://agentstatus.dev/mcp-index",
+      "submission_url": "https://agentstatus.dev/mcp-index",
+      "source_catalog": "Agent Reach discovery plus official client-source and live submission receipt 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "anonymous_submission",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_PUBLIC_READ_ONLY_MCP_ENDPOINT",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://agentstatus.dev/mcp-index",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T20:45:00Z",
+      "evidence": {
+        "kind": "official_anonymous_submission_receipt",
+        "note": "AgentStatus accepted the public SHAR MCP endpoint for a free pilot dashboard and protocol probe. It reported account_created, agent_created and email_sent. The first public index API query did not yet return the slug, so this stays submitted pending public visibility and probe results."
       }
     }
   ]
