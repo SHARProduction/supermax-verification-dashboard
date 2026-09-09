@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T14:44:16Z",
+  "as_of": "2026-09-09T14:47:29Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -596,6 +596,15 @@
       "owner_action": "Sign in through the normal supported AgenticMarket GitHub, Google, or email/password flow, then leave the dashboard submission page open.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "HUMAN_GATE_ACCOUNT_AUTHENTICATION_REQUIRED"
+    },
+    {
+      "provider": "CuratedMCP",
+      "value": "TIER_A — independent curated MCP marketplace with a free public listing, install configs for six agent clients, and human review.",
+      "exact_url": "https://www.curatedmcp.com/dashboard/servers/new",
+      "prepared": "Live free listing offer and submit route rechecked 2026-09-09. Submission requires normal Google or GitHub authentication; no other owner data is currently requested. Prepared factual asset: SHAR Production Public Knowledge MCP; source https://github.com/SHARProduction/production-metadata-mcp; public endpoint https://mcp.sharprod.com/public; homepage https://sharprod.com/. No payment, submission, receipt, or public card exists.",
+      "owner_action": "Complete the normal supported CuratedMCP Google or GitHub sign-in and leave the redirected dashboard page open.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "HUMAN_GATE_GITHUB_OR_GOOGLE_AUTH"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
