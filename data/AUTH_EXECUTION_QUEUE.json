@@ -1,0 +1,545 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-09T10:13:47.6889439Z",
+  "sprint": "AUTH_REGISTRATION_RESOLUTION",
+  "account_routes_total": 55,
+  "source_batch": "data/HUMAN_AUTH_BATCH.json",
+  "source_human_gate_records": 11,
+  "dedup_note": "Sprint brief says 56; canonical HUMAN_AUTH_BATCH has 55 unique routes. The 11 HUMAN_GATE records overlap and are not additive.",
+  "browser": {
+    "persistent_browser": "YES",
+    "runtime": "@playwright/cli 0.1.17 + Chrome",
+    "available": true,
+    "can_open": true,
+    "can_click": true,
+    "can_type": true,
+    "can_submit": true,
+    "can_run_headed": true,
+    "can_keep_named_session": true,
+    "can_save_auth_state": true,
+    "session_persistence": "PASS",
+    "headed_human_handoff": "PARTIAL",
+    "boundary": "Dedicated Playwright profile persists technically but does not reuse in-app-browser sessions; providers may block automated-browser authentication. Normal Chrome is the human gate for login/OAuth/CAPTCHA. No safe supported attach from Playwright to a normal user Chrome session has been proven."
+  },
+  "tiers": {
+    "tier_a": [
+      {
+        "provider": "npm Registry",
+        "why_high_value": "TIER_A — native Node package registry",
+        "registrable_domain": "npmjs.com",
+        "signup_url": "https://www.npmjs.com/login",
+        "exact_gate": "NPM ACCOUNT AUTH",
+        "account_type": "Authorised npm publisher account",
+        "public_asset_to_submit": "SHAR Production Metadata MCP v1.0.4",
+        "profile_name": "SHAR Production",
+        "public_description": "SHAR Production is a video production studio for AI-hybrid, CGI/3D and commercial video production.",
+        "category": "Developer tooling / MCP",
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "website_url": "https://sharprod.com/",
+        "files_required": "None; npm pack --dry-run passed",
+        "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
+        "known_facts_available": "2026-09-09 recheck: npm whoami returned ENEEDAUTH (no saved native npm session). Current public SHAR Production source at @sharproduction/production-metadata-mcp@1.0.4 passed npm pack --dry-run; tarball has 6 expected files, 2.7 kB package / 6.0 kB unpacked. Functional tests are green. Publish remains ready immediately after owner authenticates the authorised npm account.",
+        "missing_owner_facts": "Authorised npm publisher login and account publishing policy",
+        "post_login_steps": "Publish v1.0.4, verify public package and clean install",
+        "expected_public_result": "Public npm package page and anonymous install",
+        "continuation_after_human_auth": "YES",
+        "current_status": "OWNER_GATE_NPM_ACCOUNT_AUTH",
+        "zero_spend": true
+      },
+      {
+        "provider": "GitHub Container Registry",
+        "why_high_value": "TIER_A — native OCI install ecosystem and prerequisite for Docker-dependent MCP directories",
+        "registrable_domain": "github.com",
+        "signup_url": "https://github.com/orgs/SHARProduction/packages/container/production-metadata-mcp/settings",
+        "exact_gate": "PUBLIC VISIBILITY",
+        "account_type": "SHARProduction GitHub package administrator",
+        "public_asset_to_submit": "production-metadata-mcp OCI image v1.0.4",
+        "profile_name": "SHAR Production",
+        "public_description": "SHAR Production is a video production studio for AI-hybrid, CGI/3D and commercial video production.",
+        "category": "OCI container / MCP",
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "website_url": "https://sharprod.com/",
+        "files_required": "Existing v1.0.4 OCI image, SBOM and provenance",
+        "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
+        "known_facts_available": "The v1.0.4 OCI image was built and pushed by GitHub Actions with SBOM and provenance. Current package visibility is private; anonymous GHCR manifest verification returned HTTP 401. No public container placement or dependent directory submission is claimed.",
+        "missing_owner_facts": "Owner decision to expose existing package publicly",
+        "post_login_steps": "Perform anonymous pull and container MCP initialization test",
+        "expected_public_result": "Public ghcr.io image and verifiable install route",
+        "continuation_after_human_auth": "YES",
+        "current_status": "OWNER_GATE_PUBLIC_VISIBILITY",
+        "zero_spend": true
+      },
+      {
+        "provider": "Zenodo",
+        "why_high_value": "TIER_A — research/software archive DOI route for eligible corpus",
+        "registrable_domain": "zenodo.org",
+        "signup_url": "https://zenodo.org/deposit/new",
+        "exact_gate": "ACCOUNT",
+        "account_type": "Free provider account where available",
+        "public_asset_to_submit": "SHAR Production rights-labelled conformance corpus v0.1.2",
+        "profile_name": "SHAR Production",
+        "public_description": "SHAR Production is a video production studio for AI-hybrid, CGI/3D and commercial video production.",
+        "category": "Research data / software",
+        "source_url": "https://github.com/SHARProduction/rights-labelled-conformance-corpus",
+        "website_url": "https://sharprod.com/",
+        "files_required": "v0.1.2 archive, SHA-256, CITATION.cff, CodeMeta, Data Package metadata",
+        "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
+        "known_facts_available": "Zenodo officially accepts versioned datasets and software, requires an account to create an upload, and registers a DOI only when a record is published. The prepared SHAR synthetic rights-labelled conformance corpus has a public v0.1.2 release, archive checksum, CITATION.cff, CodeMeta and Data Package metadata. No Zenodo account, draft, DOI, record or public landing page exists, so nothing is counted.",
+        "missing_owner_facts": "Selected account and acceptance of factual metadata and licensing",
+        "post_login_steps": "Create draft/upload verified archive; publish only after final owner confirmation",
+        "expected_public_result": "Public DOI landing page for self-contained corpus",
+        "continuation_after_human_auth": "UNKNOWN",
+        "current_status": "OWNER_GATE_ACCOUNT",
+        "zero_spend": true
+      },
+      {
+        "provider": "Figshare",
+        "why_high_value": "TIER_A — independent research/data archive",
+        "registrable_domain": "figshare.com",
+        "signup_url": "https://figshare.com/account/articles/new",
+        "exact_gate": "ACCOUNT",
+        "account_type": "Free provider account where available",
+        "public_asset_to_submit": "SHAR Production rights-labelled conformance corpus v0.1.2",
+        "profile_name": "SHAR Production",
+        "public_description": "SHAR Production is a video production studio for AI-hybrid, CGI/3D and commercial video production.",
+        "category": "Research data",
+        "source_url": "https://github.com/SHARProduction/rights-labelled-conformance-corpus",
+        "website_url": "https://sharprod.com/",
+        "files_required": "v0.1.2 archive, SHA-256, CITATION.cff, CodeMeta, Data Package metadata",
+        "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
+        "known_facts_available": "The SHAR rights-labelled conformance corpus is a self-contained synthetic dataset with a public v0.1.2 GitHub release with verified HTTP-200 ZIP and SHA-256 asset, SHA-256 archive, CITATION.cff, CodeMeta and Data Package metadata. The Figshare new-item route redirects to its account sign-in screen. No Figshare record, DOI or public landing page exists yet, so nothing is counted.",
+        "missing_owner_facts": "Selected account and acceptance of factual metadata and licensing",
+        "post_login_steps": "Create draft/upload verified archive; publish only after final owner confirmation",
+        "expected_public_result": "Public Figshare item and DOI if issued",
+        "continuation_after_human_auth": "UNKNOWN",
+        "current_status": "OWNER_GATE_ACCOUNT",
+        "zero_spend": true
+      },
+      {
+        "provider": "Smithery",
+        "why_high_value": "TIER_A — MCP distribution registry",
+        "registrable_domain": "smithery.ai",
+        "signup_url": "https://smithery.ai/new",
+        "exact_gate": "ACCOUNT AND API KEY",
+        "account_type": "Free provider account where available",
+        "public_asset_to_submit": "production-metadata-mcp MCPB v1.0.1",
+        "profile_name": "SHAR Production",
+        "public_description": "SHAR Production is a video production studio for AI-hybrid, CGI/3D and commercial video production.",
+        "category": "MCP registry",
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "website_url": "https://sharprod.com/",
+        "files_required": "Existing MCPB v1.0.1 release asset",
+        "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
+        "known_facts_available": "Smithery officially accepts pre-built MCPB bundles for local stdio servers. SHAR has a public v1.0.1 MCPB release asset verified HTTP 200. The live new-server route redirects to account sign-in, and the documented upload API requires a bearer token. No account, API key, submission, receipt, or public listing exists.",
+        "missing_owner_facts": "Account authentication and API access creation",
+        "post_login_steps": "Use documented API with MCPB asset and verify listing",
+        "expected_public_result": "Public Smithery MCP listing if accepted",
+        "continuation_after_human_auth": "YES",
+        "current_status": "OWNER_GATE_ACCOUNT_AND_API_KEY",
+        "zero_spend": true
+      },
+      {
+        "provider": "Glama MCP Registry",
+        "why_high_value": "TIER_A — independent MCP registry",
+        "registrable_domain": "glama.ai",
+        "signup_url": "https://glama.ai/mcp/servers",
+        "exact_gate": "ACCOUNT",
+        "account_type": "Free provider account where available",
+        "public_asset_to_submit": "SHAR Production Metadata MCP v1.0.4",
+        "profile_name": "SHAR Production",
+        "public_description": "SHAR Production is a video production studio for AI-hybrid, CGI/3D and commercial video production.",
+        "category": "MCP registry",
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "website_url": "https://sharprod.com/",
+        "files_required": "None beyond public repository",
+        "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
+        "known_facts_available": "Official FAQ states that an open-source MCP can be submitted from its GitHub repository with display name and description, followed by automated quality, security and health checks. Live registry exposes Add Server while showing Sign Up; no account, submission receipt or public Glama card exists.",
+        "missing_owner_facts": "Account authentication",
+        "post_login_steps": "Submit repository and factual description; wait for checks; verify card",
+        "expected_public_result": "Public Glama MCP card if accepted",
+        "continuation_after_human_auth": "UNKNOWN",
+        "current_status": "OWNER_GATE_ACCOUNT",
+        "zero_spend": true
+      },
+      {
+        "provider": "StudioList",
+        "why_high_value": "TIER_A — curated commercial AI-video studio directory",
+        "registrable_domain": "studiolist.co",
+        "signup_url": "https://studiolist.co/get-listed/",
+        "exact_gate": "GOOGLE AUTH",
+        "account_type": "Free provider account where available",
+        "public_asset_to_submit": "SHAR Production factual company profile",
+        "profile_name": "SHAR Production",
+        "public_description": "SHAR Production is a video production studio for AI-hybrid, CGI/3D and commercial video production.",
+        "category": "AI video production studio",
+        "source_url": "https://sharprod.com/",
+        "website_url": "https://sharprod.com/",
+        "files_required": "No files; factual public profile only",
+        "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
+        "known_facts_available": "Google OAuth is the only visible submission authentication method. No attempt is made to bypass Google browser-security protections. The public form is fully inspected; after normal-browser Google authentication the same profile may be completed with the prepared factual payload.",
+        "missing_owner_facts": "Google authentication and any required non-public company/contact field",
+        "post_login_steps": "Complete factual profile; submit; verify publication",
+        "expected_public_result": "Public StudioList company profile if accepted",
+        "continuation_after_human_auth": "NO",
+        "current_status": "HUMAN_GATE_GOOGLE_AUTH",
+        "zero_spend": true
+      },
+      {
+        "provider": "3DVF CG Map",
+        "why_high_value": "TIER_A — established CGI/VFX studio directory",
+        "registrable_domain": "3dvf.com",
+        "signup_url": "https://3dvf.com/en/register-your-studio/",
+        "exact_gate": "ACCOUNT",
+        "account_type": "Free provider account where available",
+        "public_asset_to_submit": "SHAR Production factual company profile",
+        "profile_name": "SHAR Production",
+        "public_description": "SHAR Production is a video production studio for AI-hybrid, CGI/3D and commercial video production.",
+        "category": "CGI / VFX studio directory",
+        "source_url": "https://sharprod.com/",
+        "website_url": "https://sharprod.com/",
+        "files_required": "No files unless provider requests rights-cleared assets",
+        "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
+        "known_facts_available": "3DVF states that studios may add a profile to its CG Map for free after creating an account; premium visibility is optional and was not selected. Its published scope covers animation, VFX and digital-creation studios. No account, submitted profile, receipt or public SHAR page exists, so nothing is counted.",
+        "missing_owner_facts": "Account authentication/email verification and mandatory owner-only contact fields",
+        "post_login_steps": "Complete factual studio profile; submit; verify public page",
+        "expected_public_result": "Public CG Map studio profile if accepted",
+        "continuation_after_human_auth": "UNKNOWN",
+        "current_status": "OWNER_GATE_ACCOUNT",
+        "zero_spend": true
+      },
+      {
+        "provider": "FOOH",
+        "why_high_value": "TIER_A — CGI/VFX/AI-video work directory; use real credited work only",
+        "registrable_domain": "fooh.com",
+        "signup_url": "https://fooh.com/account/work",
+        "exact_gate": "ACCOUNT AND REAL WORK SELECTION",
+        "account_type": "Free provider account where available",
+        "public_asset_to_submit": "One owner-selected real SHAR work",
+        "profile_name": "SHAR Production",
+        "public_description": "SHAR Production is a video production studio for AI-hybrid, CGI/3D and commercial video production.",
+        "category": "CGI / VFX / AI-video portfolio",
+        "source_url": "https://sharprod.com/",
+        "website_url": "https://sharprod.com/",
+        "files_required": "One real rights-cleared SHAR work with factual credits, selected by owner",
+        "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
+        "known_facts_available": "FOOH publicly presents a CGI, VFX, mixed-reality and AI-video talent directory. It states that creating a portfolio and submitting work is free, and that approved work appears on a public portfolio and Explore. A submission must use a real SHAR work with rights and factual credits; no invented portfolio item, account, submission, receipt or public SHAR profile exists, so nothing is counted.",
+        "missing_owner_facts": "Authentication, work selection, rights and credits confirmation",
+        "post_login_steps": "Upload only selected real work; submit; verify approval",
+        "expected_public_result": "Public FOOH profile/work only after approval",
+        "continuation_after_human_auth": "NO",
+        "current_status": "OWNER_GATE_ACCOUNT_AND_REAL_WORK_SELECTION",
+        "zero_spend": true
+      },
+      {
+        "provider": "MCP Scoreboard",
+        "why_high_value": "TIER_B — independent MCP discovery directory",
+        "registrable_domain": "mcpscoreboard.com",
+        "signup_url": "https://www.mcpscoreboard.com/submit/",
+        "exact_gate": "GITHUB OAUTH",
+        "account_type": "Free provider account where available",
+        "public_asset_to_submit": "SHAR Production Metadata MCP v1.0.4",
+        "profile_name": "SHAR Production",
+        "public_description": "SHAR Production is a video production studio for AI-hybrid, CGI/3D and commercial video production.",
+        "category": "MCP discovery",
+        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+        "website_url": "https://sharprod.com/",
+        "files_required": "None beyond public repository",
+        "contact_fields_required": "shar@sharprod.com only if the provider requires a public business email",
+        "known_facts_available": "The source form accepted the public SHAR MCP repository and redirects to GitHub OAuth to verify write access. No authorization, receipt, or public SHAR card exists.",
+        "missing_owner_facts": "GitHub OAuth authorization",
+        "post_login_steps": "Return to form, submit repository, verify receipt and card",
+        "expected_public_result": "Public MCP Scoreboard card if accepted",
+        "continuation_after_human_auth": "UNKNOWN",
+        "current_status": "OWNER_GATE_GITHUB_OAUTH",
+        "zero_spend": true
+      }
+    ],
+    "tier_b": [
+      {
+        "provider": "DevHunt",
+        "url": "https://devhunt.org",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_B — developer-tool discovery"
+      },
+      {
+        "provider": "MCP Market",
+        "url": "https://mcpmarket.com/submit",
+        "status": "OWNER_GATE_BROWSER_SESSION_AND_INTERACTION",
+        "value": "TIER_B — independent MCP directory, free queue only"
+      },
+      {
+        "provider": "n8n Creator Hub",
+        "url": "https://creators.n8n.io/register",
+        "status": "BROWSER_ACCOUNT_CREATION_REQUIRED",
+        "value": "TIER_B — workflow/agent ecosystem"
+      },
+      {
+        "provider": "Chocolatey Community Repository",
+        "url": "https://community.chocolatey.org/account/Register",
+        "status": "OWNER_GATE_RECAPTCHA_REGISTRATION",
+        "value": "TIER_B — Windows install ecosystem"
+      },
+      {
+        "provider": "World Media Match",
+        "url": "https://worldmediamatch.com/register-your-company/",
+        "status": "OWNER_GATE_TURNSTILE_AND_REQUIRED_OWNER_FIELDS",
+        "value": "TIER_A — production-services industry network"
+      },
+      {
+        "provider": "Oward",
+        "url": "https://www.oward.co/en/register",
+        "status": "OWNER_GATE_EMAIL_VERIFICATION_AND_IDENTITY",
+        "value": "TIER_A — audiovisual company network"
+      },
+      {
+        "provider": "Production List",
+        "url": "https://www.productionlist.com/register?plan=free",
+        "status": "OWNER_GATE_EMAIL_VERIFICATION_AND_IDENTITY",
+        "value": "TIER_A — production-industry company profile"
+      },
+      {
+        "provider": "Screen Global Production",
+        "url": "https://www.screenglobalproduction.com/register/form/basic",
+        "status": "OWNER_GATE_REQUIRED_IDENTITY_AND_CONTACT",
+        "value": "TIER_A — production-industry company network"
+      },
+      {
+        "provider": "AgentForge",
+        "url": "https://agentforge.community/en/dashboard/publish",
+        "status": "OWNER_GATE_ACCOUNT_AUTHENTICATION_REQUIRED",
+        "value": "TIER_B — agent/MCP directory"
+      },
+      {
+        "provider": "vskill",
+        "url": "https://verified-skill.com/submit",
+        "status": "OWNER_GATE_GITHUB_LOGIN",
+        "value": "TIER_B — agent-skill marketplace"
+      },
+      {
+        "provider": "SkillMD",
+        "url": "https://skillmd.com/publish",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_B — public skill registry"
+      },
+      {
+        "provider": "Vimeo SHAR Showreel",
+        "url": "https://vimeo.com/1175145775",
+        "status": "CAPTCHA_REQUIRED",
+        "value": "TIER_A — independent video-hosting domain with a SHAR showreel and homepage link"
+      },
+      {
+        "provider": "AI Filmmaker Index",
+        "url": "https://aifilmmakerindex.com/login",
+        "status": "HUMAN_GATE_EMAIL_MAGIC_LINK",
+        "value": "TIER_A — curated AI filmmaker, studio and agency directory"
+      },
+      {
+        "provider": "IndexOf.AI",
+        "url": "https://indexof.ai/submit",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_B — independent AI-tool directory with a free reviewed listing"
+      },
+      {
+        "provider": "AI Directory",
+        "url": "https://www.aidirectory.org/user-submit",
+        "status": "OWNER_GATE_CAPTCHA_AND_REQUIRED_OWNER_FIELDS",
+        "value": "TIER_A — AI-company directory relevant to AI video production"
+      },
+      {
+        "provider": "Prodreel",
+        "url": "https://prodreel.com/auth/?register",
+        "status": "OWNER_GATE_CAPTCHA_AND_EMAIL_VERIFICATION",
+        "value": "TIER_A — global production-company directory"
+      },
+      {
+        "provider": "Skills Directory",
+        "url": "https://www.skillsdirectory.com/submit",
+        "status": "OWNER_GATE_GITHUB_OAUTH",
+        "value": "TIER_B — independent agent-skill discovery directory"
+      },
+      {
+        "provider": "mcpservers.org",
+        "url": "https://mcpservers.org/ru/submit",
+        "status": "OWNER_GATE_CLOUDFLARE_AND_BROWSER_INTERACTION",
+        "value": "TIER_B — independent MCP directory, free queue only"
+      },
+      {
+        "provider": "SaaSRow",
+        "url": "https://saasrow.com/",
+        "status": "HUMAN_GATE_EMAIL_CODE",
+        "value": "TIER_B — independent software directory with CLI/API/MCP support"
+      },
+      {
+        "provider": "Vitrina",
+        "url": "https://app.vitrina.ai/auth/sign-up",
+        "status": "HUMAN_GATE_EMAIL_OR_GOOGLE_AUTH",
+        "value": "TIER_A — global film, TV and M&E intelligence and company-profile network"
+      },
+      {
+        "provider": "VFX Engine",
+        "url": "https://www.vfxengine.com/jobs/list-studio",
+        "status": "OWNER_GATE_REQUIRED_CONTACT_NAME",
+        "value": "TIER_A — global VFX studio directory and career platform"
+      },
+      {
+        "provider": "Creative COW",
+        "url": "https://creativecow.net/register/",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_A — established film, broadcast, video and VFX professional community"
+      },
+      {
+        "provider": "Mendeley Data",
+        "url": "https://data.mendeley.com/",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_B — independent research-data archive and DOI route for eligible corpus"
+      },
+      {
+        "provider": "Contra Studio Directory",
+        "url": "https://contra.com/studios",
+        "status": "OWNER_GATE_ACCOUNT_AND_REAL_WORK_SELECTION",
+        "value": "TIER_A — independently vetted creative-studio directory"
+      },
+      {
+        "provider": "Future Tools",
+        "url": "https://futuretools.io/submit-a-tool",
+        "status": "OWNER_GATE_CAPTCHA",
+        "value": "TIER_B — established AI-tool discovery directory"
+      },
+      {
+        "provider": "MCPVault",
+        "url": "https://mcpvault.io/submit",
+        "status": "OWNER_GATE_GITHUB_OAUTH",
+        "value": "TIER_A — independent MCP directory with claim and live-verification path"
+      },
+      {
+        "provider": "Citation Press",
+        "url": "https://citations.press/submit/",
+        "status": "HUMAN_GATE_EMAIL_CODE",
+        "value": "TIER_A — editorial, machine-readable structured citation index"
+      },
+      {
+        "provider": "Creativepool",
+        "url": "https://creativepool.com/sign-up/",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_A — international creative company directory with production, post-production, VFX and AI agency categories"
+      },
+      {
+        "provider": "MCPHubz",
+        "url": "https://mcphubz.com/submit",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_B — independent MCP directory with a stated free one-server listing"
+      },
+      {
+        "provider": "GoodFirms",
+        "url": "https://myaccount.goodfirms.co/users/register",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_A — international research-led B2B provider directory with free profile and human verification"
+      },
+      {
+        "provider": "Clutch",
+        "url": "https://clutch.co/get-listed",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_A — established international B2B services directory"
+      },
+      {
+        "provider": "MCPCMD",
+        "url": "https://www.mcpcmd.com/submit",
+        "status": "HUMAN_GATE_CAPTCHA",
+        "value": "TIER_B — independent MCP directory with free reviewed listings"
+      },
+      {
+        "provider": "Vettd",
+        "url": "https://vettd.agentichighway.ai/dashboard/vettd-scanner",
+        "status": "OWNER_GATE_GITHUB_OAUTH",
+        "value": "TIER_B — public vendor-neutral skill/MCP trust registry"
+      },
+      {
+        "provider": "Skills AI",
+        "url": "https://skills.strongly.ai/submit",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_B — agent skill discovery directory"
+      },
+      {
+        "provider": "MCP Server Finder",
+        "url": "mailto:info@mcpserverfinder.com",
+        "status": "OWNER_GATE_EMAIL_OUTREACH",
+        "value": "TIER_B — independent MCP directory"
+      },
+      {
+        "provider": "ProSkills.md",
+        "url": "https://proskills.md/submit",
+        "status": "OWNER_GATE_GITHUB_AUTH",
+        "value": "TIER_B — independent agent-skill directory with stated review pipeline"
+      },
+      {
+        "provider": "allMCPservers.com",
+        "url": "https://www.allmcpservers.com/#cta_form-03-473241",
+        "status": "HUMAN_GATE_CAPTCHA",
+        "value": "TIER_B — independent curated MCP directory"
+      },
+      {
+        "provider": "VFX Callsheet",
+        "url": "https://www.vfxcallsheet.com/create-profile?type=studio",
+        "status": "OWNER_GATE_ACCOUNT_AND_REQUIRED_OWNER_FIELDS",
+        "value": "TIER_A — established VFX/production intelligence company directory"
+      },
+      {
+        "provider": "Shoots.video",
+        "url": "https://www.shoots.video/get-listed/",
+        "status": "OWNER_GATE_ACCOUNT_EMAIL_VERIFICATION",
+        "value": "TIER_A — established video-production vendor directory with a free basic company profile"
+      },
+      {
+        "provider": "MCP ServerList",
+        "url": "https://mcpserverlist.net/submit",
+        "status": "OWNER_GATE_ACCOUNT_EMAIL_VERIFICATION",
+        "value": "TIER_B — public, crawlable MCP directory with free standard review tier"
+      },
+      {
+        "provider": "MCP Hub community directory",
+        "url": "https://mcpdir.dev/submit",
+        "status": "AUTHENTICATED_SESSION_OBSERVED_UI_SUBMISSION_CAPABILITY_UNAVAILABLE",
+        "value": "TIER_B — independent community MCP directory that combines registry, GitHub, npm, Glama and PulseMCP sources"
+      }
+    ],
+    "tier_c": [
+      {
+        "provider": "AI X Collection",
+        "url": "https://aixcollection.com/submit",
+        "status": "OWNER_GATE_ACCOUNT",
+        "value": "TIER_C — independent AI-tool directory; current MCP utility fit must remain factual"
+      },
+      {
+        "provider": "AI Dude",
+        "url": "https://submit.aidude.info/",
+        "status": "HUMAN_GATE_GOOGLE_AUTH",
+        "value": "TIER_C — AI-tool directory; existing MCP utility fit requires factual category review"
+      },
+      {
+        "provider": "AI Tools Up",
+        "url": "https://aitoolsup.com/submit-tool/",
+        "status": "OWNER_GATE_ACCOUNT_AND_CAPTCHA",
+        "value": "TIER_C — AI-tool directory with free queue"
+      },
+      {
+        "provider": "Spot Startups",
+        "url": "https://www.spotstartups.com/submit.php",
+        "status": "OWNER_GATE_ACCOUNT_RECAPTCHA",
+        "value": "TIER_C — independent startup/developer-tool discovery domain"
+      }
+    ]
+  },
+  "counters": {
+    "accounts_created": 0,
+    "email_verified": 0,
+    "profiles_completed": 0,
+    "submissions_sent": 0,
+    "published_verified": 0
+  },
+  "next_human_action": {
+    "provider": "npm Registry",
+    "url": "https://www.npmjs.com/login",
+    "action": "Use normal Chrome at npm login to authenticate the authorised npm publisher account only; do not create or expose tokens. Tell Codex when complete.",
+    "agent_continuation": "Publish tested v1.0.4 package, then verify public package page and clean installation."
+  }
+}
