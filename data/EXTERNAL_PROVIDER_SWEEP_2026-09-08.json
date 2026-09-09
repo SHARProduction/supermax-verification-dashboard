@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T03:15:00Z",
+  "collected_at": "2026-09-09T03:25:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6168,7 +6168,7 @@
         "captcha_type": "none_observed"
       },
       "asset_fit": "CONFIRMED_FIT_PUBLIC_READ_ONLY_MCP_ENDPOINT",
-      "status": "HUMAN_GATE_GITHUB_AUTH",
+      "status": "AUTHENTICATED_SESSION_OBSERVED_UI_SUBMISSION_CAPABILITY_UNAVAILABLE",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://mcpdir.dev/auth/signin?callbackUrl=https%3A%2F%2Fmcpdir.dev%2Fsubmit",
@@ -6178,10 +6178,10 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-09T03:15:00Z",
+      "checked_at": "2026-09-09T03:25:00Z",
       "evidence": {
         "kind": "official_submit_auth_redirect",
-        "note": "The official /submit route redirects to its own GitHub sign-in screen and says signing in helps validate MCP servers. No SHAR account, submission, receipt or public card exists."
+        "note": "Official submit form is publicly reachable in the in-app browser and displays authenticated SHAR Production / Ares3333333 GitHub session. Form requires repository URL. The runtime exposes read/navigation only and no safe fill/submit operation, so no submission, receipt or public card is claimed."
       }
     }
   ]

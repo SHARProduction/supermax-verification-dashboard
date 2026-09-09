@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T03:15:00Z",
+  "updated_at": "2026-09-09T03:25:00Z",
   "purpose": "Prepared high-value owner-only gates. These rows are not accounts, submissions, or placements.",
   "rules": {
     "no_passwords_or_tokens_recorded": true,
@@ -165,11 +165,11 @@
       "tier": "TIER_B",
       "value": "Independent community MCP directory with public source aggregation",
       "why_it_matters": "Adds a distinct independent discovery ecosystem if accepted",
-      "current_step": "PREPARED_TO_HUMAN_GATE",
-      "exact_human_action": "Complete GitHub sign-in on the official MCP Hub page",
-      "expected_time_complexity": "One OAuth step",
-      "agent_after_human_gate": "Agent submits factual SHAR MCP data and verifies any public listing",
-      "status": "HUMAN_GATE_GITHUB_AUTH",
+      "current_step": "AUTHENTICATED_SESSION_OBSERVED",
+      "exact_human_action": "None currently",
+      "expected_time_complexity": "Await runtime form-input capability",
+      "agent_after_human_gate": "A runtime with ordinary form input submits the prepared public repository URL and verifies public listing",
+      "status": "AUTHENTICATED_SESSION_OBSERVED_UI_SUBMISSION_CAPABILITY_UNAVAILABLE",
       "zero_spend": true,
       "public_placement_exists": false,
       "counts_as_verified": false

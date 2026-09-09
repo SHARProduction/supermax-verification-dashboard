@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T03:15:00Z",
+  "as_of": "2026-09-09T03:25:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -493,10 +493,10 @@
       "provider": "MCP Hub community directory",
       "value": "TIER_B — independent community MCP directory that combines registry, GitHub, npm, Glama and PulseMCP sources",
       "exact_url": "https://mcpdir.dev/submit",
-      "prepared": "Verified official submit route redirects to GitHub OAuth. Prepared factual payload: SHAR Production Metadata MCP; public endpoint https://mcp.sharprod.com/public; source https://github.com/SHARProduction/production-metadata-mcp; homepage https://sharprod.com/; shar@sharprod.com. No account, submission, receipt or listing exists.",
-      "owner_action": "Authenticate with GitHub through MCP Hub's normal supported sign-in screen, then return to the prepared submit route.",
-      "continuation_after_human_auth": "UNKNOWN",
-      "status": "HUMAN_GATE_GITHUB_AUTH"
+      "prepared": "Authenticated SHAR Production / Ares3333333 GitHub session was observed on the official submit form. The form requests the public repository URL. Current runtime exposes navigation/read only, so no safe input or submit operation is available. Prepared factual value: https://github.com/SHARProduction/production-metadata-mcp. No submission, receipt or listing exists.",
+      "owner_action": "None currently: authentication is present. A runtime with ordinary form input/submission capability is required to submit the prepared repository URL.",
+      "continuation_after_human_auth": "NO",
+      "status": "AUTHENTICATED_SESSION_OBSERVED_UI_SUBMISSION_CAPABILITY_UNAVAILABLE"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
