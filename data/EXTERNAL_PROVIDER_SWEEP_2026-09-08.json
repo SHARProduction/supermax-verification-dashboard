@@ -3281,10 +3281,10 @@
       "asset_fit": "CONFIRMED_FIT",
       "status": "PROVIDER_SUBMISSION_ERROR",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T18:46:56Z",
+      "checked_at": "2026-09-09T17:08:48Z",
       "evidence": {
         "kind": "live_official_form_and_submission_api",
-        "note": "The public free form accepts a real open-source tool, requires no account, and documents POST /api/submit-tool. A factual production-metadata-linter payload returned HTTP 500 Failed to save submission before a receipt or listing was created. Do not retry without new provider evidence."
+        "note": "Retried the live anonymous form once with the factual SHAR Production Metadata MCP payload, source repository URL, SHAR Production homepage in the description, and bullolaya@gmail.com. POST /api/submit-tool returned HTTP 500 and the UI stated Failed to save submission. No receipt or listing was created; do not retry without new provider evidence."
       }
     },
     {
@@ -7069,5 +7069,5 @@
       }
     }
   ],
-  "as_of": "2026-09-09T16:39:08Z"
+  "as_of": "2026-09-09T17:08:48Z"
 }
