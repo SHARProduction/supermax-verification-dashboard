@@ -4436,6 +4436,21 @@
         "kind": "provider_api_receipt",
         "note": "No-auth public MCP form accepted the factual existing SHAR Production Metadata MCP. POST /api/mcps/submit returned HTTP 201 and provider receipt id 1528 with status pending. It is not a public listing or acceptance yet."
       }
+    },
+    {
+      "provider": "FindMCP.app",
+      "provider_domain": "findmcp.app",
+      "homepage": "https://findmcp.app/",
+      "submission_url": "https://findmcp.app/submit",
+      "source_catalog": "Official live submission form and package registry checks inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_AFTER_PUBLIC_INSTALL_PATH",
+      "status": "INELIGIBLE_CURRENT_PACKAGE_REQUIREMENT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T04:22:00Z",
+      "evidence": {
+        "kind": "live_form_and_installability_check",
+        "note": "FindMCP accepts public repositories but requires a valid Claude Desktop JSON installation snippet. The public npm registry returns 404 for @sharproduction/production-metadata-mcp; the live JSR package exists but exports only validator.js, not the MCP server executable. A local-path config would not be a truthful general installation instruction. No submission was made; reevaluate only after natural public npm or OCI publication with anonymous install verification."
+      }
     }
   ]
 }
