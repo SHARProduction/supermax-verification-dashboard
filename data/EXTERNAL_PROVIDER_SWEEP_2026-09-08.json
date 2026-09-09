@@ -6943,6 +6943,36 @@
         "kind": "public_browser_lookup",
         "note": "Anonymous lookup found io.github.SHARProduction/production-metadata-mcp as SHAR Production Metadata MCP with the public GitHub repository, mcpb installable package, active registry state and SHARProduction publisher. MCP Census labels the record 3rd party, weak pool match and UNKNOWN; its submit route says it is already in the census. This is an upstream-derived discovery record, not independent acceptance or a verified placement, so it is excluded from all placement/domain/ecosystem counts."
       }
+    },
+    {
+      "provider": "MCP Server Hub (.dev)",
+      "provider_domain": "mcpserver.dev",
+      "homepage": "https://mcpserver.dev/",
+      "submission_url": "https://mcpserver.dev/",
+      "source_catalog": "Live public discovery 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_browse",
+        "auth_type": "unknown_for_submit",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "PUBLIC_CARD_PRESENT_UNVERIFIED_ORIGIN",
+      "status": "AUTOMATED_UPSTREAM_DERIVED_UNVERIFIED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpserver.dev/s/shar-production-metadata-mcp_7q58fc9",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T16:48:23Z",
+      "evidence": {
+        "kind": "live_public_card",
+        "url": "https://mcpserver.dev/s/shar-production-metadata-mcp_7q58fc9",
+        "note": "Public canonical card was verified with factual SHAR source and homepage. No independent submission receipt or maintainer acceptance is evidenced; the page describes itself as collecting repository/README data. It is retained as discovery only, not a verified placement, ecosystem acceptance, or new domain count."
+      }
     }
   ],
   "as_of": "2026-09-09T16:39:08Z"
