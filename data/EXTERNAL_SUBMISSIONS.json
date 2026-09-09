@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:21:09Z",
+  "generated_at": "2026-09-09T14:22:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1679,7 +1679,23 @@
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": null,
       "last_public_recheck_evidence": null
+    },
+    {
+      "submission_id": "supermax.submission.credence.production-metadata-mcp",
+      "provider": "Credence Registry",
+      "provider_domain": "securingthesingularity.com",
+      "asset": "SHAR Production Metadata MCP commit 4d15a752948ba841ea565998d870bfae33d2b9d2",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T14:22:00Z",
+      "status": "SUBMITTED",
+      "evidence": "Public Credence attestation request https://github.com/pestafford/credence-registry/issues/33. Provider describes source cloning, pipeline analysis, submitter verification, and signed public attestation only if the analysis reaches a publishable verdict.",
+      "counts_as_published_verified": false,
+      "recheck_after": "2026-09-16T14:22:00Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": null,
+      "last_public_recheck_evidence": null
     }
   ],
-  "as_of": "2026-09-09T14:21:09Z"
+  "as_of": "2026-09-09T14:22:00Z"
 }
