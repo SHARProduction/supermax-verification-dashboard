@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T16:50:00Z",
+  "collected_at": "2026-09-09T17:05:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5674,6 +5674,36 @@
       "evidence": {
         "kind": "official_current_scan_status",
         "note": "The official scan page states: Public scan submissions are closed right now. To have a specific server reviewed before you install it, contact the team. No email was sent, no scan was requested, and no catalog/profile claim is made."
+      }
+    },
+    {
+      "provider": "AutropicAI",
+      "provider_domain": "tryautropic.com",
+      "homepage": "https://www.tryautropic.com/",
+      "submission_url": "https://www.tryautropic.com/submit",
+      "source_catalog": "Exa discovery plus live official API receipt 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_review_observed",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "http_status": 201,
+      "final_url": "https://www.tryautropic.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T17:05:00Z",
+      "recheck_after": "2026-09-12T17:05:00Z",
+      "evidence": {
+        "kind": "live_official_api_submission_receipt",
+        "note": "Official anonymous POST /api/v1/submit returned HTTP 201 for factual SHAR MCP profile. Rendered receipt: Submitted! We will review it and add it soon. No public card exists yet; not counted."
       }
     }
   ]

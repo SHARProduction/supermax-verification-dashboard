@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T16:10:00Z",
+  "generated_at": "2026-09-09T17:05:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1144,6 +1144,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T16:10:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.autropicai.production-metadata-mcp",
+      "provider": "AutropicAI",
+      "provider_domain": "tryautropic.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T17:05:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW",
+      "evidence": "Official anonymous POST /api/v1/submit returned HTTP 201. Rendered receipt: Submitted! We will review it and add it soon.",
+      "evidence_url": "https://www.tryautropic.com/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T17:05:00Z"
     }
   ]
 }
