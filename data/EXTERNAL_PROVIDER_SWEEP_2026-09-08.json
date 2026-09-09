@@ -4036,12 +4036,12 @@
       "submission_url": "https://geminiskill.org/submit",
       "source_catalog": "live public submit page 2026-09-09",
       "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
-      "status": "READY_FORM_REQUIRES_CONTACT_TRANSMISSION_CONFIRMATION",
+      "status": "PROVIDER_SUBMISSION_FLOW_NONFUNCTIONAL",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T01:55:00Z",
+      "checked_at": "2026-09-09T18:00:00Z",
       "evidence": {
-        "kind": "live_public_submission_form",
-        "note": "Free review form requests skill name, GitHub source URL, short description, category, compatibility and review-contact email. Existing SHAR skill fits Testing & QA / Gemini CLI, Claude Code and Cursor compatibility. No form data or submission sent."
+        "kind": "live_form_submission_evidence",
+        "note": "2026-09-09: filled the public free review form with the factual SHAR skill source, Testing category, and shar@sharprod.com. The form action was https://formspree.io/f/placeholder; submit landed on Formspree “Form not found / Please check the form hashid”. No provider receipt or SHAR listing exists, so no submission was recorded."
       }
     },
     {
