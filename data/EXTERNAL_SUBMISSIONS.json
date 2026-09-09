@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T16:59:22Z",
+  "generated_at": "2026-09-09T17:05:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1841,7 +1841,11 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T16:55:00Z"
+      "recheck_after": "2026-09-16T16:55:00Z",
+      "generated_draft_pr_url": "https://github.com/TensorBlock/awesome-mcp-servers/pull/2272",
+      "generated_draft_pr_state": "OPEN_DRAFT_MAINTAINER_REVIEW_REQUIRED",
+      "last_public_recheck_at": "2026-09-09T17:05:00Z",
+      "last_public_recheck_evidence": "Official intake automation labeled issue #2271 ready-for-pr and generated draft PR #2272. PR is open/draft and mergeStateStatus BLOCKED. A factual category correction was commented: tool validates production delivery metadata and does not search. No maintainer acceptance, merged PR, or hosted profile exists."
     },
     {
       "submission_id": "supermax.submission.aitoolboard.production-metadata-mcp",
@@ -1862,5 +1866,5 @@
       "recheck_after": "2026-09-12T16:59:22Z"
     }
   ],
-  "as_of": "2026-09-09T16:59:22Z"
+  "as_of": "2026-09-09T17:05:00Z"
 }

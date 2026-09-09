@@ -7051,7 +7051,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "CONFIRMED_FIT_READ_ONLY_OPEN_SOURCE_MCP",
-      "status": "SUBMITTED",
+      "status": "SUBMITTED_AWAITING_MAINTAINER_REVIEW",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/2271",
@@ -7061,11 +7061,11 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-09T16:55:00Z",
+      "checked_at": "2026-09-09T17:05:00Z",
       "evidence": {
-        "kind": "public_external_oss_issue_submission",
-        "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/2271",
-        "note": "Submitted through the repository official Add MCP server issue form after upstream code search found no existing SHAR URL. Issue uses factual source, install, stdio/no-auth and MIT metadata. Maintainer triage, PR and/or hosted index listing remain required."
+        "kind": "public_issue_and_generated_draft_pr",
+        "url": "https://github.com/TensorBlock/awesome-mcp-servers/pull/2272",
+        "note": "Issue #2271 was labeled ready-for-pr. Official automation generated draft PR #2272. It is open/draft, merge state BLOCKED, and still needs maintainer review. Factual category correction comment requests multimedia-processing rather than search. No acceptance or hosted profile is claimed."
       }
     }
   ],
