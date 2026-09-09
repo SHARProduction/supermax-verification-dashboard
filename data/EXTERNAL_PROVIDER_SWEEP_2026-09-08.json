@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T06:05:00Z",
+  "collected_at": "2026-09-09T06:25:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -3420,19 +3420,14 @@
       "provider_domain": "studioindex.ai",
       "homepage": "https://studioindex.ai/",
       "submission_url": "https://studioindex.ai/list-your-studio",
-      "source_catalog": "Agent Reach Exa discovery and official client bundle inspection 2026-09-08",
-      "asset_fit": "CONFIRMED_FIT_AI_VIDEO_PRODUCTION_DIRECTORY",
-      "status": "PROVIDER_SUBMISSION_FLOW_NONFUNCTIONAL",
+      "source_catalog": "Official directory and live form inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_AI_AUGMENTED_VIDEO_PRODUCTION_STUDIO",
+      "status": "PROVIDER_SUBMISSION_ERROR_NO_REQUEST",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T02:10:00Z",
+      "checked_at": "2026-09-09T06:25:00Z",
       "evidence": {
-        "kind": "official_form_client_bundle",
-        "note": "Free editorial form inspected. Verified StudioIndex form fields are recorded; SHAR homepage and public Vimeo showreel are prepared. Team size, founded year, budget range and actual tools still require owner factual confirmation. No form submission exists.",
-        "submission_test": {
-          "method": "Headless browser with valid required inputs (SHAR Production, shar@sharprod.com, AI-Augmented)",
-          "result": "No POST request, navigation, receipt, toast, client error or invalid field after clicking Submit Your Studio.",
-          "conclusion": "Provider form is nonfunctional from current live client; no submission exists."
-        }
+        "kind": "live_form_functional_failure",
+        "note": "The form accepted a minimal factual SHAR payload and browser constraint validation passed. Clicking the sole submit control emitted no POST/fetch/navigation/error or success state during a 10-second captured browser session. No submission, acceptance or card is claimed; do not retry until the provider fixes its submit handler."
       },
       "prepared_payload": {
         "website": "https://sharprod.com/",
@@ -3444,6 +3439,20 @@
           "budget range",
           "actual AI tools used"
         ]
+      },
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_basic_listing",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "http_status": 200,
+      "final_url": "https://studioindex.ai/list-your-studio",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
       }
     },
     {
