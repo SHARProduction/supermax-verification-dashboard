@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T05:50:00Z",
+  "collected_at": "2026-09-09T06:05:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4656,6 +4656,64 @@
       "evidence": {
         "kind": "official_site_publishing_guide",
         "note": "The registry page exposes no submit control. Its publishing guide directs maintainers to publish to the Official MCP Registry, where SHAR is already published. This is not a new independent acceptance route."
+      }
+    },
+    {
+      "provider": "MCP Server Hub",
+      "provider_domain": "mcpserverhub.net",
+      "homepage": "https://mcpserverhub.net/",
+      "submission_url": "https://mcpserverhub.net/submit",
+      "source_catalog": "Live official directory and anonymous form inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_claimed",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "REJECTED_PROVIDER_QUALITY_TOO_LOW",
+      "status": "INELIGIBLE_LOW_QUALITY_CURRENT_INDEX",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpserverhub.net/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T06:05:00Z",
+      "evidence": {
+        "kind": "live_directory_and_submit_form",
+        "note": "The anonymous form is live, but the active catalog prominently contains unrelated/incorrect MCP content, including Minecraft Coder Pack instructions and generic fabricated-looking entries. It does not meet the program’s independent-quality threshold, so no SHAR submission was made."
+      }
+    },
+    {
+      "provider": "MCP Server Directory",
+      "provider_domain": "mcp-server-directory.com",
+      "homepage": "https://www.mcp-server-directory.com/",
+      "submission_url": "https://www.mcp-server-directory.com/",
+      "source_catalog": "Live domain inspection 2026-09-09",
+      "source_status": {
+        "site_status": "technical_redirect_shell",
+        "pricing_type": "unknown",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "UNVERIFIED",
+      "status": "PROVIDER_TECHNICAL_UNAVAILABLE_REDIRECT_SHELL",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.mcp-server-directory.com/",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T06:05:00Z",
+      "evidence": {
+        "kind": "live_http_and_browser_inspection",
+        "note": "The root returns HTTP 200 but only a Redirecting page with no rendered service or submit control. No actionable provider route exists."
       }
     }
   ]
