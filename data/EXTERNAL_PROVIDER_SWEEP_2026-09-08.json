@@ -203,7 +203,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "status": "PROVIDER_UNAVAILABLE_OR_FOR_SALE",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://affordhunt.com/submit",
@@ -213,7 +213,12 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T16:45:37Z",
+      "evidence": {
+        "kind": "live_public_submission_route",
+        "url": "https://affordhunt.com/submit",
+        "note": "Public browser verification: the submission URL redirects to https://affordhunt.com/lander and exposes no directory or submission UI. No submission was attempted."
+      }
     },
     {
       "provider": "AI Center",
