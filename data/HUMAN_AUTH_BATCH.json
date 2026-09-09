@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T14:11:35Z",
+  "as_of": "2026-09-09T14:20:01Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -551,6 +551,15 @@
       "owner_action": "Send the prepared submission email from the opened mail client, then retain the send receipt.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_EMAIL_SEND"
+    },
+    {
+      "provider": "MCP Hunter",
+      "value": "TIER_A — independent weekly MCP launch board with permanent server page, structured data, Markdown twin and llms.txt inclusion after review",
+      "exact_url": "https://mcp-hunter.com/submit",
+      "prepared": "The public source supports a factual listing: repository, MIT license, documented local stdio install, \u000balidate_production_manifest tool, and production metadata validation scope. The provider states it will connect to the supplied endpoint or present the declared stdio command, with a human review. No paid highlight was selected.",
+      "owner_action": "Authenticate with the preferred GitHub or Google account, then complete the factual submit form.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "HUMAN_GATE_GITHUB_OR_GOOGLE_AUTH"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
