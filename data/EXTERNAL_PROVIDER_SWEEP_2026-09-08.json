@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:00:00Z",
+  "collected_at": "2026-09-09T15:15:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5500,6 +5500,36 @@
       "evidence": {
         "kind": "live_official_route_response",
         "note": "The documented website submission route resolved to an official 404 page. No public form or alternate own route was found in this check."
+      }
+    },
+    {
+      "provider": "Agent Skills Index",
+      "provider_domain": "agentskillsindex.com",
+      "homepage": "https://agentskillsindex.com/",
+      "submission_url": "https://agentskillsindex.com/en/docs/publishing",
+      "source_catalog": "Official publishing documentation plus live GitHub topic verification 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_auto_discovery",
+        "auth_type": "none_for_crawler_route",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "PUBLIC_AUTO_DISCOVERY_ELIGIBLE_PENDING",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://agentskillsindex.com/en/docs/publishing",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:15:00Z",
+      "recheck_after": "2026-09-16T15:15:00Z",
+      "evidence": {
+        "kind": "official_crawler_rules_and_live_source_metadata",
+        "note": "Official docs state the crawler discovers public repositories with SKILL.md and the ai-skill topic. The SHAR repository is public, MIT-licensed, contains the production skill, and GitHub API confirmed its ai-skill topic at this check. Automatic discovery is not a public listing or independent acceptance; no count until a public card is observed."
       }
     }
   ]
