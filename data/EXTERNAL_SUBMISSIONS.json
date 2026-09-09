@@ -486,9 +486,10 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T16:35:00Z",
-      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/perma-id/w3id.org/pull/6668). No external maintainer acceptance yet."
+      "recheck_after": "2026-09-16T17:10:00Z",
+      "last_public_recheck_at": "2026-09-09T17:10:00Z",
+      "last_public_recheck_evidence": "GitHub PR recheck: PR remains open, mergeStateStatus CLEAN, no failed checks or comments. Awaiting external maintainer decision.",
+      "provider_blocker": "GitHub PR recheck: PR remains open, mergeStateStatus CLEAN, no failed checks or comments. Awaiting external maintainer decision."
     },
     {
       "submission_id": "supermax.submission.winget.production-metadata-linter",
@@ -524,9 +525,10 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T16:35:00Z",
-      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/conda-forge/staged-recipes/pull/34769). No external maintainer acceptance yet."
+      "recheck_after": "2026-09-16T17:10:00Z",
+      "last_public_recheck_at": "2026-09-09T17:10:00Z",
+      "last_public_recheck_evidence": "GitHub PR recheck: linter and all staged-recipes platform builds passed. PR remains open and blocked awaiting external maintainer progression; no reviewer change request or failed check exists.",
+      "provider_blocker": "GitHub PR recheck: linter and all staged-recipes platform builds passed. PR remains open and blocked awaiting external maintainer progression; no reviewer change request or failed check exists."
     },
     {
       "submission_id": "supermax.submission.mcp-pub.production-metadata-mcp",
@@ -701,9 +703,10 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T16:35:00Z",
-      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/opensource-observer/oss-directory/pull/1242). No external maintainer acceptance yet."
+      "recheck_after": "2026-09-16T17:10:00Z",
+      "last_public_recheck_at": "2026-09-09T17:10:00Z",
+      "last_public_recheck_evidence": "GitHub check recheck: local validation passed; external validate check is action_required and states that a repository administrator must run /validate for head commit 18216528a2cebb6a841f7e8afd08304122a82a5d. This is provider-maintainer action, not a SHAR defect.",
+      "provider_blocker": "GitHub check recheck: local validation passed; external validate check is action_required and states that a repository administrator must run /validate for head commit 18216528a2cebb6a841f7e8afd08304122a82a5d. This is provider-maintainer action, not a SHAR defect."
     },
     {
       "submission_id": "supermax.submission.heyclaude.production-metadata-mcp",
@@ -741,9 +744,10 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T16:35:00Z",
-      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/JakeGWater/vpifg.com/pull/61). No external maintainer acceptance yet."
+      "recheck_after": "2026-09-16T17:10:00Z",
+      "last_public_recheck_at": "2026-09-09T17:10:00Z",
+      "last_public_recheck_evidence": "GitHub PR recheck: open and blocked only by the upstream Mergify configuration reporting invalid strict.smart+fasttrack input. No requested SHAR change or maintainer review exists.",
+      "provider_blocker": "GitHub PR recheck: open and blocked only by the upstream Mergify configuration reporting invalid strict.smart+fasttrack input. No requested SHAR change or maintainer review exists."
     },
     {
       "submission_id": "supermax.submission.schemastore.production-delivery-manifest",
