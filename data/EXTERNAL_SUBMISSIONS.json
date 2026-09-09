@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T16:55:00Z",
+  "generated_at": "2026-09-09T16:56:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -62,8 +62,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: punkpeye/awesome-mcp-servers PR #13996 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.agentndx.production-metadata-mcp",
@@ -215,8 +215,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: devtoolsd/devtoolsd PR #37 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.devpages.production-metadata-mcp",
@@ -268,8 +268,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: agentskillexchange/skills PR #73 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.agent-mag.production-metadata-validation",
@@ -287,8 +287,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: Agent-mag/skills PR #104 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.agent-skills-md.production-metadata-validation",
@@ -420,8 +420,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: manu14357/zskills PR #2 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.oneskill.production-metadata-mcp",
@@ -492,9 +492,9 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T17:10:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: perma-id/w3id.org PR #6668 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed.",
-      "provider_blocker": "GitHub PR recheck: PR remains open, mergeStateStatus CLEAN, no failed checks or comments. Awaiting external maintainer decision."
+      "provider_blocker": "GitHub PR recheck: PR remains open, mergeStateStatus CLEAN, no failed checks or comments. Awaiting external maintainer decision.",
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.winget.production-metadata-linter",
@@ -512,8 +512,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: microsoft/winget-pkgs PR #431460 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.conda-forge.production-manifest-gate",
@@ -531,9 +531,9 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T17:10:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: conda-forge/staged-recipes PR #34769 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed.",
-      "provider_blocker": "GitHub PR recheck: linter and all staged-recipes platform builds passed. PR remains open and blocked awaiting external maintainer progression; no reviewer change request or failed check exists."
+      "provider_blocker": "GitHub PR recheck: linter and all staged-recipes platform builds passed. PR remains open and blocked awaiting external maintainer progression; no reviewer change request or failed check exists.",
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.mcp-pub.production-metadata-mcp",
@@ -636,8 +636,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: iAmCorey/devtoolset PR #44 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.ossdrop.production-metadata-linter",
@@ -655,8 +655,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: OSSDrop/OSSDrop PR #29 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.clime.production-metadata-linter",
@@ -709,9 +709,9 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T17:10:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: opensource-observer/oss-directory PR #1242 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed.",
-      "provider_blocker": "GitHub check recheck: local validation passed; external validate check is action_required and states that a repository administrator must run /validate for head commit 18216528a2cebb6a841f7e8afd08304122a82a5d. This is provider-maintainer action, not a SHAR defect."
+      "provider_blocker": "GitHub check recheck: local validation passed; external validate check is action_required and states that a repository administrator must run /validate for head commit 18216528a2cebb6a841f7e8afd08304122a82a5d. This is provider-maintainer action, not a SHAR defect.",
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.heyclaude.production-metadata-mcp",
@@ -730,8 +730,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: nyxst4ck/awesome-claude PR #1 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.vpifg.shar-production-studio",
@@ -750,9 +750,9 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T17:10:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: JakeGWater/vpifg.com PR #61 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed.",
-      "provider_blocker": "GitHub PR recheck: open and blocked only by the upstream Mergify configuration reporting invalid strict.smart+fasttrack input. No requested SHAR change or maintainer review exists."
+      "provider_blocker": "GitHub PR recheck: open and blocked only by the upstream Mergify configuration reporting invalid strict.smart+fasttrack input. No requested SHAR change or maintainer review exists.",
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.schemastore.production-delivery-manifest",
@@ -793,8 +793,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: openmodelsrun/mcp PR #33 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.mcpm.production-metadata-mcp",
@@ -814,8 +814,8 @@
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
       "last_rechecked_at": "2026-09-09T02:57:23Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: pathintegral-institute/mcpm.sh PR #398 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.software-heritage.production-metadata-mcp",
@@ -1252,8 +1252,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: theskillsdirectory/skills PR #11 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.influzer.shar-production-metadata-mcp",
@@ -1328,8 +1328,8 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:35:00Z",
-      "last_public_recheck_at": "2026-09-09T14:53:00Z",
-      "last_public_recheck_evidence": "Batch GitHub REST recheck: tainguyen091994/agentguard PR #41 remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
+      "last_public_recheck_at": "2026-09-09T16:56:00Z",
+      "last_public_recheck_evidence": "Batch GitHub REST recheck: pull request remains OPEN with merged_at null; no external maintainer acceptance or public upstream placement is claimed."
     },
     {
       "submission_id": "supermax.submission.glama.production-metadata-mcp",
@@ -1844,5 +1844,5 @@
       "recheck_after": "2026-09-16T16:55:00Z"
     }
   ],
-  "as_of": "2026-09-09T16:55:00Z"
+  "as_of": "2026-09-09T16:56:00Z"
 }
