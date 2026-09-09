@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:23:25Z",
+  "collected_at": "2026-09-09T15:31:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6519,6 +6519,35 @@
       "evidence": {
         "kind": "official_auth_gate",
         "note": "Provider public scope explicitly includes open-source repositories, but submit route renders Authentication Required before its form. No account, submission, receipt, or public listing exists."
+      }
+    },
+    {
+      "provider": "SafeMCP",
+      "provider_domain": "safemcp.info",
+      "homepage": "https://safemcp.info/",
+      "submission_url": null,
+      "source_catalog": "Live public directory and search inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_PUBLIC_MCP_SOURCE",
+      "status": "NO_PUBLIC_SUBMISSION_ROUTE_NO_SHAR_PUBLIC_CARD",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://safemcp.info/search/?q=SHAR+Production+Metadata+MCP",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:28:37Z",
+      "evidence": {
+        "kind": "live_public_directory_search",
+        "note": "SafeMCP advertises a free no-signup directory of MCP servers. Live exact SHAR search returned one unrelated SharePoint result and no SHAR public card; no public source submission or claim route is exposed. Do not count or retry until provider exposes a qualifying route or independent public SHAR card."
       }
     }
   ]
