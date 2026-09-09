@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:15:00Z",
+  "generated_at": "2026-09-09T15:55:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -12,9 +12,11 @@
       "status": "SUBMITTED",
       "evidence": "MCP.Directory confirmation page: Server Submitted! We will review your server and publish it within 24 hours.",
       "counts_as_published_verified": false,
-      "recheck_after": "2026-09-09T13:18:00Z",
+      "recheck_after": "2026-09-11T15:55:00Z",
       "publisher": "SHAR Production",
-      "homepage": "https://sharprod.com/"
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": "2026-09-09T15:55:00Z",
+      "last_public_recheck_evidence": "Live MCP.Directory /servers search for SHAR Production Metadata MCP returned No servers found; no public listing observed."
     },
     {
       "submission_id": "supermax.submission.mcp-so.production-metadata-mcp",
