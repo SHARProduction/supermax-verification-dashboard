@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T20:45:00Z",
+  "collected_at": "2026-09-09T20:55:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6095,6 +6095,35 @@
       "evidence": {
         "kind": "official_anonymous_submission_receipt",
         "note": "AgentStatus accepted the public SHAR MCP endpoint for a free pilot dashboard and protocol probe. It reported account_created, agent_created and email_sent. The first public index API query did not yet return the slug, so this stays submitted pending public visibility and probe results."
+      }
+    },
+    {
+      "provider": "MCP Archive",
+      "provider_domain": "mcp-archive.com",
+      "homepage": "https://mcp-archive.com/",
+      "submission_url": "https://mcp-archive.com/submit",
+      "source_catalog": "Agent Reach discovery plus official submission client and API attempt 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_submission_claimed",
+        "auth_type": "anonymous_submission",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_PUBLIC_READ_ONLY_MCP_ENDPOINT",
+      "status": "PROVIDER_SUBMISSION_ERROR_DATABASE_RETRY_LATER",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcp-archive.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T20:55:00Z",
+      "evidence": {
+        "kind": "official_anonymous_api_attempt",
+        "note": "The official form POSTs name, company, description, public MCP URL, pricing, tags and contact email to /api/submit. A single factual SHAR submission attempt returned HTTP 503 {\"error\":\"Database connection error. Please try again later.\"}. No receipt, listing or count exists; retry after the provider recovers."
       }
     }
   ]
