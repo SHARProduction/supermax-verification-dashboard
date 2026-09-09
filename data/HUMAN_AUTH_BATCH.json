@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T14:35:48Z",
+  "as_of": "2026-09-09T14:39:53Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -578,6 +578,15 @@
       "owner_action": "Authenticate through Claude Rules normal GitHub or Google flow, then leave the authenticated submission form available for factual completion.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "HUMAN_GATE_GITHUB_OR_GOOGLE_AUTH"
+    },
+    {
+      "provider": "Stork.AI",
+      "value": "TIER_A — independent MCP and AI-tool discovery provider whose remote Stork MCP surfaces catalog entries inside Cursor, Claude Code, VS Code, Windsurf and other IDEs; runs a live handshake and tool discovery",
+      "exact_url": "https://www.stork.ai/mcp/submit",
+      "prepared": "Live free MCP submit form inspected. It accepts a GitHub URL, npm package or public remote endpoint, then performs an actual MCP handshake, metadata enrichment and tool discovery before indexing. Prepared factual asset: endpoint https://mcp.sharprod.com/public; public source https://github.com/SHARProduction/production-metadata-mcp; name SHAR Production Public Knowledge MCP; read-only source-backed production knowledge with no credentials, writes, or publishing. No paid route selected, no account, receipt, or public Stork card exists.",
+      "owner_action": "Authenticate through Stork normal supported sign-in flow, then leave the populated free submission form for completion.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "HUMAN_GATE_SIGN_IN"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
