@@ -61,7 +61,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T14:24:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/punkpeye/awesome-mcp-servers/pull/13996). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.agentndx.production-metadata-mcp",
@@ -208,7 +210,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T15:15:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/devtoolsd/devtoolsd/pull/37). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.devpages.production-metadata-mcp",
@@ -259,7 +263,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T15:34:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/agentskillexchange/skills/pull/73). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.agent-mag.production-metadata-validation",
@@ -276,7 +282,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T15:42:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/Agent-mag/skills/pull/104). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.agent-skills-md.production-metadata-validation",
@@ -407,7 +415,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T00:00:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/manu14357/zskills/pull/2). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.oneskill.production-metadata-mcp",
@@ -476,7 +486,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T00:00:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/perma-id/w3id.org/pull/6668). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.winget.production-metadata-linter",
@@ -493,7 +505,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-10T12:00:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/microsoft/winget-pkgs/pull/431460). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.conda-forge.production-manifest-gate",
@@ -510,7 +524,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T00:00:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/conda-forge/staged-recipes/pull/34769). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.mcp-pub.production-metadata-mcp",
@@ -612,7 +628,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T00:00:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/iAmCorey/devtoolset/pull/44). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.ossdrop.production-metadata-linter",
@@ -629,7 +647,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T18:58:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/OSSDrop/OSSDrop/pull/29). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.clime.production-metadata-linter",
@@ -681,7 +701,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T19:20:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/opensource-observer/oss-directory/pull/1242). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.heyclaude.production-metadata-mcp",
@@ -699,7 +721,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T00:00:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/nyxst4ck/awesome-claude/pull/1). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.vpifg.shar-production-studio",
@@ -717,7 +741,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-15T20:37:27Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/JakeGWater/vpifg.com/pull/61). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.schemastore.production-delivery-manifest",
@@ -757,7 +783,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T00:00:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/openmodelsrun/mcp/pull/33). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.mcpm.production-metadata-mcp",
@@ -775,8 +803,10 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T00:00:00Z",
-      "last_rechecked_at": "2026-09-09T02:57:23Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_rechecked_at": "2026-09-09T02:57:23Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/pathintegral-institute/mcpm.sh/pull/398). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.software-heritage.production-metadata-mcp",
@@ -1208,7 +1238,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-12T02:00:00Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/theskillsdirectory/skills/pull/11). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.influzer.shar-production-metadata-mcp",
@@ -1280,7 +1312,9 @@
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-16T03:04:40Z"
+      "recheck_after": "2026-09-16T16:35:00Z",
+      "last_public_recheck_at": "2026-09-09T16:35:00Z",
+      "last_public_recheck_evidence": "GitHub REST API recheck: PR remains OPEN and merged_at is null (https://github.com/tainguyen091994/agentguard/pull/41). No external maintainer acceptance yet."
     },
     {
       "submission_id": "supermax.submission.glama.production-metadata-mcp",
