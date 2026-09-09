@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:55:00Z",
+  "as_of": "2026-09-09T15:56:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -711,6 +711,15 @@
       "owner_action": "Create/verify the free account with bullolaya@gmail.com in the official form, complete reCAPTCHA and accept terms only if you agree; do not select Fast Track. Leave the resulting authenticated form or receipt available.",
       "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_ACCOUNT_RECAPTCHA_TERMS"
+    },
+    {
+      "provider": "ToolScout.ai",
+      "value": "TIER_A — independent human-reviewed open-source AI repository catalog; public listings retain live GitHub activity/license metadata",
+      "exact_url": "https://toolscout.ai/submit/repo",
+      "prepared": "Official repo submission route confirms 4,171 tracked repositories, always-free open-source listings, no star minimum and human review. SHAR Production Metadata MCP satisfies the public open-source repository eligibility. Provider requires sign-in before the submission fields render. Paid feature route was not opened or selected.",
+      "owner_action": "Authenticate through ToolScout’s standard sign-in flow using bullolaya@gmail.com and leave the session at Submit an AI Repo. Do not select any featured or paid route.",
+      "continuation_after_human_auth": "YES",
+      "status": "OWNER_GATE_ACCOUNT"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

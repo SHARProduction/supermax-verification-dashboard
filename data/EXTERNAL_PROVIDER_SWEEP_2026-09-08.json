@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:55:00Z",
+  "collected_at": "2026-09-09T15:56:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6768,6 +6768,35 @@
       "evidence": {
         "kind": "official_live_submission_route",
         "note": "Official form offers free hand review and permanent public listing. Provider displays reCAPTCHA and requires account/password and terms confirmation. Optional $19 Fast Track was excluded. No submission, receipt or listing exists."
+      }
+    },
+    {
+      "provider": "ToolScout.ai",
+      "provider_domain": "toolscout.ai",
+      "homepage": "https://toolscout.ai/",
+      "submission_url": "https://toolscout.ai/submit/repo",
+      "source_catalog": "Official ToolScout repo submit route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_open_source_listing",
+        "auth_type": "account_signin",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_AI_REPO",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://toolscout.ai/submit/repo",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:56:00Z",
+      "evidence": {
+        "kind": "official_live_submission_route",
+        "note": "Official route says open-source listings are always free, human reviewed and have no star minimum. Account sign-in required before submission. No account, receipt or public SHAR card exists."
       }
     }
   ],
