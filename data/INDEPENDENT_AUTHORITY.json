@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T15:14:49Z",
+  "updated_at": "2026-09-09T16:36:02Z",
   "counting_boundary": "Third-party public authority only. SHAR-controlled properties, submissions, mirrors, search snippets and unverified claims are excluded.",
   "allowed_types": [
     "external_editorial_mention",
@@ -18,8 +18,8 @@
     "external_industry_directory_acceptance"
   ],
   "metrics": {
-    "known_verified_records": 5,
-    "independent_authority_domains_observed": 5,
+    "known_verified_records": 7,
+    "independent_authority_domains_observed": 7,
     "independent_mentions_observed": null,
     "independent_backlinks_observed": null,
     "independent_citations_observed": null,
@@ -103,6 +103,62 @@
         "verified_at": "2026-09-09T15:35:00Z"
       },
       "verified_at": "2026-09-09T15:35:00Z",
+      "counts_as_independent_citation": false,
+      "counts_as_editorial_mention": false,
+      "counts_as_external_acceptance": false
+    },
+    {
+      "id": "authority.workspace.lukoil-ai-graphics-case",
+      "type": "external_case_study",
+      "url": "https://workspace.ru/cases/grafika-s-pomoschyu-ii-lukoyl/",
+      "registrable_domain": "workspace.ru",
+      "publisher": "Workspace.ru",
+      "relationship_to_SHAR": "Public third-party creative-industry case page under the SHAR Production contractor profile; the page attributes the project to SHAR and renders a link to the relevant sharprod.com case.",
+      "SHAR_CONTROLLED": false,
+      "context": "The public page identifies SHAR Production in Moscow, categorizes the case as Animation and motion design plus Generation and AI photography, and documents AI-motion design, styleframes, image-to-video and a 14-day delivery for a Lukoil visual project. It displays a 10.0 rating from one person and 39 views at verification. This is creator-authored case content hosted by an independent industry platform, not editorial recommendation or client testimonial.",
+      "link": "https://sharprod.com/cases/case-6.html",
+      "topic": "AI-assisted motion design and image-to-video production for a branded visual project",
+      "commercial_query_relation": "Direct factual evidence of SHAR Production AI/CGI/hybrid production work for a named commercial brand.",
+      "review_mechanism": "Third-party industry-platform hosting; creator-authored case content. No independent editorial acceptance, ranking or recommendation is claimed.",
+      "evidence": {
+        "http_200": true,
+        "canonical": "https://workspace.ru/cases/grafika-s-pomoschyu-ii-lukoyl/",
+        "browser_rendered": true,
+        "publisher_profile_rendered": "SHAR Production",
+        "project_link_rendered": true,
+        "platform_displayed_rating": "10.0 from 1 person",
+        "platform_displayed_views": 39,
+        "verified_at": "2026-09-09T16:35:42Z"
+      },
+      "verified_at": "2026-09-09T16:35:42Z",
+      "counts_as_independent_citation": false,
+      "counts_as_editorial_mention": false,
+      "counts_as_external_acceptance": false
+    },
+    {
+      "id": "authority.sostav.ai-video-production-article",
+      "type": "external_case_study",
+      "url": "https://www.sostav.ru/blogs/290917/93220",
+      "registrable_domain": "sostav.ru",
+      "publisher": "Sostav.ru",
+      "relationship_to_SHAR": "Public article on the SHAR Production blog hosted by an independent advertising and marketing publication; the article renders SHAR branding and a direct homepage link.",
+      "SHAR_CONTROLLED": false,
+      "context": "The public article explains why AI video needs creative direction and describes hybrid production combining live action, CGI, VFX and generative tools. It renders the SHAR Production author/profile and a direct https://sharprod.com/ link, with 283 displayed views and one positive reaction at verification. It is author-published content on a third-party platform, not independent editorial endorsement or a recommendation.",
+      "link": "https://sharprod.com/",
+      "topic": "AI video, hybrid production, CGI, VFX and commercial creative direction",
+      "commercial_query_relation": "Direct topical evidence connecting SHAR Production to AI video and hybrid commercial production in a Russian advertising-industry publication.",
+      "review_mechanism": "Third-party publishing-platform hosting; creator-authored article. No independent editorial acceptance, ranking or recommendation is claimed.",
+      "evidence": {
+        "http_200": true,
+        "canonical": "https://www.sostav.ru/blogs/290917/93220",
+        "browser_rendered": true,
+        "publisher_profile_rendered": "Shar Production о видеопроизводстве",
+        "sharprod_link_rendered": true,
+        "platform_displayed_views": 283,
+        "platform_displayed_reactions": 1,
+        "verified_at": "2026-09-09T16:36:02Z"
+      },
+      "verified_at": "2026-09-09T16:36:02Z",
       "counts_as_independent_citation": false,
       "counts_as_editorial_mention": false,
       "counts_as_external_acceptance": false
