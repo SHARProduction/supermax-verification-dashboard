@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:22:00Z",
+  "generated_at": "2026-09-09T14:29:32Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1695,7 +1695,26 @@
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": null,
       "last_public_recheck_evidence": null
+    },
+    {
+      "submission_id": "supermax.submission.unyly.production-metadata-mcp",
+      "provider": "Unyly",
+      "provider_domain": "unyly.org",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T14:29:32Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_MCP_MARKETPLACE_REVIEW",
+      "evidence": "Browser receipt after no-auth factual submission: Request received; provider states review within 48 hours, email confirmation sent, and progress is available only in its dashboard. Free model selected; no payment or hosting action was initiated.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-11T14:29:32Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": null,
+      "last_public_recheck_evidence": null
     }
   ],
-  "as_of": "2026-09-09T14:22:00Z"
+  "as_of": "2026-09-09T14:29:32Z"
 }
