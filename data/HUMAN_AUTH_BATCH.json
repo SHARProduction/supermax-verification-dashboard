@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T16:00:00Z",
+  "as_of": "2026-09-09T16:06:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -728,6 +728,15 @@
       "owner_action": "Open the official form in a normal supported browser, complete any visible or invisible verification, then submit the prepared factual payload once.",
       "continuation_after_human_auth": "YES",
       "status": "HUMAN_GATE_ANTIBOT_VERIFICATION"
+    },
+    {
+      "provider": "JSR package settings",
+      "value": "TIER_A — existing native package registry presence; current public package is signed, installable and documented, with Score 58%",
+      "exact_url": "https://jsr.io/@sharproduction/production-metadata-mcp/score",
+      "prepared": "Public 1.0.5 package card and Score page were browser-verified. Code-level symbol documentation raised JSR Score from 29% to 58%. Remaining verified gaps are provider account settings only: package description and marking genuinely supported runtimes. Existing jsr.json already contains the factual description; package is tested on Node 20 in GitHub Actions and exposes a dependency-free validator API suitable for Deno imports, but runtime declarations must not be asserted until the owner reviews them.",
+      "owner_action": "Sign in to the authorised JSR scope, set the factual package description if the dashboard still shows it missing, and mark only runtimes you confirm are supported. Do not make pricing, ownership, or unrelated package changes.",
+      "continuation_after_human_auth": "YES",
+      "status": "OWNER_GATE_PACKAGE_SETTINGS"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
