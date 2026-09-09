@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T14:45:00Z",
+  "collected_at": "2026-09-09T15:00:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5415,6 +5415,91 @@
       "evidence": {
         "kind": "live_official_submit_page",
         "note": "AgentConn lists 106 skills and offers a form, but its official rendered notice says: Submissions coming soon! We are building the backend for automated submissions. In the meantime, email us at hello@agentconn.com with your agent details. No email was sent and no listing was claimed."
+      }
+    },
+    {
+      "provider": "Skillzwave",
+      "provider_domain": "skillzwave.ai",
+      "homepage": "https://skillzwave.ai/",
+      "submission_url": "https://skillzwave.ai/submit/",
+      "source_catalog": "Exa discovery plus live HTTPS inspection 2026-09-09",
+      "source_status": {
+        "site_status": "tls_invalid",
+        "pricing_type": "unknown",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "UNCONFIRMED",
+      "status": "PROVIDER_TECHNICAL_UNAVAILABLE_SSL",
+      "counts_as_placement": false,
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:00:00Z",
+      "evidence": {
+        "kind": "browser_transport_failure",
+        "note": "Official submission URL could not be loaded because Chrome returned ERR_CERT_COMMON_NAME_INVALID. No data was transmitted."
+      }
+    },
+    {
+      "provider": "Agent Skill Source",
+      "provider_domain": "agentskillsource.com",
+      "homepage": "https://agentskillsource.com/",
+      "submission_url": "https://agentskillsource.com/submit",
+      "source_catalog": "Exa discovery plus live submit-page inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active_behind_cloudflare",
+        "pricing_type": "unknown",
+        "auth_type": "unknown",
+        "captcha_type": "cloudflare_browser_challenge"
+      },
+      "asset_fit": "POTENTIAL_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "OWNER_GATE_CLOUDFLARE_AND_BROWSER_INTERACTION",
+      "counts_as_placement": false,
+      "http_status": 403,
+      "final_url": "https://agentskillsource.com/submit",
+      "signals": {
+        "form": false,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:00:00Z",
+      "evidence": {
+        "kind": "live_cloudflare_challenge",
+        "note": "Official submit URL returned HTTP 403 browser-check challenge and exposed no form. No bypass attempted and no submission made."
+      }
+    },
+    {
+      "provider": "Claude Skills Hub",
+      "provider_domain": "claudeskill.site",
+      "homepage": "https://www.claudeskill.site/",
+      "submission_url": "https://www.claudeskill.site/en/submit",
+      "source_catalog": "Exa discovery documentation plus live route inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active_but_submit_route_missing",
+        "pricing_type": "unknown",
+        "auth_type": "unknown",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "POTENTIAL_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "PROVIDER_SUBMISSION_ROUTE_NOT_FOUND",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://www.claudeskill.site/en/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:00:00Z",
+      "evidence": {
+        "kind": "live_official_route_response",
+        "note": "The documented website submission route resolved to an official 404 page. No public form or alternate own route was found in this check."
       }
     }
   ]
