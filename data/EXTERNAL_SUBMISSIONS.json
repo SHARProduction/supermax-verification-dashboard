@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:14:26Z",
+  "generated_at": "2026-09-09T14:16:16Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1631,7 +1631,23 @@
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": null,
       "last_public_recheck_evidence": null
+    },
+    {
+      "submission_id": "supermax.submission.armor1.production-metadata-mcp",
+      "provider": "Armor1 MCP Directory",
+      "provider_domain": "armor1.ai",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T14:16:16Z",
+      "status": "SUBMITTED",
+      "evidence": "Armor1 MCP Directory form receipt states: Successfully submitted for review.",
+      "counts_as_published_verified": false,
+      "recheck_after": "2026-09-16T14:16:16Z",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": null,
+      "last_public_recheck_evidence": null
     }
   ],
-  "as_of": "2026-09-09T14:14:26Z"
+  "as_of": "2026-09-09T14:16:16Z"
 }
