@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:02:00Z",
+  "collected_at": "2026-09-09T15:07:20Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6315,6 +6315,35 @@
       "evidence": {
         "kind": "browser_tls_verification",
         "note": "Live browser navigation to the official submit URL fails with net::ERR_CERT_COMMON_NAME_INVALID. No override, credentials, submission, receipt, or public listing was attempted."
+      }
+    },
+    {
+      "provider": "Awesome Skills Directory",
+      "provider_domain": "awesomeskills.dev",
+      "homepage": "https://www.awesomeskills.dev/en",
+      "submission_url": "https://www.awesomeskills.dev/en/submit",
+      "source_catalog": "Web discovery and live browser inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_instant_listing",
+        "auth_type": "none_observed",
+        "captcha_type": "Cloudflare_Turnstile"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "OWNER_GATE_TURNSTILE",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.awesomeskills.dev/en/submit",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:07:20Z",
+      "evidence": {
+        "kind": "live_form_and_turnstile_challenge",
+        "note": "Official form accepts a public GitHub skill URL, but the valid submission button remains disabled while the embedded Cloudflare Turnstile challenge fails in this runtime. No CAPTCHA bypass, submission, receipt, or listing was attempted."
       }
     }
   ]

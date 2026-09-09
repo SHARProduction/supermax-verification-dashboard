@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:04:49Z",
+  "as_of": "2026-09-09T15:07:20Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -606,6 +606,16 @@
       "continuation_after_human_auth": "UNKNOWN",
       "status": "HUMAN_GATE_GITHUB_OR_GOOGLE_AUTH",
       "last_checked_at": "2026-09-09T15:04:49Z"
+    },
+    {
+      "provider": "Awesome Skills Directory",
+      "value": "TIER_B — independent agent-skill directory with instant public listing",
+      "exact_url": "https://www.awesomeskills.dev/en/submit",
+      "prepared": "The factual public source URL is already entered: https://github.com/SHARProduction/production-metadata-mcp. The provider auto-detects SKILL.md and says listings are immediately public.",
+      "owner_action": "Complete the visible Cloudflare Turnstile challenge in a supported normal browser, then submit the prepared form.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_TURNSTILE",
+      "last_checked_at": "2026-09-09T15:07:20Z"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
