@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:18:00Z",
+  "collected_at": "2026-09-09T15:20:19Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6432,6 +6432,36 @@
         "kind": "live_login_gate",
         "note": "Public Submit a Tool route redirects to the official login form, which requires email and a six-digit verification code. No account, code, submission, receipt, or public SHAR card exists."
       }
+    },
+    {
+      "provider": "TechLogHub Open Source Directory",
+      "provider_domain": "techloghub.com",
+      "homepage": "https://techloghub.com/open-source",
+      "submission_url": "https://techloghub.com/contact",
+      "source_catalog": "Web discovery and live official contact-form receipt 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_manual_open_source_listing",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_CLI_MCP",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://techloghub.com/contact",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:20:19Z",
+      "evidence": {
+        "kind": "official_contact_form_receipt",
+        "note": "Factual free directory request for SHAR Production Metadata MCP was submitted. Official receipt says the message was received and response will follow within 24 hours. No public listing exists yet."
+      },
+      "recheck_after": "2026-09-12T15:20:19Z"
     }
   ]
 }

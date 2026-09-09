@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T15:14:49Z",
+  "generated_at": "2026-09-09T15:20:19Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1743,7 +1743,25 @@
       "counts_as_new_registrable_domain": true,
       "last_rechecked_at": "2026-09-09T15:14:49Z",
       "recheck_after": "2026-10-09T15:14:49Z"
+    },
+    {
+      "submission_id": "supermax.submission.techloghub.production-metadata-mcp",
+      "provider": "TechLogHub Open Source Directory",
+      "provider_domain": "techloghub.com",
+      "asset": "SHAR Production Metadata MCP",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T15:20:19Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_OPEN_SOURCE_DIRECTORY_CONTACT_FORM",
+      "evidence": "Official TechLogHub contact form accepted a factual free Open Source directory request and rendered the receipt: Thank you! We have received your message and will get back to you within 24 hours. No public card or acceptance exists yet.",
+      "evidence_url": "https://techloghub.com/contact",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T15:20:19Z"
     }
   ],
-  "as_of": "2026-09-09T15:14:49Z"
+  "as_of": "2026-09-09T15:20:19Z"
 }
