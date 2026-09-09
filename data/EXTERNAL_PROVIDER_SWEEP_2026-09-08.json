@@ -2791,13 +2791,13 @@
       "homepage": "https://mcpserve.com/",
       "submission_url": "https://mcpserve.com/submit",
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
-      "asset_fit": "NO_CURRENT_PUBLIC_SUBMISSION_ROUTE",
-      "status": "INELIGIBLE_STALE_REDIRECT",
+      "asset_fit": "INELIGIBLE_DOMAIN_FOR_SALE",
+      "status": "INELIGIBLE_DOMAIN_FOR_SALE",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T21:10:00Z",
+      "checked_at": "2026-09-09T04:01:00Z",
       "evidence": {
-        "kind": "live_provider_html_and_client_code",
-        "note": "Current submit HTML only redirects to /lander and exposes no directory form or submission API."
+        "kind": "live_browser_provider_check",
+        "note": "Live browser request to /submit returns an Access Denied page for GoDaddy forsale.mcpserve.com, rather than a directory or form. Search snippet is stale. No submission or placement exists."
       }
     },
     {
