@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T18:04:00Z",
+  "as_of": "2026-09-09T14:11:35Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -542,6 +542,15 @@
       "owner_action": "Authenticate with the authorised free Postman account. Create a public collection that uses the verified remote MCP configuration only; publish it, then send the collection URL to api-network@postman.com for catalog review. Do not add credentials, private briefs, or unsupported capabilities.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_POSTMAN_ACCOUNT_AND_PUBLICATION"
+    },
+    {
+      "provider": "AgentDepot",
+      "value": "TIER_B — independent AI coding-tools and MCP directory",
+      "exact_url": "https://agentdepot.dev/submit",
+      "prepared": "A factual MCP listing was completed through all three form stages: SHAR Production Metadata MCP; public GitHub repository; MCP / Plugin / Testing classification; source installation; SHAR Production author, GitHub organization and sharprod.com. The site ended with Submission Ready but opens a mail client and requires the resulting email to be sent; no provider receipt or public card exists.",
+      "owner_action": "Send the prepared submission email from the opened mail client, then retain the send receipt.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_EMAIL_SEND"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
