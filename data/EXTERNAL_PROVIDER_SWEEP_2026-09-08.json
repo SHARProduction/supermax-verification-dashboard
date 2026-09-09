@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T17:25:00Z",
+  "collected_at": "2026-09-09T18:05:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -2655,11 +2655,11 @@
       "source_catalog": "Agent Reach Exa discovery 2026-09-08",
       "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
       "counts_as_placement": false,
-      "status": "ACCOUNT_CREATION_READY",
-      "checked_at": "2026-09-08T18:35:00Z",
+      "status": "OWNER_GATE_GOOGLE_OR_GITHUB_AUTH",
+      "checked_at": "2026-09-09T18:05:00Z",
       "evidence": {
-        "kind": "live_browser",
-        "note": "Free listing is available but dashboard requires Google or GitHub sign-in; signing in creates account."
+        "kind": "live_official_publish_and_login_routes",
+        "note": "Official publish page confirms a free listing with public install configurations. The live new-server route redirects to the provider sign-in page, offering Google or GitHub. No authentication was automated, no account/submission/receipt/listing exists."
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
@@ -5830,6 +5830,35 @@
       "evidence": {
         "kind": "official_guide_and_live_upstream_check",
         "note": "Official guide says to submit an MDX entry by PR to https://github.com/QuantGeekDev/mcp-house. The advertised repository returned “Repository not found” to a public clone attempt. No actual contribution route exists at present; no PR or submission was created."
+      }
+    },
+    {
+      "provider": "wmcp.sh directory",
+      "provider_domain": "wmcp.sh",
+      "homepage": "https://wmcp.sh/directory",
+      "submission_url": "https://wmcp.sh/directory/submit",
+      "source_catalog": "Agent Reach Exa discovery plus live official extraction API check 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_basic_listing",
+        "auth_type": "email_notification_after_automatic_extraction",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "INELIGIBLE_CURRENT_ASSET_NO_TOOLS_EXTRACTED",
+      "status": "PROVIDER_ASSET_FIT_FAILED",
+      "counts_as_placement": false,
+      "http_status": 404,
+      "final_url": "https://wmcp.sh/api/v1/tools?url=https%3A%2F%2Fmcp.sharprod.com%2Fpublic",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T18:05:00Z",
+      "evidence": {
+        "kind": "official_preflight_api_response",
+        "note": "Official preflight API returned HTTP 404 {\"error\":\"no_tools_extracted\"} for the existing public SHAR MCP endpoint and advised a client-side extension. The current stdio/public-MCP representation therefore does not satisfy this provider extraction model. No submission was made and no production change was proposed."
       }
     }
   ]
