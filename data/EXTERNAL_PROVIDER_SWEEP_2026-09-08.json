@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T21:05:00Z",
+  "collected_at": "2026-09-09T21:30:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5544,15 +5544,15 @@
       "provider_domain": "github.com",
       "homepage": "https://github.com/cline/mcp-marketplace",
       "submission_url": "https://github.com/cline/mcp-marketplace/issues/new?template=mcp-server-submission.yml",
-      "source_catalog": "Official marketplace README and local public-source readiness check 2026-09-09",
+      "source_catalog": "Official Cline MCP Marketplace issue template and current SHAR package verification inspected 2026-09-09",
       "source_status": {
         "site_status": "active",
         "pricing_type": "free_maintainer_review",
         "auth_type": "github_issue_submission",
         "captcha_type": "none_observed"
       },
-      "asset_fit": "CONFIRMED_FIT_AFTER_REQUIRED_CLINE_SETUP_TEST",
-      "status": "READY_REQUIRES_CLINE_TEST_AND_ICON",
+      "asset_fit": "INELIGIBLE_NO_CURRENT_PUBLIC_NPM_OR_PORTABLE_INSTALL_CONFIG",
+      "status": "INELIGIBLE_CURRENT_PORTABLE_INSTALL_CONFIG_REQUIREMENT",
       "counts_as_placement": false,
       "signals": {
         "form": false,
@@ -5560,10 +5560,10 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-09T02:25:00Z",
+      "checked_at": "2026-09-09T21:30:00Z",
       "evidence": {
-        "kind": "source_readiness_recheck",
-        "note": "2026-09-09: Cline 4.0.12 is installed locally. Source commit c5ccec1 fixed the MCPB manifest’s invalid server/server.js entrypoint to the real server.js and aligned manifest version with package 1.0.4; all 3 MCP functional tests passed. Marketplace submission still requires a real Cline installation run plus a 400×400 PNG icon. No marketplace issue was created."
+        "kind": "official_issue_template_and_truthful_installation_requirements",
+        "note": "Official Cline template requires confirmation that Cline can set up the server using only README.md and/or llms-install.md. SHAR source has an icon and functional stdio test, but public npm remains absent and the JSR export is not a runnable Cline package config. No false checkbox assertion or issue was created; reevaluate after anonymous npm/OCI install and actual Cline setup verification."
       }
     },
     {
