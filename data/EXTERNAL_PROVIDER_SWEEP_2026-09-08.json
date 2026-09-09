@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T14:15:00Z",
+  "collected_at": "2026-09-09T14:30:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5356,6 +5356,36 @@
       "evidence": {
         "kind": "live_official_api_submission_receipt",
         "note": "Official POST /api/submit/url returned HTTP 200 for the exact public skill folder in the SHAR Production repository. Rendered receipt: Submitted! Your skill is in the review queue. We check for safety and quality, then publish, usually within 1-3 days. No public card is available yet; not counted."
+      }
+    },
+    {
+      "provider": "Unyly",
+      "provider_domain": "unyly.org",
+      "homepage": "https://unyly.org/",
+      "submission_url": "https://unyly.org/submit-skill",
+      "source_catalog": "Exa discovery plus live official form inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_review_claimed",
+        "auth_type": "none_observed_for_form",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "SUBMISSION_ATTEMPT_UNRESOLVED_TIMEOUT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://unyly.org/submit-skill",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T14:30:00Z",
+      "recheck_after": "2026-09-12T14:30:00Z",
+      "evidence": {
+        "kind": "live_form_submit_without_receipt",
+        "note": "The official public form exposed required repo and email fields and accepted factual values for the exact public skill folder. Browser submission did not return a response, rendered receipt, navigation result, or public listing before runtime timeout. No claim of submission; do not resubmit blindly. Recheck public catalog after review interval."
       }
     }
   ]
