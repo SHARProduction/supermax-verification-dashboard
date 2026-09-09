@@ -2818,12 +2818,13 @@
       "submission_url": "https://mcptrove.com/submit",
       "source_catalog": "Live official submission form and submission endpoint inspected 2026-09-09",
       "asset_fit": "CONFIRMED_FIT_READ_ONLY_MCP_TOOL",
-      "status": "PROVIDER_SUBMISSION_ERROR",
+      "status": "PROVIDER_SUBMISSION_FLOW_NONFUNCTIONAL",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T00:00:00Z",
+      "checked_at": "2026-09-09T17:01:40Z",
       "evidence": {
-        "kind": "live_public_form_prefill_and_submission_attempt",
-        "note": "The live form accepts a public GitHub repo and has no login or CAPTCHA. Its official prefill endpoint returned the SHAR source metadata. A single factual submission with a truthful Git clone/npm-ci/node launch path returned HTTP 503: \"Submissions are disabled in this read-only demo. Connect a database (DATABASE_URL) to enable them.\" No receipt, draft, or public listing exists; do not retry without provider evidence."
+        "kind": "live_prefill_and_submission_attempt",
+        "url": "https://mcptrove.com/submit",
+        "note": "Live form successfully fetched factual SHAR source metadata and accepted all factual fields, then submission UI rendered: Submissions are disabled in this read-only demo. Connect a database (DATABASE_URL) to enable them. No receipt or public listing exists."
       }
     },
     {
