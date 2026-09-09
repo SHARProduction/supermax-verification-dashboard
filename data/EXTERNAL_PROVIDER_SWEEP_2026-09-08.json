@@ -4946,6 +4946,35 @@
         "kind": "live_form_validation",
         "note": "Official importer describes anonymous GitHub repository or direct SKILL.md import. In current browser runtime the repository/direct-URL input state was reset or stripped before submission and Analyze & Import remained disabled; no request was sent. No claim of submission or listing. Recheck only after a provider UI change or an authenticated normal-browser session produces different behavior."
       }
+    },
+    {
+      "provider": "MCPCMD",
+      "provider_domain": "mcpcmd.com",
+      "homepage": "https://www.mcpcmd.com/",
+      "submission_url": "https://www.mcpcmd.com/submit",
+      "source_catalog": "Web fallback discovery after Agent Reach Exa rate limit; live official form inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_review",
+        "auth_type": "none_observed",
+        "captcha_type": "recaptcha_v3"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "HUMAN_GATE_CAPTCHA",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.mcpcmd.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T11:00:00Z",
+      "evidence": {
+        "kind": "live_official_submission_form",
+        "note": "Free reviewed listing with public GitHub repository or working install command is applicable to the existing public SHAR MCP. Form states reCAPTCHA v3 protection. No submission sent and no CAPTCHA automated."
+      }
     }
   ]
 }

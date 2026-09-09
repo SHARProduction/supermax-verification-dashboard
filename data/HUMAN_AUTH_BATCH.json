@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T08:35:00Z",
+  "as_of": "2026-09-09T11:00:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -398,6 +398,15 @@
       "owner_action": "Create or authenticate a normal account and complete provider CAPTCHA.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT_AND_CAPTCHA"
+    },
+    {
+      "provider": "MCPCMD",
+      "value": "TIER_B — independent MCP directory with free reviewed listings",
+      "exact_url": "https://www.mcpcmd.com/submit",
+      "prepared": "Provider accepts the existing public SHAR MCP repository and factual metadata. Needed fields: name, category, tagline, description, author name, shar@sharprod.com, GitHub URL and current working install command. No paid tier selected.",
+      "owner_action": "Complete the provider reCAPTCHA in the prepared form.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "HUMAN_GATE_CAPTCHA"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
