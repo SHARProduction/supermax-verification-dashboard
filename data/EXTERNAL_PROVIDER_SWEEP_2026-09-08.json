@@ -5771,6 +5771,21 @@
         "kind": "official_provider_description",
         "note": "The provider explicitly describes itself as aggregating and syncing data from 50+ directories, registries and package managers. No public creator-submission route was present. It cannot be counted as an independent acceptance."
       }
+    },
+    {
+      "provider": "Marketing Skills Directory",
+      "provider_domain": "marketingskills.directory",
+      "homepage": "https://marketingskills.directory/",
+      "submission_url": "https://marketingskills.directory/submit-mcp/",
+      "source_catalog": "independent live discovery via MCP submission route",
+      "asset_fit": "CONFIRMED_FIT_READ_ONLY_VIDEO_PRODUCTION_METADATA_MCP",
+      "status": "PROVIDER_SUBMISSION_REJECTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T02:05:00Z",
+      "evidence": {
+        "kind": "official_form_post_rejection",
+        "note": "Submitted the factual Video/stdio MCP payload with public MIT source, installation configuration, SHAR Production publisher and homepage. Official POST to wp-admin/admin-ajax.php returned HTTP 200 but the rendered provider result was “Submission rejected.” No reason, receipt, listing, or retriable provider signal was supplied."
+      }
     }
   ]
 }
