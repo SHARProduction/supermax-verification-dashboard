@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:36:17Z",
+  "collected_at": "2026-09-09T15:38:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -966,29 +966,33 @@
       "checked_at": "2026-09-08T17:05:00Z"
     },
     {
-      "provider": "AI Tools Directory HCILAB",
+      "provider": "AI Tools Directory — HCI Lab, LMU Munich",
       "provider_domain": "hcilab.org",
-      "homepage": "https://www.hcilab.org/ai-tools-directory",
-      "submission_url": "https://www.hcilab.org/ai-tools-directory",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "homepage": "https://www.hcilab.org/ai-tools-directory/",
+      "submission_url": null,
+      "source_catalog": "Live university-hosted AI tools directory inspected 2026-09-09",
       "source_status": {
         "site_status": "active",
         "pricing_type": "free",
         "auth_type": "none",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONDITIONAL_EDITORIAL_FIT_MCP_AGENT_TOOL",
+      "status": "EDITORIAL_CONTACT_ONLY_NO_SELF_SERVICE_SUBMISSION",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.hcilab.org/ai-tools-directory/",
       "signals": {
-        "form": true,
+        "form": false,
         "captcha": false,
-        "login": true,
+        "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T15:37:18Z",
+      "evidence": {
+        "kind": "live_editorial_directory",
+        "note": "The LMU Munich HCI Lab page is a static collection of AI tools with a listed editorial contact and no public form, account, repository, or self-service route. A single tailored editorial pitch could be considered later only if it explains the factual MCP agent-tool fit; no contact attempt, implied endorsement, or count was created."
+      }
     },
     {
       "provider": "AI tools for Marketing",
