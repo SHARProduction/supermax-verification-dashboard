@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T12:15:00Z",
+  "generated_at": "2026-09-09T13:05:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1316,7 +1316,24 @@
       "homepage": "https://sharprod.com/",
       "last_public_recheck_at": "2026-09-09T11:58:00Z",
       "last_public_recheck_evidence": "HTTP 200; canonical https://zenodo.org/records/22674610; rendered SHAR Production, CC BY 4.0, version 0.1.2 and archive."
+    },
+    {
+      "submission_id": "supermax.submission.mcpmarket.production-metadata-mcp",
+      "provider": "MCP Market",
+      "provider_domain": "mcpmarket.com",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "submitted_at": "2026-09-09T13:05:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW",
+      "evidence": "Browser confirmation: Submitted to the free queue; provider states average 4–6 week listing time. Paid listing was not selected.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-10-08T13:05:00Z"
     }
   ],
-  "as_of": "2026-09-09T12:15:00Z"
+  "as_of": "2026-09-09T13:05:00Z"
 }
