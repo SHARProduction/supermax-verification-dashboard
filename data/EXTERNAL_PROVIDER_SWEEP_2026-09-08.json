@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:39:07Z",
+  "collected_at": "2026-09-09T15:40:48Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6581,7 +6581,36 @@
         "kind": "live_pricing_and_auth_route",
         "note": "Pricing shows Forever Free $0 launch for hobby and side projects, with no credit card; paid Premium and subscription upsells were not selected. The factual open-source SHAR MCP is conditionally eligible as a developer/AI tool. Submission requires account authentication before project fields are visible. A future accepted public card is required before any count."
       }
+    },
+    {
+      "provider": "MakerRelay",
+      "provider_domain": "makerrelay.com",
+      "homepage": "https://makerrelay.com/",
+      "submission_url": "https://makerrelay.com/submit",
+      "source_catalog": "Live public AI-tool submission form inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "google_or_github_required_on_publish",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_PUBLIC_MCP_AI_TOOL",
+      "status": "OWNER_GATE_GOOGLE_OR_GITHUB_AUTH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://makerrelay.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:40:48Z",
+      "evidence": {
+        "kind": "live_prefilled_public_form_and_auth_dialog",
+        "note": "The unauthenticated public form accepts a SHAR MCP listing and declares it goes live on publish. Factual values were populated, but Publish listing opened required GitHub/Google provider sign-in. No OAuth selection, terms acceptance, submission, receipt, or public listing occurred; do not count until the public card is verified."
+      }
     }
   ],
-  "as_of": "2026-09-09T15:36:17Z"
+  "as_of": "2026-09-09T15:40:48Z"
 }
