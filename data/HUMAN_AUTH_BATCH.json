@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:23:25Z",
+  "as_of": "2026-09-09T15:33:57Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -656,6 +656,15 @@
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT",
       "last_checked_at": "2026-09-09T15:23:25Z"
+    },
+    {
+      "provider": "Freshcode",
+      "value": "TIER_B — independent FOSS release tracker with a public project/release card and direct SHAR homepage field",
+      "exact_url": "https://freshcode.club/submit",
+      "prepared": "The no-account form is fully populated for SHAR Production Metadata MCP v1.0.1: MIT license, factual local/read-only metadata-validation description, public MCPB release download, GitHub source/release tracking, and https://sharprod.com/ homepage. The only remaining control is a required CC-BY-SA/fair-use declaration covering the listing description text. No submission was sent.",
+      "owner_action": "Confirm acceptance of Freshcode CC-BY-SA/fair-use terms for the prepared listing description; then the existing form can be submitted.",
+      "continuation_after_human_auth": "YES",
+      "status": "OWNER_GATE_LEGAL_TERMS"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
