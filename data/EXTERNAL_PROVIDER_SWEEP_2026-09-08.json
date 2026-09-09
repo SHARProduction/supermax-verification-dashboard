@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T17:05:00Z",
+  "collected_at": "2026-09-09T17:25:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -2868,20 +2868,26 @@
       "provider_domain": "mcpmarket.com",
       "homepage": "https://mcpmarket.com/",
       "submission_url": "https://mcpmarket.com/submit",
-      "source_catalog": "Live official CUA form and direct unauthenticated HTTP check 2026-09-08",
+      "source_catalog": "Live official free-queue form and network verification 2026-09-09",
       "asset_fit": "CONFIRMED_FIT",
-      "status": "OWNER_GATE_BROWSER_SESSION_AND_INTERACTION",
+      "status": "PROVIDER_SUBMISSION_FLOW_NONFUNCTIONAL",
       "counts_as_placement": false,
-      "checked_at": "2026-09-08T21:22:00Z",
+      "checked_at": "2026-09-09T17:25:00Z",
       "evidence": {
-        "kind": "official_free_queue_form_and_http_boundary",
-        "note": "Live form explicitly offers a $0 Free Queue with standard placement and a separate $29 one-time option. No paid option was selected. The non-browser HTTP request to the same submit route returned Forbidden, while the browser session renders the form. This CUA runtime exposes no click/type/submit method, so no browser session was repurposed and no submission was sent."
+        "kind": "live_free_queue_submission_attempt_without_provider_request",
+        "note": "The official browser form was filled with the factual public GitHub repo and shar@sharprod.com. Free Queue was explicitly selected and UI showed $0; its submit button produced no provider submission request, receipt, navigation, or confirmation. Captured network showed analytics only. No paid flow was opened, no submission exists, and no retry should occur without provider-side change."
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
         "runtime": "Playwright persistent Chrome profile (headless on this host)",
         "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
         "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
+      },
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_queue_offered_but_nonfunctional",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
       }
     },
     {
