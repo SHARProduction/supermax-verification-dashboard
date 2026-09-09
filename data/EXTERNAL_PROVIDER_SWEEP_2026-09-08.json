@@ -4364,6 +4364,21 @@
         "kind": "live_official_career_center_and_signup_route",
         "note": "Career Center explicitly states that company listing in Services Offered registry is free for film, broadcast, video and audio. Normal provider account registration is required; no listing has been created."
       }
+    },
+    {
+      "provider": "Mendeley Data",
+      "provider_domain": "data.mendeley.com",
+      "homepage": "https://data.mendeley.com/",
+      "submission_url": "https://data.mendeley.com/",
+      "source_catalog": "Official Mendeley Data FAQ inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_NEW_RESEARCH_CORPUS_ONLY",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T03:25:00Z",
+      "evidence": {
+        "kind": "official_provider_faq",
+        "note": "Mendeley Data offers free publication of eligible, new scientific research data/code and assigns a DataCite DOI after publication. The prepared SHAR synthetic rights-labelled conformance corpus could fit only as a new research-data object and must not duplicate a DOI-published work. Sign-in is required; no account, draft, DOI, record or public landing page exists."
+      }
     }
   ]
 }

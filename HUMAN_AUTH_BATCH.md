@@ -291,3 +291,12 @@ No row is a submission or published placement. Only free routes are retained.
 - Owner action: Create or authenticate the authorised Creative COW account through the normal provider registration flow.
 - Current environment can continue after auth: UNKNOWN
 - Status: OWNER_GATE_ACCOUNT
+
+## Mendeley Data
+
+- Value: TIER_B — independent research-data archive and DOI route for eligible corpus
+- URL: https://data.mendeley.com/
+- Prepared: The prepared SHAR synthetic rights-labelled conformance corpus is a self-contained v0.1.2 research-data object with public GitHub release, archive checksum, CITATION.cff, CodeMeta and Data Package metadata. Mendeley Data accepts scientific research data/code and mints a DataCite DOI only when an eligible new public dataset is published. No account, draft, DOI, record or public landing page exists, so nothing is counted.
+- Owner action: Authenticate with a free provider account through its normal supported flow.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_ACCOUNT

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T00:18:00Z",
+  "as_of": "2026-09-09T03:25:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -288,6 +288,15 @@
       "exact_url": "https://creativecow.net/register/",
       "prepared": "Creative COW’s official Career Center states that listing a company in its free Services Offered registry is free for film, broadcast, video and audio services. SHAR fits through factual AI-hybrid video, CGI/3D and post-production capabilities. No account, profile, service listing or job post exists; no job post will be used as a substitute for a company listing.",
       "owner_action": "Create or authenticate the authorised Creative COW account through the normal provider registration flow.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT"
+    },
+    {
+      "provider": "Mendeley Data",
+      "value": "TIER_B — independent research-data archive and DOI route for eligible corpus",
+      "exact_url": "https://data.mendeley.com/",
+      "prepared": "The prepared SHAR synthetic rights-labelled conformance corpus is a self-contained v0.1.2 research-data object with public GitHub release, archive checksum, CITATION.cff, CodeMeta and Data Package metadata. Mendeley Data accepts scientific research data/code and mints a DataCite DOI only when an eligible new public dataset is published. No account, draft, DOI, record or public landing page exists, so nothing is counted.",
+      "owner_action": "Authenticate with a free provider account through its normal supported flow.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT"
     }
