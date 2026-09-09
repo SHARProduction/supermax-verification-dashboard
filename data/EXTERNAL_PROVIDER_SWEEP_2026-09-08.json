@@ -6864,7 +6864,36 @@
         "kind": "official_live_submission_route",
         "note": "Domain brands itself MCP Hub and says it indexes open MCP servers across the community. Submit requires GitHub sign-in. Existing separate aimcp.info MCP Hub submission has receipt 1528; this route was not duplicated. No relationship/independent acceptance claim or public SHAR card exists."
       }
+    },
+    {
+      "provider": "OmniSkill Registry",
+      "provider_domain": "omniskill.online",
+      "homepage": "https://omniskill.online/",
+      "submission_url": "https://omniskill.online/",
+      "source_catalog": "Official OmniSkill Registry public submit route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_AGENT_SKILL",
+      "status": "PROVIDER_SUBMISSION_FLOW_NONFUNCTIONAL",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://omniskill.online/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T16:27:49Z",
+      "evidence": {
+        "kind": "official_live_submission_attempt",
+        "note": "The public anonymous repository form accepted https://github.com/SHARProduction/production-metadata-mcp, which contains skills/shar-production-metadata-validation/SKILL.md. Browser submit produced Network error: Unexpected non-whitespace character after JSON; direct POST /api/v1/submit-repo returned HTTP 403 Access restricted to authorized network. The directory API itself also failed to load publicly. No receipt or listing is claimed."
+      }
     }
   ],
-  "as_of": "2026-09-09T15:40:48Z"
+  "as_of": "2026-09-09T16:27:49Z"
 }
