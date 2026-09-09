@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-09T16:18:00Z",
+  "counting_boundary": "Third-party technical security assessments and workflow evidence only. These records are not placements, citations, recommendations, backlinks, external adoption, or commercial authority claims.",
+  "records": [
+    {
+      "id": "supply-chain.openssf-scorecard.production-metadata-mcp.2026-09-09",
+      "provider": "OpenSSF Scorecard",
+      "registrable_domain": "securityscorecards.dev",
+      "assessment_url": "https://api.securityscorecards.dev/projects/github.com/SHARProduction/production-metadata-mcp",
+      "repository": "https://github.com/SHARProduction/production-metadata-mcp",
+      "repository_commit": "f978964a1e804f0a3ae80c7af6b6774a513c946b",
+      "score": 4.9,
+      "assessment_timestamp": "2026-09-09T16:16:24Z",
+      "evidence": {
+        "codeql_workflow": "https://github.com/SHARProduction/production-metadata-mcp/actions/runs/34375656986",
+        "codeql_conclusion": "success",
+        "dependabot_update_tool_score": 10,
+        "sast_score": 7,
+        "pinned_dependencies_score": 4,
+        "token_permissions_score": 0
+      },
+      "comparison": {
+        "prior_score": 3.8,
+        "current_score": 4.9,
+        "cause": "The independent assessment observes the committed Dependabot configuration and successful CodeQL workflow. No claim is made that this produces adoption, editorial endorsement, or search ranking."
+      },
+      "counts_as_verified_placement": false,
+      "counts_as_independent_citation": false,
+      "counts_as_external_acceptance": false,
+      "counts_as_adoption": false
+    }
+  ]
+}
