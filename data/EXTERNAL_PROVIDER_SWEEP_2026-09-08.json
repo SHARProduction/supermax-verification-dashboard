@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T16:35:00Z",
+  "collected_at": "2026-09-09T16:50:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5645,6 +5645,35 @@
       "evidence": {
         "kind": "live_official_submit_route",
         "note": "Official About page links MCP submission form to /mcp/submit. That route redirected directly to Google OAuth with redirect_uri https://thedailyworkflow.com/authorize. No authentication attempted and no submission made."
+      }
+    },
+    {
+      "provider": "MCPowered",
+      "provider_domain": "mcpowered.com",
+      "homepage": "https://mcpowered.com/server/",
+      "submission_url": "https://mcpowered.com/scan-mcp-server/",
+      "source_catalog": "Official scan page and directory discovery 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_claimed_when_open",
+        "auth_type": "contact_only_while_closed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "INELIGIBLE_WAITLIST_ONLY",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpowered.com/scan-mcp-server/",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T16:50:00Z",
+      "evidence": {
+        "kind": "official_current_scan_status",
+        "note": "The official scan page states: Public scan submissions are closed right now. To have a specific server reviewed before you install it, contact the team. No email was sent, no scan was requested, and no catalog/profile claim is made."
       }
     }
   ]
