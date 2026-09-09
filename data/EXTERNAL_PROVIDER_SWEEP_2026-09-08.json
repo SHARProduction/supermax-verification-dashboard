@@ -4526,6 +4526,21 @@
         "kind": "live_provider_api_receipt",
         "note": "POST /api/scan accepted the public SHAR repository and returned scan id af86g598jqg05irf0rj12sad. Polling returned status failed, filesScanned=0 and provider error “Bad credentials - https://docs.github.com/rest”. No scan result, report or public placement exists; do not retry without a new provider-side signal."
       }
+    },
+    {
+      "provider": "ToolRoute",
+      "provider_domain": "toolroute.io",
+      "homepage": "https://toolroute.io/",
+      "submission_url": "https://toolroute.io/submit",
+      "source_catalog": "Official live submit form and public package checks inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_AFTER_PUBLIC_INSTALL_PATH",
+      "status": "INELIGIBLE_CURRENT_PACKAGE_REQUIREMENT",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T05:05:00Z",
+      "evidence": {
+        "kind": "live_form_and_installability_check",
+        "note": "ToolRoute has a no-auth review and benchmark form, but install method is limited to npm, pip, Docker, Binary or Remote. Current public npm lookup returns 404 and the container package is not public. Selecting npm would be false. No submission was made; reevaluate after an anonymous public npm/OCI install passes."
+      }
     }
   ]
 }
