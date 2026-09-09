@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T16:56:00Z",
+  "generated_at": "2026-09-09T16:59:22Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1842,7 +1842,25 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T16:55:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.aitoolboard.production-metadata-mcp",
+      "provider": "AIToolboard",
+      "provider_domain": "aitoolboard.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T16:59:22Z",
+      "status": "SUBMITTED",
+      "submission_kind": "FREE_AI_TOOL_DIRECTORY_REVIEW",
+      "evidence": "Live free form accepted a factual SHAR Production Metadata MCP entry and source-owned 400px icon. Browser alert: Tool submitted successfully! It will be reviewed by our team. A later redirect to login is account access only; no public card exists.",
+      "evidence_url": "https://aitoolboard.com/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T16:59:22Z"
     }
   ],
-  "as_of": "2026-09-09T16:56:00Z"
+  "as_of": "2026-09-09T16:59:22Z"
 }
