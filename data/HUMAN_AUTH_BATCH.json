@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:49:00Z",
+  "as_of": "2026-09-09T15:52:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -684,6 +684,15 @@
       "owner_action": "Complete the visible Cloudflare Turnstile on the already filled official submission form, then submit for review.",
       "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_TURNSTILE_SUBMISSION"
+    },
+    {
+      "provider": "RepoRanker",
+      "value": "TIER_B — independent public open-source repository discovery board; free permanent listing creates a public project page, topics and leaderboard representation",
+      "exact_url": "https://reporanker.com/submit",
+      "prepared": "Official live page confirms free listing without card or subscription. Public SHAR Production Metadata MCP repository meets its stated eligibility: public GitHub repository, real source, MIT license. Free route only; paid board position from $3 was explicitly excluded. After GitHub sign-in the provider imports public repository metadata, then needs a factual 10–160 character tagline and topics.",
+      "owner_action": "Authenticate through RepoRanker’s official GitHub OAuth flow and leave the session on its submission screen; do not buy a placement.",
+      "continuation_after_human_auth": "YES",
+      "status": "HUMAN_GATE_GITHUB_OAUTH"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

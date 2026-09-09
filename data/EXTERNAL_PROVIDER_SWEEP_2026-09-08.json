@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:50:00Z",
+  "collected_at": "2026-09-09T15:52:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6681,6 +6681,35 @@
       "evidence": {
         "kind": "official_live_submission_receipt",
         "note": "Form accepted the GitHub repository and contact email, then rendered successful review receipt. Provider review is pending; no public SHAR repository page yet."
+      }
+    },
+    {
+      "provider": "RepoRanker",
+      "provider_domain": "reporanker.com",
+      "homepage": "https://reporanker.com/",
+      "submission_url": "https://reporanker.com/submit",
+      "source_catalog": "Official RepoRanker submit route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_listing_paid_optional_position",
+        "auth_type": "GitHub OAuth",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_DEV_TOOL",
+      "status": "HUMAN_GATE_GITHUB_OAUTH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://reporanker.com/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:52:00Z",
+      "evidence": {
+        "kind": "official_live_submission_route",
+        "note": "Provider states free listing, live in minutes, with optional paid board placement starting at $3. GitHub-only sign-in is required. No OAuth action, submission, receipt, or public SHAR card exists."
       }
     }
   ],
