@@ -5711,6 +5711,21 @@
         "kind": "live_official_api_submission_receipt",
         "note": "Official anonymous POST /api/v1/submit returned HTTP 201 for factual SHAR MCP profile. Rendered receipt: Submitted! We will review it and add it soon. No public card exists yet; not counted."
       }
+    },
+    {
+      "provider": "Skills N'at",
+      "provider_domain": "skills-nat.vercel.app",
+      "homepage": "https://skills-nat.vercel.app/",
+      "submission_url": "https://skills-nat.vercel.app/submit",
+      "source_catalog": "independent live discovery via public skill-directory submit route",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:54:34Z",
+      "evidence": {
+        "kind": "official_submission_receipt",
+        "note": "Loaded the public SHAR Production repository, which exposed the root SKILL.md to the provider. Official POST /api/submit returned 200 and rendered receipt: Pending Review; submission ID c5aa2ab1-42e1-4bfb-8d46-c2f29e2075cb; 13 files; Security Scan Passed. No public listing exists yet."
+      }
     }
   ]
 }
