@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T16:18:00Z",
+  "updated_at": "2026-09-09T16:22:00Z",
   "counting_boundary": "Third-party technical security assessments and workflow evidence only. These records are not placements, citations, recommendations, backlinks, external adoption, or commercial authority claims.",
   "records": [
     {
@@ -9,21 +9,21 @@
       "registrable_domain": "securityscorecards.dev",
       "assessment_url": "https://api.securityscorecards.dev/projects/github.com/SHARProduction/production-metadata-mcp",
       "repository": "https://github.com/SHARProduction/production-metadata-mcp",
-      "repository_commit": "f978964a1e804f0a3ae80c7af6b6774a513c946b",
-      "score": 4.9,
-      "assessment_timestamp": "2026-09-09T16:16:24Z",
+      "repository_commit": "bca4decdaea7302244a2550b544f2cdf6ec08803",
+      "score": 5.1,
+      "assessment_timestamp": "2026-09-09T16:21:41Z",
       "evidence": {
-        "codeql_workflow": "https://github.com/SHARProduction/production-metadata-mcp/actions/runs/34375656986",
+        "codeql_workflow": "https://github.com/SHARProduction/production-metadata-mcp/actions/runs/34376213815",
         "codeql_conclusion": "success",
         "dependabot_update_tool_score": 10,
         "sast_score": 7,
-        "pinned_dependencies_score": 4,
+        "pinned_dependencies_score": 9,
         "token_permissions_score": 0
       },
       "comparison": {
         "prior_score": 3.8,
-        "current_score": 4.9,
-        "cause": "The independent assessment observes the committed Dependabot configuration and successful CodeQL workflow. No claim is made that this produces adoption, editorial endorsement, or search ranking."
+        "current_score": 5.1,
+        "cause": "The independent assessment observes the committed Dependabot configuration, successful CodeQL workflow, and immutable workflow-action pins. No claim is made that this produces adoption, editorial endorsement, or search ranking."
       },
       "counts_as_verified_placement": false,
       "counts_as_independent_citation": false,
