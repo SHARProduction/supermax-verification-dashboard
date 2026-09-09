@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T03:05:00.000Z",
+  "generated_at": "2026-09-09T12:15:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -89,16 +89,19 @@
       "homepage": "https://sharprod.com/",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
       "submitted_at": "2026-09-08T14:08:00Z",
-      "status": "PUBLISHED_VERIFIED",
+      "status": "BROKEN_REVOKED",
       "submission_kind": "DIRECTORY_REVIEW",
       "evidence": "Public TrackMCP card renders at the canonical URL with SHAR Production, sharprod.com, the public GitHub source, the read-only rights-aware manifest description, tool name, MIT source statement and category/tags. HTTP returned 200; canonical, browser rendering and source function test were verified. It is a TrackMCP-hosted discovery representation, not an Official MCP Registry mirror.",
-      "counts_as_published_verified": true,
-      "counts_as_independent_provider_ecosystem": true,
-      "counts_as_new_registrable_domain": true,
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-10T14:08:00Z",
       "public_url": "https://trackmcp.com/tool/sharproduction--production-metadata-mcp",
       "evidence_url": "https://trackmcp.com/tool/sharproduction--production-metadata-mcp",
-      "verified_at": "2026-09-08T21:35:00Z"
+      "verified_at": "2026-09-08T21:35:00Z",
+      "last_public_recheck_at": "2026-09-09T12:15:00Z",
+      "revoked_at": "2026-09-09T12:15:00Z",
+      "revocation_evidence": "Direct public recheck returned HTTP 404 on 2026-09-09; no public TrackMCP card remains."
     },
     {
       "submission_id": "supermax.submission.mcp-agents-market.production-metadata-mcp",
@@ -1315,5 +1318,5 @@
       "last_public_recheck_evidence": "HTTP 200; canonical https://zenodo.org/records/22674610; rendered SHAR Production, CC BY 4.0, version 0.1.2 and archive."
     }
   ],
-  "as_of": "2026-09-09T20:45:00Z"
+  "as_of": "2026-09-09T12:15:00Z"
 }

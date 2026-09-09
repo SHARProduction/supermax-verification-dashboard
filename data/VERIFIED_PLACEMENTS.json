@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T11:58:00Z",
-  "counted_placements": 701,
+  "generated_at": "2026-09-09T12:15:00Z",
+  "counted_placements": 700,
   "placements": [
     {
       "placement_id": "supermax.placement.github.production-numeric-safety-guard",
@@ -12717,27 +12717,6 @@
         "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
         "provider_commit": "https://github.com/mediar-ai/skillhubz/commit/11d9aa7b0f1e82292890aa47f0b373d0037a90da",
         "functional_check": "Live browser card completed loading and exposed the public skill, install command and source-backed safety boundary."
-      }
-    },
-    {
-      "placement_id": "supermax.placement.trackmcp.production-metadata-mcp",
-      "work_id": "supermax.work.production-metadata-mcp",
-      "provider": "TrackMCP",
-      "provider_ecosystem": "trackmcp",
-      "url": "https://trackmcp.com/tool/sharproduction--production-metadata-mcp",
-      "source": "external-provider-sweep",
-      "verified_at": "2026-09-08T21:35:00Z",
-      "verification": {
-        "http_200": true,
-        "public_listing": true,
-        "canonical": "https://trackmcp.com/tool/sharproduction--production-metadata-mcp",
-        "browser_rendered": true,
-        "direct_provider_submission": true,
-        "provider_independent_of_official_registry": true,
-        "public_fields": "SHAR Production, sharprod.com, public GitHub source, read-only rights-aware production metadata, validate_production_manifest, tags ai-video-production and shar-production",
-        "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
-        "source_function_test": "production-metadata-mcp source suite passed 2/2 on 2026-09-08",
-        "content": "read-only local MCP validation for rights-aware production metadata manifests"
       }
     },
     {
