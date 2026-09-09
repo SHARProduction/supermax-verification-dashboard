@@ -3735,12 +3735,12 @@
       "submission_url": "https://www.mcpserverse.directory/submit",
       "source_catalog": "Web discovery followed by live browser navigation 2026-09-09",
       "asset_fit": "UNVERIFIABLE_PROVIDER_TLS_FAILURE",
-      "status": "CHECK_FAILED",
+      "status": "PROVIDER_TECHNICAL_UNAVAILABLE_SSL",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T00:00:00Z",
+      "checked_at": "2026-09-09T03:56:00Z",
       "evidence": {
-        "kind": "live_browser_transport_failure",
-        "note": "The advertised submit route could not be opened because the provider certificate is currently invalid (net::ERR_CERT_DATE_INVALID). No form, account, submission or listing was accessed; do not retry without a corrected provider certificate."
+        "kind": "live_browser_transport_check",
+        "note": "The MCP-specific submit route is currently unreachable in a real browser because HTTPS fails with ERR_CERT_DATE_INVALID. No insecure bypass, submission, receipt or listing was attempted."
       }
     },
     {
