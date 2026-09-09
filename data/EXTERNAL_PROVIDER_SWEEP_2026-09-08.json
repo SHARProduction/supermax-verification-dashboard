@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T06:40:00Z",
+  "collected_at": "2026-09-09T07:00:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4723,6 +4723,64 @@
       "evidence": {
         "kind": "live_http_and_browser_inspection",
         "note": "The root returns HTTP 200 but only a Redirecting page with no rendered service or submit control. No actionable provider route exists."
+      }
+    },
+    {
+      "provider": "GoodFirms",
+      "provider_domain": "goodfirms.co",
+      "homepage": "https://www.goodfirms.co/get-listed/",
+      "submission_url": "https://myaccount.goodfirms.co/users/register",
+      "source_catalog": "Visible official listing page inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_listing_no_card",
+        "auth_type": "account_required",
+        "captcha_type": "none_observed_in_visible_browser"
+      },
+      "asset_fit": "POTENTIAL_FIT_REQUIRES_TRUTHFUL_SERVICE_CATEGORY_REVIEW",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.goodfirms.co/get-listed/",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T07:00:00Z",
+      "evidence": {
+        "kind": "visible_official_listing_page",
+        "note": "Visible page exposes $0 forever free listing, public company profile, portfolio and human research verification, plus normal vendor registration. No account, application, acceptance or public SHAR profile exists."
+      }
+    },
+    {
+      "provider": "Clutch",
+      "provider_domain": "clutch.co",
+      "homepage": "https://clutch.co/get-listed",
+      "submission_url": "https://clutch.co/get-listed",
+      "source_catalog": "Official get-listed and help route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_basic_profile",
+        "auth_type": "account_required",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "POTENTIAL_FIT_REQUIRES_TRUTHFUL_SERVICE_CATEGORY_REVIEW",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://clutch.co/get-listed",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T07:00:00Z",
+      "evidence": {
+        "kind": "official_get_listed_and_help_docs",
+        "note": "Official docs describe a free Basic profile followed by review/publishing. User must select service focus and company details truthfully. No account, profile, submission, acceptance or public SHAR card exists."
       }
     }
   ]
