@@ -1471,7 +1471,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-16T14:30:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcpizy.production-metadata-mcp",
+      "provider": "MCPizy",
+      "provider_domain": "mcpizy.com",
+      "asset": "SHAR Production Metadata MCP",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "submitted_at": "2026-09-09T14:35:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "STANDARD_FREE_DIRECTORY_REVIEW",
+      "evidence": "Browser receipt at /submit/thanks confirms the server is recorded in the standard free review queue; reference web_mtu4hv58_3z1hg5; review normally completes within four weeks and publication remains free.",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-10-07T14:35:00Z"
     }
   ],
-  "as_of": "2026-09-09T14:30:00Z"
+  "as_of": "2026-09-09T14:35:00Z"
 }
