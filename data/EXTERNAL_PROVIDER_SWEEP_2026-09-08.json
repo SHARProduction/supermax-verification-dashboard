@@ -4888,6 +4888,35 @@
         "kind": "live_pricing_page",
         "note": "Permanent listing starts at $49. No free submission path was offered."
       }
+    },
+    {
+      "provider": "skillsdirectory.co",
+      "provider_domain": "skillsdirectory.co",
+      "homepage": "https://skillsdirectory.co/",
+      "submission_url": "https://skillsdirectory.co/submit",
+      "source_catalog": "Agent Reach Exa discovery and live official form inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_review",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "SUBMISSION_ATTEMPT_UNRESOLVED_TIMEOUT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://skillsdirectory.co/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T10:10:00Z",
+      "evidence": {
+        "kind": "live_official_form_and_unresolved_attempt",
+        "note": "Official form accepts a public GitHub URL, author role, and optional notes. Factual skill submission was prepared and submit invoked. Browser operation timed out before network response, redirect, or receipt could be captured. No claim of submission or listing; do not resubmit blindly."
+      }
     }
   ]
 }
