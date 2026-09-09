@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T19:25:00Z",
+  "collected_at": "2026-09-09T19:35:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -4937,7 +4937,7 @@
         "captcha_type": "none_observed"
       },
       "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
-      "status": "PROVIDER_CLIENT_INPUT_VALIDATION_FAILURE",
+      "status": "PROVIDER_RATE_LIMITED_RETRY_LATER",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://agentskill.sh/submit",
@@ -4947,11 +4947,12 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-09T10:30:00Z",
+      "checked_at": "2026-09-09T19:35:00Z",
       "evidence": {
-        "kind": "live_form_validation",
-        "note": "Official importer describes anonymous GitHub repository or direct SKILL.md import. In current browser runtime the repository/direct-URL input state was reset or stripped before submission and Analyze & Import remained disabled; no request was sent. No claim of submission or listing. Recheck only after a provider UI change or an authenticated normal-browser session produces different behavior."
-      }
+        "kind": "official_api_rate_limit_response",
+        "note": "Official live submit source exposes anonymous POST /api/skills/submit. A single factual source-repository request returned HTTP 429: GitHub API rate limit reached. Please try again later. No submission, receipt, public card, or acceptance exists; do not retry until the recheck time."
+      },
+      "recheck_after": "2026-09-10T19:35:00Z"
     },
     {
       "provider": "MCPCMD",
