@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T17:58:30Z",
+  "as_of": "2026-09-09T18:00:30Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -529,10 +529,10 @@
       "provider": "M8ven Tool Trust",
       "value": "TIER_A — independent MCP behavior-verification and trust-index route",
       "exact_url": "https://m8ven.ai/mt2/waitlist",
-      "prepared": "Existing public SHAR Production Metadata MCP source is ready for factual behavior verification: https://github.com/SHARProduction/production-metadata-mcp. M8ven states that verified MCPs appear in its public trust index and can earn a verification badge. Live beta waitlist is free and requires company/project, developer-use-case and a short factual integration description. The required checkbox includes a commitment to provide beta feedback; no statement was accepted and no waitlist request was submitted.",
-      "owner_action": "Review and, only if willing to make the beta-feedback commitment, accept the beta acknowledgement and submit the free waitlist request.",
+      "prepared": "Existing public SHAR Production Metadata MCP source is ready for factual behavior verification: https://github.com/SHARProduction/production-metadata-mcp. A 2026-09-09 anonymous Check Any MCP request returned 0/100 / F, but the provider response contained source=pending, tools_count=0, no findings, no resolved signals and no cached result. The public MCP Trust Index search returned no SHAR listing. Therefore this is an incomplete scanner result, not a public placement, security conclusion, acceptance, or trust signal. Do not seek a badge until a completed evidence-bearing scan is available.",
+      "owner_action": "No action now. Reconsider beta acknowledgement only after the provider produces a completed, evidence-bearing scan; it currently requires a commitment to provide beta feedback.",
       "continuation_after_human_auth": "UNKNOWN",
-      "status": "OWNER_GATE_BETA_ACKNOWLEDGEMENT"
+      "status": "PROVIDER_SCAN_INCOMPLETE_NO_OWNER_ACTION"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
