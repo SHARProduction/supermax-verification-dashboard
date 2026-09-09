@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T15:55:00Z",
+  "generated_at": "2026-09-09T16:10:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1126,6 +1126,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T14:15:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcp-catalog.production-metadata-mcp",
+      "provider": "MCP Catalog",
+      "provider_domain": "mcpcatalog.dev",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T16:10:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW",
+      "evidence": "Official anonymous POST /api/submit returned HTTP 200 and rendered: Submission received. Thanks — we will review and get it on the directory if it fits. Usually a few days.",
+      "evidence_url": "https://mcpcatalog.dev/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T16:10:00Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:55:00Z",
+  "collected_at": "2026-09-09T16:10:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5557,6 +5557,36 @@
       "evidence": {
         "kind": "official_contribution_requirements_and_prepared_install_guide",
         "note": "Official Cline Marketplace requires a direct repository URL, 400x400 PNG logo, rationale, and confirmation that Cline successfully installed from README and/or llms-install.md. SHAR source now has a factual llms-install.md and passing local tests, but no real Cline setup test or suitable icon is evidenced. No issue submitted. GitHub merge/acceptance would be external ecosystem value but not a new registrable domain."
+      }
+    },
+    {
+      "provider": "MCP Catalog",
+      "provider_domain": "mcpcatalog.dev",
+      "homepage": "https://mcpcatalog.dev/",
+      "submission_url": "https://mcpcatalog.dev/submit",
+      "source_catalog": "Exa discovery plus live official API receipt 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_review",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpcatalog.dev/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T16:10:00Z",
+      "recheck_after": "2026-09-12T16:10:00Z",
+      "evidence": {
+        "kind": "live_official_api_submission_receipt",
+        "note": "Official anonymous POST /api/submit returned HTTP 200 for factual SHAR Production MCP fields. Rendered receipt: Submission received. Thanks — we will review and get it on the directory if it fits. Usually a few days. No public card yet; not counted."
       }
     }
   ]
