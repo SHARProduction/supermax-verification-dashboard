@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T18:45:00Z",
+  "updated_at": "2026-09-09T15:35:00Z",
   "counting_boundary": "Third-party public authority only. SHAR-controlled properties, submissions, mirrors, search snippets and unverified claims are excluded.",
   "allowed_types": [
     "external_editorial_mention",
@@ -18,8 +18,8 @@
     "external_industry_directory_acceptance"
   ],
   "metrics": {
-    "known_verified_records": 2,
-    "independent_authority_domains_observed": 2,
+    "known_verified_records": 3,
+    "independent_authority_domains_observed": 3,
     "independent_mentions_observed": null,
     "independent_backlinks_observed": null,
     "independent_citations_observed": null,
@@ -77,6 +77,35 @@
       "counts_as_independent_citation": false,
       "counts_as_editorial_mention": false,
       "counts_as_external_acceptance": true
+    },
+    {
+      "id": "authority.dprofile.evotor-ai-product-video",
+      "type": "external_case_study",
+      "url": "https://dprofile.ru/case/185294/evotor-produktovyi-ai-rolik-o-kassax-samoobsluzivaniia",
+      "registrable_domain": "dprofile.ru",
+      "publisher": "Dprofile",
+      "relationship_to_SHAR": "Public third-party creative-community case page published under the SHAR Production studio profile; the page itself identifies SHAR as production for client Evotor and links to sharprod.com.",
+      "SHAR_CONTROLLED": false,
+      "context": "Public Dprofile page renders the client/production attribution, a 65-second AI product-video format, AI-assisted 3D, compositing and post-production. This is an external case-hosted representation, not an independent editorial ranking or recommendation.",
+      "link": "https://sharprod.com/",
+      "topic": "AI-hybrid product-video production for a technology client",
+      "commercial_query_relation": "Direct factual evidence that SHAR Production delivered an AI/3D hybrid product-video project for a named client.",
+      "review_mechanism": "Third-party community hosting; creator-authored case content. No independent maintainer or editorial acceptance is claimed.",
+      "evidence": {
+        "http_200": true,
+        "canonical": "https://dprofile.ru/case/185294/evotor-produktovyi-ai-rolik-o-kassax-samoobsluzivaniia",
+        "browser_rendered": true,
+        "publisher_profile_rendered": "SHAR Production",
+        "client_and_production_attribution_rendered": true,
+        "sharprod_link_rendered": true,
+        "platform_displayed_reactions": 21,
+        "platform_displayed_views": "1.2K",
+        "verified_at": "2026-09-09T15:35:00Z"
+      },
+      "verified_at": "2026-09-09T15:35:00Z",
+      "counts_as_independent_citation": false,
+      "counts_as_editorial_mention": false,
+      "counts_as_external_acceptance": false
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:05:00Z",
+  "as_of": "2026-09-09T15:35:00Z",
   "counting_boundary": "Impact metrics are separate from placements. No causal attribution is claimed without first-party analytics or independently verifiable evidence.",
   "metrics": {
     "public_placements": 1240,
@@ -19,7 +19,7 @@
     "commercial_leads_attributable_to_external_placements": null,
     "external_acceptances_note": "Not backfilled: PUBLISHED_VERIFIED placements include archives and registries, which are not automatically independent maintainer/editorial acceptances.",
     "technical_footprint": 1240,
-    "independent_authority_domains_observed": 2,
+    "independent_authority_domains_observed": 3,
     "external_acceptances_observed": 2,
     "independent_backlinks_observed": null,
     "independent_citations_observed": null,
