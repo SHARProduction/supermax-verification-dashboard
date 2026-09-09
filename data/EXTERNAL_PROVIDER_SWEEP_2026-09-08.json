@@ -5559,10 +5559,10 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-09T15:35:00Z",
+      "checked_at": "2026-09-09T02:25:00Z",
       "evidence": {
-        "kind": "official_contribution_requirements_and_prepared_install_guide",
-        "note": "Official Cline Marketplace requires a direct repository URL, 400x400 PNG logo, rationale, and confirmation that Cline successfully installed from README and/or llms-install.md. SHAR source now has a factual llms-install.md and passing local tests, but no real Cline setup test or suitable icon is evidenced. No issue submitted. GitHub merge/acceptance would be external ecosystem value but not a new registrable domain."
+        "kind": "source_readiness_recheck",
+        "note": "2026-09-09: Cline 4.0.12 is installed locally. Source commit c5ccec1 fixed the MCPB manifest’s invalid server/server.js entrypoint to the real server.js and aligned manifest version with package 1.0.4; all 3 MCP functional tests passed. Marketplace submission still requires a real Cline installation run plus a 400×400 PNG icon. No marketplace issue was created."
       }
     },
     {
