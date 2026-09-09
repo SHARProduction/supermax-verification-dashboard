@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:09:00Z",
+  "collected_at": "2026-09-09T15:16:54Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6373,6 +6373,35 @@
       "evidence": {
         "kind": "dual_transport_failure",
         "note": "Normal browser fails before rendering with net::ERR_CONNECTION_CLOSED. Direct HTTPS request independently fails SSL connection establishment. No submission, credentials, or listing claim was made."
+      }
+    },
+    {
+      "provider": "LibraryOfApps",
+      "provider_domain": "libraryofapps.com",
+      "homepage": "https://libraryofapps.com/",
+      "submission_url": "https://libraryofapps.com/submit",
+      "source_catalog": "Web discovery and live submission-flow verification 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_review",
+        "auth_type": "email_password_required_at_final_submit",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_CLI_MCP",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://libraryofapps.com/auth/signin?callbackUrl=/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:16:54Z",
+      "evidence": {
+        "kind": "live_form_and_final_auth_gate",
+        "note": "The public form accepted only factual SHAR MCP data and exposed a free pricing choice, but final Submit redirected to official sign-in with a provider message requiring sign-in. No account, submission, receipt, or public card exists."
       }
     }
   ]
