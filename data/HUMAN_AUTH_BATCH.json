@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:56:00Z",
+  "as_of": "2026-09-09T15:58:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -720,6 +720,15 @@
       "owner_action": "Authenticate through ToolScout’s standard sign-in flow using bullolaya@gmail.com and leave the session at Submit an AI Repo. Do not select any featured or paid route.",
       "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_ACCOUNT"
+    },
+    {
+      "provider": "aibrew",
+      "value": "TIER_B — independent hand-curated AI tools directory with stated 3–5 business-day human review and editorial documentation",
+      "exact_url": "https://www.aibrew.io/submit",
+      "prepared": "Official no-account form was fully filled with factual public repository URL, 150-character-safe description, review email bullolaya@gmail.com and factual MIT/read-only note. Submit attempt returned the provider message: Verification failed. Please refresh and try again. This is treated as anti-bot/CAPTCHA verification, not a submission receipt.",
+      "owner_action": "Open the official form in a normal supported browser, complete any visible or invisible verification, then submit the prepared factual payload once.",
+      "continuation_after_human_auth": "YES",
+      "status": "HUMAN_GATE_ANTIBOT_VERIFICATION"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

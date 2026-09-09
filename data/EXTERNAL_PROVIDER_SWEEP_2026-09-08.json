@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:56:00Z",
+  "collected_at": "2026-09-09T15:58:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6797,6 +6797,35 @@
       "evidence": {
         "kind": "official_live_submission_route",
         "note": "Official route says open-source listings are always free, human reviewed and have no star minimum. Account sign-in required before submission. No account, receipt or public SHAR card exists."
+      }
+    },
+    {
+      "provider": "aibrew",
+      "provider_domain": "aibrew.io",
+      "homepage": "https://www.aibrew.io/",
+      "submission_url": "https://www.aibrew.io/submit",
+      "source_catalog": "Official aibrew submission route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "anti-bot verification"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_AI_AGENT",
+      "status": "HUMAN_GATE_ANTIBOT_VERIFICATION",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.aibrew.io/submit",
+      "signals": {
+        "form": true,
+        "captcha": true,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:58:00Z",
+      "evidence": {
+        "kind": "official_live_submission_attempt",
+        "note": "No-account free form was fully filled. Single submit attempt returned Verification failed. Please refresh and try again. No retry, receipt, or public listing is claimed."
       }
     }
   ],
