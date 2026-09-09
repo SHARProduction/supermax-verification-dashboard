@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T19:50:00Z",
+  "collected_at": "2026-09-09T20:10:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5979,6 +5979,35 @@
       "evidence": {
         "kind": "official_client_api_preflight_timeout",
         "note": "Official client source documents the no-auth first stage POST /api/github for a public repository before contact data are collected. One factual preflight request to analyze the SHAR source received no response and was aborted after 12 seconds. No analysis result, submission, receipt or public card exists; do not retry before the recorded recheck time."
+      }
+    },
+    {
+      "provider": "VFX Callsheet",
+      "provider_domain": "vfxcallsheet.com",
+      "homepage": "https://www.vfxcallsheet.com/industry/studios",
+      "submission_url": "https://www.vfxcallsheet.com/create-profile?type=studio",
+      "source_catalog": "Agent Reach Exa discovery plus live public directory and client-source inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_account_tier_observed",
+        "auth_type": "free_subscriber_account_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_CGI_VFX_AI_HYBRID_PRODUCTION_COMPANY",
+      "status": "OWNER_GATE_ACCOUNT_AND_REQUIRED_OWNER_FIELDS",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.vfxcallsheet.com/create-profile?type=studio",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T20:10:00Z",
+      "evidence": {
+        "kind": "live_public_directory_and_client_submit_contract",
+        "note": "Public directory has 12,670 company entries and List Your Company. The create-profile client renders Sign In Required if no free subscriber session. Its studio API accepts name, email, phone, website, HQ, offices, specialties, size, employee count and description. Required owner phone/HQ are not present in factual profile data, so no account/profile/submission was created."
       }
     }
   ]

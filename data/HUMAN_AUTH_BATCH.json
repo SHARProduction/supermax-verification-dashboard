@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T02:15:00Z",
+  "as_of": "2026-09-09T20:10:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -461,6 +461,15 @@
       "owner_action": "Complete the Google reCAPTCHA and submit the form.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "HUMAN_GATE_CAPTCHA"
+    },
+    {
+      "provider": "VFX Callsheet",
+      "value": "TIER_A — established VFX/production intelligence company directory",
+      "exact_url": "https://www.vfxcallsheet.com/create-profile?type=studio",
+      "prepared": "The public Companies directory exposes 12,670 worldwide production/VFX companies and a List Your Company path. Live client source confirms a studio profile uses POST /api/profiles/studio after an authenticated free subscriber session. Truthful prepared facts: SHAR Production; https://sharprod.com/; shar@sharprod.com; factual AI-hybrid commercial video, CGI and 3D description. Required phone and HQ cannot be invented; no profile or submission exists.",
+      "owner_action": "Create or authenticate the free VFX Callsheet account through its normal supported flow, then provide the genuine authorised phone and HQ location required for the studio profile.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT_AND_REQUIRED_OWNER_FIELDS"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
