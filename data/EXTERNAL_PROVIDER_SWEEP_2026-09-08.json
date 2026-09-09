@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T13:50:00Z",
+  "collected_at": "2026-09-09T14:00:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5296,6 +5296,36 @@
       "evidence": {
         "kind": "live_official_submission_confirmation",
         "note": "The official free form accepted factual SHAR metadata. The live rendered response after POST stated exactly: This repository has already been submitted and is under review. This proves review-pending state only; no public listing URL was rendered and no verified placement is claimed."
+      }
+    },
+    {
+      "provider": "MCPFly",
+      "provider_domain": "mcpserver.so",
+      "homepage": "https://mcpserver.so/",
+      "submission_url": "https://mcpserver.so/submit",
+      "source_catalog": "Exa discovery plus live official form/API receipt 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_observed",
+        "auth_type": "none_observed",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpserver.so/submit",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T14:00:00Z",
+      "recheck_after": "2026-09-11T14:00:00Z",
+      "evidence": {
+        "kind": "live_official_api_submission_receipt",
+        "note": "Official anonymous form POST /api/v1/submit returned HTTP 200 for the public GitHub repository. Rendered exact receipt: Submission received and pending approval. Submission ID: SHARProduction/production-metadata-mcp. No public listing URL is available yet; not counted."
       }
     }
   ]

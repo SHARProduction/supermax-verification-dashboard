@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T13:50:00Z",
+  "generated_at": "2026-09-09T14:00:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1088,6 +1088,24 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-11T13:50:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.mcpfly.production-metadata-mcp",
+      "provider": "MCPFly",
+      "provider_domain": "mcpserver.so",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T14:00:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW",
+      "evidence": "Official anonymous API POST returned HTTP 200 and rendered: Submission received and pending approval. Submission ID: SHARProduction/production-metadata-mcp.",
+      "evidence_url": "https://mcpserver.so/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-11T14:00:00Z"
     }
   ]
 }
