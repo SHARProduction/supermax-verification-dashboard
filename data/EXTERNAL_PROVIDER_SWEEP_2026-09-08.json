@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:07:20Z",
+  "collected_at": "2026-09-09T15:09:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6344,6 +6344,35 @@
       "evidence": {
         "kind": "live_form_and_turnstile_challenge",
         "note": "Official form accepts a public GitHub skill URL, but the valid submission button remains disabled while the embedded Cloudflare Turnstile challenge fails in this runtime. No CAPTCHA bypass, submission, receipt, or listing was attempted."
+      }
+    },
+    {
+      "provider": "IndieStack",
+      "provider_domain": "indiestack.ai",
+      "homepage": "https://indiestack.ai/",
+      "submission_url": "https://indiestack.ai/submit",
+      "source_catalog": "Web discovery and dual live transport check 2026-09-09",
+      "source_status": {
+        "site_status": "transport_unavailable_from_runtime",
+        "pricing_type": "free_review_claimed",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
+      },
+      "asset_fit": "POTENTIAL_FIT_OPEN_SOURCE_DEVELOPER_TOOL",
+      "status": "PROVIDER_CONNECTION_TLS_FAILURE",
+      "counts_as_placement": false,
+      "http_status": null,
+      "final_url": "chrome-error://chromewebdata/",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:09:00Z",
+      "evidence": {
+        "kind": "dual_transport_failure",
+        "note": "Normal browser fails before rendering with net::ERR_CONNECTION_CLOSED. Direct HTTPS request independently fails SSL connection establishment. No submission, credentials, or listing claim was made."
       }
     }
   ]
