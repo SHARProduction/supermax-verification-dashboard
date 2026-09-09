@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T04:15:00Z",
+  "generated_at": "2026-09-09T04:40:00Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -1020,6 +1020,42 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T00:14:12Z"
+    },
+    {
+      "submission_id": "supermax.submission.gptmcp.production-metadata-mcp",
+      "provider": "GPTMCP",
+      "provider_domain": "gptmcp.ai",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T04:36:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW",
+      "evidence": "Live public form displayed “Your MCP has been submitted successfully! We will review it shortly.” after factual form submission.",
+      "evidence_url": "https://www.gptmcp.ai/submit",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-12T04:36:00Z"
+    },
+    {
+      "submission_id": "supermax.submission.my-mcp-shelf.production-metadata-mcp",
+      "provider": "My MCP Shelf",
+      "provider_domain": "mymcpshelf.com",
+      "asset": "io.github.SHARProduction/production-metadata-mcp",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T04:37:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "DIRECTORY_REVIEW",
+      "evidence": "Live public form displayed “Server Submitted!” and stated that review normally takes 24–48 hours after factual submission.",
+      "evidence_url": "https://www.mymcpshelf.com/submit-server/",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-11T04:37:00Z"
     }
   ]
 }

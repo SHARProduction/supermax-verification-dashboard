@@ -4466,6 +4466,36 @@
         "kind": "official_live_submit_route",
         "note": "MCPVault is a public independent MCP directory. It says that a public repository submission produces a listing and supports later claim and optional live MCP verification. Its live submit page explicitly requires GitHub sign-in. No listing, submission, claim, badge or public SHAR card exists."
       }
+    },
+    {
+      "provider": "GPTMCP",
+      "provider_domain": "gptmcp.ai",
+      "homepage": "https://www.gptmcp.ai/",
+      "submission_url": "https://www.gptmcp.ai/submit",
+      "source_catalog": "Official live submission form inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_MCP_SERVER",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T04:40:00Z",
+      "evidence": {
+        "kind": "live_public_submission_confirmation",
+        "note": "Public factual submission completed; form confirmed success and review before listing. No public SHAR card or acceptance has been verified."
+      }
+    },
+    {
+      "provider": "My MCP Shelf",
+      "provider_domain": "mymcpshelf.com",
+      "homepage": "https://www.mymcpshelf.com/",
+      "submission_url": "https://www.mymcpshelf.com/submit-server/",
+      "source_catalog": "Official live submission form inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_MCP_SERVER",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T04:40:00Z",
+      "evidence": {
+        "kind": "live_public_submission_confirmation",
+        "note": "Public factual submission completed; form confirmed Server Submitted and 24–48 hour review. No public SHAR card or acceptance has been verified."
+      }
     }
   ]
 }
