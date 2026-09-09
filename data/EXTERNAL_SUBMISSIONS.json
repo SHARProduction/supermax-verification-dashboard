@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-09T14:40:33Z",
+  "generated_at": "2026-09-09T14:49:30Z",
   "submissions": [
     {
       "submission_id": "supermax.submission.mcp-directory.production-metadata-mcp",
@@ -76,7 +76,7 @@
       "submitted_at": "2026-09-08T13:56:59Z",
       "status": "SUBMITTED",
       "submission_kind": "CURATED_DIRECTORY_REVIEW",
-      "evidence": "POST https://agentndx.ai/api/submit returned HTTP 302 Location: /submit?success=1.",
+      "evidence": "POST https://agentndx.ai/api/submit returned HTTP 302 Location: /submit?success=1. Supplemental later browser receipt: Browser confirmation at /submit/?success=1: Submission received; provider will review within 48 hours and index/verify only if criteria are met. Paid featured option was not selected.",
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
@@ -133,7 +133,7 @@
       "submitted_at": "2026-09-08T14:16:00Z",
       "status": "SUBMITTED",
       "submission_kind": "DIRECTORY_REVIEW",
-      "evidence": "POST https://mcpizy.com/api/submit returned HTTP 200 with tier standard, submission_id web_sharprod_metadata, receipt_status queued; no payment flow used.",
+      "evidence": "POST https://mcpizy.com/api/submit returned HTTP 200 with tier standard, submission_id web_sharprod_metadata, receipt_status queued; no payment flow used. Supplemental later browser receipt: Browser receipt at /submit/thanks confirms the server is recorded in the standard free review queue; reference web_mtu4hv58_3z1hg5; review normally completes within four weeks and publication remains free.",
       "counts_as_published_verified": false,
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
@@ -1518,23 +1518,6 @@
       "recheck_after": "2026-09-16T14:30:00Z"
     },
     {
-      "submission_id": "supermax.submission.mcpizy.production-metadata-mcp",
-      "provider": "MCPizy",
-      "provider_domain": "mcpizy.com",
-      "asset": "SHAR Production Metadata MCP",
-      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
-      "publisher": "SHAR Production",
-      "homepage": "https://sharprod.com/",
-      "submitted_at": "2026-09-09T14:35:00Z",
-      "status": "SUBMITTED",
-      "submission_kind": "STANDARD_FREE_DIRECTORY_REVIEW",
-      "evidence": "Browser receipt at /submit/thanks confirms the server is recorded in the standard free review queue; reference web_mtu4hv58_3z1hg5; review normally completes within four weeks and publication remains free.",
-      "counts_as_published_verified": false,
-      "counts_as_independent_provider_ecosystem": false,
-      "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-10-07T14:35:00Z"
-    },
-    {
       "submission_id": "supermax.submission.mcp-index.production-metadata-mcp",
       "provider": "MCP Index",
       "provider_domain": "themcpindex.com",
@@ -1550,23 +1533,6 @@
       "counts_as_independent_provider_ecosystem": false,
       "counts_as_new_registrable_domain": false,
       "recheck_after": "2026-09-12T14:40:00Z"
-    },
-    {
-      "submission_id": "supermax.submission.agentndx.production-metadata-mcp",
-      "provider": "AgentNDX",
-      "provider_domain": "agentndx.ai",
-      "asset": "SHAR Production Metadata MCP",
-      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
-      "publisher": "SHAR Production",
-      "homepage": "https://sharprod.com/",
-      "submitted_at": "2026-09-09T14:45:00Z",
-      "status": "SUBMITTED",
-      "submission_kind": "CURATED_AGENT_REGISTRY_REVIEW",
-      "evidence": "Browser confirmation at /submit/?success=1: Submission received; provider will review within 48 hours and index/verify only if criteria are met. Paid featured option was not selected.",
-      "counts_as_published_verified": false,
-      "counts_as_independent_provider_ecosystem": false,
-      "counts_as_new_registrable_domain": false,
-      "recheck_after": "2026-09-11T14:45:00Z"
     },
     {
       "submission_id": "supermax.submission.launchmcp.production-metadata-mcp",
@@ -1757,5 +1723,5 @@
       "last_public_recheck_evidence": null
     }
   ],
-  "as_of": "2026-09-09T14:40:33Z"
+  "as_of": "2026-09-09T14:49:30Z"
 }
