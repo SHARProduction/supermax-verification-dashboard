@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:22:27Z",
+  "collected_at": "2026-09-09T15:23:25Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6490,6 +6490,35 @@
       "evidence": {
         "kind": "official_json_generator_and_public_repo",
         "note": "Official generator produced a factual SHAR MCP JSON payload and contribution instructions require adding it to public/json, adding a logo to public/icons, validating, committing and pushing. Current GitHub browser session is logged out. No fork, PR, submission, receipt, or public listing exists."
+      }
+    },
+    {
+      "provider": "Eventra",
+      "provider_domain": "eventra.sandeepvashishtha.in",
+      "homepage": "https://eventra.sandeepvashishtha.in/",
+      "submission_url": "https://eventra.sandeepvashishtha.in/submit-project",
+      "source_catalog": "Web discovery and live project submission-route verification 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "unknown",
+        "auth_type": "account_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_PROJECT_SHOWCASE",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://eventra.sandeepvashishtha.in/submit-project",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:23:25Z",
+      "evidence": {
+        "kind": "official_auth_gate",
+        "note": "Provider public scope explicitly includes open-source repositories, but submit route renders Authentication Required before its form. No account, submission, receipt, or public listing exists."
       }
     }
   ]

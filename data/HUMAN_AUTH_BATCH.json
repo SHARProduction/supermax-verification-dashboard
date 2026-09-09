@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:22:27Z",
+  "as_of": "2026-09-09T15:23:25Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -646,6 +646,16 @@
       "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_GITHUB_PR_AND_ASSET",
       "last_checked_at": "2026-09-09T15:22:27Z"
+    },
+    {
+      "provider": "Eventra",
+      "value": "TIER_C — curated open-source project showcase",
+      "exact_url": "https://eventra.sandeepvashishtha.in/login",
+      "prepared": "Public scope allows open-source repositories. The factual SHAR source URL is https://github.com/SHARProduction/production-metadata-mcp; form is inaccessible until account sign-in.",
+      "owner_action": "Authenticate or create the provider account in the official browser flow, then open /submit-project.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT",
+      "last_checked_at": "2026-09-09T15:23:25Z"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
