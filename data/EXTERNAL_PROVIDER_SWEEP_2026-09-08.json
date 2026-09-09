@@ -3161,10 +3161,10 @@
       "asset_fit": "CONFIRMED_FIT",
       "status": "OWNER_GATE_ACCOUNT",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T00:50:00Z",
+      "checked_at": "2026-09-09T02:30:00Z",
       "evidence": {
-        "kind": "official_registry_faq_and_live_submission_ui",
-        "note": "Official FAQ states that an open-source MCP can be submitted from its GitHub repository with display name and description, followed by automated quality, security and health checks. Live registry exposes Add Server while showing Sign Up; no account, submission receipt or public Glama card exists."
+        "kind": "published_ownership_metadata_and_live_search",
+        "note": "Source commit e6a1386 added valid root glama.json ownership metadata for the actual GitHub account with SHARProduction push access. Live search on Glama returned 84,297 servers but no SHAR Production Metadata MCP public card. Creator submission/claim still requires account; no placement is counted."
       },
       "persistent_browser_execution": {
         "checked_at": "2026-09-09T00:55:00Z",
