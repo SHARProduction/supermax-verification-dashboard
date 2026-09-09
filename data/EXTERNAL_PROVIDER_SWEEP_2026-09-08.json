@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T16:00:00Z",
+  "collected_at": "2026-09-09T16:02:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6834,6 +6834,35 @@
       "evidence": {
         "kind": "official_live_submission_attempt",
         "note": "No-account free form was fully filled. Single submit attempt returned Verification failed. Please refresh and try again. No retry, receipt, or public listing is claimed."
+      }
+    },
+    {
+      "provider": "MCP Hub (mcpdir.dev)",
+      "provider_domain": "mcpdir.dev",
+      "homepage": "https://mcpdir.dev/",
+      "submission_url": "https://mcpdir.dev/submit",
+      "source_catalog": "Official mcpdir.dev submit route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "GitHub OAuth",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_STDIO_MCP",
+      "status": "AGGREGATOR_OWNER_GATE_GITHUB_OAUTH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://mcpdir.dev/auth/signin",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T16:02:00Z",
+      "evidence": {
+        "kind": "official_live_submission_route",
+        "note": "Domain brands itself MCP Hub and says it indexes open MCP servers across the community. Submit requires GitHub sign-in. Existing separate aimcp.info MCP Hub submission has receipt 1528; this route was not duplicated. No relationship/independent acceptance claim or public SHAR card exists."
       }
     }
   ],
