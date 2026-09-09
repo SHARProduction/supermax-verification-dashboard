@@ -968,12 +968,14 @@
       "asset": "shar-production-metadata-validation",
       "source_url": "https://github.com/SHARProduction/production-metadata-mcp/tree/main/skills/shar-production-metadata-validation",
       "submitted_at": "2026-09-09T02:15:00Z",
-      "status": "SUBMITTED",
-      "evidence": "Official API returned 202 accepted and a submission id; local status check reached reviewed. Public directory recheck 2026-09-09: external web search and provider directory search for shar-production-metadata-validation produced no public SHAR card URL. Private status token is deliberately excluded from all ledgers. Submission remains uncounted until a public listing is verified.",
-      "counts_as_published_verified": false,
-      "recheck_after": "2026-09-11T12:00:00Z",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence": "Official API originally returned 202 accepted. Recheck 2026-09-09: provider receipt says “This skill is already listed” and exposes the public OpenAgentSkill card. Browser-rendered public URL and direct HTTP 200 verified; promoted to PUBLISHED_VERIFIED.",
+      "counts_as_published_verified": true,
+      "recheck_after": "2026-09-16T15:05:00Z",
       "publisher": "SHAR Production",
-      "homepage": "https://sharprod.com/"
+      "homepage": "https://sharprod.com/",
+      "last_public_recheck_at": "2026-09-09T15:05:00Z",
+      "last_public_recheck_evidence": "Browser receipt states “This skill is already listed” and exposes public skill URL; direct HTTP verification returned 200 with title “shar-production-metadata-validation: Reusable for AI Agents | OpenAgentSkill”."
     },
     {
       "submission_id": "supermax.submission.alltoolsdirectory.production-metadata-mcp",
