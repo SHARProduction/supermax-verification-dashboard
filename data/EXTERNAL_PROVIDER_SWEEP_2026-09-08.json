@@ -952,8 +952,8 @@
         "auth_type": "unknown",
         "captcha_type": "none"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "CONFIRMED_FIT_BUT_NO_FREE_SUBMISSION_ROUTE",
+      "status": "INELIGIBLE_PAID_FAST_TRACK_ONLY",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://aitoolsdirectory.com/submit-tool",
@@ -963,7 +963,12 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T16:44:39Z",
+      "evidence": {
+        "kind": "live_public_submission_ui",
+        "url": "https://aitoolsdirectory.com/submit-tool",
+        "note": "Public browser verification: the listed submit page has no submission form. Its only placement path is Fast Track/Featured advertising at /ads. The provider states it is a free resource but does not expose a free tool-submission route. No submission was sent."
+      }
     },
     {
       "provider": "AI Tools Directory — HCI Lab, LMU Munich",
