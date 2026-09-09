@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:58:00Z",
+  "collected_at": "2026-09-09T16:00:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -2658,22 +2658,30 @@
     {
       "provider": "CuratedMCP",
       "provider_domain": "curatedmcp.com",
-      "homepage": "https://curatedmcp.com",
-      "submission_url": "https://www.curatedmcp.com/dashboard/servers/new",
-      "source_catalog": "Agent Reach Exa discovery 2026-09-08",
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "counts_as_placement": false,
-      "status": "OWNER_GATE_GOOGLE_OR_GITHUB_AUTH",
-      "checked_at": "2026-09-09T18:05:00Z",
-      "evidence": {
-        "kind": "live_official_publish_and_login_routes",
-        "note": "Official publish page confirms a free listing with public install configurations. The live new-server route redirects to the provider sign-in page, offering Google or GitHub. No authentication was automated, no account/submission/receipt/listing exists."
+      "homepage": "https://www.curatedmcp.com/",
+      "submission_url": "https://www.curatedmcp.com/publish",
+      "source_catalog": "Official CuratedMCP publish/login route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free_listing_optional_paid_features",
+        "auth_type": "Google or GitHub OAuth",
+        "captcha_type": "none"
       },
-      "persistent_browser_execution": {
-        "checked_at": "2026-09-09T00:55:00Z",
-        "runtime": "Playwright persistent Chrome profile (headless on this host)",
-        "classification": "CAN_AUTOMATE_WITH_PERSISTENT_BROWSER_HEADLESS",
-        "reason": "Headless persistent Chromium profile and Playwright state-persistence probe passed; headed persistent sessions exit on this host, so interactive owner handoff needs a different visible runtime."
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_STDIO_MCP",
+      "status": "HUMAN_GATE_OAUTH",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://www.curatedmcp.com/login",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T16:00:00Z",
+      "evidence": {
+        "kind": "official_live_submission_route",
+        "note": "Free listing route redirects to OAuth login. Provider says login creates account. Optional certification and paid subscriptions excluded. No OAuth, submission, receipt or public SHAR listing exists."
       }
     },
     {

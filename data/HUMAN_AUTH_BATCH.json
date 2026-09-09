@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T15:58:00Z",
+  "as_of": "2026-09-09T16:00:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -599,13 +599,12 @@
     },
     {
       "provider": "CuratedMCP",
-      "value": "TIER_A — independent curated MCP marketplace with a free public listing, install configs for six agent clients, and human review.",
-      "exact_url": "https://www.curatedmcp.com/login?callbackUrl=https%3A%2F%2Fwww.curatedmcp.com%2Fdashboard%2Fsubmit",
-      "prepared": "Free publish route and factual existing SHAR Production Metadata MCP submission payload are prepared. Live session check on 2026-09-09 redirects from /dashboard/submit to the official sign-in page; no authenticated provider session exists in this runtime.",
-      "owner_action": "Authenticate with the provider using its official Google or GitHub sign-in, then leave the dashboard session available.",
-      "continuation_after_human_auth": "UNKNOWN",
-      "status": "HUMAN_GATE_GITHUB_OR_GOOGLE_AUTH",
-      "last_checked_at": "2026-09-09T15:04:49Z"
+      "value": "TIER_A — independent MCP marketplace with free public listing, client install configs, search/category discovery and claimed downloads/reviews visibility",
+      "exact_url": "https://www.curatedmcp.com/login?callbackUrl=https%3A%2F%2Fwww.curatedmcp.com%2Fdashboard%2Fservers%2Fnew",
+      "prepared": "Official publish page confirms a free non-exclusive listing with public marketplace page and install configurations for six AI clients; paid certification/subscriptions are optional and excluded. SHAR MCP has a public source repository, release and factual stdio install command. Login screen confirms sign-in creates an account and offers only Google or GitHub OAuth.",
+      "owner_action": "Authenticate through the official CuratedMCP GitHub or Google OAuth flow and leave the session at the new-server form; do not enable certification or paid subscriptions.",
+      "continuation_after_human_auth": "YES",
+      "status": "HUMAN_GATE_OAUTH"
     },
     {
       "provider": "Awesome Skills Directory",
