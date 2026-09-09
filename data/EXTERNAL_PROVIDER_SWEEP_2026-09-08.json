@@ -5756,6 +5756,21 @@
         "kind": "public_external_maintainer_pr",
         "note": "Opened public PR #11 containing a source-linked, MIT-licensed SHAR Production metadata-validation skill. This is an external maintainer review submission; it does not count as published or accepted until merged and publicly listed."
       }
+    },
+    {
+      "provider": "Skillful.sh",
+      "provider_domain": "skillful.sh",
+      "homepage": "https://skillful.sh/",
+      "submission_url": null,
+      "source_catalog": "live home page inspected 2026-09-09",
+      "asset_fit": "AGGREGATOR_DISCOVERY_ONLY",
+      "status": "AGGREGATOR_NO_INDEPENDENT_SUBMISSION",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T02:02:00Z",
+      "evidence": {
+        "kind": "official_provider_description",
+        "note": "The provider explicitly describes itself as aggregating and syncing data from 50+ directories, registries and package managers. No public creator-submission route was present. It cannot be counted as an independent acceptance."
+      }
     }
   ]
 }
