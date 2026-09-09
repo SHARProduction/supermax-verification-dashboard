@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T14:55:00Z",
+  "collected_at": "2026-09-09T15:02:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6286,6 +6286,35 @@
       "evidence": {
         "kind": "live_browser_form_and_network_response",
         "note": "Free anonymous submission form accepted the factual public SHAR skill payload with Free pricing, then POST /api/submissions returned HTTP 403. Response body states the CloudFront distribution is not configured to allow the request method. The page showed Submission failed. No receipt, public card, or submission exists; do not retry before the recorded recheck time."
+      }
+    },
+    {
+      "provider": "AI Agent Skill HUB",
+      "provider_domain": "aiagentivo.com",
+      "homepage": "https://aiagentivo.com/",
+      "submission_url": "https://aiagentivo.com/submit",
+      "source_catalog": "Agent Reach Exa discovery and live browser inspection 2026-09-09",
+      "source_status": {
+        "site_status": "unsafe_tls",
+        "pricing_type": "unknown",
+        "auth_type": "unknown",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "POTENTIAL_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "PROVIDER_TLS_CERT_INVALID",
+      "counts_as_placement": false,
+      "http_status": null,
+      "final_url": "chrome-error://chromewebdata/",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:02:00Z",
+      "evidence": {
+        "kind": "browser_tls_verification",
+        "note": "Live browser navigation to the official submit URL fails with net::ERR_CERT_COMMON_NAME_INVALID. No override, credentials, submission, receipt, or public listing was attempted."
       }
     }
   ]
