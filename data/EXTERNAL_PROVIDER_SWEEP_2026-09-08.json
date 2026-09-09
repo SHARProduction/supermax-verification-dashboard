@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T07:45:00Z",
+  "collected_at": "2026-09-09T08:00:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -77,27 +77,31 @@
     {
       "provider": "1000 Tools",
       "provider_domain": "1000.tools",
-      "homepage": "https://1000.tools",
+      "homepage": "https://1000.tools/",
       "submission_url": "https://1000.tools/my/tools/create",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "source_catalog": "Live submit route inspected 2026-09-09",
       "source_status": {
         "site_status": "active",
-        "pricing_type": "paid",
-        "auth_type": "none",
-        "captcha_type": "none"
+        "pricing_type": "paid_after_acceptance",
+        "auth_type": "account_required",
+        "captcha_type": "none_observed"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECKED_NEEDS_REVIEW",
+      "asset_fit": "UNVERIFIED",
+      "status": "INELIGIBLE_PAID_SUBSCRIPTION",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://1000.tools/signup",
       "signals": {
-        "form": true,
+        "form": false,
         "captcha": false,
         "login": true,
-        "paid": false
+        "paid": true
       },
-      "checked_at": "2026-09-08T16:50:00Z"
+      "checked_at": "2026-09-09T08:00:00Z",
+      "evidence": {
+        "kind": "live_pricing_and_submit_route",
+        "note": "Provider states $1 first month then $5.99/month or annual payment, charged once a tool is accepted. It violates the zero-incremental-spend constraint."
+      }
     },
     {
       "provider": "1000gpt.shop",
@@ -896,21 +900,33 @@
     },
     {
       "provider": "AI Tools Directory",
-      "provider_domain": "aitools.directory",
-      "homepage": "https://www.aitools.directory",
-      "submission_url": "https://www.aitools.directory",
-      "source_catalog": "BraedenBDev/ai-directories directories.json",
+      "provider_domain": "aitoolsdirectory.com",
+      "homepage": "https://aitoolsdirectory.com/",
+      "submission_url": "https://aitoolsdirectory.com/submit-tool",
+      "source_catalog": "Live direct-route inspection 2026-09-09",
       "source_status": {
-        "site_status": "not_found",
-        "pricing_type": "free",
-        "auth_type": "email_password",
-        "captcha_type": "recaptcha_v3"
+        "site_status": "unusable_blank_response",
+        "pricing_type": "unknown",
+        "auth_type": "unknown",
+        "captcha_type": "unknown"
       },
-      "asset_fit": "NEEDS_CURRENT_ELIGIBILITY",
-      "status": "CHECK_FAILED",
+      "asset_fit": "UNVERIFIED",
+      "status": "PROVIDER_TECHNICAL_UNAVAILABLE_BLANK",
       "counts_as_placement": false,
       "check_error": "TypeError: fetch failed",
-      "checked_at": "2026-09-08T17:05:00Z"
+      "checked_at": "2026-09-09T08:00:00Z",
+      "http_status": 200,
+      "final_url": "https://aitoolsdirectory.com/submit-tool",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "evidence": {
+        "kind": "live_browser_inspection",
+        "note": "The exact submit URL returned HTTP 200 but no title, rendered text or form controls. No actionable provider route exists."
+      }
     },
     {
       "provider": "AI tools directory COM",
@@ -4785,6 +4801,35 @@
       "evidence": {
         "kind": "official_get_listed_and_help_docs",
         "note": "Official docs describe a free Basic profile followed by review/publishing. User must select service focus and company details truthfully. No account, profile, submission, acceptance or public SHAR card exists."
+      }
+    },
+    {
+      "provider": "AI X Collection",
+      "provider_domain": "aixcollection.com",
+      "homepage": "https://aixcollection.com/",
+      "submission_url": "https://aixcollection.com/submit",
+      "source_catalog": "Live official submit route inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "unknown",
+        "auth_type": "account_required",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "POTENTIAL_FIT_ADVANCED_AUTOMATION_TOOL",
+      "status": "OWNER_GATE_ACCOUNT",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://aixcollection.com/submit",
+      "signals": {
+        "form": false,
+        "captcha": false,
+        "login": true,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T08:00:00Z",
+      "evidence": {
+        "kind": "live_submit_login_ui",
+        "note": "The submit route explicitly requests Login with Google or a created account. No account, receipt or public SHAR card exists."
       }
     }
   ]

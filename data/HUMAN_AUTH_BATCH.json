@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T07:00:00Z",
+  "as_of": "2026-09-09T08:00:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -369,6 +369,15 @@
       "exact_url": "https://clutch.co/get-listed",
       "prepared": "Official Clutch documentation states a free Basic company profile can be created using LinkedIn, Google or company-email sign-in and then submitted for review. It has categories relevant to video/production services, but the actual service focus must be selected truthfully. No account, profile or public SHAR card exists.",
       "owner_action": "Authenticate through Clutch’s normal supported account flow and select only the free Basic profile.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT"
+    },
+    {
+      "provider": "AI X Collection",
+      "value": "TIER_C — independent AI-tool directory; current MCP utility fit must remain factual",
+      "exact_url": "https://aixcollection.com/submit",
+      "prepared": "Live submit route exposes only Login with Google or Create an account. The directory positions itself around advanced workflows and automation; no account, receipt or public SHAR card exists.",
+      "owner_action": "Create or authenticate a normal provider account.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT"
     }
