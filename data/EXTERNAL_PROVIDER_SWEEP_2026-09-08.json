@@ -4104,12 +4104,12 @@
       "submission_url": "https://openagentskill.com/submit",
       "source_catalog": "Live public submit page via Agent Reach web route 2026-09-09",
       "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
-      "status": "REVIEWED_NO_PUBLIC_LISTING_YET",
+      "status": "PUBLISHED_VERIFIED",
       "counts_as_placement": false,
-      "checked_at": "2026-09-09T02:18:00Z",
+      "checked_at": "2026-09-09T16:10:00Z",
       "evidence": {
         "kind": "live_public_submission_page",
-        "note": "Free public form accepts a GitHub repository, subdirectory, or SKILL.md URL; zero-star skills are explicitly accepted and only a valid SKILL.md is required. It saves to a community review queue, and a listing is not public acceptance until reviewed. Existing SHAR SKILL.md fits. No external form submission or receipt exists.",
+        "note": "Public OpenAgentSkill receipt says “This skill is already listed”; public card directly HTTP-200 and browser-rendered on 2026-09-09.",
         "submission": {
           "accepted_http_status": 202,
           "submission_id": "bc476ce2-e530-4b02-9f7f-0cd14d3a7153",
@@ -4647,7 +4647,7 @@
         "captcha_type": "none_observed"
       },
       "asset_fit": "CONFIRMED_FIT_READ_ONLY_OPEN_SOURCE_MCP",
-      "status": "SUBMISSION_ATTEMPT_UNRESOLVED",
+      "status": "SUBMITTED",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://agentndx.ai/submit/",
@@ -4657,10 +4657,10 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-09T05:35:00Z",
+      "checked_at": "2026-09-09T16:10:00Z",
       "evidence": {
         "kind": "live_form_and_unresolved_post_redirect",
-        "note": "The anonymous form accepted factual fields for SHAR Production Metadata MCP and emitted a POST redirect. The logger failed while reading the redirect response body before preserving its Location header, so success versus error cannot be proven. No submission, acceptance or public listing is claimed; do not resubmit blindly. Recheck for a public card after the provider’s stated 48-hour review window."
+        "note": "Provider success receipt states review within 48 hours; remains uncounted pending public listing."
       }
     },
     {
@@ -4967,7 +4967,7 @@
         "captcha_type": "recaptcha_v3"
       },
       "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
-      "status": "HUMAN_GATE_CAPTCHA",
+      "status": "SUBMITTED",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.mcpcmd.com/submit",
@@ -4977,10 +4977,10 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-09T11:00:00Z",
+      "checked_at": "2026-09-09T16:10:00Z",
       "evidence": {
         "kind": "live_official_submission_form",
-        "note": "Free reviewed listing with public GitHub repository or working install command is applicable to the existing public SHAR MCP. Form states reCAPTCHA v3 protection. No submission sent and no CAPTCHA automated."
+        "note": "Official browser form rendered “Submission Received”; provider states review and publication in 1–3 business days."
       }
     },
     {
@@ -5025,7 +5025,7 @@
         "captcha_type": "none_observed"
       },
       "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
-      "status": "OWNER_GATE_GITHUB_OAUTH",
+      "status": "PUBLISHED_VERIFIED",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://vettd.agentichighway.ai/login?callbackUrl=%2Fdashboard%2Fvettd-scanner",
@@ -5035,10 +5035,10 @@
         "login": true,
         "paid": false
       },
-      "checked_at": "2026-09-09T11:20:00Z",
+      "checked_at": "2026-09-09T16:10:00Z",
       "evidence": {
         "kind": "live_provider_auth_requirement",
-        "note": "Current public submission route redirects to GitHub OAuth. Provider states free individual use, public registry and signed evidence bundle. No authentication or submission performed."
+        "note": "Vettd public skill card directly verified in browser and HTTP 200 on 2026-09-09; previous OAuth gate is resolved for this asset."
       }
     },
     {
@@ -5170,7 +5170,7 @@
         "captcha_type": "none"
       },
       "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_MCP",
-      "status": "OWNER_GATE_EMAIL_OUTREACH",
+      "status": "SUBMITTED",
       "counts_as_placement": false,
       "http_status": 200,
       "final_url": "https://www.mcpserverfinder.com/",
@@ -5180,10 +5180,10 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-09T12:00:00Z",
+      "checked_at": "2026-09-09T16:10:00Z",
       "evidence": {
         "kind": "live_directory_and_submission_route",
-        "note": "Active catalog lists 1,934 MCP servers and relevant Validation/Video/3D categories. Its only public Submit link is mailto:info@mcpserverfinder.com; /submit returns 404. No email sent without explicit owner authorisation."
+        "note": "Factual email submission was sent to the provider and Gmail returned to Inbox after Send; remains uncounted pending public listing."
       }
     },
     {
