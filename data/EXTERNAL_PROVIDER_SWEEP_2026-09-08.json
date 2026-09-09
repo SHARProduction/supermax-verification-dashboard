@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T15:49:00Z",
+  "collected_at": "2026-09-09T15:50:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -6652,6 +6652,35 @@
       "evidence": {
         "kind": "rendered_external_dashboard",
         "note": "Public dashboard renders SHAR Production, the factual Hybrid AI, CGI and video production for brands positioning, Product Hunt topics and two comments. It states Product Hunt has not featured the product, shows 0 upvotes, and derives its material through the Product Hunt API. Treat as an automatic upstream dashboard only: no independent acceptance, citation, authority, recommendation, or count."
+      }
+    },
+    {
+      "provider": "Awesome GitHub Repositories",
+      "provider_domain": "awesome-repositories.com",
+      "homepage": "https://awesome-repositories.com/",
+      "submission_url": "https://awesome-repositories.com/",
+      "source_catalog": "Official provider submission modal inspected 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "free",
+        "auth_type": "none",
+        "captcha_type": "none"
+      },
+      "asset_fit": "CONFIRMED_FIT_OPEN_SOURCE_DEV_TOOL",
+      "status": "SUBMITTED",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://awesome-repositories.com/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T15:50:00Z",
+      "evidence": {
+        "kind": "official_live_submission_receipt",
+        "note": "Form accepted the GitHub repository and contact email, then rendered successful review receipt. Provider review is pending; no public SHAR repository page yet."
       }
     }
   ],

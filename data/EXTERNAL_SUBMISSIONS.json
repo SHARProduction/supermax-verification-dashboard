@@ -1783,7 +1783,25 @@
       "recheck_after": "2026-09-10T15:44:35Z",
       "public_candidate_url": "https://www.producthunt.com/products/shar-production",
       "browser_verification_status": "BLOCKED_CLOUDFLARE"
+    },
+    {
+      "submission_id": "supermax.awesome-repositories.production-metadata-mcp",
+      "provider": "Awesome GitHub Repositories",
+      "provider_domain": "awesome-repositories.com",
+      "asset": "SHAR Production Metadata MCP",
+      "publisher": "SHAR Production",
+      "homepage": "https://sharprod.com/",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "submitted_at": "2026-09-09T15:50:00Z",
+      "status": "SUBMITTED",
+      "submission_kind": "EXTERNAL_OPEN_SOURCE_DIRECTORY_REVIEW",
+      "evidence": "Official provider form was submitted successfully and rendered: Thank you for your submission. We will review it shortly. Submission used the official GitHub repository and bullolaya@gmail.com contact; provider says it will review before adding. No public card or acceptance is claimed.",
+      "evidence_url": "https://awesome-repositories.com/",
+      "counts_as_published_verified": false,
+      "counts_as_independent_provider_ecosystem": false,
+      "counts_as_new_registrable_domain": false,
+      "recheck_after": "2026-09-16T15:50:00Z"
     }
   ],
-  "as_of": "2026-09-09T15:44:35Z"
+  "as_of": "2026-09-09T15:50:00Z"
 }
