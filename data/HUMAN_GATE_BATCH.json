@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-09T16:14:00Z",
+  "updated_at": "2026-09-09T16:32:28Z",
   "purpose": "Prepared high-value owner-only gates. These rows are not accounts, submissions, or placements.",
   "rules": {
     "no_passwords_or_tokens_recorded": true,
@@ -173,6 +173,23 @@
       "zero_spend": true,
       "public_placement_exists": false,
       "counts_as_verified": false
+    },
+    {
+      "provider": "MCP Marketplace",
+      "registrable_domain": "mcp-marketplace.io",
+      "tier": "TIER_A",
+      "value": "Independent security-reviewed MCP marketplace with public install and listing pages",
+      "why_it_matters": "A real acceptance would add a distinct agent-install ecosystem, public package card and scanner evidence.",
+      "current_step": "PREPARED_TO_HUMAN_GATE",
+      "exact_human_action": "Sign in or create a free creator account at https://mcp-marketplace.io/login using the authorised identity; complete any email verification the provider requests.",
+      "expected_time_complexity": "One account/login and any email verification",
+      "agent_after_human_gate": "Agent opens /submit, supplies only the tested factual repository, website and source-install details, submits, then verifies the public listing if accepted.",
+      "status": "OWNER_GATE_ACCOUNT",
+      "zero_spend": true,
+      "public_placement_exists": false,
+      "counts_as_verified": false,
+      "evidence_url": "https://mcp-marketplace.io/submit",
+      "evidence": "Live browser recheck on 2026-09-09 redirected /submit to /login. The marketplace FAQ states free open-source local MCP servers are eligible but require submission and security review. No authenticated session, submission, receipt or SHAR listing exists."
     },
     {
       "provider": "LobeHub MCP Marketplace",
