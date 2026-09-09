@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T12:00:00Z",
+  "as_of": "2026-09-09T01:56:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -443,6 +443,15 @@
       "owner_action": "Explicitly authorise sending a factual submission email to info@mcpserverfinder.com.",
       "continuation_after_human_auth": "YES",
       "status": "OWNER_GATE_EMAIL_OUTREACH"
+    },
+    {
+      "provider": "ProSkills.md",
+      "value": "TIER_B — independent agent-skill directory with stated review pipeline",
+      "exact_url": "https://proskills.md/submit",
+      "prepared": "Source is public: https://github.com/SHARProduction/production-metadata-mcp/tree/main/skills/shar-production-metadata-validation. Factual category: Automation & agents. Factual description prepared from SKILL.md. The provider requires GitHub login before it enables review submission.",
+      "owner_action": "Authenticate with GitHub in a supported browser.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_GITHUB_AUTH"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",

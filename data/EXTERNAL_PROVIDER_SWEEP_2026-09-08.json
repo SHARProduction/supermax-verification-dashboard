@@ -5726,6 +5726,21 @@
         "kind": "official_submission_receipt",
         "note": "Loaded the public SHAR Production repository, which exposed the root SKILL.md to the provider. Official POST /api/submit returned 200 and rendered receipt: Pending Review; submission ID c5aa2ab1-42e1-4bfb-8d46-c2f29e2075cb; 13 files; Security Scan Passed. No public listing exists yet."
       }
+    },
+    {
+      "provider": "ProSkills.md",
+      "provider_domain": "proskills.md",
+      "homepage": "https://proskills.md/",
+      "submission_url": "https://proskills.md/submit",
+      "source_catalog": "independent live discovery via public skill-directory submit route",
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL",
+      "status": "OWNER_GATE_GITHUB_AUTH",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T01:56:00Z",
+      "evidence": {
+        "kind": "official_live_submission_route",
+        "note": "Public review form accepts GitHub repo, category and description but explicitly requires GitHub login to verify identity and authorship. No authentication, submission, receipt or public SHAR listing was created."
+      }
     }
   ]
 }
