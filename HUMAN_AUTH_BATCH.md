@@ -300,3 +300,12 @@ No row is a submission or published placement. Only free routes are retained.
 - Owner action: Authenticate with a free provider account through its normal supported flow.
 - Current environment can continue after auth: UNKNOWN
 - Status: OWNER_GATE_ACCOUNT
+
+## Contra Studio Directory
+
+- Value: TIER_A — independently vetted creative-studio directory
+- URL: https://contra.com/studios
+- Prepared: Contra publicly states that it reviews studio craft, response time, shipped-work record and live client feedback before an approved studio goes live. Its Studio Directory has Video Production and product-demo categories. SHAR has a factual homepage and existing work/case information, but no Contra account, application, review receipt or public studio profile exists. The public FAQ says browsing and hiring are commission-free; no paid plan or promotion is selected.
+- Owner action: Authenticate or create a normal Contra studio account, then provide only factual portfolio, team and contact details for review.
+- Current environment can continue after auth: UNKNOWN
+- Status: OWNER_GATE_ACCOUNT_AND_REAL_WORK_SELECTION

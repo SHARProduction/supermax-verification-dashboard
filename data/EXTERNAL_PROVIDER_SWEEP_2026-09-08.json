@@ -4394,6 +4394,21 @@
         "kind": "live_client_side_form_inspection",
         "note": "The active commercial-production index presents a Submit vendor dialog, but its handler only appends the entry to browser localStorage and shows it in a local review queue. It sends no network request to a provider, creates no public submission, receipt or external listing. No entry was saved."
       }
+    },
+    {
+      "provider": "Contra Studio Directory",
+      "provider_domain": "contra.com",
+      "homepage": "https://contra.com/studios",
+      "submission_url": "https://contra.com/studios",
+      "source_catalog": "Official Studio Directory and live FAQ inspected 2026-09-09",
+      "asset_fit": "CONFIRMED_FIT_CREATIVE_VIDEO_PRODUCTION_STUDIO",
+      "status": "OWNER_GATE_ACCOUNT_AND_REAL_WORK_SELECTION",
+      "counts_as_placement": false,
+      "checked_at": "2026-09-09T03:38:00Z",
+      "evidence": {
+        "kind": "official_live_directory_and_faq",
+        "note": "Contra presents a vetted studio directory with Video Production categories. Its public criteria are craft, response time, shipped work and live client feedback; approved profiles are public and commission-free. A normal account plus factual portfolio/team details is required before any application can be made. No account, submission, receipt or public SHAR profile exists."
+      }
     }
   ]
 }

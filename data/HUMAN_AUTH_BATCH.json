@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "as_of": "2026-09-09T03:25:00Z",
+  "as_of": "2026-09-09T03:38:00Z",
   "environment_boundary": "Headless persistent Chrome profiles preserve local state, but this host cannot keep a visible persistent browser session and cannot import a normal-browser authenticated session. Do not claim automatic continuation unless a provider exposes a supported local API/CLI/session path.",
   "items": [
     {
@@ -299,6 +299,15 @@
       "owner_action": "Authenticate with a free provider account through its normal supported flow.",
       "continuation_after_human_auth": "UNKNOWN",
       "status": "OWNER_GATE_ACCOUNT"
+    },
+    {
+      "provider": "Contra Studio Directory",
+      "value": "TIER_A — independently vetted creative-studio directory",
+      "exact_url": "https://contra.com/studios",
+      "prepared": "Contra publicly states that it reviews studio craft, response time, shipped-work record and live client feedback before an approved studio goes live. Its Studio Directory has Video Production and product-demo categories. SHAR has a factual homepage and existing work/case information, but no Contra account, application, review receipt or public studio profile exists. The public FAQ says browsing and hiring are commission-free; no paid plan or promotion is selected.",
+      "owner_action": "Authenticate or create a normal Contra studio account, then provide only factual portfolio, team and contact details for review.",
+      "continuation_after_human_auth": "UNKNOWN",
+      "status": "OWNER_GATE_ACCOUNT_AND_REAL_WORK_SELECTION"
     }
   ],
   "selection_rule": "Only Tier A/B routes that provide industry authority, native package/install adoption, independent MCP discovery, or research/archive authority. Broad weak directories are retained in provider cache but excluded from owner batch.",
