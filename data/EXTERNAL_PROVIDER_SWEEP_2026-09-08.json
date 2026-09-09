@@ -4706,10 +4706,11 @@
         "login": false,
         "paid": false
       },
-      "checked_at": "2026-09-09T16:10:00Z",
+      "checked_at": "2026-09-09T16:46:41Z",
       "evidence": {
-        "kind": "live_form_and_unresolved_post_redirect",
-        "note": "Provider success receipt states review within 48 hours; remains uncounted pending public listing."
+        "kind": "live_anonymous_submission_receipt",
+        "url": "https://agentndx.ai/submit/?success=1",
+        "note": "Anonymous free MCP directory form accepted factual SHAR Production Metadata MCP data. Success UI says review within 48 hours; no card exists, so no placement is counted."
       }
     },
     {
