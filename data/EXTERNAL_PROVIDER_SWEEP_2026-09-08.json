@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "collected_at": "2026-09-09T14:30:00Z",
+  "collected_at": "2026-09-09T14:45:00Z",
   "purpose": "candidate discovery queue only; no candidate counts as submitted, published, verified, or applicable before current provider and asset-fit evidence",
   "source": "https://github.com/BraedenBDev/ai-directories",
   "candidates": [
@@ -5386,6 +5386,35 @@
       "evidence": {
         "kind": "live_form_submit_without_receipt",
         "note": "The official public form exposed required repo and email fields and accepted factual values for the exact public skill folder. Browser submission did not return a response, rendered receipt, navigation result, or public listing before runtime timeout. No claim of submission; do not resubmit blindly. Recheck public catalog after review interval."
+      }
+    },
+    {
+      "provider": "AgentConn",
+      "provider_domain": "agentconn.com",
+      "homepage": "https://agentconn.com/skills/",
+      "submission_url": "https://agentconn.com/submit/",
+      "source_catalog": "Exa discovery plus live official submit-page inspection 2026-09-09",
+      "source_status": {
+        "site_status": "active",
+        "pricing_type": "unknown",
+        "auth_type": "email_outreach_only",
+        "captcha_type": "none_observed"
+      },
+      "asset_fit": "CONFIRMED_FIT_EXISTING_PUBLIC_SKILL_OR_MCP",
+      "status": "PROVIDER_INTEGRATION_PENDING",
+      "counts_as_placement": false,
+      "http_status": 200,
+      "final_url": "https://agentconn.com/submit/",
+      "signals": {
+        "form": true,
+        "captcha": false,
+        "login": false,
+        "paid": false
+      },
+      "checked_at": "2026-09-09T14:45:00Z",
+      "evidence": {
+        "kind": "live_official_submit_page",
+        "note": "AgentConn lists 106 skills and offers a form, but its official rendered notice says: Submissions coming soon! We are building the backend for automated submissions. In the meantime, email us at hello@agentconn.com with your agent details. No email was sent and no listing was claimed."
       }
     }
   ]
